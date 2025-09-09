@@ -1,0 +1,698 @@
+|  | United Nations | FCCC/CP/2014/10/Add.3 |
+|  |  | Distr.: General 2 February 2015  Original: English |
+
+Conference of the Parties
+Report of the Conference of the Parties on its twentieth session, held in Lima from 1 to 14 December 2014
+	Addendum
+Part two: Action taken by the Conference of the Parties at its twentieth session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision 	Page
+	13/CP.20	Guidelines for the technical review of information reported under the
+Convention related to greenhouse gas inventories, biennial reports and
+national communications by Parties included in Annex I to the Convention		3
+	14/CP.20	Training programme for review experts for the technical review of greenhouse gas inventories of Parties included in Annex I to the Convention		25
+	15/CP.20	Training programme for review experts for the technical review of biennial reports
+and national communications of Parties included in Annex I to the Convention		29
+		16/CP.20	Joint annual report of the Technology Executive Committee and the 
+Climate Technology Centre and Network for 2013		32
+	17/CP.20	Joint annual report of the Technology Executive Committee and the 
+Climate Technology Centre and Network for 2014		33
+	18/CP.20	Lima work programme on gender……………………….…………………………….	35
+	19/CP.20	The Lima Ministerial Declaration on Education and Awareness-raising		37
+	20/CP.20		Forum and work programme on the impact of the implementation of 
+response measures		39
+	21/CP.20		Parties included in Annex I to the Convention whose special circumstances 
+are recognized by the Conference of the Parties		42
+	
+	22/CP.20	Administrative, financial and institutional matters		43
+		23/CP.20	Revisions to the financial procedures for the Conference of the Parties, 
+its subsidiary bodies and the secretariat		45
+	24/CP.20	Dates and venues of future sessions		46
+	Resolution
+		1/CP.20	Expression of gratitude to the Government of the Republic of Peru 
+and the people of the city of Lima		48
+	
+	
+Decision 13/CP.20
+Guidelines for the technical review of information reported under the Convention related to greenhouse gas inventories, biennial reports and national communications by Parties included in Annex I to the Convention
+	The Conference of the Parties,
+		Recalling the relevant provisions of the Convention, in particular its Articles 4 and 12, and decisions 2/CP.1, 9/CP.2, 6/CP.3, 6/CP.5, 33/CP.7, 19/CP.8, 2/CP.9, 18/CP.10, 1/CP.13, 1/CP.16, 2/CP.17, 23/CP.19 and 24/CP.19,
+		Noting the work programme established in decision 2/CP.17 on the revision of the guidelines for the review of biennial reports and national communications, including national inventory reviews,
+		Also noting that, while the revision of the review guidelines for national communications and biennial reports was completed at the nineteenth session of the Conference of the Parties, the revision of the review guidelines for greenhouse gas inventories was to be completed by the twentieth session of the Conference of the Parties,
+		Recognizing the improvements that Parties included in Annex I to the Convention (Annex I Parties) have made in providing complete and timely annual greenhouse gas inventories,
+		Having considered the experience gained in the review of information submitted by Annex I Parties to date and the need to have a cost-effective, efficient and practical review process that does not impose an excessive burden on Parties, experts or the secretariat,
+		Having also considered the relevant recommendations of the Subsidiary Body for Scientific and Technological Advice,
+		1.	Decides to revise the “Guidelines for the technical review of information reported under the Convention related to greenhouse gas inventories, biennial reports and national communications by Parties included in Annex I to the Convention”, adopted by decision 23/CP.19, to make the necessary changes to include “Part III: UNFCCC guidelines for the technical review of greenhouse gas inventories from Parties included in Annex I to the Convention”;
+		2.	Also decides that the “Guidelines for the technical review of information reported under the Convention related to greenhouse gas inventories, biennial reports and national communications by Parties included in Annex I to the Convention”contained in the annex shall be used for the review of biennial reports, national communications and greenhouse gas inventories, effective immediately;
+		3.	Requests the secretariat to coordinate the technical review of greenhouse gas inventories from Parties included in Annex I to the Convention in accordance with the provisions of the guidelines contained in the annex, subject to the availability of financial resources;
+		4.	Also requests the secretariat to develop and implement a standardized set of data comparisons, and to select a group of experienced review experts from among the lead reviewers of the greenhouse gas inventories to conduct an assessment of those data comparisons every five years;
+		5.	Decides that the group referred to in paragraph 4 above, using the assessment described in the same paragraph, should, for consideration at the next meeting of lead reviewers for greenhouse gas inventories:
+		(a)	Explore additional standardized data comparisons, based on the requirements in paragraph 68 of the annex, as well as the past experiences with the data comparisons carried out in previous review cycles;
+		(b)	Consider whether the standardized set of data comparisons implemented remains useful;
+		6.	Requests the secretariat to include in the report referred to in paragraph 44 of the annex any revised set of the standardized data comparisons, for consideration by the Subsidiary Body for Scientific and Technological Advice;
+		7.	Also requests the secretariat, in view of the adoption of “Part III: UNFCCC guidelines for the technical review of greenhouse gas inventories from Parties included in Annex I to the Convention”, to modify the relevant information technology tools, as needed, to support the implementation of the review process, recognizing that the modification of those tools will require time and effort and that the implementation of the modifications will need to take place during the 2015–2016 review cycles;
+		8.	Further requests the secretariat, as part of the technical review of annual national greenhouse gas inventories, to compile and tabulate aggregate information and trends concerning greenhouse gas emissions by sources and removals by sinks from the latest available greenhouse gas inventory submissions of Parties included in Annex I to the Convention (Annex I Parties), and any other inventory information, and to publish this information on the UNFCCC website electronically as well as in a stand-alone document;
+		9.	Notes that the document referred to in paragraph 8 above:
+		(a)	Will provide aggregate information to the Conference of the Parties on greenhouse gas emissions by sources and removals by sinks and their trends for all Annex I Parties;
+		(b)	Allows comparisons across Annex I Parties, as well as compiles and compares information across Annex I Parties in a tabular and, as appropriate, graphical format;
+		(c)	May also be used as an input to the individual technical review process;
+		10.	Decides that a summary of the document mentioned in paragraph 8 above will be published in electronic format for consideration by the Conference of the Parties and the subsidiary bodies, and that this summary will include trends in greenhouse gas emissions by sources and removals by sinks and an assessment of the adherence of the reported inventory information to the “Guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part I: UNFCCC reporting guidelines on annual greenhouse gas inventories” and the provisions of relevant decisions of the Conference of the Parties, including information on any delays in submitting the annual inventory information;
+		11.	Recognizes that the deadline, as set out in decision 24/CP.19, paragraph 5, for providing the upgraded CRF Reporter to Annex I Parties, enabling them to submit their greenhouse gas inventories, was not met;
+		12.	Notes that version 5.0.0 of the CRF Reporter is not functioning in order to enable Annex I Parties to submit their common reporting format tables for the year 2015;
+		13.	Reiterates that Annex I Parties in 2015 may submit their common reporting format tables after 15 April, but no longer than the corresponding delay in the CRF Reporter availability;
+		14.	Urges Annex I Parties to submit the information referred to in paragraph 13 above as soon as practically possible;
+		15.	Requests the Subsidiary Body for Scientific and Technological Advice to consider, at its forty-eighth session (April–May 2018), the experiences in conducting desk reviews, taking into consideration any relevant conclusions of the meetings of lead reviewers for greenhouse gas inventories up to 2017.
+		
+Annex
+	Guidelines for the technical review of information reported under the Convention related to greenhouse gas inventories, biennial reports and national communications by Parties included in Annex I to the Convention
+		
+		PART I: STRUCTURE OF THE REVIEW GUIDELINES
+			
+			1.	The UNFCCC guidelines for review of annual inventories are composed of part II and part III of these guidelines.
+			2.	The UNFCCC guidelines for review of biennial reports are composed of part II and part IV of these guidelines.
+			3.	The UNFCCC guidelines for review of national communications are composed of part II and part V of these guidelines.
+		PART II: GENERAL APPROACH TO THE REVIEW
+		A.	Applicability
+			4.	Information provided by Parties included in Annex I to the Convention (Annex I Parties) in their greenhouse gas (GHG) inventories, biennial reports (BRs) and national communications (NCs) will be subject to reviews pursuant to relevant decisions of the Conference of the Parties (COP), in accordance with the provisions of these guidelines.
+		B.	Objectives
+			5.	The objectives of the review of information reported under the Convention related to GHG inventories, BRs and NCs and pursuant to relevant decisions of the COP are the following:
+			(a)	To provide, in a facilitative, non-confrontational, open and transparent manner, a thorough, objective and comprehensive technical review of all aspects of the implementation of the Convention by individual Annex I Parties and Annex I Parties as a whole;
+			(b)	To promote the provision of consistent, transparent, comparable, accurate and complete information by Annex I Parties;
+			(c)	To assist Annex I Parties in improving their reporting of information contained in GHG inventories, BRs and NCs, and pursuant to other relevant decisions of the COP and the implementation of their commitments under the Convention;
+			(d)	To ensure that the COP has accurate, consistent and relevant information in order to review the implementation of the Convention.
+			6.	The objectives of the review guidelines are to promote consistency, comparability and transparency in the review of information reported under the Convention related to GHG inventories, BRs and NCs.
+		
+		C.	General approach
+			7.	The provisions of these guidelines will apply to the review of information reported under the Convention related to GHG inventories, BRs and NCs, and pursuant to relevant decisions of the COP.
+			8.	Specific provisions for the review of GHG inventories, NCs and BRs are included in specific parts of these review guidelines.
+			9.	The same information submitted by an Annex I Party in its BR, NC and GHG inventory will be reviewed only once, by an expert review team (ERT).
+			10.	The ERTs shall provide a thorough and comprehensive technical review of all aspects of the implementation of the Convention by Annex I Parties and shall identify any potential issues referred to in paragraphs 81 (inventory section), 105 and 119 below. The ERTs shall conduct technical reviews to provide information expeditiously to the COP in accordance with the procedures detailed in these guidelines.
+			11.	At any stage in the review process, the ERTs may put questions to, or request additional or clarifying information from, the Annex I Parties under review regarding identified issues. The ERTs should offer suggestions and advice to those Annex I Parties on how to resolve such issues, taking into account the national circumstances of the Party under review. The ERTs shall also provide technical advice to the COP or the Subsidiary Body for Implementation (SBI), upon request.
+			12.	The Annex I Parties under review should provide the ERTs with access to the information necessary to substantiate and clarify the implementation of their commitments under the Convention, in accordance with the relevant reporting guidelines adopted by the COP, and, during in-country visits, should also provide appropriate working facilities. The Parties should make every reasonable effort to respond to all questions and requests of the ERTs for additional clarifying information.
+			Confidentiality
+			13.	In response to a request from the ERT for additional data or information, or access to data used in the preparation of the GHG inventory, BR and NC reports, an Annex I Party may indicate whether such information or data are confidential. In such a case, the Party should provide the basis for protecting such information, including any domestic law, and, upon receipt of assurance that the data will be maintained as confidential by the ERT, will submit the confidential data in accordance with domestic law and in a manner that allows the ERT access to sufficient information or data for the assessment of the implementation of the commitments under the Convention by Annex I Parties and the conformity with the relevant methodological guidance as agreed by the COP. Any confidential information or data submitted by a Party in accordance with this paragraph shall be maintained as confidential by the ERT, in accordance with any decisions on this matter adopted by the COP.
+			14.	An ERT member’s obligation not to disclose confidential information and data submitted by a Party in accordance with paragraph 13 above shall continue after the termination of his or her service on the ERT.
+		D.	Timing and procedures
+		I.	Review of greenhouse gas inventories
+			15.	Each GHG inventory submitted under the Convention by an Annex I Party will be subject to review, in accordance with part II and part III of these guidelines.
+		II.	Review of biennial reports
+			16.	Each BR submitted under the Convention by an Annex I Party will be subject to a review by an ERT, in accordance with part II and part IV of these guidelines.
+			17.	The ERTs shall make every effort to complete the individual review of BRs within 15 months of the due date of their submission for each Annex I Party.
+			18.	In the years when NCs and BRs are submitted together, both the NC and BR will be subject to an in-country review.
+			19.	In the years when the BR is not reported in conjunction with the NC, the BR shall be subject to a centralized review. However, the ERT, based on the findings of the review, can recommend that the next review be an in-country review and, upon a Party’s request, the secretariat shall organize an in-country review for that Party.
+			20.	The secretariat, where appropriate, may consider other UNFCCC review processes when coordinating BR and NC reviews, in particular with a view to addressing the need to improve the cost-effectiveness of the review process and national circumstances.
+		III.	Review of national communications
+			21.	The ERTs shall make every effort to complete the individual review of NCs within 15 months of the due date of their submission for each Annex I Party.
+			22.	Each NC submitted under the Convention by an Annex I Party shall be subject to a scheduled in-country review by an ERT, in accordance with part II and part V of these guidelines.
+			23.	The secretariat, where appropriate, shall consider other UNFCCC review processes when coordinating BR and NC reviews, in particular with a view to addressing the need to improve the cost-effectiveness of the review process and national circumstances.
+			E.	Expert review teams and institutional arrangements
+		I.	Expert review teams
+			24.	Each submission of information reported under the Convention related to GHG inventories, BRs and NCs and pursuant to relevant decisions of the COP shall be assigned to a single ERT, which shall be responsible for performing the review thereof in accordance with the procedures and time frames established in these guidelines. The submissions of an Annex I Party shall not be reviewed in two successive reviews by an ERT with identical composition.
+			25.	Each ERT shall provide a thorough and comprehensive technical review of the information reported under the Convention related to GHG inventories, BRs and NCs and pursuant to relevant decisions of the COP and shall, under its collective responsibility, prepare a review report, assessing the implementation of the commitments of the Annex I Party and identifying any potential issues referred to in paragraphs 81 (GHG inventory section), 105 and 119 below. The ERTs shall refrain from making any political judgement.
+			26.	The ERTs shall be coordinated by the secretariat and shall be composed of experts selected on an ad hoc basis from the UNFCCC roster of experts and shall include lead reviewers. The ERTs formed to carry out the tasks under the provisions of these guidelines may vary in size and composition, taking into account the national circumstances of the Party under review, the format of the review, the number of reports and the different needs for expertise for each review task. Additional experts may be added to a review team where necessary.
+			27.	Participating experts shall serve in their personal capacity.
+			28.	Experts shall be nominated by Parties to the Convention to the UNFCCC roster of experts and, as appropriate, by intergovernmental organizations.
+			29.	Participating experts shall have recognized competence in the areas to be reviewed in accordance with these guidelines. The training to be provided to the experts, and the subsequent assessment after the completion of the training and/or any other means needed to ensure the necessary competence of the experts for their participation in ERTs, shall be designed and operationalized by the secretariat in accordance with relevant decisions of the COP.
+			30.	Experts selected for a specific review activity shall neither be nationals of the Party under review nor be nominated or funded by that Party.
+			31.	Participating experts from Parties not included in Annex I to the Convention (non-Annex I Parties) and Annex I Parties with economies in transition shall be funded according to the existing procedures for participation in UNFCCC activities. Experts from other Annex I Parties shall be funded by their governments.
+			32.	In conducting reviews, the ERTs shall adhere to these guidelines and work on the basis of established and published procedures agreed upon by the COP and the Subsidiary Body for Scientific and Technological Advice (SBSTA), including quality assurance (QA) and quality control (QC) and confidentiality provisions.
+		II.	Competences of the expert review teams
+			33.	The competences required to be a member of an ERT for the technical review of GHG inventories are in the areas referred to in paragraph 75 in part III of these guidelines.
+			34.	The competences required to be a member of an ERT for the technical review of BRs are in the areas referred to in paragraph 104(c) in part IV of these guidelines.
+			35.	The competences required to be a member of an ERT for the technical review of NCs are in the areas referred to in paragraph 118(c) below in part V of these guidelines.
+		III.	Composition of the expert review teams
+			36.	The secretariat shall select the members of the ERTs to review the GHG inventories, BRs and NCs submitted under the Convention and pursuant to relevant decisions of the COP in such a way that the collective skills and competencies of the ERTs address the areas mentioned in paragraphs 33, 34 and 35 above, respectively.
+			37.	The secretariat shall select the members of the ERTs with a view to achieving a balance between experts from Annex I and non-Annex I Parties in the overall composition of the ERTs, without compromising the selection criteria referred to in paragraph 36 above. The secretariat shall make every effort to ensure geographical balance among the experts selected from non-Annex I Parties and among those selected from Annex I Parties.
+			38.	The secretariat shall ensure that in any ERT one co-lead reviewer shall be from an Annex I Party and one from a non-Annex I Party.
+			39.	Without compromising the selection criteria referred to in paragraphs 33, 34 and 35 above, the formation of ERTs should ensure, to the extent possible, that at least one member is fluent in the language of the Party under review.
+			40.	The secretariat shall prepare an annual report to the SBSTA on the composition of ERTs, including the selection of experts for the review teams and the lead reviewers, and on the actions taken to ensure the application of the selection criteria referred to in paragraphs 36 and 37 above.
+		IV.	Lead reviewers
+			41.	Lead reviewers shall act as co-lead reviewers for the ERTs in accordance with these guidelines.
+			42.	Lead reviewers should ensure that the reviews in which they participate are performed by each ERT according to the relevant review guidelines and consistently across Parties. They should also ensure the quality and objectivity of the thorough and comprehensive technical examinations in the reviews and provide for the continuity, comparability and timeliness of the reviews.
+			43.	With the administrative support of the secretariat, lead reviewers shall, for each review:
+			(a)	Ensure that the reviewers have all of the necessary information provided by the secretariat prior to the review;
+			(b)	Monitor the progress of the review;
+			(c)	Coordinate the submission of queries of the ERT to the Party under review and coordinate the inclusion of the answers in the review report;
+			(d)	Provide technical advice to the members of the ERT, if needed;
+			(e)	Ensure that the review is performed and the review report is prepared in accordance with these guidelines;
+			(f)	Ensure that the ERT gives priority to issues raised in previous review reports.
+			44.	Lead reviewers shall also collectively prepare an annual report to the SBSTA as part of the annual report referred to in paragraph 40 above, containing suggestions on how to improve the quality, efficiency and consistency of the reviews in the light of paragraph 5 above of these guidelines.
+		V.	Ad hoc review experts
+			45.	Ad hoc review experts shall be selected by the secretariat from those nominated by Parties or, exceptionally and only when the required expertise for the task is not available among them, from those nominated by relevant intergovernmental organizations belonging to the UNFCCC roster of experts for specific reviews. They shall perform individual review tasks in accordance with the duties set out in their nomination.
+			46.	Review experts shall, as necessary, perform desk review tasks in their home countries and participate in in-country visits and centralized reviews.
+		VI.	Role of the secretariat
+			47.	The secretariat shall organize the reviews, including the preparation of a schedule for the review, the coordination of the practical arrangements concerning the review and the provision of all relevant reported information to the ERT concerned.
+			48.	The secretariat shall develop review tools and materials and templates for review reports under the guidance of the lead reviewers.
+			49.	The secretariat shall coordinate, together with the lead reviewers, the communication during the review between the ERT concerned and the Party under review and shall maintain a record of communications between ERTs and Parties.
+			50.	The secretariat, together with the lead reviewers, shall compile and edit the final review reports.
+			51.	The secretariat shall facilitate annual meetings of the lead reviewers for GHG inventories, BRs and NCs. It shall summarize information on issues raised in the reviews to facilitate the work of lead reviewers in fulfilling their task to ensure consistency in the reviews across Parties.
+			52.	The secretariat shall design and implement training activities for review experts, including lead reviewers, and the subsequent assessment of the experts’ qualifications, under the guidance of the SBSTA (see para. 29 above).
+		VII.	Guidance provided by the Subsidiary Body for Scientific and Technological Advice
+			53.	The SBSTA shall provide general guidance to the secretariat on the selection of experts and the coordination of the ERTs, and to the ERTs on the expert review process. The reports mentioned in paragraphs 40 and 44 above are intended to provide the SBSTA with inputs for elaborating such guidance.
+			F.	Reporting and publication
+				54.	The ERTs shall, under their collective responsibility, produce review reports. The review of the same information (see para. 9 above) shall be reflected in one report only. The following review reports should be produced for each Annex I Party:
+				(a)	For the review of GHG inventories, a final report on the review of the GHG inventory, in accordance with part II and part III of these guidelines;
+				(b)	For the review of BRs, a technical report on the review of the BR, in accordance with part II and part IV of these guidelines;
+				(c)	For the review of NCs, a report on the review of the NC, in accordance with part II and part V of these guidelines.
+				55.	The review reports for each Annex I Party shall follow a format and outline comparable to that set out in paragraph 56 below and shall include the specific elements described in parts III–V of these guidelines.
+				56.	All review reports prepared by ERTs shall include the following elements:
+				(a)	An introduction and a summary;
+				(b)	A description of the technical review of each of the elements reviewed according to the relevant sections on the scope of the review detailed in parts III–V of these guidelines, including:
+					(i)	A description of any potential issues identified in accordance with paragraphs 81, 105 and 119 below;
+					(ii)	Any suggestions provided by the ERT to resolve the potential issues;
+					(iii)	An assessment of any efforts made by the Annex I Party under review to address any potential issues identified by the ERT during the current review or during previous reviews that have not been addressed;
+					(iv)	The sources of information used in the formulation of the final report.
+				57.	Following their completion, all review reports shall be published and forwarded by the secretariat, together with a written comment on the final review report made by the Party under review, to the Party concerned, the COP and the subsidiary bodies, as appropriate, following these guidelines.
+				PART III: UNFCCC guidelines for the technical review of greenhouse gas inventories from Parties included in Annex I to the Convention
+			A.	Purpose of the review
+				58.	The purpose of the technical review of Annex I Parties’ GHG inventories is:
+				(a)	To ensure that the COP has adequate and reliable information on annual inventories and emission trends of anthropogenic emissions by sources and removals by sinks of greenhouse gases not controlled by the Montreal Protocol;
+				(b)	To provide the COP with an objective, consistent, transparent, thorough and comprehensive technical assessment of the annual quantitative and qualitative inventory information submitted by Annex I Parties, and a technical assessment of the implementation of Annex I Parties’ commitments under Article 4, paragraph 1(a), and Article 12, paragraph 1(a), of the Convention;
+				(c)	To examine, in a facilitative and open manner, the reported inventory information for consistency with the “Guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part I: UNFCCC reporting guidelines on annual greenhouse gas inventories” (decision 24/CP.19) (hereinafter referred to as the UNFCCC Annex I inventory reporting guidelines), the Intergovernmental Panel on Climate Change (IPCC) 2006 IPCC Guidelines for National Greenhouse Gas Inventories (hereinafter referred to as the 2006 IPCC Guidelines) as implemented through the UNFCCC Annex I inventory reporting guidelines and, if applied, the 2013 Supplement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories: Wetlands (hereinafter referred to as the Wetlands Supplement) and any additional guidance adopted by the COP;
+				(d)	To assist Annex I Parties in improving the quality of their GHG inventories;
+				(e)	To inform the review of BRs and NCs and to ensure that the COP has reliable information on the implementation of commitments under the Convention by each Annex I Party and Annex I Parties as a whole with a view to promoting comparability and building confidence.
+			B.	General procedures
+				59.	GHG inventory submissions, comprising the national inventory report (NIR) and the common reporting format (CRF) tables, from all Annex I Parties will be subject to an annual technical review.
+				60.	The annual technical review process comprises two stages which consider different aspects of the inventories in such a way that all of the purposes described above are achieved by the end of the process. The two stages are:
+				(a)	Initial assessment by the secretariat;
+				(b)	Review of individual annual inventories by the ERT.
+				61.	The stages of the technical review process complement each other so that, in general, for each Annex I Party, one stage is concluded before the next one is undertaken.
+				62.	Three operational approaches may be used during the second stage of the technical review, namely desk reviews, centralized reviews and in-country reviews, assuming available resources. During a desk review, the inventory information of Annex I Parties will be sent to experts, who will conduct the reviews in their own countries. During a centralized review, the experts will meet in a single location to review the inventory information of Annex I Parties. During an in-country review, experts will visit an Annex I Party to review the inventory information of that Party.
+				63.	The review of individual inventories of Annex I Parties will be conducted annually either as a desk review, as a centralized review or as an in-country review. The GHG inventory of each Annex I Party shall be subject to a desk review at most once every three years. Desk reviews will be conducted only by experienced experts. The GHG inventory of each Annex I Party will be subject to an in-country review at least once every five years. In-country visits will be scheduled, planned and take place with the consent of, and in close coordination with, the Annex I Party subject to review. In general, during a centralized review, up to four GHG inventories should be reviewed; during a desk review up to two GHG inventories should be reviewed. In exceptional circumstances where an individual member of an ERT is unable to attend the centralized or in-country review, that member may contribute to that review from his/her desk. The scope of the individual review differs between years with desk reviews and years with centralized reviews as defined in paragraphs 75 and 76 below.
+				64.	The ERT, based on the findings of the review, can recommend that the next review be an in-country review. The ERT shall provide in the review report a rationale for the additional in-country review as well as a list of questions and issues to be addressed during the in-country review. The in-country review shall then be scheduled for the year following the review that recommended such a visit.
+				65.	Upon an Annex I Party’s request, the secretariat shall organize an in-country review for that Party. The request for an in-country review shall be submitted to the secretariat no later than the inventory submission due date.
+				66.	At all stages of the inventory review process, individual Annex I Parties under review will have the opportunity to clarify issues or provide additional information. The secretariat will send to these Annex I Parties drafts and the final version of their status report, assessment report and their individual inventory review report. The ERT shall provide a list of preliminary main findings to the Annex I Party at the end of the review week. The ERT shall produce the final version of the review report, taking into account the comments of the Annex I Party. Every effort will be made to reach agreement with each Annex I Party on the content of a report prior to its publication. In the case of an Annex I Party and the expert team being unable to agree on an issue, the Party may provide explanatory text to be included in a separate section of the final review report. All final review reports shall be published and forwarded by the secretariat, together with any written comments on the final review report by the Annex I Party that is the subject of the report, to the COP.
+			C.	Scope of the review
+		I.	Initial assessment
+			67.	The secretariat shall conduct an initial assessment annually to examine that each Annex I Party has submitted a consistent, complete and timely annual inventory in the correct format, including the NIR and the CRF tables, and to identify issues for further consideration during the review of individual inventories.
+			68.	The checks will include a standardized set of data comparisons mainly based on the CRF data and identify:
+				(a)	Whether an Annex I Party has submitted an annual inventory or the NIR or the CRF tables by the due date, or within six weeks of the due date;
+				(b)	Whether the submission is complete in terms of whether an NIR and all CRF tables were submitted;
+				(c)	Whether all required sources, sinks and gases included in the UNFCCC Annex I inventory reporting guidelines as well as any additional guidance adopted by the COP are reported and if any additional gases or sources have been reported;
+				(d)	Whether all CRF tables have been completed and any gaps have been explained in the CRF tables by the use of notation keys (such as “C”, “IE”, “NA”, “NE”, “NO”);
+				(e)	Whether emission estimates are provided for all required years;
+				(f)	Whether methodologies are indicated with notations in the CRF tables;
+				(g)	Whether estimates for CO2 emissions from fossil fuel combustion are reported using the IPCC reference approach in addition to estimates derived using a sectoral approach;
+				(h)	Whether emission estimates for hydrofluorocarbons and perfluorocarbons are reported by individual chemical species;
+				(i)	Whether any recalculations are reported for the entire time series and explanatory information relating to these recalculations is provided in the NIR;
+				(j)	Whether emissions from fuel used in international transportation are reported separately from national totals;
+				(k)	Whether key categories have been reported in the NIR and whether the results are consistent with those automatically reported in the CRF tables;
+				(l)	Whether the tables on uncertainties have been reported;
+				69.	The initial assessment will cover the national inventory submission and previous national inventory submissions, where relevant, and will also:
+				(a)	Identify whether there are any irregularities or inconsistencies in implied emission factors and other inventory data, including emission or removal estimates and activity data, across Annex I Parties and compared with data of previous years or from previous submissions;
+				(b)	Identify whether there are irregularities in activity data compared with activity data from other relevant authoritative sources, if available, taking into account the conclusions of the meeting of the lead reviewers for GHG inventories and agreed by the SBSTA;
+				(c)	Identify whether there are issues within source or sink categories requiring further consideration or clarification during the individual review stage, particularly recurring issues, taking into account responses from previous reviews or recommendations provided in previous reviews;
+				(d)	Examine inventory recalculations and the consistency of the time series;
+				(e)	Identify whether there are any inconsistencies between the information in the CRF tables and related information in the NIR.
+				70.	The secretariat shall compare any findings from the initial assessment specific to individual Annex I Parties with findings and responses from Parties from previous reviews. For this purpose, a communication tool with findings and responses from Annex I Parties should be developed and maintained that registers findings from the initial assessment and questions from ERTs together with responses from Parties over time. The ERTs should have access to past exchanges between Annex I Parties and reviewers via this tool.
+				71.	The secretariat shall immediately notify the Annex I Party concerned of any omissions or issues identified with a Party’s submission that prevent the performance of the initial assessment.
+		II.	Review of individual annual inventories
+			72.	ERTs, coordinated by the secretariat, shall conduct reviews of individual GHG inventories in order to assess whether the COP has accurate, consistent and relevant information on annual GHG inventories. The individual reviews will be conducted in accordance with paragraphs 75 and 76 below. The individual inventory review shall cover each Annex I Party’s national inventory, supplementary material submitted by the Party and, if necessary for the review of recalculations and inventory improvements, previous inventory submissions.
+			73.	ERTs shall pay particular attention to key categories, those areas of the inventory where issues have been identified and recommendations made in previous reviews, or stages of the review, progress in the implementation of the planned improvements, or where recalculations or other changes have been reported by the Annex I Party. Focus should be given to issues that have an impact on the level and/or trend of total national GHG emissions and removals, taking into account national circumstances, as appropriate. The Party may respond to an ERT identification of an issue with information about the amount of effort and resources required for an improvement relative to the impact on the level and/or trend of total national GHG emissions or removals for consideration by the ERT. ERTs should not perform an individual review in cases where an NIR has not been provided.
+			74.	In addition to the tasks mentioned in paragraph 75 below, ERTs conducting in-country reviews will consider the ‘paper trail’ of the inventory from the collection of data to the reported emission estimates and will examine procedures and institutional arrangements for inventory development and management, including QA and QC, record-keeping and documentation procedures. During subsequent centralized reviews, the ERTs will identify any changes that may have occurred in these procedures and institutional arrangements, based on the information provided in the NIRs of Annex I Parties and further information from the Parties provided to the ERT.
+			75.	Each ERT shall for centralized and in-country reviews:
+			(a)	Examine application of the requirements of the UNFCCC Annex I inventory reporting guidelines and any further guidance adopted by the COP, and, if applied, the Wetlands Supplement, and identify any departure from these requirements;
+			(b)	Examine whether the 2006 IPCC Guidelines as implemented through the UNFCCC Annex I inventory reporting guidelines and any supplementary methodologies adopted by the COP and, if applied, the Wetlands Supplement was applied and documented, in particular noting the identification of key categories, selection and use of methodologies and assumptions, development and selection of emission factors, collection and selection of activity data, reporting of recalculations and consistent time series, reporting of uncertainties related to inventory estimates, methodologies used for estimating those uncertainties and QA/QC procedures, and identify any inconsistencies;
+			(c)	Compare emission or removal estimates, activity data, implied emission factors and any recalculations with data from previous submissions of the Annex I Party to identify any irregularities or inconsistencies;
+			(d)	Identify any missing categories and examine any explanatory information relating to their exclusion from the GHG inventory;
+			(e)	Assess the consistency of information in the CRF tables with that in the NIR;
+			(f)	Assess the extent to which issues raised in the initial assessment of annual inventories, and issues and questions raised by ERTs in previous reports, have been addressed and resolved. The ERT shall assess information on changes in response to recommendations from the previous ERT, which may include the progress made in implementing improvements taking into consideration the publication date of the previous review report and national circumstances;
+			(g)	Where applicable, identify areas for further improvement of the inventories taking into account, inter alia, paragraph 73 above and note possible ways for improving the estimation and the reporting of inventory information;
+			(h)	Assess whether the national inventory arrangements for the estimation of anthropogenic GHG emissions by sources and removals by sinks are performing the required functions and facilitating the continuous improvement of the GHG inventory;
+			(i)	Whether all emissions are reported without corrections relating, for example, to climate variations or trade of electricity.
+			76.	During desk reviews, the ERT shall prioritize addressing the following tasks and should address the elements in paragraph 75 above for key categories:
+				(a)	Assess the extent to which issues raised in the initial assessment of annual inventories, and issues and questions raised by ERTs in previous reports, have been addressed and resolved. The ERT shall assess information on changes in response to recommendations from the previous ERT, which may include the progress made in implementing improvements taking into consideration the publication date of the previous review report and national circumstances;
+					(b)	Analyse any recalculations that have changed the emission/removal estimate for a category by more than 2 per cent and/or national total emissions by more than 0.5 per cent as provided in the CRF tables for any of the recalculated years and assess the reasons provided by the Annex I Party for the recalculations and improvements performed as well as the consistency of the revised estimates with the 2006 IPCC Guidelines as implemented through the UNFCCC Annex I inventory reporting guidelines.
+			77.	The ERT may compare the activity data of the Annex I Party with relevant authoritative sources taking into account the conclusions of the meeting of the lead reviewers for GHG inventories and agreed by the SBSTA, if feasible, and identify if there are significant differences which have not been explained by the Party. In cases where significant differences between the data sources are identified, the ERT shall provide the Annex I Party with the data used to make its assessment where it is possible to do so. Recommendations based on the outcome of the data comparison should not appear in the review report in cases where it is not possible to provide the Party with the data.
+			78.	The secretariat shall support the individual review with the development of review tools and materials that support the tasks of the ERTs in order to improve the efficiency and consistency of the reviews. Such tools and materials shall be periodically revised and updated taking into account the needs of the review process. New and revised tools and materials shall be presented and discussed at the meetings of lead reviewers for GHG inventories and shall also be presented in the annual report on the technical review of GHG inventories from Annex I Parties and shall be made available to Parties upon request. The meeting of lead reviewers should discuss which review tools should also be made available to the general public and make recommendations in this regard to the SBSTA.
+			79.	If an Annex I Party fails to provide the ERT with responses to the questions raised and does not provide the data and information necessary for the assessment of conformity with the UNFCCC Annex I inventory reporting guidelines and any further guidance adopted by the COP, the ERT shall assume that the reporting was not prepared in accordance with the UNFCCC Annex I inventory reporting guidelines and any further guidance adopted by the COP and clearly identify such cases in the review report.
+		III.	Identification of issues
+			80.	The individual inventory review shall identify any issues related to adherence to the UNFCCC Annex I inventory reporting guidelines.
+			81.	Issues will be identified as a failure to follow the requirements and definitions in the UNFCCC Annex I inventory reporting guidelines. Issues will also be identified as failure to follow general IPCC good practice for any other category that the Party included in its national estimates in accordance with the UNFCCC Annex I inventory reporting guidelines. These may be further subdivided as issues of:
+			(a)	Transparency;
+			(b)	Consistency;
+			(c)	Comparability, including failure to use agreed reporting formats;
+			(d)	Completeness;
+			(e)	Accuracy;
+			(f)	Adherence to the UNFCCC Annex I inventory reporting guidelines.
+			82.	In assessing completeness, when a category has been reported as not estimated based on it being insignificant, the ERT shall assess if the information reported by the Annex I Party meets the criteria set out in paragraph 37(b) of the UNFCCC Annex I inventory reporting guidelines.
+			83.	The ERT will identify issues, in particular those relating to accuracy and completeness for key categories as described in paragraph 73 above, missing categories as described in paragraph 75(d) above, or potential key categories as identified by the ERT and that could not be clarified with the Party during the review week. In the case where, after such an issue has been identified in three successive reviews, in accordance with paragraphs 75(f) and 76(a) above, and has not been addressed by the Party, the ERT will include a prominent paragraph in the review report noting the issue, the number of successive reviews in which the Party has been notified of the issue, and that the Party has not addressed the issue.
+			84.	All main issues which are identified by the ERT in relation to requirements in the UNFCCC Annex I inventory reporting guidelines, including any issues described in paragraph 83 above, should be summarized by the ERT in the list of provisional main findings. The provisional main findings shall be communicated to the Annex I Party at the end of the week in which the individual review is performed. The Party may provide further clarifications related to the provisional main findings within two weeks. Any provisional main findings should, as appropriate, form the basis for the recommendations in the review report.
+			D.	Timing
+		I.	Initial assessment
+			85.	The secretariat will complete the initial assessment in accordance with paragraph 68 above and should prepare a draft status report within three weeks after the submission date of the annual GHG inventory and send it to the Annex I Party for comments. Each Annex I Party should provide comments on the draft status report within three weeks of its receipt by the Party.
+			86.	The secretariat will complete the initial assessment containing the elements in paragraph 69 above. The secretariat will incorporate all submissions and any resubmissions from Annex I Parties that were provided as a response to the status report and were received within six weeks from the due date for submissions. Annex I Parties should provide comments within three weeks of receipt of the draft assessment report. The secretariat will send a draft of the assessment report to the Annex I Party at the latest seven weeks prior to the scheduled individual review, and the Party will provide comments within three weeks. The assessment report and the Annex I Party’s comments will be forwarded to the ERT as input for the individual review.
+			87.	Any information, corrections, additional information or comments on the draft status report received from the Annex I Party within six weeks of the submission due date shall be subject to the initial assessment. A delay in the submission of the annual inventory shortens the time available for the Annex I Party concerned to comment on the draft status report.
+		II.	Review of individual annual inventories
+			88.	The secretariat should forward all relevant information to the members of the ERTs one month prior to the start of the review of the individual annual inventories. The ERT shall examine the information and raise questions for clarification to Annex I Parties under review, if necessary, two weeks prior to the start of the review. Annex I Parties should make all efforts to respond promptly to the questions received.
+			89.	To achieve consistent review reports and a comparable treatment of Annex I Parties in the review process, the secretariat shall implement QA procedures. The QA procedures developed by the secretariat should be presented to and discussed at the meeting of the lead reviewers for GHG inventories. The purpose of the QA procedures is to ensure a consistent identification and treatment of issues. Editorial streamlining should take place only to the extent that the timelines for publication of the review reports are not compromised.
+			90.	Each review should be completed within 20 weeks. In general, the timetable for the individual review activities, assuming available resources, should conform to the following:
+			(a)	Each ERT performs an individual review and prepares a draft review report for each Party under review, within six weeks after the end of the review week;
+			(b)	The secretariat applies QA/QC procedures, edits and formats the draft reports within four weeks and sends them to the respective Annex I Parties for comments;
+			(c)	The Annex I Parties respond within four weeks;
+			(d)	The ERT shall produce the final version of the annual review report, taking into account the comments of the Annex I Party, within four weeks of receipt of the comments;
+			(e)	All final review reports, together with any written comments on the final review report by the Annex I Party that is the subject of the report, shall be published on the UNFCCC website within two weeks and forwarded by the secretariat to the COP.
+			E.	Reporting
+		I.	Status report
+			91.	The results of the initial assessment for each Annex I Party will be published on the UNFCCC website as a status report, mainly in tabular format. The status report will:
+			(a)	Indicate the date of receipt of the GHG inventory submission by the secretariat;
+			(b)	Determine whether the submission is complete and identify any gaps in the reported data, covering the elements listed in paragraph 68 above.
+			II.	Assessment report
+			92.	The results of the initial assessment, as described in paragraph 69 above, containing a preliminary analysis of individual Annex I Party inventories, will be sent to the respective Party for comments. The results, together with the comments provided by the respective Party, will be provided to the corresponding ERT as input for the individual review.
+			93.	The assessment report for each individual inventory will contain the results of the checks described in paragraph 69 above.
+		III.	Individual review reports
+			94.	Under its collective responsibility, the ERT will produce an individual inventory review report for publication in electronic format on the UNFCCC website based on the results of the tasks listed in paragraphs 75 and 76 above. The review reports should contain an objective assessment of the adherence of the inventory information to the UNFCCC Annex I inventory reporting guidelines and the provisions of relevant COP decisions, and should not contain any political judgement. The review report shall, as appropriate, also contain recommendations and encouragements from the ERT regarding ways in which the Annex I Party can improve the quality of its inventory.
+			95.	The following specific elements shall be included in the individual review report:
+			(a)	A summary of the results of the inventory review and a general assessment of the inventory;
+			(b)	A technical review of the elements specified in paragraphs 75 and 76 above;
+			(c)	An identification of issues in accordance with paragraphs 81, 82 and 83 above, as appropriate;
+			(d)	An assessment of the overall organization of the national inventory arrangements, including a discussion on the effectiveness and reliability of the institutional, procedural and legal arrangements for estimating GHG emissions.
+			96.	The review reports should not extensively duplicate information already publically available, for example, through the CRF tables and NIRs reported by Annex I Parties.
+			97.	The report should include standardized tables whenever possible, to increase the efficiency of communication. To the extent possible, the text of the report should not duplicate the information in the tables. The status of implementation of previous review recommendations should be listed in one of these standardized tables.
+			98.	The report of all reviews shall be as concise as possible and the ERT shall make every effort that the report does not exceed 30 pages, including a 2–3 page summary.
+		PART IV: UNFCCC guidelines for the technical review of biennial reports from Parties included in Annex I to the Convention
+		A.	Purpose of the review
+			99.	The technical review of BRs is the first step of the international assessment and review (IAR) process. The overall objectives of the IAR process are to review the progress made by developed country Parties in achieving emission reductions and to assess the provision of financial, technological and capacity-building support to developing country Parties, as well as to assess emissions and removals related to quantified economy-wide emission reduction targets under the SBI, taking into account national circumstances, in a rigorous, robust and transparent manner, with a view to promoting comparability and building confidence. In addition, the IAR process aims at assessing the implementation of methodological and reporting requirements.
+			100.	The purposes of the technical review of BRs from Annex I Parties are the following:
+			(a)	To provide a thorough and comprehensive technical review of the parts of BRs that are not otherwise covered in the annual GHG inventory review;
+			(b)	Taking into account paragraph 100(a) above, to examine in an objective and transparent manner whether quantitative and qualitative information was submitted by Annex I Parties in accordance with the “UNFCCC biennial reporting guidelines for developed country Parties” adopted by the COP;
+			(c)	To promote consistency of the information contained in BRs submitted by Annex I Parties;
+			(d)	To assist Annex I Parties in improving their reporting of information and the implementation of their commitments under the Convention;
+			(e)	To undertake an examination of the Party’s progress in achieving its economy-wide emission reduction target.
+			(f)	To ensure that the COP has reliable information on the implementation of commitments under the Convention by each Annex I Party with a view to promoting comparability and building confidence.
+		B.	General procedures
+			101.	Each Annex I Party’s BR will be reviewed. A Party’s BR shall be reviewed in conjunction with its NC in the years in which both the BR and the NC are submitted.
+			102.	Prior to the review, as part of its preparation, the ERT shall conduct a desk review of the BR of the Annex I Party under review. The ERT, through the secretariat, shall notify the Party concerned of any questions the team has regarding the information provided in the BR and of any focal areas for the review.
+			103.	The output of the technical review will be a technical review report, building on existing reporting standards and including an examination of the Party’s progress in achieving its economy-wide emission reduction target.
+		C.	Scope of the review
+			104.	The individual review will:
+			(a)	Provide an assessment of the completeness of the BR, in accordance with the reporting requirements contained in decisions 2/CP.17 and 19/CP.18, and an indication of whether it was submitted on time;
+			(b)	Examine the consistency of the BR with the annual GHG inventory and NC but it will not include in-depth examination of the inventory itself;
+			(c)	Undertake a detailed technical examination of only those parts of the BR that are not included in the annual GHG inventory review, including the following:
+				(i)	All emissions and removals related to the Party’s quantified economy-wide emission reduction target;
+				(ii)	Assumptions, conditions and methodologies related to the attainment of the Party’s quantified economy-wide emission reduction target;
+				(iii)	Progress the Party has made towards the achievement of its quantified economy-wide emission reduction target;
+				(iv)	The Party’s provision of financial, technological and capacity-building support to developing country Parties;
+			(d)	In the years in which an NC is submitted at the same time as the BR, serve as part of the review of the NC, where there is an overlap between the content of the BR and that of the NC.
+			Identification of issues
+			105.	The issues identified during the technical review of individual sections of the BR shall be identified as relating to the following:
+			(a)	Transparency;
+			(b)	Completeness;
+			(c)	Timeliness;
+			(d)	Adherence to the biennial report reporting guidelines as per decision 2/CP.17.
+		D.	Timing
+			106.	If an Annex I Party expects difficulties with the timeliness of its BR submission by the due date, it should inform the secretariat thereof by the due date of the submission, to the extent possible, in order to facilitate the arrangements of the review process.
+			107.	The ERTs shall make every effort to complete the individual review of BRs within 15 months of the due date of their submission for each Annex I Party.
+			108.	If additional information is requested during the review week, the Annex I Party should make every reasonable effort to provide the information within two weeks after the review week.
+			109.	The ERT for the review of the BR of each Annex I Party shall, under its collective responsibility, produce a draft technical review report following the format detailed in paragraph 112 below, to be finalized within eight weeks after the review week.
+			110.	The draft technical review report of each BR shall be sent to the Annex I Party subject to the review for comment. The Party concerned shall be given four weeks from its receipt of the draft report to provide comments thereon.
+			111.	The ERT shall produce the final version of the BR technical review report, taking into account the comments of the Annex I Party within four weeks of receipt of the comments. All final review reports shall be published and forwarded by the secretariat, together with any written comments on the final review report by the Party that is the subject of the report, to the COP.
+		E.	Reporting
+			112.	The following specific elements shall be included in the technical review report referred to in paragraph 54(b) above:
+			(a)	The results of the technical examination of the elements specified in paragraph 104(c) above, including an examination of the Party’s progress in achieving its economy-wide emission reduction target;
+			(b)	An identification of issues in accordance with paragraph 105 above.
+			PART V: UNFCCC guidelines for the technical review of national communications from Parties included in Annex I to the Convention
+		A.	Purpose
+			113.	The purposes of the review of NCs from Annex I Parties are the following:
+			(a)	To establish a process for a thorough and comprehensive technical review of the implementation of the commitments under the Convention by individual Annex I Parties and Annex I Parties as a group;
+			(b)	Taking into account paragraph 113(a) above, to examine in an objective and transparent manner whether quantitative and qualitative information was submitted by Annex I Parties in accordance with the “Guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part II: UNFCCC reporting guidelines on national communications” adopted by the COP;
+			(c)	To promote consistency of the information contained in the NCs of Annex I Parties;
+			(d)	To assist Annex I Parties in improving their reporting of information under Article 12 of the Convention and the implementation of their commitments under the Convention;
+			(e)	To ensure that the COP has reliable information on the implementation of commitments under the Convention by each Annex I Party and Annex I Parties as a whole.
+		B.	General procedures
+			114.	Each Annex I Party’s NC will be reviewed, where relevant in conjunction with the review of the BR.
+			115.	Each NC submitted under the Convention by an Annex I Party shall be subject to an in-country review.
+			116.	Annex I Parties with total GHG emissions of less than 50 Mt CO2 eq (excluding land use, land-use change and forestry) in accordance with their most recent GHG inventory submission, with the exception of Parties included in Annex II to the Convention, may choose to undergo a centralized review for their NCs.
+			117.	Prior to the review, the ERT shall conduct a desk review of the NC of the Annex I Party under review. The ERT, through the secretariat, shall notify the Party concerned of any questions the team has regarding the NC and of any focal areas for the review.
+		C.	Scope of the review
+			118.	The individual review will, noting paragraph 9 above:
+			(a)	Provide an assessment of the completeness of the NC in accordance with the “Guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part II: UNFCCC reporting guidelines on national communications” adopted by the COP, and an indication of whether it was submitted on time;
+			(b)	Check the consistency of information contained in the NC with that contained in the BR and GHG inventory. If the same information is reported elsewhere, the information should be reviewed only once;
+			(c)	Undertake a detailed technical examination of the unique information contained in the NC and the procedures and methodologies used for the preparation of the information therein, noting that the outline of the NC is included in the list below:
+				(i)	National circumstances relevant to GHG emissions and removals;
+				(ii)	GHG inventory information;
+				(iii)	Policies and measures;
+				(iv)	Projections and the total effect of policies and measures;
+				(v)	Vulnerability assessment, climate change impacts and adaptation measures;
+				(vi)	Financial resources;
+				(vii)	Transfer of technology;
+				(viii)	Research and systematic observation;
+				(ix)	Education, training and public awareness;
+			(d)	Giving consideration to national circumstances, identify any potential issues referred to in paragraph 119 below.
+			Identification of issues
+			119.	The issues identified during the technical review of individual sections of the NC shall be identified as relating to the following:
+			(a)	Transparency;
+			(b)	Completeness;
+			(c)	Timeliness;
+			(d)	Adherence to the NC reporting guidelines as per decision 4/CP.5.
+		
+		D.	Timing
+			120.	If an Annex I Party expects difficulties with the timeliness of its NC submission by the due date, it should inform the secretariat thereof by the due date of the submission, to the extent possible, in order to facilitate the arrangements of the review process.
+			121.	The ERTs shall make every effort to complete the individual review of NCs within 15 months of the due date of their submission for each Annex I Party.
+			122.	If additional information is requested during the review week, the Annex I Party should make every reasonable effort to provide the information within two weeks after the review week.
+			123.	The ERT for the review of the NC of each Annex I Party shall, under its collective responsibility, produce a draft of the review report following the format detailed in paragraph 126 below, to be finalized within eight weeks after the review week.
+			124.	The draft of each NC review report shall be sent to the Annex I Party subject to the review for comment. The Party concerned shall be given four weeks from its receipt of the draft report to provide comments thereon.
+			125.	The ERT shall produce the final version of the NC review report, taking into account the comments of the Annex I Party within four weeks of receipt of the comments. All final review reports shall be published and forwarded by the secretariat, together with any written comments on the final review report by the Party that is the subject of the report, to the COP.
+		E.	Reporting
+			126.	The following specific elements shall be included in the report referred to in paragraph 54(c) above:
+			(a)	A technical review of the elements specified in paragraph 118(c) above;
+			(b)	An identification of issues in accordance with paragraphs 118(d) and 119 above.
+				10th plenary meeting
+				12 December 2014
+			
+	Decision 14/CP.20
+	Training programme for review experts for the technical review of greenhouse gas inventories of Parties included in Annex I to the Convention
+		The Conference of the Parties,
+			Recalling Articles 4, 7 and 12 of the Convention,
+			Also recalling decisions 19/CP.8, 12/CP.9 and 10/CP.15,
+		Further recalling decisions 1/CP.16 and 2/CP.17, which established a work programme under the Subsidiary Body for Scientific and Technological Advice for the revision of the guidelines for the review of biennial reports and national communications, including national inventory reviews,
+		Recalling decision 24/CP.19, by which the revised “Guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part I: UNFCCC reporting guidelines on annual greenhouse gas inventories” were adopted and decision 13/CP.20, by which the “Guidelines for the technical review of information reported under the Convention related to greenhouse gas inventories, biennial reports and national communications by Parties included in Annex I to the Convention” were adopted,
+		Having considered the relevant recommendations of the Subsidiary Body for Scientific and Technological Advice,
+		Recognizing the importance of the training programme for review experts for the technical review of greenhouse gas inventories of Parties included in Annex I to the Convention,
+		1.	Requests the secretariat to implement the training programme for review experts for the technical review of greenhouse gas inventories of Parties included in Annex I to the Convention, as outlined in the annex, including the examination of experts, and to give priority to organizing an annual training seminar for the basic course;
+		2.	Encourages Parties included in Annex I to the Convention in a position to do so to provide financial support for the implementation of the training programme;
+		3.	Requests the secretariat to include, in its annual report to the Subsidiary Body for Scientific and Technological Advice on the composition of expert review teams, information on the training programme, in particular on examination procedures and the selection of trainees and instructors, in order for Parties to assess the effectiveness of the programme.
+Annex
+	Training programme for review experts for the technical review of greenhouse gas inventories of Parties included in Annex I to the Convention
+	A.	Details of the training programme
+		1.	The courses are intended to train review experts for the technical review of information reported under the Convention related to greenhouse gas (GHG) inventories by Parties included in Annex I to the Convention. All training courses will be available online. For trainees without easy access to the Internet, courses will be distributed electronically; for courses facilitated by instructors, trainees will communicate electronically with the instructor during the training period. At the request of any Party, the training courses will also be made available to other experts interested in the technical review of GHG inventories, provided that this does not require additional resources. All courses will be available upon request to trainees all year round, without facilitation by instructors.
+		2.	A closing seminar for the basic course of the training programme will be offered annually for around 30 participants (new review experts for the technical review of GHG inventories).
+		3.	Additional regional training seminars for new review experts for the technical review of GHG inventories and a refresher seminar for experienced review experts for the technical review of GHG inventories may be offered annually, depending on the availability of resources. The refresher seminars may be offered in conjunction with meetings of lead reviewers, in order to enhance their knowledge and that of other experienced review experts for the technical review of GHG inventories.
+		4.	All training courses will include an examination. Examination procedures will be standardized, objective and transparent.
+		5.	When participants attend a training seminar, the examination will generally take place during that seminar. In all other circumstances, other arrangements for examinations will be made, provided that the examinations take place under the supervision of the secretariat and that no additional resources are required. For courses without a training seminar, the examination will take place online.
+		6.	New review experts for the technical review of GHG inventories who successfully complete the relevant requirements of the training programme and pass the examinations will be invited to participate in centralized or in-country reviews, working alongside experienced review experts.
+		7.	New review experts who do not pass a course examination at the first attempt may retake the examination once only, provided that the expert has fulfilled all of the tasks assigned during the training course in a timely manner and that the retake does not require the secretariat to incur additional costs.
+		8.	Experienced review experts for the technical review of GHG inventories will be invited to take the online training courses. Examinations are not mandatory for experienced review experts but are encouraged, and may take place in conjunction with meetings of lead reviewers.
+		9.	Experienced review experts with relevant GHG inventory reporting and review expertise will be invited to act as instructors for relevant courses of the training programme, ensuring that their collective skills cover the subjects addressed in each course. The secretariat will seek to achieve a geographical balance among the instructors participating in the training programme.
+		10.	When selecting new review experts to attend training courses facilitated by instructors, the secretariat will give priority to review experts with relevant GHG inventory reporting expertise, nominated to the UNFCCC roster of experts, from Parties that do not have review experts who have previously participated in review activities.
+	B.	Courses of the training programme
+		1.	Basic course for the review of greenhouse gas inventories of Parties included in Annex I to the Convention
+			Description: This course covers a comprehensive introduction to the “Guidelines for the technical review of information reported under the Convention related to greenhouse gas inventories, biennial reports and national communications by Parties included in Annex I to the Convention”, an overview of the “Guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part I: UNFCCC reporting guidelines on annual greenhouse gas inventories”, guidance on procedures and approaches for the technical review of GHG inventories and general Intergovernmental Panel on Climate Change (IPCC) inventory guidance (2006 IPCC Guidelines for National Greenhouse Gas Inventories), as well as specific aspects of the review of the following IPCC sectors: energy; industrial processes and product use; agriculture; land use, land-use change and forestry; and waste. This course also provides guidance on drafting substantive review reports that are consistent among review teams and reader friendly.
+			Preparation: 2015
+			Implementation: 2015–2016
+			Target audience: New and experienced review experts for the technical review of GHG inventories
+			Type of course: E-learning, facilitated by instructors, with a closing seminar
+			Examination requirements and format: New review experts for the technical review of GHG inventories must pass the general examination as well as a sectoral examination before participating in expert review teams. Lead reviewers and experienced review experts for the technical review of GHG inventories are encouraged to take the examinations. The examinations will be conducted in person.
+		2.	Review of complex models and higher-tier methods
+			Description: This course provides general guidance and procedures, as well as guidance on specific aspects of the review of emission estimations performed using complex models and higher-tier methods (tier 3 methods).
+			Preparation: 2010
+			Implementation: 2014–2016
+			Target audience: Lead reviewers and review experts for the technical review of GHG inventories
+			Type of course: E-learning, without an instructor
+			Examination requirements and format: Optional; self-check electronic examination
+		3.	Improving communication and facilitating consensus in expert review teams
+			Description: This course provides guidance and tools to improve the work of expert review teams and to facilitate teamwork
+			Preparation: 2003
+			Implementation: 2014–2016
+			Target audience: Lead reviewers and review experts for the technical review of GHG inventories
+			Type of course: E-learning, without an instructor
+			Examination requirements and format: Optional; self-check electronic examination
+	C.	Refresher seminar for experienced greenhouse gas inventory review experts
+		Description: This annual seminar provides general guidance on specific and complex aspects of the technical review of GHG emission estimates. It enables experienced review experts for the technical review of GHG inventories to strengthen and refresh their knowledge, in relation to both cross-cutting aspects and sector-specific issues.
+		Implementation: 2014–2016, subject to the availability of resources
+		Target audience: Lead reviewers and experienced review experts for the technical review of GHG inventories
+		
+			10th plenary meeting
+			1.	12 December 2014
+	Decision 15/CP.20
+	Training programme for review experts for the technical review of biennial reports and national communications of Parties included in Annex I to the Convention
+		The Conference of the Parties,
+		Recalling Articles 4, 7 and 12 of the Convention and decisions 2/CP.1, 9/CP.2, 6/CP.3, 4/CP.5, 33/CP.7, 18/CP.10, 1/CP.13, 2/CP.17 and 19/CP.18, on national communications and biennial reports,
+		Also recalling decision 23/CP.19, on the guidelines for the review of biennial reports and national communications, including national inventory reviews,
+		Having considered the relevant recommendations of the Subsidiary Body for Scientific and Technological Advice,
+		Recognizing the importance of the training programme for review experts for the technical review of biennial reports and national communications of Parties included in Annex I to the Convention,
+		1.	Requests the secretariat to develop and implement the training programme for review experts for the technical review of biennial reports and national communications of Parties included in Annex I to the Convention, including the examination of experts, as outlined in the annex;
+		2.	Encourages Parties included in Annex I to the Convention in a position to do so to provide financial support for the implementation of the training programme;
+		3.	Requests the secretariat to include, in its annual report to the Subsidiary Body for Scientific and Technological Advice on the composition of expert review teams, information on the training programme, in particular on examination procedures and the selection of trainees, so that Parties may assess the effectiveness of the programme.
+			
+		
+Annex
+	Training programme for review experts for the technical review of biennial reports and national communications of Parties included in
+Annex I to the Convention
+	A.	Details of the training programme
+		1.	The courses are intended to train review experts for the technical review of biennial reports and national communications of Parties included in Annex I to the Convention. All training courses will be available online. For trainees without easy access to the Internet, courses will be distributed through electronic means. At the request of any Party, the courses will also be made available to others interested in the review process, provided that this does not require additional resources. All courses will be available upon request to trainees all year round, without facilitation by instructors.
+		2.	All training courses will include an examination. Examination procedures will be standardized, objective and transparent.
+		3.	The examination will take place online. In exceptional circumstances, other arrangements for examinations will be made, provided that the examinations take place under the supervision of the secretariat and that this does not require additional resources.
+		4.	New review experts who successfully complete the relevant requirements of the training programme and pass the examinations will be invited to participate in a centralized or in-country review, working alongside experienced review experts.
+		5.	Experts who do not pass an examination for a course at the first attempt may retake the examination once only, provided that the expert has fulfilled all of the tasks assigned during the training course in a timely manner and that the retake does not require the secretariat to incur additional costs.
+	B.	Courses of the training programme
+		1.	General and cross-cutting aspects of the review of national communications
+and biennial reports
+			Description: This course covers the reporting requirements and the procedures for the general aspects of the review process of national communications and biennial reports under the Convention, and aims to provide a comprehensive overview of the reporting and review requirements and guidance to expert review teams on the process and steps for conducting reviews under the international assessment and review process. The course promotes consistency and fairness in the review process by providing technical guidance on the general review approaches and use of tools.
+			Preparation: 2014
+			Implementation: 2014–2016
+			Target audience: New review experts and lead reviewers
+			Type of course: E-learning, without an instructor
+			Examination requirements and format: New review experts and lead reviewers must pass the examination before participating in expert review teams. Online examination.
+		2.	Technical review of targets and of policies and measures, their effects
+and their contribution to achieving those targets
+			Description: This course provides general guidance and approaches for the technical review of information on national policy context and greenhouse gas (GHG) mitigation targets, policies and measures (PaMs), the effects of each individual PaM and their contribution to the reduction of GHG emissions.
+			Preparation: 2014
+			Implementation: 2014–2016
+			Target audience: New review experts reviewing targets and PaMs, and lead reviewers
+			Type of course: E-learning, without an instructor
+			Examination requirements and format: New review experts must pass the examination before participating in expert review teams. Online examination.
+				3.	Technical review of greenhouse gas emissions, emission trends, projections
+and the total effect of policies and measures
+			Description: This course provides general guidance and approaches for the technical review of information on GHG emissions, emission trends, projections and the total effect of PaMs.
+			Preparation: 2014
+			Implementation: 2014–2016
+			Target audience: New review experts reviewing emission trends, projections and the total effect of PaMs, and lead reviewers
+			Type of course: E-learning, without an instructor
+			Examination requirements and format: New review experts must pass the examination before participating in expert review teams. Online examination.
+		4.	Technical review of the provision of financial support, technology transfer and capacity-building
+			Description: This course provides general guidance and approaches for the technical review of information on the provision of financial resources by Parties included in Annex II to the Convention to Parties not included in Annex I to the Convention, the promotion, facilitation and financing of the transfer of technology, and capacity-building, including creating national expertise on climate change related issues, strengthening institutions and developing educational, training and awareness-raising activities.
+			Preparation: 2014
+			Implementation: 2014–2016
+			Target audience: New review experts reviewing the provision of financial support, technology transfer and capacity-building, and lead reviewers
+			Type of course: E-learning, without an instructor
+			Examination requirements and format: New review experts must pass the examination before participating in expert review teams. Online examination.
+			
+				10th plenary meeting
+				12 December 2014
+			
+	Decision 16/CP.20
+	Joint annual report of the Technology Executive Committee and the Climate Technology Centre and Network for 2013
+		The Conference of the Parties,
+		Recalling decisions 1/CP.16, 2/CP.17, 4/CP.17, 1/CP.18, 13/CP.18, 14/CP.18 and 25/CP.19,
+			Also recalling decisions 13/CP.18, paragraph 8, and 14/CP.18, paragraph 11,
+		1.	Welcomes the joint annual report of the Technology Executive Committee and the Climate Technology Centre and Network for 2013, and the work these bodies undertook in 2013 to facilitate the effective implementation of the Technology Mechanism;
+		Activities and performance of the Technology Executive Committee in 2013
+			2.	Also welcomes the effective implementation of the rolling workplan of the Technology Executive Committee for 2012–2013 and the key messages contained in the report referred to in paragraph 1 above;
+			3.	Adopts the modalities of the Technology Executive Committee on linkages with other relevant institutional arrangements under and outside of the Convention contained in the annex to the report referred to in paragraph 1 above, with a view to promoting coherence and cooperation across technology activities under and outside of the Convention;
+		Activities and performance of the Climate Technology Centre and Network in 2013
+			4.	Welcomes the progress made by the United Nations Environment Programme, as the host of the Climate Technology Centre, in making the arrangements necessary for the full operationalization of the Climate Technology Centre and Network in 2013;
+			5.	Also welcomes the timely completion of the mandated activities of the Advisory Board of the Climate Technology Centre and Network in 2013, which provided the necessary means for the Climate Technology Centre and Network to receive and respond to requests from developing country Parties in accordance with decision 1/CP.16, paragraph 123;
+			6.	Urges Parties that have not yet nominated their national designated entity to promptly communicate their nomination to the secretariat through their national focal point;
+			7.	Invites developing country Parties to submit requests, through their national designated entity, to the Climate Technology Centre and Network in accordance with decision 1/CP.16, paragraph 123;
+			8.	Acknowledges with appreciation the financial support provided by Parties for the activities of the Climate Technology Centre and the mobilization of the services of the Network.
+			10th plenary meeting
+			12 December 2014
+			
+	Decision 17/CP.20
+	Joint annual report of the Technology Executive Committee and the Climate Technology Centre and Network for 2014
+		The Conference of the Parties,
+		Recalling decisions 1/CP.16, 2/CP.17, 4/CP.17, 1/CP.18, 13/CP.18, 14/CP.18 and 25/CP.19,
+		Also recalling decision 1/CP.16, paragraph 126,
+		1.	Welcomes with appreciation the joint annual report of the Technology Executive Committee and the Climate Technology Centre and Network for 2014 and its joint key messages;
+		2.	Notes that through the work of these bodies in 2014 the Technology Mechanism is progressing in an effective manner towards fulfilling its mandate as provided for in the Cancun Agreements and the Durban Outcomes;
+		3.	Notes with appreciation the collaboration between the Technology Executive Committee and the Climate Technology Centre and Network, and encourages them to continue collaborating to enhance coherence and synergy in the work of the Technology Mechanism;
+		4.	Decides that the Technology Executive Committee and the Climate Technology Centre and Network shall continue to prepare a joint annual report to the Conference of the Parties, through the subsidiary bodies, on their respective activities and the performance of their respective functions;
+		Activities and performance of the Technology Executive Committee in 2014
+			5.	Welcomes the rolling workplan of the Technology Executive Committee for
+2014–2015 and the progress made by the Committee in advancing the implementation of the workplan;
+			6.	Recognizes the key messages of the Technology Executive Committee on climate technology financing, technologies for adaptation and technology needs assessments, as contained in the report referred to in paragraph 1 above;
+			7.	Welcomes the work of the Technology Executive Committee in 2014 on technologies for adaptation, including the TEC Briefs on technologies for adaptation in the agriculture and water sectors, and looks forward to the Committee’s work on technologies for mitigation as part of the implementation of its rolling workplan for 2014–2015;
+			8.	Notes that the Technology Executive Committee held a workshop on national systems of innovation in October 2014, and requests the Technology Executive Committee to continue its work on enabling environments and barriers as stipulated in activity 4 of its rolling workplan for 2014–2015;
+			9.	Notes with appreciation the effective implementation by the Technology Executive Committee of its linkage modalities with institutional arrangements through its active collaboration with bodies under and outside of the Convention, including the Adaptation Committee, the Standing Committee on Finance and the Global Environment Facility;
+			10.	Acknowledges that the Technology Executive Committee, in response to an invitation by the Subsidiary Body for Scientific and Technological Advice and the Subsidiary Body for Implementation, has undertaken activities in 2014 to strengthen linkages with organizations under and outside of the Convention;
+			11.	Encourages the Technology Executive Committee to continue to strengthen the linkages referred to in paragraph 10 above in the implementation of its rolling workplan for 2014–2015;
+			12.	Recognizes the need for the technology needs assessment process to be improved in order to facilitate the implementation of the project ideas emanating from it. This can be done through the provision of technical assistance and finance to each technology needs assessment, which should also aim to integrate economic, environmental and social aspects into the development of the technology needs assessment;
+			13.	Requests the Technology Executive Committee to provide guidance on how the results of the technology needs assessments, in particular the technology action plans, can be developed into projects that can be ultimately implemented, and to provide an interim report on its preliminary findings to the subsidiary bodies at their forty-third sessions (November–December 2015);
+		Activities and performance of the Climate Technology Centre and Network in 2014
+			14.	Welcomes with appreciation the progress made by the Climate Technology Centre and Network in implementing its programme of work, including by: responding to requests from developing countries; fostering collaboration and access to information; and strengthening networks, partnerships and capacity-building;
+			15.	Welcomes the elaboration and approval by the Advisory Board of the Climate Technology Centre and Network of the Climate Technology Centre network criteria and the Climate Technology Centre and Network prioritization criteria for national designated entity requests, and encourages the Advisory Board of the Climate Technology Centre and Network to elaborate these criteria as needed;
+			16.	Encourages the Climate Technology Centre and Network to further elaborate its procedures for handling requests and to inform Parties and stakeholders of these activities in the joint annual report of the Technology Executive Committee and the Climate Technology Centre and Network;
+			17.	Welcomes the work of the Advisory Board of the Climate Technology Centre and Network in 2014 to facilitate the operation and services of the Climate Technology Centre and Network;
+			18.	Notes the ongoing consultations between the Global Environment Facility and the Climate Technology Centre and Network, and requests the Climate Technology Centre and Network to report on those consultations in future joint annual reports of the Technology Executive Committee and the Climate Technology Centre and Network;
+			19.	Also notes document FCCC/SB/2014/3, paragraphs 64–66, and invites the Climate Technology Centre and Network to continue to report on these issues, as well as on funding resources available for responding to requests, in future joint annual reports of the Technology Executive Committee and the Climate Technology Centre and Network.
+			10th plenary meeting
+			12 December 2014
+			
+	Decision 18/CP.20
+	Lima work programme on gender
+		The Conference of the Parties,
+		Recalling decisions 36/CP.7, 1/CP.16 and 23/CP.18 on improving the participation of women in Convention negotiations and in the representation of Parties in bodies established under the Convention,
+		Underscoring the importance of coherence between gender-responsive climate policies and balanced participation of women and men in the Convention process, and the provisions of international instruments such as the Convention on the Elimination of All Forms of Discrimination against Women and the Beijing Declaration and Platform for Action,
+		Acknowledging the progress made in advancing gender balance and gender equality within the context of climate change policies and in line with the individual country circumstances and gender-responsive climate policy through the decisions referred to above, and the need for gender mainstreaming through all relevant targets and goals in activities under the Convention as an important contribution to increase their effectiveness,
+		Noting that, notwithstanding the progress made by Parties in implementing the decisions referred to above, there is a need for women to be represented in all aspects of the Convention process, including through membership of their national delegations and the chairing and facilitation of formal and informal negotiating groups,
+		Also noting that gender-responsive climate policy still requires further strengthening in all activities related to adaptation and mitigation as well as decision-making on the implementation of climate policies,
+		1.	Decides to enhance the implementation of decisions 36/CP.7, 1/CP.16 and 23/CP.18 by inviting Parties to advance gender balance, promote gender sensitivity in developing and implementing climate policy, and achieve gender-responsive climate policy in all relevant activities under the Convention;
+		2.	Also decides that additional efforts need to be made by Parties to improve the participation of women in their delegations and in all of the bodies established under the Convention, as stipulated in decisions 36/CP.7 and 23/CP.18;
+		3.	Further decides to establish a two-year work programme for promoting gender balance and achieving gender-responsive climate policy, developed for the purpose of guiding the effective participation of women in the bodies established under the Convention, the elements of which are contained in paragraphs 4 to 7 below;
+		4.	Requests the secretariat to include in its next annual report, as referred to in decision 23/CP.18, paragraph 8, information regarding the implementation by the secretariat of those decisions that include a gender approach, in keeping with applicable gender-related policies under the Convention;
+		5.	Decides to strengthen the existing work on gender balance in the thematic priority areas set out in paragraphs 6 to 12 below;
+		6.	Encourages Parties to support (a) training and awareness-raising for female and male delegates on issues related to gender balance and climate change, and (b) building the skills and capacity of their female delegates to effectively participate in UNFCCC meetings via training on, inter alia, negotiation skills, drafting of legal language and strategic communication;
+		7.	Also encourages interested Parties and relevant organizations to support these training and capacity-building efforts, particularly for delegates from Parties that are particularly vulnerable to the adverse effects of climate change, including the least developed countries, small island developing States and countries in Africa;
+		8.	Requests the secretariat to support the organization of these training and capacity-building efforts, inter alia, in conjunction with sessions of the subsidiary bodies;
+		9.	Invites Parties to increase the representation of women and active participation of women in the bodies established under the Convention;
+		10.	Decides to clarify the meaning of the term “gender-responsive climate policy” from an implementation perspective, and improve the development and effective implementation of gender-responsive climate policy;
+		11.	Requests the secretariat to organize an in-session workshop on gender-responsive climate policy with a focus on mitigation action and technology development and transfer during the forty-second session of the Subsidiary Body for Implementation (June 2015), and prepare a report on the workshop for consideration at its forty-third session (November–December 2015);
+		12.	Also requests the secretariat to organize an in-session workshop on gender-responsive climate policy with a focus on adaptation and capacity-building, and training for delegates on gender issues during the forty-fourth session of the Subsidiary Body for Implementation (May 2016) and prepare a report on the workshop for consideration at its forty-fifth session (November 2016). Future work could include in-session workshops on other themes;
+		13.	Invites Parties and admitted observer organizations to submit to the secretariat, by 18 February 2015 and 3 February 2016, respectively, their views on the matters to be addressed at the in-session workshops referred to in paragraphs 11 and 12 above;
+		14.	Requests the secretariat to prepare a technical paper on guidelines or other tools on integrating gender considerations into climate change related activities under the Convention for consideration by the Subsidiary Body for Implementation at its forty-fourth session;
+		15.	Invites Parties and admitted observer organizations to provide information on progress made in meeting the goals of achieving gender balance and gender-responsive climate policy;
+		16.	Agrees to review this information at its twenty-second session (November 2016) with a view to taking any necessary action needed to strengthen the progress of furthering these goals;
+		17.	Requests the Executive Secretary to appoint a senior gender focal point, who is an expert in this subject matter, to develop and ensure the implementation of, within existing resources, an action plan for the two-year work programme on gender and climate change;
+		18.	Invites Parties and relevant organizations to provide the means for implementing gender-related activities within the two-year work programme;
+		19.	Takes note of the budgetary implications of the activities to be undertaken by the secretariat referred to in this decision;
+		20.	Requests that the actions of the secretariat called for in this decision be undertaken subject to the availability of financial resources.
+		10th plenary meeting
+			2.	12 December 2014
+	Decision 19/CP.20
+	The Lima Ministerial Declaration on Education and Awareness-raising
+		The Ministers and Heads of Delegation attending the twentieth session of the Conference of the Parties and the tenth session of the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol, held in Lima, Peru, from 1 to 12 December 2014,
+		Reaffirming the importance of Article 6 of the Convention and Article 10(e) of the Kyoto Protocol,
+		Recalling decision 15/CP.18,
+		Concerned about the impacts of climate change on both current and future generations,
+		Recognizing that education, including formal, non-formal and informal education, and public awareness programmes should promote the attitudes and behaviour needed to prepare our societies to adapt to the impacts of climate change,
+		Reaffirming that public participation, access to information and knowledge are crucial for developing and implementing effective policies to combat climate change and adapt to its impacts, as well as to engage actively, as appropriate, all stakeholders, including children, youth, the elderly, women, persons with disabilities, indigenous and local communities and non-governmental organizations in the implementation of these policies,
+		Underlining that effective climate change action requires public understanding of the issues at stake and the potential benefits of climate action, and that there is a need for public understanding that a transformation is necessary now to avoid increasingly serious consequences in the future,
+		Acknowledging the progress made by Parties, international organizations, civil society and other stakeholders in planning, coordinating and implementing activities related to education, training, public awareness, public participation and access to information,
+		Recalling the outcomes of major United Nations conferences and summits related to education,
+		Considering, in this context, the importance of the United Nations Educational, Scientific and Cultural Organization World Conference on Education for Sustainable Development held in Aichi-Nagoya, Japan, from 10 to 12 November 2014, which called for urgent action to further strengthen and scale up education for sustainable development,
+		1.	Stress that education, training, public awareness, public participation, public access to information, knowledge and international cooperation play a fundamental role in meeting the ultimate objective of the Convention and in promoting climate-resilient sustainable development;
+		2.	Reaffirm our commitment to promote and facilitate, at the national and, as appropriate, at subregional and regional levels, and in accordance with national laws and regulations, and within the respective capacities, the development and implementation of educational and public awareness programmes on climate change and its effects, of public access to information on climate change and its effects and of public participation in addressing climate change;
+		3.	Encourage governments to develop education strategies that incorporate the issue of climate change in curricula and to include awareness-raising on climate change in the design and implementation of national development and climate change strategies and policies in line with their national priorities and competencies;
+		4.	Urge all Parties to give increased attention, as appropriate, to education, training, public awareness, public participation and public access to information on climate change;
+		5.	Encourage all Parties to participate in, and to benefit from, the work of intergovernmental panels and expert groups established under the United Nations on matters related to climate change education, natural science and public awareness;
+		6.	Express our resolve to cooperate and engage through multilateral, bilateral and regional complementary initiatives that aim to raise awareness and enhance education on climate change and its impacts, opportunities and co-benefits;
+		7.	Reaffirm our commitment to the implementation of the Doha work programme on Article 6 of the Convention.
+		10th plenary meeting
+			13 December 2014
+	
+	Decision 20/CP.20
+	Forum and work programme on the impact of the implementation of response measures
+		The Conference of the Parties,
+		Decides to forward the text of the draft decision contained in the annex for consideration by the subsidiary bodies at their forty-second sessions (June 2015), with a view to recommending a draft decision on this matter for adoption by the Conference of the Parties at its twenty-first session (November–December 2015).
+		
+	Annex
+		[English only]
+		Recommendation of the Subsidiary Body for Implementation and the Subsidiary Body for Scientific and Technological Advice
+			The Subsidiary Body for Implementation and the Subsidiary Body for Scientific and Technological Advice, at their forty-first sessions, recommended the following draft decision for consideration and adoption by the Conference of the Parties at its twentieth session:
+			Draft decision -/CP.20
+			Forum and work programme on the impact of the implementation of response measures
+				The Conference of the Parties,
+				[Recalling the ultimate objective of the Convention,]
+				[Reaffirming the importance of the objective of the Convention, and the relevant principles and provisions of the Convention related to the economic and social consequences of response measures, in particular its Articles 2, 3 and 4,]
+				Recalling decisions 5/CP.7, 1/CP.10 1/CP.13, 1/CP.16, 2/CP.17, 8/CP.17, 1/CP.18 and 31/CMP.1, and Article 4, paragraphs 8, 9 and 10 of the Convention, as well as Article 2, paragraph 3, and Article 3, paragraph 14, of its Kyoto Protocol,
+				[Acknowledging Parties’ repeated calls for a continued and structured exchange of information on both the positive and negative consequences of response measures and on ways to maximize the positive and minimize the negative consequences for Parties, in line with the work programme on this matter developed by the subsidiary bodies,]
+				Recalling decision 8/CP.17, paragraph 3, which established the forum on the impact of the implementation of response measures to implement the work programme on the impact of the implementation of response measures,[ and decision 2/CP.17, paragraph 91, which consolidated all progressive discussions related to response measures under the Convention,]
+				[Also reaffirming that developed country Parties are urged to strive to implement policies and measures to respond to climate change in such a way as to avoid negative social and economic consequences for developing country Parties, taking into account Article 3 of the Convention, and to assist these Parties to address such consequences by providing support, including financial resources, transfer of technology and capacity building, in accordance with Article 4 of the Convention, to build up the resilience of societies and economies negatively affected by response measures,]
+				[Also recalling that Parties should cooperate to promote a supportive and open international economic system that would lead to sustainable economic growth and development in all Parties, particularly developing country Parties, thus enabling them better to address the problems of climate change; measures taken to combat climate change, including unilateral ones, should not constitute a means of arbitrary or unjustifiable discrimination or a disguised restriction on international trade,]
+				Noting that the initial review of the work of the forum on the impact of the implementation of response measures, pursuant to decision 8/CP.17, paragraph 5, indicates that a more focused consideration of issues is needed for the effectiveness of the process,
+				Option 1:
+				1.	Decides to hereby continue the forum on the impact of the implementation of response measures [which consolidates all progressive discussions related to response measures under the Convention] [until 2015] in order to provide a platform allowing Parties to share, in an interactive manner, information, experiences, case studies, best practices and views;
+				2.	Decides to focus future work under the forum on the impact of the implementation of response measures on expert input and the provision of concrete examples, case studies and practices in order to enhance the capacity of Parties, in particular developing country Parties, to deal with [all] [positive and negative] impacts of the implementation of response measures;
+				3.	Requests the Chairs of the subsidiary bodies to convene the forum , to implement the updated work programme on the impact of the implementation of response measures, which shall meet [once] [twice] a year, in conjunction with the sessions of the subsidiary bodies;
+				4.	[Requests the subsidiary bodies, at their forty-second sessions (June 2015), to update the work programme on the impact of the implementation of response measures, and the modalities to implement that work programme;]
+				5.	[Requests the subsidiary bodies, in updating the work programme, to take into consideration the following elements:
+				(a)	Economic diversification and transformation;
+				(b)	Just transition of the work force, and the creation of decent work and quality jobs;
+				(c)	Assessment and analysis of impacts[, including economic modelling];]
+				6.	[Requests the subsidiary bodies to review at their forty-fifth sessions the work of the forum, including the need for its continuation, with a view to providing recommendations to the Conference of the Parties at its twenty-second session (November–December 2016);]
+				7.	[Requests the secretariat to prepare, subject to the availability of financial resources, a guidance document to assist developing countries to assess the impacts of the implementation of response measures, including guidance on modeling tools, as well as technical materials to assist developing countries on their economic diversification initiatives, for consideration at SBI 42 and SBSTA 42 (June 2015);]
+				Option 2:
+				(Provisions related to the colloquium)
+					Option 1:
+				8.	Decides to establish a Mechanism for Enhanced Action on Response Measures, and requests the subsidiary bodies to develop the functions and modalities of the mechanism at their forty-second sessions, for consideration and adoption by the Conference of the Parties at its twenty-first session (November–December 2015).
+				Option 2:
+					(No text)
+				9.	Takes note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraph 4 above. They requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+				10th plenary meeting
+				12 December 2014
+				
+	Decision 21/CP.20
+	Parties included in Annex I to the Convention whose special circumstances are recognized by the Conference of the Parties
+		The Conference of the Parties,
+		Reaffirming decisions 26/CP.7, 1/CP.16, 2/CP.17 and 1/CP.18, which recognized that Turkey is in a situation different from that of other Parties included in Annex I to the Convention,
+		Also reaffirming the importance of financial, technological and capacity-building support to Parties included in Annex I to the Convention whose special circumstances are recognized by the Conference of the Parties in order to assist these Parties in implementing the Convention,
+		1.	Recognizes the opportunities for Parties included in Annex I to the Convention whose special circumstances are recognized by the Conference of the Parties to benefit, at least until 2020, from support from relevant bodies established under the Convention and other relevant bodies and institutions to enhance mitigation, adaptation, technology, capacity-building and access to finance;
+		2.	Encourages Parties included in Annex I to the Convention whose special circumstances are recognized by the Conference of the Parties to fully utilize those opportunities;
+		3.	Urges Parties included in Annex II to the Convention which are in a position to do so, through multilateral agencies, including the Global Environment Facility within its mandate, relevant intergovernmental organizations, international financial institutions, other partnerships and initiatives, bilateral agencies and the private sector, or through any further arrangements, as appropriate, to provide financial, technological, technical and capacity-building support to Parties included in Annex I to the Convention whose special circumstances are recognized by the Conference of the Parties in order to assist them in implementing their national strategies, actions and plans on climate change mitigation and adaptation, and in developing their low-emission development strategies or plans in accordance with decision 1/CP.16.
+		10th plenary meeting
+		12 December 2014
+		
+		
+	Decision 22/CP.20
+	Administrative, financial and institutional matters
+		The Conference of the Parties,
+		Recalling decision 27/CP.19, in which the programme budget for the biennium 2014–2015 was approved and the Executive Secretary was requested to report to the Conference of the Parties at its twentieth session on income and budget performance and to propose any adjustments that might be needed in the programme budget for the biennium 2014–2015,
+		Also recalling paragraph 11 of the financial procedures of the Conference of the Parties,
+		Having considered the information contained in the documents prepared by the secretariat on administrative, financial and institutional matters,
+I.	Audited financial statements for the biennium 2012–2013
+	1.	Takes note of the audited financial statements for the biennium 2012–2013, the audit report of the United Nations Board of Auditors, which includes recommendations, and the comments of the secretariat thereon;
+	2.	Expresses its appreciation to the United Nations for arranging the audits of the accounts of the Convention, and for the valuable observations and recommendations of the auditors;
+	3.	Urges the Executive Secretary to implement the recommendations of the auditors, as appropriate;
+	II.	Budget performance report for the biennium 2014–2015
+		4.	Takes note of the report on budget performance for the biennium 2014–2015 as at 30 June 2014 and the status of contributions as at 15 November 2014 to the trust funds administered by the secretariat;
+		5.	Expresses its appreciation to Parties that made contributions to the core budget in a timely manner;
+		6.	Calls upon Parties that have not yet made contributions to the core budget to do so without delay, bearing in mind that contributions are due on 1 January of each year in accordance with the financial procedures of the Conference of the Parties;
+		7.	Expresses its appreciation for the contributions received from Parties to the Trust Fund for Participation in the UNFCCC Process and to the Trust Fund for Supplementary Activities;
+		8.	Urges Parties to further contribute to the Trust Fund for Participation in the UNFCCC Process, in order to ensure the widest possible participation in the negotiations in 2015, and to the Trust Fund for Supplementary Activities;
+		9.	Reiterates its appreciation to the Government of Germany for its annual voluntary contribution to the core budget of EUR 766,938 and its special contribution of EUR 1,789,522 as Host Government of the secretariat;
+	III.	Programme budget for the biennium 2016–2017
+		10.	Requests the Executive Secretary to submit, for consideration by the Subsidiary Body for Implementation at its forty-second session (June 2015), a proposed programme budget for the biennium 2016–2017;
+		11.	Also requests the Executive Secretary, when preparing the programme budget for the biennium 2016–2017, to prepare a contingency for funding conference services, should this prove necessary in the light of decisions taken by the General Assembly at its seventieth session;
+		12.	Further requests the Subsidiary Body for Implementation to recommend, at its forty-second session, a programme budget for adoption by the Conference of the Parties at its twenty-first session and the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol at its eleventh session (November–December 2015);
+		13.	Authorizes the Executive Secretary to notify Parties of their indicative contributions for 2016 on the basis of the recommended budget.
+		10th plenary meeting
+			12 December 2014
+		
+	Decision 23/CP.20
+	Revisions to the financial procedures for the Conference of the Parties, its subsidiary bodies and the secretariat
+		The Conference of the Parties,
+			Noting that the United Nations General Assembly, by its resolution 60/283, approved the adoption of the International Public Sector Accounting Standards for the presentation of financial statements within the United Nations system,
+			Also noting that the UNFCCC secretariat, in keeping with the timeline established by the United Nations Secretariat, is scheduled to prepare its first financial statements in accordance with the International Public Sector Accounting Standards in April 2015,
+			Having considered the proposed revisions to the financial procedures for the Conference of the Parties, its subsidiary bodies and the secretariat required for the adoption of the International Public Sector Accounting Standards,
+			Approves the proposed revisions to the financial procedures for the Conference of the Parties, its subsidiary bodies and the secretariat required for the adoption of the International Public Sector Accounting Standards contained in the annex to document FCCC/SBI/2014/INF.9.
+			10th plenary meeting
+				12 December 2014
+			
+	Decision 24/CP.20
+	Dates and venues of future sessions
+		The Conference of the Parties,
+		Recalling Article 7, paragraph 4, of the Convention,
+		Also recalling United Nations General Assembly resolution 40/243 of 18 December 1985 on the pattern of conferences,
+		Further recalling rule 22, paragraph 1, of the draft rules of procedure being applied regarding the rotation of the office of President among the five regional groups,
+	I.	Dates and venues of future sessions
+		A.	Twenty-second session of the Conference of the Parties and twelfth session of the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol
+			1.	Notes with appreciation the expression of interest received from the Government of Morocco in relation to hosting the twenty-second session of the Conference of the Parties and the twelfth session of the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol, which will be held from Monday, 7 November to Friday, 18 November 2016;
+			2.	Requests the secretariat to initiate a fact-finding mission to Morocco and to report to the Bureau of the Conference of the Parties and the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol, by June 2015, on whether all logistical, technical, legal and financial elements for hosting the sessions are available there, in conformity with United Nations General Assembly resolution 40/243;
+			3.	Also requests the Subsidiary Body for Implementation to consider, at its forty-second session (June 2015), the issue of the host of the twenty-second session of the Conference of the Parties and the twelfth session of the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol, and to recommend a draft decision on this matter for consideration and adoption by the Conference of the Parties at its twenty-first session (November–December 2015);
+		B.	Twenty-third session of the Conference of the Parties and thirteenth session of the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol
+			4.	Notes that, in keeping with the principle of rotation among regional groups, the President of the twenty-third session of the Conference of the Parties and the thirteenth session of the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol would come from the Asia-Pacific States;
+			5.	Invites Parties to undertake further consultations on the hosting of those sessions, which will be held from Monday, 6 November to Friday, 17 November 2017;
+			6.	Requests the Subsidiary Body for Implementation, at its forty-second session, to consider the issue of the host of the twenty-third session of the Conference of the Parties and the thirteenth session of the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol and to recommend a draft decision on this matter for consideration and adoption by the Conference of the Parties at its twenty-first session;
+	II.	Calendar of meetings of the Convention and Kyoto Protocol bodies
+		7.	Takes note that, as recommended by the Subsidiary Body for Implementation at its fortieth session, future May/June sessions of the subsidiary bodies should commence on a Monday, and that, in order to enhance efficiency and time management, work should be completed one day earlier than previously , so as to finish the sessions on the Thursday of the second week, and that all meetings at those sessions taking place on the Saturday should be completed by midday in order to enhance the efficiency, timeliness and transparency of the work;
+		8.	Decides to adopt the following dates for the sessional periods in 2015, 2016, 2017, 2018 and 2019:
+		(a)	2015: Monday, 1 June to Thursday, 11 June and Monday, 30 November to Friday, 11 December;
+		(b)	2016: Monday, 16 May to Thursday, 26 May and Monday, 7 November to Friday, 18 November;
+		(c)	2017: Monday, 8 May to Thursday, 18 May and Monday, 6 November to Friday, 17 November;
+		(d)	2018: Monday, 30 April to Thursday, 10 May and Monday, 5 November to Friday, 16 November;
+		(e)	2019: Monday, 17 June to Thursday, 27 June and Monday, 11 November to Friday, 22 November.
+		10th plenary meeting
+			12 December 2014
+		
+	Resolution 1/CP.20
+	Expression of gratitude to the Government of the Republic of Peru and the people of the city of Lima
+		Draft resolution submitted by France
+			The Conference of the Parties and the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol,
+			Having met in Lima from 1 to 12 December 2014 at the invitation of the Government of the Republic of Peru,
+			1.	Express their profound gratitude to the Government of the Republic of Peru for having made it possible for the twentieth session of the Conference of the Parties and the tenth session of the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol to be held in Lima;
+			2.	Request the Government of the Republic of Peru to convey to the city and people of Lima the gratitude of the Conference of the Parties and the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol for the hospitality and warmth extended to the participants.
+			10th plenary meeting
+				14 December 2014
+			

@@ -1,0 +1,583 @@
+|  | United Nations | FCCC/SBI/2019/9 |
+|  |  | Distr.: General 5 August 2019  Original: English |
+
+Subsidiary Body for Implementation
+Report of the Subsidiary Body for Implementation on its fiftieth session, held in Bonn from 17 to 27 June 2019
+	Contents
+		Paragraphs	Page
+		Abbreviations and acronyms		4
+		I.	Opening of the session 
+		(Agenda item 1)		1–2	5
+		II.	Organizational matters 
+		(Agenda item 2)		3–12	5
+			A.	Adoption of the agenda		3–4	5
+			B.	Organization of the work of the session		5–7	7
+			C.	Multilateral assessment working group session under the international 
+assessment and review process		8	7
+			D.	Facilitative sharing of views under the international consultation and analysis 
+process		9–10	7
+			E.	Other mandated events		11	8
+			F.	Election of officers other than the Chair		12	8
+		III.	Reporting from and review of Parties included in Annex I to the Convention 
+		(Agenda item 3)		20	8
+			A.	Status of submission and review of seventh national communications and 
+third biennial reports from Parties included in Annex I to the Convention		13	8
+			B.	Compilations and syntheses of second and third biennial reports from 
+Parties included in Annex I to the Convention		14	8
+			C.	Report on national greenhouse gas inventory data from Parties 
+included in Annex I to the Convention for the period 1990–2016		14	8
+			D.	Revision of the modalities and procedures for international assessment 
+and review		15–19	9
+			E.	Revision of the “Guidelines for the preparation of national communications 
+by Parties included in Annex I to the Convention, Part II: UNFCCC reporting 
+guidelines on national communications”		20	9
+		IV.	Reporting from Parties not included in Annex I to the Convention 
+		(Agenda item 4)		21–30	10
+			A.	Information contained in national communications from Parties 
+not included in Annex I to the Conventionheld in abeyance)			10
+			B.	Terms of reference of the Consultative Group of Expert		21–23	10
+			C.	Provision of financial and technical support		24	10
+			D.	Summary reports on the technical analysis of biennial update reports of 
+Parties not included in Annex I to the Convention		25	11
+			E.	Revision of the modalities and guidelines for international consultation 
+and analysis		26–30	11
+		V.	Common time frames for nationally determined contributions referred to in 
+		Article 4, paragraph 10, of the Paris Agreement 
+		(Agenda item 5)		31–34	11
+		VI.	Matters relating to the mechanisms under the Kyoto Protocol 
+		(Agenda item 6)		35–36	12
+			A.	Review of the modalities and procedures for the clean development mechanism	35	12
+			B.	Procedures, mechanisms and institutional arrangements for appeals against 
+decisions of the Executive Board of the clean development mechanism		36	12
+		VII.	Scope of the next periodic review of the long-term global goal under the Convention
+		and of overall progress towards achieving it 
+		(Agenda item 7)		37–41	12
+		VIII.	Koronivia joint work on agriculture 
+		(Agenda item 8)		42–50	13
+		IX.	Terms of reference for the 2019 review of the Warsaw International Mechanism 
+		for Loss and Damage associated with Climate Change Impacts 
+		(Agenda item 9)		51–55	15
+		X.	Matters relating to the least developed countries 
+		(Agenda item 10)		56–76	16
+		XI.	Development and transfer of technologies: Poznan strategic programme on 
+		technology transfer 
+		(Agenda item 11)		77–84	17
+		XII.	Matters relating to the Adaptation Fund: membership of the 
+		Adaptation Fund Board 
+		(Agenda item 12)		85	18
+		XIII.	Matters relating to capacity-building for developing countries 
+		(Agenda item 13)		86–101	18
+			A.	Matters relating to capacity-building under the Convention, including 
+enhancing institutional arrangements and the review of the Paris Committee 
+on Capacity-building		86–96	18
+			B.	Matters relating to capacity-building under the Kyoto Protocol		97–101	19
+		XIV.	Matters relating to the forum on the impact of the implementation of response 
+		measures serving the Convention, the Kyoto Protocol and the Paris Agreement 
+		(Agenda item 14)		102–109	20
+		XV.	Terms of reference for the review of the Doha work programme on Article 6 
+		of the Convention 
+		(Agenda item 15)		110–112	21
+		XVI.	Gender and climate change 
+		(Agenda item 16)		113–117	21
+		XVII.	Arrangements for intergovernmental meetings 
+		(Agenda item 17)		118–139	22
+		XVIII.	Administrative, financial and institutional matters 
+		(Agenda item 18)		140–152	24
+			A.	Programme budget for the biennium 2020–2021			24
+			B.	Other financial and budgetary matters			24
+			C.	Continuous review of the functions and operations of the secretariat		140–152	24
+			D.	Annual report		153	25
+			E.	Implementation of the Headquarters Agreement		154–158	25
+		XIX.	Other matters 
+		(Agenda item 19)		159	26
+		XX.	Closure of and report on the session 
+		(Agenda item 20)		160–165	26
+		
+		Annexes
+		I.	Terms of reference for the 2019 review of the Warsaw International Mechanism 
+		for Loss and Damage associated with Climate Change Impacts		28
+		II.	Terms of reference for the review of the progress, need for extension, effectiveness 
+		and enhancement of the Paris Committee on Capacity-building		30
+		III.	Terms of reference for the fourth comprehensive review of the implementation of the 
+		framework for capacity-building in developing countries under the Convention		32
+		
+Addendum – FCCC/SBI/2019/9/Add.1
+Draft decisions forwarded for consideration and adoption by the Conference of the Parties and the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol
+	
+Addendum – FCCC/SBI/2019/9/Add.2
+Summary reports on multilateral assessments at the fiftieth session of the Subsidiary Body for Implementation
+
+	Abbreviations and acronyms
+		| ACE | Action for Climate Empowerment |
+		| Annex I Party | Party included in Annex I to the Convention |
+		| CGE | Consultative Group of Experts |
+		| CMA | Conference of the Parties serving as the meeting of the Parties to the Paris Agreement |
+		| CMP | Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol |
+		| COP | Conference of the Parties |
+		| CTCN | Climate Technology Centre and Network |
+		| FSV | facilitative sharing of views |
+		| GCF | Green Climate Fund |
+		| GEF | Global Environment Facility |
+		| IAR | international assessment and review |
+		| ICA | international consultation and analysis |
+		| ITL | international transaction log |
+		| KCI | Katowice Committee of Experts on the Impacts of the Implementation of Response Measures |
+		| KJWA | Koronivia joint work on agriculture |
+		| LDC | least developed country |
+		| LDCF | Least Developed Countries Fund |
+		| LEG | Least Developed Countries Expert Group |
+		| MA | multilateral assessment |
+		| NAP | national adaptation plan |
+		| NGO | non-governmental organization |
+		| non-Annex I Party | Party not included in Annex I to the Convention |
+		| PCCB | Paris Committee on Capacity-building |
+		| SB | sessions of the subsidiary bodies |
+		| SBI | Subsidiary Body for Implementation |
+		| SBSTA | Subsidiary Body for Scientific and Technological Advice |
+		| TEC | Technology Executive Committee |
+		| TNA | technology needs assessment |
+		| WIM | Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts |
+		
+		
+		I.	Opening of the session
+(Agenda item 1)
+			1.	SBI 50 was held at the World Conference Center Bonn in Bonn, Germany, from 17 to 27 June 2019.
+			2.	The Chair of the SBI, Emmanuel Dumisani Dlamini (Eswatini), opened the session on Monday, 17 June, and welcomed all Parties and observers. He informed the SBI that its Vice-Chair, Naser Moghaddasi (Islamic Republic of Iran), could not attend the session, and that the Rapporteur, Aysin Turpanci (Turkey), would be arriving later in the session.
+		II.	Organizational matters
+(Agenda item 2)
+			A.	Adoption of the agenda
+				(Agenda sub-item 2(a))
+					3.	At its 1st meeting, on 17 June, the SBI considered a note by the Executive Secretary containing the provisional agenda and annotations (FCCC/SBI/2019/1).
+					4.	On a proposal by the Chair, the SBI adopted the agenda as follows, with sub-item 4(a) held in abeyance:
+						1.	Opening of the session.
+						2.	Organizational matters:
+							(a)	Adoption of the agenda;
+							(b)	Organization of the work of the session;
+							(c)	Multilateral assessment working group session under the international assessment and review process;
+							(d)	Facilitative sharing of views under the international consultation and analysis process;
+							(e)	Other mandated events;
+							(f)	Election of officers other than the Chair.
+						3.	Reporting from and review of Parties included in Annex I to the Convention:
+							(a)	Status of submission and review of seventh national communications and third biennial reports from Parties included in Annex I to the Convention;
+							(b)	Compilations and syntheses of second and third biennial reports from Parties included in Annex I to the Convention;
+							(c)	Report on national greenhouse gas inventory data from Parties included in Annex I to the Convention for the period 1990–2016;
+							(d)	Revision of the modalities and procedures for international assessment and review;
+							(e)	Revision of the “Guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part II: UNFCCC reporting guidelines on national communications”.
+						4.	Reporting from Parties not included in Annex I to the Convention:
+							(a)	Information contained in national communications from Parties not included in Annex I to the Convention;
+							(b)	Terms of reference of the Consultative Group of Experts;
+							(c)	Provision of financial and technical support;
+							(d)	Summary reports on the technical analysis of biennial update reports of Parties not included in Annex I to the Convention;
+							(e)	Revision of the modalities and guidelines for international consultation and analysis.
+							5.	Common time frames for nationally determined contributions referred to in Article 4, paragraph 10, of the Paris Agreement.
+						6.	Matters relating to the mechanisms under the Kyoto Protocol:
+							(a)	Review of the modalities and procedures for the clean development mechanism;
+							(b)	Procedures, mechanisms and institutional arrangements for appeals against decisions of the Executive Board of the clean development mechanism.
+							7.	Scope of the next periodic review of the long-term global goal under the Convention and of overall progress towards achieving it.*
+						8.	Koronivia joint work on agriculture.*
+							9.	Terms of reference for the 2019 review of the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts.*
+						10.	Matters relating to the least developed countries.
+							11.	Development and transfer of technologies: Poznan strategic programme on technology transfer.
+							12.	Matters relating to the Adaptation Fund: membership of the Adaptation Fund Board.
+						13.	Matters relating to capacity-building for developing countries:
+							(a)	Matters relating to capacity-building under the Convention, including enhancing institutional arrangements and the review of the Paris Committee on Capacity-building;
+							(b)	Matters relating to capacity-building under the Kyoto Protocol.
+							14.	Matters relating to the forum on the impact of the implementation of response measures serving the Convention, the Kyoto Protocol and the Paris Agreement.*,
+							15.	Terms of reference for the review of the Doha work programme on Article 6 of the Convention.
+						16.	Gender and climate change.
+						17.	Arrangements for intergovernmental meetings.
+						18.	Administrative, financial and institutional matters:
+							(a)	Programme budget for the biennium 2020–2021;
+							(b)	Other financial and budgetary matters;
+							(c)	Continuous review of the functions and operations of the secretariat;
+								(d)	Annual report;
+								(e)	Implementation of the Headquarters Agreement.
+						19.	Other matters.
+						20.	Closure of and report on the session.
+			B.	Organization of the work of the session
+(Agenda sub-item 2(b))
+				5.	The SBI considered this agenda sub-item at its 1st meeting. The Chair drew attention to the deadline for all groups to conclude their work by 1 p.m. on Wednesday, 26 June, to ensure the timely availability of draft conclusions for the closing plenary, which was to be convened on Thursday, 27 June. On a proposal by the Chair, the SBI agreed to proceed on that basis and in line with previously adopted SBI conclusions on the timely conclusion of negotiations and related working practices.
+				6.	At the 2nd meeting of the SBI, on 17 June, which was held jointly with the 2nd meeting of the SBSTA, statements were made by representatives of 20 Parties, including 14 on behalf of groups of Parties: the African Group; the Alliance of Small Island States; the Arab Group; Argentina, Brazil and Uruguay; the Bolivarian Alliance for the Peoples of Our America – Peoples’ Trade Treaty; Brazil, South Africa, India and China; the Coalition for Rainforest Nations; the Environmental Integrity Group; the European Union and its member States; the Group of 77 and China; the Independent Association for Latin America and the Caribbean; the LDCs; the Like-minded Developing Countries; and the Umbrella Group. Statements were also made on behalf of business and industry NGOs, environmental NGOs, farmers NGOs, indigenous peoples organizations, local government and municipal authorities, research and independent NGOs, trade union NGOs, women and gender NGOs and youth NGOs.
+				7.	At the resumed 3rd meeting and 5th meeting of the SBI, on 27 June, which were held jointly with the 3rd and 4th meetings of the SBSTA, closing statements were made by representatives of NGOs (see para. 162 below) and representatives of Parties and groups of Parties (see para. 164 below), respectively.
+			C.	Multilateral assessment working group session under the international assessment and review process
+(Agenda sub-item 2(c))
+				8.	The SBI considered this agenda sub-item at its 1st meeting and took note of the information provided by its Chair on the organization of the MA working group session under the IAR process that was to take place on 24 and 25 June. A summary report on the MA of the 19 Annex I Parties assessed at the session is contained in addendum 2 to this report.
+			D.	Facilitative sharing of views under the international consultation and analysis process
+(Agenda sub-item 2(d))
+				9.	The SBI considered this agenda sub-item at its 1st meeting and took note of the information provided by its Chair on the organization of the workshop for FSV under the ICA process that was to take place on 19 June.
+				10.	The Chair drew attention to the ICA modalities and guidelines as well as to the FSV web pages. He informed the SBI that the output of the ICA process will include, for each of the nine non-Annex I Parties participating in the above-mentioned FSV workshop, a record of the proceedings of the FSV session and a summary report as the outcome of the technical analysis of the Party’s biennial update report (see para. 25 below).
+			E.	Other mandated events
+(Agenda sub-item 2(e))
+				11.	The SBI considered this agenda sub-item at its 1st meeting and took note of the information provided on the other mandated events being held at the session.
+			F.	Election of officers other than the Chair
+(Agenda sub-item 2(f))
+				12.	The SBI considered this agenda sub-item at its 1st meeting. The Chair recalled that the SBI was expected to elect its Rapporteur, an additional Vice-Chair and an additional Rapporteur from a Party to the Paris Agreement. The SBI elected Ms. Turpanci as Rapporteur; Yeonchul Yoo (Republic of Korea) as additional Vice-Chair; and Constantinos Cartalis (Greece) as additional Rapporteur.
+		III.	Reporting from and review of Parties included in Annex I to the Convention
+(Agenda item 3)
+			A.	Status of submission and review of seventh national communications and third biennial reports from Parties included in Annex I to the Convention
+(Agenda sub-item 3(a))
+				13.	The SBI considered this agenda sub-item at its 1st meeting and took note of the information contained in document FCCC/SBI/2019/INF.7.
+			B.	Compilations and syntheses of second and third biennial reports from Parties included in Annex I to the Convention
+(Agenda sub-item 3(b))
+			C.	Report on national greenhouse gas inventory data from Parties included in Annex I to the Convention for the period 1990–2016
+(Agenda sub-item 3(c))
+				14.	The SBI considered these agenda sub-items at its 1st meeting and the first part of its 3rd meeting. At its 1st meeting, the SBI agreed that its Chair would hold consultations with interested Parties on the matters. At the first part of its 3rd meeting, the SBI agreed to continue consideration of these matters at SBI 51 (December 2019).
+			D.	Revision of the modalities and procedures for international assessment and review
+(Agenda sub-item 3(d))
+				1.	Proceedings
+					15.	The SBI considered this agenda sub-item at its 1st meeting and the first part of its 3rd meeting. At its 1st meeting, the SBI agreed that its Chair would hold consultations with interested Parties on the matter. At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+				2.	Conclusions
+					16.	The SBI continued its consideration, as agreed at SBI 46, of the revision of the modalities and procedures for IAR.
+					17.	The SBI noted that the IAR process has contributed to enhancing the transparency of developed country Parties’ progress towards their economy-wide emission reduction targets for 2020. It welcomed the engagement of 43 Parties in the first two cycles of IAR and 41 Parties in the third cycle.
+					18.	The SBI acknowledged the positive experience with the IAR process and its contribution to the adoption of the modalities, procedures and guidelines for the transparency framework for action and support referred to in Article 13 of the Paris Agreement. In this context, the SBI agreed that gaining further experience in the IAR process would be useful.
+					19.	The SBI also agreed to continue consideration of this matter at SBI 54 (May–June 2021).
+			E.	Revision of the “Guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part II: UNFCCC reporting guidelines on national communications”
+(Agenda sub-item 3(e))
+				20.	The SBI considered this agenda sub-item at its 1st meeting and the first part of its 3rd meeting. At its 1st meeting, the SBI agreed that its Chair would hold consultations with interested Parties on the matter. At the first part of its 3rd meeting, the SBI, having completed its work on the revision of the “Guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part II: UNFCCC reporting guidelines on national communications”, recommended a draft decision, with the revised guidelines contained in the annex to that draft decision, for consideration and adoption at COP 25 (December 2019).
+		IV.	Reporting from Parties not included in Annex I to the Convention
+(Agenda item 4)
+			A.	Information contained in national communications from Parties not included in Annex I to the Convention
+(Agenda sub-item 4(a) held in abeyance)
+			B.	Terms of reference of the Consultative Group of Experts 
+(Agenda sub-item 4(b))
+				1.	Proceedings
+					21.	The SBI considered this agenda sub-item at its 1st meeting and the first part of its 3rd meeting. The Chair of the CGE, Gervais Ludovic Itsoua Madzous (Congo), made a statement. At its 1st meeting, the SBI agreed to consider the matter in informal consultations co-facilitated by Sin Liang Cheah (Singapore) and Gertraud Wollansky (Austria). At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+				2.	Conclusions
+					22.	The SBI initiated its review and revision of the terms of reference of the CGE, taking into account the functions referred to in the annex to decision 19/CP.19, the annual reports of the CGE, and decision 18/CMA.1, paragraph 15, with a view to recommending a draft decision for consideration and adoption at COP 25. However, the SBI did not conclude this work owing to the limited time available at the session and agreed to continue its work at SBI 51.
+					23.	The SBI requested its Chair, with the assistance of any co-facilitators that may be assigned to this matter, to convene an informal discussion during SBI 51 to promote a better understanding of Parties’ views and positions on this matter.
+			C.	Provision of financial and technical support
+(Agenda sub-item 4(c))
+				24.	The SBI considered this agenda sub-item at its 1st meeting and the first part of its 3rd meeting. At the 1st meeting, the Chair invited a representative of the GEF to make a statement. At the same meeting, the SBI agreed to consider the matter in informal consultations co-facilitated by Mr. Cheah and Ms. Wollansky. At the first part of its 3rd meeting, the SBI agreed to continue consideration of this matter at SBI 51.
+			D.	Summary reports on the technical analysis of biennial update reports of Parties not included in Annex I to the Convention
+(Agenda sub-item 4(d))
+				25.	The SBI considered this agenda sub-item at its 1st meeting. It took note of the summary reports made available on the UNFCCC website by 15 March 2019.
+			E.	Revision of the modalities and guidelines for international consultation and analysis
+(Agenda sub-item 4(e))
+				1.	Proceedings
+					26.	The SBI considered this agenda sub-item at its 1st meeting and the first part of its 3rd meeting. At its 1st meeting, the SBI agreed that its Chair would hold consultations with interested Parties on the matter. At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+				2.	Conclusions
+					27.	The SBI continued its consideration, as agreed at SBI 48, of the revision of the modalities and procedures for ICA.
+					28.	The SBI noted that the ICA process has contributed to the enhanced transparency of developing country Parties’ mitigation actions and their effects. It welcomed the completion of the first round of ICA for 39 non-Annex I Parties, of which 8 have also completed their second round of ICA.
+					29.	The SBI acknowledged the positive experience with the ICA process and its contribution to the adoption of the modalities, procedures and guidelines for the transparency framework for action and support referred to in Article 13 of the Paris Agreement. In this context, the SBI agreed that gaining further experience in the ICA process would be useful.
+					30.	The SBI also agreed to continue consideration of this matter at SBI 54.
+		V.	Common time frames for nationally determined contributions referred to in Article 4, paragraph 10, of the Paris Agreement
+(Agenda item 5)
+			1.	Proceedings
+				31.	The SBI considered this agenda item at its 1st meeting and the first part of its 3rd meeting. At its 1st meeting, the SBI agreed to consider the matter in informal consultations co-facilitated by Gregoire Baribeau (Canada) and George Wamukoya (Kenya). At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				32.	The SBI continued its consideration of common time frames for nationally determined contributions referred to in Article 4, paragraph 10, of the Paris Agreement.
+				33.	The SBI took note of the rich exchange of views and range of options considered and proposed by Parties on this matter, and noted that Parties may provide further views at any time.
+				34.	The SBI welcomed the progress of and agreed to continue the consideration of this matter at SBI 51 with a view to recommending a draft decision thereon for consideration and adoption by the CMA.
+		VI.	Matters relating to the mechanisms under the Kyoto Protocol
+(Agenda item 6)
+			A.	Review of the modalities and procedures for the clean development mechanism
+(Agenda sub-item 6(a))
+				35.	The SBI considered this agenda sub-item at its 1st meeting and the first part of its 3rd meeting. At its 1st meeting, the SBI agreed that its Chair would hold consultations with interested Parties on the matter. At the first part of its 3rd meeting, the Chair informed Parties that the consultations had not resulted in any conclusions, and that, in accordance with rules 10(c) and 16 of the draft rules of procedure being applied, the matter will be included on the provisional agenda for SBI 51.
+			B.	Procedures, mechanisms and institutional arrangements for appeals against decisions of the Executive Board of the clean development mechanism
+(Agenda sub-item 6(b))
+				36.	The SBI considered this agenda sub-item at its 1st meeting and agreed to continue consideration of this matter at SBI 52 (June 2020).
+		VII.	Scope of the next periodic review of the long-term global goal under the Convention and of overall progress towards achieving it
+(Agenda item 7)
+			1.	Proceedings
+				37.	The SBI considered this agenda item at its 1st meeting and the first part of its 3rd meeting. At its 1st meeting, the SBI agreed that the item would be considered together with the equally titled SBSTA 50 agenda sub-item 6(a) in informal consultations co-facilitated by Leon Charles (Grenada) and Madoka Yoshino (Japan). At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				38.	The SBI and the SBSTA recalled decisions 1/CP.16, 2/CP.17, 1/CP.18, 10/CP.21 and 18/CP.23, and continued their consideration of the scope of the next periodic review at this session.
+				39.	The SBI and the SBSTA noted that Parties exchanged their views on this matter at this session.
+				40.	The SBI and the SBSTA took note of decision 19/CMA.1 on the global stocktake, the Talanoa Dialogue undertaken in 2018 and the ongoing technical examination processes.
+				41.	The SBI and the SBSTA agreed to continue consideration of this matter at SB 51 (December 2019) with a view to forwarding a recommendation for consideration at COP 25.
+		VIII.	Koronivia joint work on agriculture
+(Agenda item 8)
+			1.	Proceedings
+				42.	The SBI considered this agenda item at its 1st meeting and the first part of its 3rd meeting. It had before it document FCCC/SB/2019/INF.1 and the submissions related to the agenda item. At its 1st meeting, the SBI agreed that the item would be considered together with the equally titled SBSTA 50 agenda item 5 in informal consultations co-facilitated by Heikki Granholm (Finland) and Milagros Sandoval (Peru). At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				43.	The SBI and the SBSTA continued their joint work on addressing issues related to agriculture.
+				44.	The SBI and the SBSTA welcomed the report on the first Koronivia road map in-session workshop, on topic 2(a) (modalities for implementation of the outcomes of the five in-session workshops on issues related to agriculture and other future topics that may arise from this work), which was held in conjunction with SB 49. The SBSTA and the SBI considered the workshop report and agreed to:
+					(a)	Recognize that information provided during the workshop and in the workshop report and other information provides a mapping of activities and mandates of constituted bodies;
+					(b)	Encourage the continued involvement of constituted bodies and financing entities in the KJWA, highlighting the potential for creating interlinkages that lead to enhanced action and improvements in implementation;
+					(c)	Recognize that some modalities for implementation already exist and invite Parties to scale up implementation;
+					(d)	Recognize the importance of the continued involvement of scientific and technical knowledge in transforming the agriculture sector, enabling conditions, the crucial role of farmers, youth, local communities and indigenous peoples, including gender considerations, and of meeting the needs of farmers and food systems;
+					(e)	Welcome the presentation made by the GCF on its work on issues relating to agriculture, and welcome the subsequent clarification by the secretariat on the process for Parties to submit their views to the Standing Committee on Finance, in line with existing procedures, on elements to be taken into account in developing guidance for the operating entities of the Financial Mechanism.
+				45.	The SBI and the SBSTA also welcomed the two Koronivia road map workshops held at these sessions, on topic 2(b) (methods and approaches for assessing adaptation, adaptation co-benefits and resilience) and 2(c) (improved soil carbon, soil health and soil fertility under grassland and cropland as well as integrated systems, including water management), and looked forward to considering the reports on the workshops at SB 51. They further welcomed the submissions from Parties and observers that served as input to the workshops.
+				46.	The SBI and the SBSTA welcomed the participation in the workshops of observers and representatives of the operating entities of the Financial Mechanism (GEF and GCF), the Adaptation Fund, the GEF-administered LDCF, and the constituted bodies under the Convention. They noted with appreciation the work already undertaken on issues related to agriculture by those entities, and recalled inviting them to contribute to the work and participate in the workshops set out in the Koronivia road map.
+				47.	The SBI and the SBSTA requested the secretariat to organize, in addition to the workshops mandated in the Koronivia road map and subject to the availability of supplementary funds, an intersessional workshop between SB 51 and 52 (June 2020) to contribute to delivering the outcomes of the KJWA, taking into consideration the vulnerabilities of agriculture to climate change and approaches to addressing food security, and to prepare a report on the workshop for consideration at SB 52. They took note of the importance of issues, including, but not limited to, farmers, gender, youth, and local communities and indigenous peoples. They welcomed with appreciation the offer of the Government of New Zealand to host the workshop. They requested the secretariat to take into account the following elements when organizing the workshop:
+					(a)	Sustainable land and water management, including integrated watershed management strategies, to ensure food security;
+					(b)	Strategies and modalities to scale up implementation of best practices, innovations and technologies that increase resilience and sustainable production in agricultural systems according to national circumstances.
+				48.	The SBI and the SBSTA recalled their invitation to Parties and observers to submit via the submission portal by 30 September 2019 their views on topic 2(d) of the Koronivia road map (improved nutrient use and manure management towards sustainable and resilient agricultural systems), on which a workshop will be held in conjunction with SB 51.
+				49.	The SBI and the SBSTA agreed to continue consideration of this matter at SB 51.
+				50.	The SBI and the SBSTA took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraph 47 above. They requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+		IX.	Terms of reference for the 2019 review of the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts
+(Agenda item 9)
+			1.	Proceedings
+				51.	The SBI considered this agenda item at its 1st meeting and the first part of its 3rd meeting. It had before it document FCCC/TP/2019/1 and the submissions related to the item. At its 1st meeting, the SBI agreed that the item would be considered together with the equally titled SBSTA 50 agenda item 4 in informal consultations co-facilitated by Marianne Karlsson (Norway) and Pepetua Latasi (Tuvalu). At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				52.	In accordance with decision 4/CP.22, paragraph 2(d), the SBI and the SBSTA finalized the terms of reference for the 2019 review of the WIM.
+				53.	The SBI and the SBSTA agreed to undertake the review at SB 51 based on the terms of reference contained in annex I and forward the output of the review to the appropriate body or bodies.
+				54.	The SBI and the SBSTA invited Parties and other stakeholders to submit via the submission portal by 16 October their views on the review of the WIM, on the basis of the terms of reference, for consideration at SB 51.
+				55.	The SBI and the SBSTA took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in annex I and requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+		X.	Matters relating to the least developed countries
+(Agenda item 10)
+			1.	Proceedings
+				56.	The SBI considered this agenda item at its 1st meeting and the first part of its 3rd meeting. It had before it document FCCC/SBI/2019/5. At the 1st meeting, the Chair invited Hana Hamadalla Mohamed (Sudan), Chair of the LEG, to deliver a brief oral report on the work of the LEG. At its 1st meeting, the SBI agreed to consider the matter in informal consultations co-facilitated by Ms. Latasi and Malcolm Ridout (United Kingdom of Great Britain and Northern Ireland). At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				57.	The SBI welcomed the report on the 35th meeting of the LEG, held in South Tarawa, Kiribati, from 26 February to 3 March 2019.
+				58.	The SBI expressed its gratitude to the Government of Kiribati for hosting the meeting.
+				59.	The SBI also expressed its appreciation to the LEG and the secretariat for their work on supporting the LDCs. It welcomed the two-year rolling work programme of the LEG for 2019–2020, and encouraged the LEG to prioritize its work, taking into account its mandates, including decision 11/CMA.1, and the availability of resources.
+				60.	The SBI also welcomed the successful conduct of the Korea Global Adaptation Week, including the NAP Expo 2019, in Songdo, Republic of Korea, from 8 to 12 April 2019, and expressed its gratitude to the Government of the Republic of Korea for hosting the event.
+				61.	The SBI further welcomed the information provided by the LEG on Open NAPs and invited Parties and interested organizations to participate in this initiative in order to contribute to the success of the process to formulate and implement NAPs.
+				62.	The SBI noted the progress made by the LEG in its technical work and products relating to NAPs and the Paris Agreement, and invited Parties to make use of LEG technical work and products, where relevant.
+				63.	The SBI looked forward to the training workshop on NAPs for the LDCs, to be organized by the LEG and relevant partners.
+				64.	The SBI noted that 8 of the 77 proposals received from developing countries for accessing funding from the GCF Readiness and Preparatory Support Programme for the formulation of NAPs that had been approved by the GCF secretariat as at 17 June 2019 were from the LDCs.
+				65.	The SBI also noted that 27 of the 77 proposals referred to in paragraph 64 above had received funds, and that 7 of those were from the LDCs.
+				66.	The SBI invited delivery partners of the GCF Readiness and Preparatory Support Programme for the formulation of NAPs to strengthen efforts to support the LDCs with the goal of expediting the submission of readiness proposals to the GCF.
+				67.	The SBI welcomed the approval of 11 projects and programmes representing a total allocation of USD 100.6 million from the LDCF as at 18 June 2019.
+				68.	The SBI noted with appreciation the financial pledges totalling USD 71.3 million made by the Governments of Belgium (Walloon Region), Denmark, Finland, France, Ireland, the Netherlands and Switzerland to the LDCF and urged additional contributions to the Fund.
+				69.	The SBI also noted the ongoing collaboration of the LEG with the Adaptation Committee, other constituted bodies under the Convention, partners of the Nairobi work programme on impacts, vulnerability and adaptation to climate change and a wide range of relevant organizations, agencies and regional centres and networks, and encouraged the continuation of this collaboration.
+				70.	The SBI invited Parties and relevant organizations to continue to provide resources in support of the implementation of the LEG work programme.
+				71.	The SBI took note of the information note on LDCF support for graduating LDCs prepared by the GEF.
+				72.	The SBI decided to recommend that in its decision on guidance to the GEF, COP 25 request the GEF, in administering the LDCF, to continue facilitating the smooth transition of countries graduating from LDC status by continuing to provide approved funding through the LDCF until the completion of projects approved by the LDCF Council prior to those countries’ graduation from LDC status.
+				73.	The SBI invited other entities providing support for the elements of the LDC work programme as agreed in decision 16/CP.24, paragraph 3(a–h), to continue providing support, within the scope of their respective mandates, for graduating LDCs for a period of three years from the date of their graduation.
+				74.	The SBI agreed to recommend to the COP to extend the LDC‑specific financial provisions related to the Trust Fund for Participation in the UNFCCC Process with respect to the meetings under the Convention, the Kyoto Protocol and the Paris Agreement and the indicative scale of contributions to the Trust Fund for the Core Budget of the UNFCCC to countries that have graduated from LDC status for a period of three years from the date of their graduation, taking into account United Nations General Assembly resolution 67/221, with a view to including this matter in the deliberations on the programme budget for the biennium 2022–2023.
+				75.	The SBI requested the LEG to extend support to countries that have graduated from LDC status in its capacity-building activities, such as for participation in training activities, workshops, expert meetings and other outreach events, for a period of three years from the date of their graduation.
+				76.	The SBI took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in these conclusions and requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+		XI.	Development and transfer of technologies: Poznan strategic programme on technology transfer
+(Agenda item 11)
+			1.	Proceedings
+				77.	The SBI considered this agenda item at its 1st meeting and the first part of its 3rd meeting. It had before it documents FCCC/SBI/2019/7 and FCCC/CP/2018/6. At its 1st meeting, the SBI agreed to consider the matter in informal consultations co-facilitated by Stella Gama (Malawi) and Elfriede More (Austria). At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				78.	The SBI welcomed the information on progress in the implementation of the Poznan strategic programme on technology transfer contained in the report of the GEF to COP 24 and noted the related challenges and lessons learned.
+				79.	The SBI welcomed the continued support provided by the GEF for technology development and transfer, including innovation. It also welcomed the ongoing collaboration between the regional climate technology transfer and finance centres and the CTCN. It encouraged the GEF, the regional centres and the CTCN to continue to collaborate with a view to providing further support to developing country Parties for scaling up their technology-related action for enhanced mitigation and adaptation action, in a balanced manner.
+				80.	The SBI noted the information provided in the report referred to in paragraph 78 above on the collaboration between the GEF focal points and national designated entities for technology development and transfer in response to an invitation from SBI 47, and encouraged strengthened collaboration so as to enhance coherence between the support provided by the GEF and that provided by the CTCN for technology transfer activities. It also encouraged the GEF and the CTCN to facilitate the collaboration, as appropriate.
+				81.	The SBI also noted the report of the TEC on the updated evaluation of the Poznan strategic programme, undertaken with the aim of enhancing the effectiveness of the Technology Mechanism. It welcomed the information on the experience and lessons learned identified in the report and encouraged relevant stakeholders to consider best practices and lessons learned, including challenges, regarding each regional centre.
+				82.	The SBI invited the CTCN and the TEC to include in their joint annual report for 2019 information on how they will address the key messages and relevant recommendations contained in the report referred to in paragraph 81 above.
+				83.	The SBI agreed to continue to consider the recommendations contained in the report referred to in paragraph 81 above at SBI 51.
+				84.	The SBI requested the secretariat to prepare an updated synthesis report on TNAs, including the TNAs and technology action plans of Parties that participated in phase II of the global TNA project and taking into account the terminal evaluation of phases I and II of the project, for consideration at SBI 52.
+		XII.	Matters relating to the Adaptation Fund: membership of the Adaptation Fund Board
+(Agenda item 12)
+			85.	The SBI considered this agenda item at its 1st meeting and the first part of its 3rd meeting. At its 1st meeting, the SBI agreed to consider the matter in informal consultations co-facilitated by Amjad Abdulla (Maldives) and Fiona Gilbert (Australia). At the first part of its 3rd meeting, the Chair informed Parties that the consultations had not resulted in any conclusions, and that, in accordance with rules 10(c) and 16 of the draft rules of procedure being applied, the matter will be included on the provisional agenda for SBI 51.
+		XIII.	Matters relating to capacity-building for developing countries
+(Agenda item 13)
+			A.	Matters relating to capacity-building under the Convention, including enhancing institutional arrangements and the review of the Paris Committee on Capacity-building
+(Agenda sub-item 13(a))
+				1.	Proceedings
+					86.	The SBI considered this agenda sub-item at its 1st meeting and the first part of its 3rd meeting. It had before it documents FCCC/SBI/2019/2 and Add.1, FCCC/SBI/2019/3 and FCCC/SBI/2019/INF.3, as well as the submissions related to the sub-item. At its 1st meeting, the SBI agreed to consider the matter in informal consultations co-facilitated by Felipe Osses (Chile) and Ismo Ulvila (European Union). At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+				2.	Conclusions
+					87.	The SBI continued its deliberations on the review of the progress, need for extension, effectiveness and enhancement of the PCCB in accordance with decision 1/CP.21, paragraph 81, on the basis of the views of Parties and observers submitted in response to the invitation by the SBI and of the compilation and synthesis report on those submissions.
+					88.	The SBI invited Parties and observers to submit their views on the review of the PCCB, taking into consideration the terms of reference contained in annex II, via the submission portal by 31 October 2019 for consideration at SBI 51.
+					89.	The SBI requested the secretariat to prepare a synthesis of the submissions referred to in paragraph 88 above for consideration at SBI 51.
+					90.	The SBI agreed to continue its deliberations on the review of the PCCB at SBI 51 on the basis of the terms of reference contained in annex II.
+					91.	The SBI initiated the fourth comprehensive review of the implementation of the framework for capacity-building in developing countries under the Convention in accordance with decision 16/CP.22.
+					92.	The SBI noted that there are current and emerging capacity-building areas related to the implementation of the Paris Agreement in developing countries, and noted that these areas could be considered in the context of the fourth comprehensive review of the implementation of the framework for capacity-building in developing countries under the Convention.
+					93.	The SBI agreed to continue its deliberations at SBI 51 on the fourth comprehensive review of the implementation of the framework for capacity-building in developing countries under the Convention on the basis of the terms of reference contained in annex III.
+					94.	The SBI invited Parties and observers to submit their views on the fourth comprehensive review of the implementation of the framework for capacity-building in developing countries under the Convention, taking into consideration the terms of reference contained in annex III, via the submission portal by 30 September 2019 for consideration at SBI 51.
+					95.	The SBI requested the secretariat to prepare a synthesis of the submissions referred to in paragraph 94 above for consideration at SBI 51.
+					96.	The SBI agreed to continue consideration of these matters at SBI 51 with a view to recommending a draft decision on enhancing institutional arrangements for capacity-building for consideration and adoption at COP 25, taking into account Article 11, paragraph 5, of the Paris Agreement.
+			B.	Matters relating to capacity-building under the Kyoto Protocol
+(Agenda sub-item 13(b))
+				1.	Proceedings
+					97.	The SBI considered this agenda sub-item at its 1st meeting and the first part of its 3rd meeting. It had before it documents FCCC/SBI/2019/2 and Add.1 and FCCC/SBI/2019/3. At its 1st meeting, the SBI agreed to consider the matter in informal consultations co-facilitated by Mr. Osses and Mr. Ulvila. At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+				2.	Conclusions
+					98.	The SBI welcomed the synthesis reports prepared by the secretariat on the implementation of the framework for capacity-building in developing countries established under decision 2/CP.7, and the capacity-building work of bodies established under the Convention and its Kyoto Protocol.
+					99.	The SBI noted the importance of the capacity-building portal and the Durban Forum on capacity-building as means for effective and continuous sharing of information, good practices and lessons learned among a wide spectrum of stakeholders operating under and outside the Convention.
+					100.	The SBI noted with appreciation the outcomes of the 8th meeting of the Durban Forum on capacity-building, held at this session, on strengthening institutions at the national level to support capacity-building activities for the implementation of nationally determined contributions in developing countries.
+					101.	The SBI highlighted the importance of considering the outcomes of the fourth comprehensive review of the implementation of the framework for capacity-building in developing countries under the Convention as an input to the fourth review of the framework for capacity-building in developing countries under the Kyoto Protocol.
+		XIV.	Matters relating to the forum on the impact of the implementation of response measures serving the Convention, the Kyoto Protocol and the Paris Agreement
+(Agenda item 14)
+			1.	Proceedings
+				102.	The SBI considered this agenda item at its 1st meeting and the first part of its 3rd meeting. It had before it the submissions related to the item. At its 1st meeting, the SBI agreed that the item would be considered together with the equally titled SBSTA 50 agenda item 9, and that the forum would be convened as a contact group co-chaired by Xolisa Ngwadla (South Africa) and Delano Ruben Verwey (Netherlands). At the same meeting, the Chair invited a co-chair of the KCI to make a brief intervention on the highlights of the 1st KCI meeting. At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				103.	The SBI and the SBSTA convened the meeting of the forum on the impact of the implementation of response measures in accordance with decisions 7/CMA.1, 7/CP.24 and 3/CMP.14.
+				104.	The forum welcomed the 1st meeting of the KCI, held in conjunction with these sessions, which supports the work of the forum in accordance with decision 7/CMA.1, and noted the progress made at the 1st KCI meeting.
+				105.	The SBI and the SBSTA took note of the draft rules of procedure prepared by the KCI and invited the KCI to append the draft rules of procedure to its annual report to the forum with a view to the forum considering them during SB 51 and forwarding them for adoption by the COP, the CMP and the CMA.
+				106.	The SBI and the SBSTA requested the forum to finalize the six-year workplan of the forum and the KCI at SB 51.
+				107.	The SBI and the SBSTA took note of the informal documents, which have no hierarchy over each other, which were prepared by the co-chairs on their own responsibility, which have no status and do not reflect the consensus views of Parties.
+				108.	The SBI and the SBSTA agreed that the KCI, at its 2nd meeting, will exchange lessons learned and best practices on analysis and assessment of positive and negative impacts of the implementation of response measures by Parties and report to the forum in accordance with paragraph 4(j) of the annex to decision 7/CMA.1.
+				109.	The SBI and the SBSTA took note of the estimated budgetary implications of the actions to be undertaken by the secretariat referred to in paragraph 108 above and requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+		XV.	Terms of reference for the review of the Doha work programme on Article 6 of the Convention
+(Agenda item 15)
+			1.	Proceedings
+				110.	The SBI considered this agenda item at its 1st meeting and the first part of its 3rd meeting. It had before it the submissions related to the item. At its 1st meeting, the SBI agreed to consider the matter in informal consultations facilitated by Helmut Hojeski (Austria). At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				111.	The SBI acknowledged the outcomes of the 7th Dialogue on ACE, held at the session, and expressed its gratitude to Parties, observer organizations and other stakeholders for sharing experience and exchanging ideas, good practices and lessons learned to advance the discussions on the review of the Doha work programme on Article 6 of the Convention and ways of enhancing the implementation of education, training, public awareness, public participation, public access to information, and international and regional cooperation so as to also enhance actions under Article 12 of the Paris Agreement.
+				112.	The SBI recommended a draft decision on the terms of reference for the review of the Doha work programme for consideration and adoption at COP 25.
+		XVI.	Gender and climate change
+(Agenda item 16)
+			1.	Proceedings
+				113.	The SBI considered this agenda item at its 1st meeting and the first part of its 3rd meeting. It had before it document FCCC/SBI/2019/INF.8 and the submissions related to the item. At the 1st meeting, the SBI agreed to consider the matter in informal consultations co-facilitated by Colin O’Hehir (Ireland) and Penda Kante Thiam (Senegal). At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				114.	The SBI initiated the review of the areas of progress, areas for improvement and further work to be undertaken under the Lima work programme on gender and its gender action plan on the basis of all submissions received and reports produced thereunder. It encouraged Parties, constituted bodies and observers to continue to consult during 2019, including through meetings, and recalled its encouragement to Parties and observers to submit their views by 30 August 2019.
+				115.	The SBI welcomed the synthesis report prepared by the secretariat on the differentiated impacts of climate change on women and men, the integration of gender considerations into climate policies, plans and actions, and progress in enhancing gender balance in national climate delegations.
+				116.	The SBI acknowledged with appreciation the participation of and contributions by Parties and observers to the workshop on the short- and long-term impacts of its gender action plan held at this session.
+				117.	The SBI advanced its consideration of the review of the Lima work programme on gender and its gender action plan, and agreed to continue its consideration at SBI 51 on the basis of all submissions received and reports produced under the Lima work programme on gender and its gender action plan, including the informal note prepared by the co-facilitators of the informal consultations on this agenda item, with a view to recommending a draft decision thereon for consideration and adoption at COP 25.
+		XVII.	Arrangements for intergovernmental meetings
+(Agenda item 17)
+			1.	Proceedings
+				118.	The SBI considered this agenda item at its 1st meeting and the first part of its 3rd meeting. It had before it documents FCCC/SBI/2019/6 and FCCC/SBI/2019/INF.1 and Add.1, as well as the submissions related to the item. At its 1st meeting, the SBI agreed to consider the matter in a contact group chaired by Una May Gordon (Jamaica). At the first part of its 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				119.	The SBI took note of the document on arrangements for intergovernmental meetings and the views on the frequency and location of sessions of the governing bodies after 2020, including their budgetary and other implications.
+				120.	The SBI also took note with appreciation of the preparations by the Government of Chile for ensuring the success of the United Nations Climate Change Conference to be held in Santiago from 2 to 13 December 2019, which will include COP 25, CMP 15 and CMA 2.
+				121.	The SBI invited the incoming Presidency of COP 25, CMP 15 and CMA 2, in consultation with the secretariat and the Bureau, to finalize the details of the arrangements of the Conference and to keep Parties informed.
+				122.	The SBI emphasized the importance of following the principles of openness, transparency and inclusiveness, and adhering to established procedures on decision-making in making arrangements for the Conference.
+				123.	The SBI welcomed the continued efforts of the Presidency, the incoming Presidency and the presiding officers of the subsidiary bodies to ensure the efficiency, coordination, coherence, management and due process in the consideration of issues under discussion.
+				124.	The SBI requested the secretariat to take note of the views expressed by Parties on the possible elements of the provisional agendas for COP 25, CMP 15 and CMA 2.
+				125.	The SBI agreed to continue to have joint meetings of the supreme bodies during the high-level segment of the Conference and invited the secretariat to make arrangements for the delivery of concise national statements by ministers and other heads of delegation with a recommended time limit of three minutes, and statements by representatives of intergovernmental organizations and NGOs with a recommended time limit of two minutes.
+				126.	The SBI took note of the need to ensure efficient time management during the Conference and requested the presiding officers, with the support of the secretariat, to continue to enhance efforts in this regard, noting the improvements that have already been made during past sessions and taking into account the views of Parties.
+				127.	The SBI underlined the importance of the stocktake on pre-2020 implementation and ambition and the high-level event on enhancing climate action.
+				128.	The SBI noted that, in keeping with the principle of rotation among the regional groups, the President of COP 26 would come from the Western European and other States. The SBI encouraged the Western European and other States to present an offer to host COP 26 as soon as possible and no later than at COP 25 in order to facilitate timely planning.
+				129.	The SBI also noted that the President of COP 27 would come from the African States. The SBI encouraged the African States to initiate their consultations with a view to taking an early decision regarding proposing a host for COP 27.
+				130.	The SBI recommended the following dates for the sessional periods in 2024 for consideration at COP 25:
+					(a)	First sessional period: Monday, 3 June, to Thursday, 13 June;
+					(b)	Second sessional period: Monday, 11 November, to Friday, 22 November.
+				131.	The SBI encouraged the secretariat and hosts of future sessions of the governing bodies to take into consideration logistical arrangements that would facilitate ensuring the full participation of all Parties.
+				132.	The SBI welcomed the exchange of views by Parties on the issue of the frequency and location of sessions of the governing bodies taking place after 2020, and recalled the budgetary and other implications outlined in documents FCCC/SBI/2015/2 and FCCC/SBI/2016/2 and noted those outlined in document FCCC/SBI/2019/INF.1.
+				133.	The SBI acknowledged that several issues need to be further considered prior to any change to the current annual cycle of the sessions of the governing bodies, and requested the secretariat to prepare an information paper for consideration at SBI 60 (2024) that further elaborates on the implications of changing the frequency of sessions of the governing bodies from the current annual cycle, taking into account mandates and commitments under the Convention, the Kyoto Protocol and the Paris Agreement, and the views and submissions of Parties.
+				134.	The SBI welcomed the exchange of views by Parties on approaches and initiatives to increase the efficiency of the UNFCCC process towards enhancing ambition and strengthening implementation, and agreed to continue considering this matter at SBI 52.
+				135.	The SBI reaffirmed the value of contributions from observer organizations towards supporting the implementation of the Convention, the Kyoto Protocol and the Paris Agreement.
+				136.	The SBI welcomed the constructive exchange of views on identifying opportunities and improved practices to further enhance the openness, transparency, inclusiveness and balance of the effective engagement of observer organizations, noting that the UNFCCC process remains a Party-driven intergovernmental process, and recommended that previous relevant SBI conclusions continue to be implemented.
+				137.	The SBI noted that some Parties voluntarily support the participation of admitted NGOs in UNFCCC meetings, and encouraged those Parties to also provide voluntary support, in particular to admitted NGOs from developing countries. The SBI invited Parties to provide information on the voluntary support provided.
+				138.	The SBI reaffirmed the value of the open dialogue between Parties and admitted observer organization constituencies and reiterated the invitation to future Presidencies to actively engage with relevant stakeholders, including youth, with the support of the secretariat, as appropriate, in the organization and facilitation of the open dialogue, and welcomed the early dialogue between Parties, NGO constituencies and the incoming Presidency.
+				139.	The SBI took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraph 133 above and requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+		XVIII.	Administrative, financial and institutional matters
+(Agenda item 18)
+			A.	Programme budget for the biennium 2020–2021
+(Agenda sub-item 18(a))
+			B.	Other financial and budgetary matters
+(Agenda sub-item 18(b))
+			C.	Continuous review of the functions and operations of the secretariat
+(Agenda sub-item 18(c))
+				1.	Proceedings
+					140.	The SBI considered these agenda sub-items at its 1st and 4th meetings. It had before it documents FCCC/SBI/2019/4 and Add.1 and 2, FCCC/SBI/2019/INF.4, FCCC/SBI/2019/INF.5 and FCCC/SBI/2019/INF.6. At the 1st meeting, the Chair invited the Deputy Executive Secretary to introduce the matters, and a representative of the United Nations Board of Auditors to present the key points from the audit of the 2018 financial statements. At the same meeting, the SBI agreed to establish a contact group, to be co-chaired by Kishan Kumarshingh (Trinidad and Tobago) and Talieh Woegerbauer (Austria). At the same meeting, the SBI also established a spin-off group, to be facilitated by Jozef Buys (European Union), to consider the proposed budget for the ITL and a methodology for the collection of its fees for the biennium 2020–2021.
+					141.	At its 4th meeting, the SBI considered and adopted the conclusions below, and the Deputy Executive Secretary made a statement.
+				2.	Conclusions
+					142.	The SBI considered the proposed programme budget for the biennium 2020–2021 and the proposed budget for the ITL for the biennium 2020–2021.
+					143.	The SBI recommended that COP 25 approve a core programme budget of EUR 59,847,785 for the biennium 2020–2021.
+					144.	The SBI authorized the Executive Secretary to notify Parties of their 2020 contributions based on the budget amount shown in paragraph 143 above after taking into account the special annual contribution from the Host Government of EUR 766,938.
+					145.	The SBI also authorized the Executive Secretary to notify the Parties concerned of their annual fee for 2020 for the connection of their national registry to, and use of, the ITL and for the related activities of the ITL administrator.
+					146.	The SBI invited Parties to notify the Executive Secretary of their intended contribution and the projected timing of that contribution within the biennium in order to allow for adequate planning by both the secretariat and the national administration.
+					147.	The SBI took note of the information relating to the status of contributions as at 31 May 2019. The SBI expressed its appreciation to the Parties that had paid their indicative contributions to the core budget and their fees for the ITL on time.
+					148.	The SBI expressed concern regarding the high level of outstanding contributions to the core budget for the current and previous bienniums and strongly urged the Parties concerned to make their contributions without further delay.
+					149.	The SBI expressed its appreciation to the Parties that had made voluntary contributions to the Trust Fund for Participation in the UNFCCC Process and the Trust Fund for Supplementary Activities. It urged Parties to contribute to the Trust Fund for Participation in the UNFCCC Process to ensure the widest possible participation in 2020–2021, and to contribute to the Trust Fund for Supplementary Activities to ensure a high level of implementation of the UNFCCC work programme.
+					150.	The SBI reiterated its appreciation to the Government of Germany for its annual voluntary contribution to the core budget of EUR 766,938 and its special contribution of EUR 1,789,522 as Host Government of the secretariat.
+					151.	The SBI took note of the information contained in the note by the Executive Secretary on standard costs.
+					152.	The SBI recommended a draft decision on the programme budget for the biennium 2020–2021 for consideration and adoption at COP 25. It also recommended a draft decision on the programme budget for the biennium 2020–2021 as applicable to the Kyoto Protocol for consideration and adoption at CMP 15. It further recommended a draft decision on the budget for the ITL for the biennium 2020–2021 for consideration and adoption at CMP 15.
+			D.	Annual report
+(Agenda sub-item 18(d))
+				153.	The SBI considered this agenda sub-item at its 1st meeting. It had before it document FCCC/SBI/2019/8. The Chair invited the Deputy Executive Secretary to introduce the matter. The SBI took note of the annual report for 2018 and agreed that any matters relating to the annual report for 2019 will be considered at SBI 52.
+			E.	Implementation of the Headquarters Agreement
+(Agenda sub-item 18(e))
+				1.	Proceedings
+					154.	The SBI considered this agenda sub-item at its 1st and 4th meetings. At the 1st meeting, the Chair invited a representative of the Host Government of the secretariat to provide the SBI with a brief report on the matter, and the Deputy Executive Secretary to make a statement. At the same meeting, the SBI agreed that its Chair would draft conclusions on the matter, with the assistance of the secretariat and in consultation with interested Parties. At its 4th meeting, the SBI considered and adopted the conclusions below.
+				2.	Conclusions
+					155.	The SBI took note of the information provided by the secretariat and the representative of the Host Government of the secretariat on the progress of the construction of the new building at the United Nations Campus, which will enable the entire secretariat to be located on the same premises. It reiterated its satisfaction with the excellent facilities offered by the World Conference Center Bonn for UNFCCC sessions and meetings, and requested the secretariat to continue maximizing the combined use of its office facilities and the conference centre for UNFCCC sessions and meetings with a view to seeking efficiencies and optimizing service provision at the seat of the secretariat.
+					156.	The SBI thanked the Host Government and the host city of Bonn for providing valuable support, including consistent financial contributions, to the secretariat and for UNFCCC sessions and meetings, in particular the United Nations Climate Change Conference in November 2017 and the annual sessions of the subsidiary bodies held in Bonn.
+					157.	The SBI welcomed the good collaboration between the Host Government, the secretariat and other stakeholders on enhancing the services provided to participants in UNFCCC meetings in Bonn. It encouraged the Host Government and the secretariat to remain in close and regular consultation.
+					158.	The SBI invited the Host Government and the UNFCCC Executive Secretary to report on any new developments in the implementation of the Headquarters Agreement at SBI 54.
+		XIX.	Other matters
+(Agenda item 19)
+			159.	No other matters were raised.
+		XX.	Closure of and report on the session
+(Agenda item 20)
+			1.	Administrative and budgetary implications
+				160.	At the 4th meeting of the SBI, the Deputy Executive Secretary provided a preliminary evaluation of the administrative and budgetary implications of the conclusions adopted at the session, in accordance with rule 15 of the draft rules of procedure being applied. He informed the SBI that several activities resulting from the negotiations at the session called for more secretariat support and required resources over and above the core budget:
+					(a)	Under agenda item 8, “Koronivia joint work on agriculture”, EUR 427,000 in funding will be required in 2020 for an intersessional workshop between SB 51 and 52 to contribute to delivering the outcomes of the KJWA and to prepare a report on the workshop for consideration at SB 52. This activity falls under budget category 3: temporary or short-term activities;
+					(b)	Under agenda item 11, “Development and transfer of technologies: Poznan strategic programme on technology transfer”, EUR 15,000 in funding to prepare in 2019 an updated synthesis report on TNAs will be covered by existing resources under the core budget. This activity falls under budget category 2: recurring or long-term activities;
+					(c)	Under agenda item 15, “Terms of reference for the review of the Doha work programme on Article 6 of the Convention”, EUR 60,000 in funding to prepare in 2020 a synthesis report on progress in implementing the Doha work programme and ACE and an information note on future work to enhance the implementation of Article 6 of the Convention and Article 12 of the Paris Agreement will be covered by existing resources. These activities fall under budget category 3: temporary or short-term activities;
+					(d)	Under agenda item 17 “Arrangements for intergovernmental meetings”, EUR 30,000 in funding to prepare in 2024 an information paper elaborating the implications of changing the frequency of the sessions of the governing bodies will be covered by existing resources. This activity falls under budget category 3: temporary or short-term activities.
+				161.	The Deputy Executive Secretary noted that the amounts presented were preliminary and based on the information available at that time. He expressed the hope that the secretariat can count on the continued generosity of Parties in providing funding for activities in a timely and predictable manner. He also noted that without such contributions the secretariat will not be in a position to provide the requested support.
+			2.	Closure of and report on the session
+				162.	At the resumed 3rd meeting of the SBI, which was held jointly with the 3rd meeting of the SBSTA, the SBI and SBSTA Chairs invited statements from NGOs. Statements were made on behalf of business and industry NGOs, environmental NGOs, indigenous peoples organizations, local government and municipal authorities, research and independent NGOs, trade union NGOs, women and gender NGOs and youth NGOs.
+				163.	At its 4th meeting, the SBI considered and adopted the draft report on the session and authorized the Rapporteur and additional Rapporteur to complete the report with the assistance of the secretariat and to make it available to all Parties.
+				164.	At the 5th meeting of the SBI, which was held jointly with the 4th meeting of the SBSTA, the SBI and SBSTA Chairs invited statements from Parties. Statements were made by representatives of 16 Parties, including 13 on behalf of groups of Parties: the African Group; the Alliance of Small Island States; the Arab Group; Argentina, Brazil and Uruguay; Brazil, South Africa, India and China; the Coalition for Rainforest Nations; the Environmental Integrity Group; the European Union and its member States; the Group of 77 and China; the Independent Association for Latin America and the Caribbean; the LDCs; the Like-minded Developing Countries; and the Umbrella Group.
+				165.	At the end of the joint plenary, the Chair closed the session.
+				
+	
+	Annex I
+	Terms of reference for the 2019 review of the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts
+		I.	Mandate
+			1.	Decision 4/CP.22 provides recommendations regarding the review of the WIM.
+		II.	Objective
+			2.	By the same decision, the 2019 review will consider, inter alia, progress on the implementation of the workplan of the WIM Executive Committee, as well as its long-term vision that guides ways in which the WIM may be enhanced and strengthened, as appropriate.
+		III.	Scope
+			3.	Parties will review the WIM since its establishment in 2013, taking into account those segments of the population that are already vulnerable in accordance with decision 3/CP.18, paragraph 7(a)(iii).
+			4.	The review will focus on, inter alia:
+				(a)	The performance of the WIM and its functions as set out in decision 2/CP.19 and how it continues to promote the implementation of approaches to address loss and damage associated with the adverse effects of climate change;
+				(b)	The structure of the WIM;
+				(c)	The usefulness and use of the outputs of the WIM, including for developing country Parties;
+				(d)	Collaboration, coherence and partnerships with bodies, entities and work programmes, and with relevant stakeholders within and outside the Convention;
+				(e)	The progress on the implementation of the workplan of the Executive Committee;
+				(f)	The response of the WIM to relevant decisions and the Paris Agreement.
+			5.	In their assessment, Parties will consider:
+				(a)	The effectiveness and efficiency of the WIM, including timeliness, relevance, usefulness, visibility, coherence, complementarity, comprehensiveness, responsiveness and resourcing;
+				(b)	Barriers and gaps, challenges and opportunities, and lessons learned.
+		IV.	Inputs and sources of information
+			6.	Being guided by the best available science, the inputs to the review are as follows:
+				(a)	The technical paper on sources of and modalities for accessing financial support, as provided through and outside the Financial Mechanism, for addressing loss and damage, as referred to in paragraph 2(f) of decision 4/CP.22;
+				(b)	The annual reports of and outputs by the Executive Committee and the reports of its substructures;
+				(c)	Views relevant to the WIM submitted by the Parties referred to in paragraph 3 above and previous submissions on the review of the WIM;
+				(d)	The workplan of the Executive Committee;
+				(e)	Relevant decisions and the Paris Agreement.
+			7.	Sources of information for the review may include:
+				(a)	Relevant scientific and technical reports of national, regional and international organizations;
+				(b)	Relevant national and regional strategies, plans and reports;
+				(c)	Relevant outputs of constituted bodies and from events organized under the UNFCCC process;
+				(d)	Views relevant to the WIM submitted by other stakeholders.
+		V.	Modalities
+			8.	The modalities to be used in conducting the review are:
+				(a)	The calls for the submissions referred to in paragraph 6(c) above;
+				(b)	An event to be held in conjunction with SB 51 and organized by the secretariat under the guidance of the Chairs of the subsidiary bodies;
+				(c)	The undertaking of the review by the subsidiary bodies, which will be informed by, inter alia, the above-mentioned event.
+		VI.	Expected output
+			9.	On the basis of the assessment of progress undertaken in accordance with paragraphs 1–8 above, a draft decision will be prepared at SB 51, including a set of recommendations that respond to the objective of the review as referred to in paragraph 2 above.
+			1.	
+	Annex II
+	Terms of reference for the review of the progress, need for extension, effectiveness and enhancement of the Paris Committee on Capacity-building
+		I.	Mandate
+			1.	At its twenty-first session, the COP decided to review, at COP 25, the progress, need for extension, effectiveness and enhancement of the PCCB and to take any action it considers appropriate with a view to making recommendations to the CMA on enhancing institutional arrangements for capacity-building consistent with Article 11, paragraph 5, of the Paris Agreement. At its first session, the CMA decided to consider at CMA 2 any recommendations made by the COP on enhancing institutional arrangements for capacity-building.
+		II.	Objective
+			2.	The review of the PCCB will assess the work completed to date in the fulfilment of the mandate of the PCCB to address gaps and needs, both current and emerging, in implementing capacity-building in developing country Parties and further enhancing capacity-building efforts, including with regard to coherence and coordination in capacity-building activities under the Convention.
+		III.	Information sources
+			3.	The review of the PCCB will draw upon the following information sources:
+				(a)	All available annual technical progress reports of the PCCB;
+				(b)	Parties’ and observers’ submissions;
+				(c)	The compilation and synthesis of the submissions referred to in paragraph 3(b) above;
+				(d)	Parties’ views during the review process, that is at SBI 49, 50 and 51;
+				(e)	The relevant decisions of the COP related to the PCCB;
+				(f)	The submissions on the review of the PCCB requested at SBI 50;
+				(g)	The synthesis of the additional submissions requested at SBI 50.
+		IV.	Modalities of work
+			4.	When conducting the review, Parties will assess the progress and effectiveness of the PCCB, in order to determine whether there is a need for the extension and enhancement of the PCCB, in accordance with decision 1/CP.21, paragraph 81.
+			5.	Parties will consider the following elements and sequence when conducting the review.
+			A.	Progress
+				6.	Parties will first assess the progress of the PCCB towards achieving its overall aim as set out in decision 1/CP.21, paragraph 71, taking into consideration the progress made in the implementation of the PCCB 2017–2019 rolling workplan and the capacity-building workplan for the period 2016–2020 contained in decision 1/CP.21, paragraph 73.
+			B.	Effectiveness
+				7.	Parties will assess the effectiveness of the PCCB in fulfilling its mandate.
+			C.	Need for extension
+				8.	Parties’ assessment of the progress and effectiveness of the PCCB will be the basis for determining the need for the extension of the PCCB and, as applicable, determine any other provisions relevant to the form of the extension.
+			D.	Enhancement
+				9.	Parties could provide recommendations on how to improve the operation of the PCCB within its mandate, including ways and means to prioritize its work to ensure complementarity with the work of other bodies or processes and avoid duplication.
+		V.	Expected outcomes
+			10.	On the basis of the review undertaken in accordance with paragraphs 1 and 2 above, SBI 51 will prepare a draft decision containing the outcomes of the review of the PCCB in accordance with the mandate contained in decision 1/CP.21 paragraph 81, for consideration at COP 25.
+	Annex III
+	Terms of reference for the fourth comprehensive review of the implementation of the framework for capacity-building in developing countries under the Convention
+		I.	Mandate
+			1.	At its twenty-second session, the COP decided to initiate the fourth comprehensive review of the implementation of the framework for capacity-building in developing countries under the Convention at SBI 50 with a view to completing that review at COP 25.
+		II.	Objective
+			2.	The objective of the fourth comprehensive review of the implementation of the framework for capacity-building in developing countries under the Convention is to take stock of the progress in and assess the effectiveness and efficiency of the implementation of the framework in developing countries under the Convention taking into account recent developments under the Convention.
+		III.	Review elements
+			3.	To take stock of progress in and assess the effectiveness of the implementation of the framework for capacity-building in developing countries under the Convention.
+			4.	To examine possible capacity gaps and challenges in addressing the implementation of priority areas as contained in the framework for capacity-building in developing countries under the Convention taking into account emerging needs and priorities for capacity-building.
+			5.	To identify lessons learned and best practices in the implementation of the framework for capacity-building in developing countries under the Convention and explore potential ways to further enhance the implementation of capacity-building activities.
+			6.	To recommend to the SBI ways and means to increase the effectiveness and efficiency of the implementation of the framework for capacity-building in developing countries under the Convention, taking into account recent developments in capacity-building under the Convention and the need for coherence and avoiding duplication in institutional arrangements related to capacity-building.
+		IV.	Modalities of work
+			7.	The fourth comprehensive review of the implementation of the framework for capacity-building in developing countries under the Convention should draw upon the relevant reports prepared by the secretariat for consideration at SBI 50 and any additional relevant information contained in the information sources listed below, and take into account the above-mentioned objective and review elements.
+		V.	Information sources
+			8.	Information which could be drawn from in the fourth comprehensive review of the implementation of the framework for capacity-building in developing countries under the Convention are, inter alia:
+				(a)	Submissions from Parties and observers;
+				(b)	Findings of the first, second and third comprehensive reviews of the implementation of the framework for capacity-building in developing countries;
+				(c)	Annual synthesis reports on the implementation of the framework for capacity-building in developing countries prepared by the secretariat;
+				(d)	National reports submitted by Parties under the Convention, as applicable;
+				(e)	Reports from the operating entities of the Financial Mechanism of the Convention;
+				(f)	Summary reports on the meetings of the Durban Forum;
+				(g)	Reports of relevant bodies established under the Convention;
+				(h)	Parties’ views expressed during SBI 50 and 51;
+				(i)	Other relevant existing documents prepared by the secretariat.
+			

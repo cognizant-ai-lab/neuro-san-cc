@@ -1,0 +1,483 @@
+|  | United Nations | FCCC/SBSTA/2021/3 |
+|  |  | Distr.: General 7 March 2022  Original: English |
+
+Subsidiary Body for Scientific and Technological Advice
+Report of the Subsidiary Body for Scientific and Technological Advice on its fifty-second to fifty-fifth session, held in Glasgow from 31 October to 6 November 2021
+	Contents
+		Page
+		Abbreviations and acronyms		4
+		I.	Opening of the session 
+(Agenda item 1)		5
+		II.	Organizational matters 
+(Agenda item 2)		5
+		A.	Adoption of the agenda		5
+		B.	Organization of the work of the session 		7
+		C.	Election of officers other than the Chair		8
+		D.	Mandated events 		8
+		III.	Nairobi work programme on impacts, vulnerability and adaptation to climate change 
+		(Agenda item 3)		8
+		IV.	Report of the Adaptation Committee (for 2019, 2020 and 2021) 
+		(Agenda item 4)		13
+		V.	Report of the Executive Committee of the Warsaw International Mechanism 
+		for Loss and Damage associated with Climate Change Impacts (for 2020 and 2021) 
+		(Agenda item 5)		13
+		VI.	Local Communities and Indigenous Peoples Platform 
+		(Agenda item 6)		14
+		VII.	Development and transfer of technologies: joint annual report of the Technology 
+		Executive Committee and the Climate Technology Centre and Network (for 2020 and 2021) 
+		(Agenda item 7)		14
+		VIII.	Koronivia joint work on agriculture 
+		(Agenda item 8)		15
+		IX.	Sources of input for the global stocktake under the Paris Agreement 
+		(Agenda item 9)		16
+		
+			Page
+		X.	Matters related to science and review
+		(Agenda item 10) 		17
+		A.	Research and systematic observation 		17
+		B.	Second periodic review of the long-term global goal under the Convention and of 
+			overall progress towards achieving it 		19
+		XI.	Matters relating to the forum on the impact of the implementation of response measures 
+serving the Convention, the Kyoto Protocol and the Paris Agreement 
+(Agenda item 11)		20
+		XII.	Methodological issues under the Convention 
+		(Agenda item 12)		20
+		A.	Training programme for review experts for the technical review of greenhouse gas 
+			inventories of Parties included in Annex I to the Convention		20
+		B.	Training programme for review experts for the technical review of biennial reports 
+			and national communications of Parties included in Annex I to the Convention		20
+		C.	Revision of the UNFCCC reporting guidelines on annual inventories for Parties 
+			included in Annex I to the Convention		20
+		D.	Guidelines for the technical review of information reported under the Convention 
+			related to greenhouse gas inventories, biennial reports and national communications 
+			by Parties included in Annex I to the Convention		20
+		E.	Greenhouse gas data interface		20
+		F.	Common metrics to calculate the carbon dioxide equivalence of greenhouse gases		21
+		G.	Emissions from fuel used for international aviation and maritime transport		21
+		XIII.	Methodological issues under the Kyoto Protocol 
+		(Agenda item 13)		21
+		A.	Land use, land-use change and forestry under Article 3, paragraphs 3–4, of the 
+			Kyoto Protocol and under the clean development mechanism		21
+		B.	Implications of the inclusion of reforestation of lands with forest in exhaustion as 
+			afforestation and reforestation clean development mechanism project activities		21
+		XIV.	Methodological issues under the Paris Agreement  
+		(Agenda item 14)		21
+		A.	Common reporting tables for the electronic reporting of the information in the 
+			national inventory reports of anthropogenic emissions by sources and removals by 
+			sinks of greenhouse gases  		21
+		B.	Common tabular formats for the electronic reporting of the information necessary 
+			to track progress made in implementing and achieving nationally determined 
+			contributions under Article 4 of the Paris Agreement   		21
+		C.	Common tabular formats for the electronic reporting of the information on 
+			financial, technology development and transfer, and capacity-building support 
+			provided and mobilized, as well as support needed and received, under 
+			Articles 9–11 of the Paris Agreement		21
+		D.	Outlines of the biennial transparency report, national inventory document and 
+			technical expert review report pursuant to the modalities, procedures and guidelines 
+			for the transparency framework for action and support		22
+		
+		
+			Page
+		E.	Training programme for technical experts participating in the technical 
+			expert review   		22
+		XV.	Matters relating to Article 6 of the Paris Agreement 
+		(Agenda item 15)		23
+		A.	Guidance on cooperative approaches referred to in Article 6, paragraph 2, 
+			of the Paris Agreement		23
+		B.	Rules, modalities and procedures for the mechanism established by Article 6, 
+			paragraph 4, of the Paris Agreement 		23
+		C.	Work programme under the framework for non-market approaches referred to in 
+			Article 6, paragraph 8, of the Paris Agreement 		23
+		XVI.	Market and non-market mechanisms under the Convention 
+		(Agenda item 16)		24
+		A.	Framework for various approaches 		24
+		B.	Non-market-based approaches 		24
+		C.	New market-based mechanism 		24
+		XVII.	Cooperation with other international organizations 
+		(Agenda item 17)		24
+		XVIII.	Annual reports on technical reviews  
+		(Agenda item 18)		25
+		A.	Technical review of information reported under the Convention by Parties 
+			included in Annex I to the Convention in their biennial reports and national 
+			communications  		25
+		B.	Technical review of greenhouse gas inventories of Parties included in Annex I 
+			to the Convention		25
+		C.	Technical review of greenhouse gas inventories and other information reported by 
+			Parties included in Annex I, as defined in Article 1, paragraph 7, of the Kyoto Protocol  		25
+		XIX.	Other matters  
+		(Agenda item 19)		25
+		XX.	Closure of and report on the session 
+		(Agenda item 20)		25
+		
+		
+		
+Abbreviations and acronyms
+	| AC | Adaptation Committee |
+	| AR | Assessment Report of the Intergovernmental Panel on Climate Change |
+	| CMA | Conference of the Parties serving as the meeting of the Parties to the Paris Agreement |
+	| CMP | Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol |
+	| COP | Conference of the Parties |
+	| FWG | Facilitative Working Group |
+	| GCOS | Global Climate Observing System |
+	| IOC-UNESCO | Intergovernmental Oceanographic Commission of the United Nations Educational, Scientific and Cultural Organization |
+	| IPCC | Intergovernmental Panel on Climate Change |
+	| KCI | Katowice Committee of Experts on the Impacts of the Implementation of Response Measures |
+	| LCIPP | Local Communities and Indigenous Peoples Platform |
+	| LDC | least developed country |
+	| LEG | Least Developed Countries Expert Group |
+	| NAP | national adaptation plan |
+	| NGO | non-governmental organization |
+	| NWP | Nairobi work programme on impacts, vulnerability and adaptation to climate change |
+	| SB | sessions of the subsidiary bodies |
+	| SBI | Subsidiary Body for Implementation |
+	| SBSTA | Subsidiary Body for Scientific and Technological Advice |
+	| SED2 | structured expert dialogue under the second periodic review of the long-term global goal |
+	| SIDS | small island developing State(s) |
+	| WMO | World Meteorological Organization |
+	
+	
+	I.	Opening of the session
+(Agenda item 1)
+		1.	In the first sessional period of the year, the SBSTA met virtually for its 2021 session from 31 May to 17 June and conducted work informally. The session was opened by the Chair, Tosi Mpanu Mpanu (Democratic Republic of the Congo), on Monday, 31 May, and was suspended on 17 June 2021.
+		2.	In the second sessional period, the SBSTA 2021 session (SBSTA 52–55) was held at the Scottish Event Campus in Glasgow, United Kingdom of Great Britain and Northern Ireland, from 31 October to 6 November.
+		3.	The Chair of the SBSTA resumed the session on Sunday, 31 October, and welcomed all Parties and observers. He also welcomed Kakhaberi Mdivani (Georgia) as SBSTA Vice-Chair and Stella Gama (Malawi) as Rapporteur. A statement was made by a representative of one Party.
+	II.	Organizational matters
+(Agenda item 2)
+		A.	Adoption of the agenda
+(Agenda sub-item 2(a))
+			4.	At its 4th meeting, on 31 October, the SBSTA considered a note by the Executive Secretary containing the provisional agenda and annotations (FCCC/SBSTA/2021/2) and adopted the agenda as presented, as follows:
+				1.	Opening of the session.
+				2.	Organizational matters:
+					(a)	Adoption of the agenda;
+					(b)	Organization of the work of the session;
+					(c)	Election of officers other than the Chair;
+					(d)	Mandated events.
+					3.	Nairobi work programme on impacts, vulnerability and adaptation to climate change.
+				4.	Report of the Adaptation Committee (for 2019, 2020 and 2021).*
+					5.	Report of the Executive Committee of the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts (for 2020 and 2021).*
+				6.	Local Communities and Indigenous Peoples Platform.
+					7.	Development and transfer of technologies: joint annual report of the Technology Executive Committee and the Climate Technology Centre and Network (for 2020 and 2021).*
+				8.	Koronivia joint work on agriculture.*
+				9.	Sources of input for the global stocktake under the Paris Agreement.
+				10.	Matters related to science and review:
+					(a)	Research and systematic observation;
+					(b)	Second periodic review of the long-term global goal under the Convention and of overall progress towards achieving it.*
+					11.	Matters relating to the forum on the impact of the implementation of response measures serving the Convention, the Kyoto Protocol and the Paris Agreement.*
+				12.	Methodological issues under the Convention:
+					(a)	Training programme for review experts for the technical review of greenhouse gas inventories of Parties included in Annex I to the Convention;
+					(b)	Training programme for review experts for the technical review of biennial reports and national communications of Parties included in Annex I to the Convention;
+					(c)	Revision of the UNFCCC reporting guidelines on annual inventories for Parties included in Annex I to the Convention;
+					(d)	Guidelines for the technical review of information reported under the Convention related to greenhouse gas inventories, biennial reports and national communications by Parties included in Annex I to the Convention;
+					(e)	Greenhouse gas data interface;
+					(f)	Common metrics to calculate the carbon dioxide equivalence of greenhouse gases;
+					(g)	Emissions from fuel used for international aviation and maritime transport.
+				13.	Methodological issues under the Kyoto Protocol:
+					(a)	Land use, land-use change and forestry under Article 3, paragraphs 3–4, of the Kyoto Protocol and under the clean development mechanism;
+					(b)	Implications of the inclusion of reforestation of lands with forest in exhaustion as afforestation and reforestation clean development mechanism project activities.
+				14.	Methodological issues under the Paris Agreement:
+					(a)	Common reporting tables for the electronic reporting of the information in the national inventory reports of anthropogenic emissions by sources and removals by sinks of greenhouse gases;
+					(b)	Common tabular formats for the electronic reporting of the information necessary to track progress made in implementing and achieving nationally determined contributions under Article 4 of the Paris Agreement;
+					(c)	Common tabular formats for the electronic reporting of the information on financial, technology development and transfer, and capacity-building support provided and mobilized, as well as support needed and received, under Articles 9–11 of the Paris Agreement;
+					(d)	Outlines of the biennial transparency report, national inventory document and technical expert review report pursuant to the modalities, procedures and guidelines for the transparency framework for action and support;
+					(e)	Training programme for technical experts participating in the technical expert review.
+				15.	Matters relating to Article 6 of the Paris Agreement:
+					(a)	Guidance on cooperative approaches referred to in Article 6, paragraph 2, of the Paris Agreement;
+					(b)	Rules, modalities and procedures for the mechanism established by Article 6, paragraph 4, of the Paris Agreement;
+					(c)	Work programme under the framework for non-market approaches referred to in Article 6, paragraph 8, of the Paris Agreement.
+				16.	Market and non-market mechanisms under the Convention:
+					(a)	Framework for various approaches;
+					(b)	Non-market-based approaches;
+					(c)	New market-based mechanism.
+				17.	Cooperation with other international organizations.
+				18.	Annual reports on technical reviews:
+					(a)	Technical review of information reported under the Convention by Parties included in Annex I to the Convention in their biennial reports and national communications;
+					(b)	Technical review of greenhouse gas inventories of Parties included in Annex I to the Convention;
+					(c)	Technical review of greenhouse gas inventories and other information reported by Parties included in Annex I, as defined in Article 1, paragraph 7, of the Kyoto Protocol.
+				19.	Other matters.
+				20.	Closure of and report on the session.
+		B.	Organization of the work of the session
+(Agenda sub-item 2(b))
+			5.	The SBSTA considered this agenda sub-item at its 4th meeting. The Chair drew attention to the deadline for all groups to conclude their work by lunchtime on Friday, 5 November, to ensure the timely availability of draft conclusions for the closing plenary, which was to be convened on Saturday, 6 November. On a proposal by the Chair, the SBSTA agreed to proceed on that basis and in line with previously adopted SBI conclusions on the timely conclusion of negotiations and related working practices. Statements were made by representatives of eight intergovernmental organizations: Committee on Earth Observation Satellites and Coordination Group for Meteorological Satellites, GCOS, International Civil Aviation Organization, International Maritime Organization, IOC-UNESCO, IPCC, WMO and World Climate Research Programme; and four Parties, including one on behalf of the LDCs.
+			6.	At the 5th meeting of the SBSTA, on 31 October, which was held jointly with the 2nd meetings of COP 26, CMP 16 and CMA 3, and the 5th meeting of SBI 52–55, statements were made by representatives of 19 Parties, including 14 on behalf of groups of Parties: African Group; Alliance of Small Island States; Arab Group; Argentina, Brazil and Uruguay; Brazil, South Africa, India and China; Central American Integration System; Coalition for Rainforest Nations; Environmental Integrity Group; European Union and its member States; Group of 77 and China; Independent Association for Latin America and the Caribbean; LDCs; Like-minded Developing Countries; and Umbrella Group. Statements were also made by representatives of business and industry NGOs, environmental NGOs, farmers NGOs, indigenous peoples organizations, local government and municipal authorities, research and independent NGOs, trade union NGOs, the women and gender constituency and youth NGOs.
+			C.	Election of officers other than the Chair 
+(Agenda sub-item 2(c))
+				7.	The SBSTA considered this agenda sub-item at its 4th meeting and at its 6th meeting, on 6 November. At the 4th meeting, the Chair recalled that the SBSTA was expected to elect its Vice-Chair and Rapporteur. At the same meeting, the SBSTA noted that the consultations on the nominations were ongoing.
+				8.	At its 6th meeting, the SBSTA elected Mr. Mdivani as Vice-Chair and Zita Kassa Wilks (Gabon) as Rapporteur.
+			D.	Mandated events
+(Agenda sub-item 2(d))
+				9.	The SBSTA considered this agenda sub-item at its 4th meeting and took note of the information provided on the mandated events being held at the session.
+	III.	Nairobi work programme on impacts, vulnerability and adaptation to climate change
+(Agenda item 3)
+		1.	Proceedings
+		10.	The SBSTA considered this agenda item at its 4th and 6th meetings. It had before it documents FCCC/SBSTA/2020/INF.1 and FCCC/SBSTA/2021/INF.2. At its 4th meeting, the SBSTA agreed that the item would be considered in informal consultations co-facilitated by Carlos Fuller (Belize) and Alessandra Sgobbi (European Union). At its 6th meeting, the SBSTA considered and adopted the conclusions below.
+			2.	Conclusions
+		11.	Recalling decision 2/CP.11, the SBSTA welcomed the following:
+			(a)	Progress in implementing activities under the NWP since SBSTA 50, noting that progress to date has contributed to strengthening the NWP as a knowledge-to-action hub on adaptation and resilience with a role in responding to the knowledge needs of Parties;
+			(b)	The secretariat’s efforts to document lessons learned and challenges in implementing the NWP workplans for 2019–2020 and 2020–2021;
+			(c)	The NWP workplan for 2021–2022, noting that it is consistent with relevant mandates.
+		12.	The SBSTA requested the secretariat to consider, in implementing activities under the NWP:
+			(a)	Documenting lessons learned and challenges in implementing the NWP workplans and applying the lessons learned to activities carried out under the NWP;
+			(b)	Enhancing engagement of governments and non-Party stakeholders, applying an intergenerational perspective and considering future activities in such a way as to ensure that the NWP continues to be demand driven and respond to adaptation, resilience and knowledge needs of all Parties, in particular developing countries, including the LDCs and SIDS;
+			(c)	Aligning work under the NWP with global, regional and subregional initiatives, drawing on expertise from the network of NWP partner organizations, and actively engaging with regional organizations to make knowledge products accessible to knowledge users in all countries;
+			(d)	Organizing global and regional in-person events, maintaining balance between regions, in combination with virtual events, including on the margins of the NAP Expo, with a view to engaging relevant knowledge users and NWP partners from all regions, taking into account various challenges, including Internet connectivity, language barriers and different time zones, in developing countries and regions.
+		13.	The SBSTA also requested the secretariat, with a view to better understanding the knowledge and resilience needs of countries, to:
+			(a)	Use existing inputs, such as adaptation communications under the Paris Agreement, NAPs, nationally determined contributions, national communications and other adaptation planning processes, as well as inputs from knowledge users and diverse knowledge systems, including local and indigenous knowledge holders, to identify relevant adaptation and resilience knowledge needs and good practices;
+			(b)	Coordinate with national focal points and/or relevant contact points in seeking inputs on priority knowledge gaps in relation to climate change adaptation, to inform work under the NWP;
+			(c)	Obtain, as appropriate, periodic feedback via surveys and other means from knowledge users in all Parties, in particular developing countries, including the LDCs and SIDS, in order to understand the knowledge needs of countries and inform decision-making in this regard and to enhance the usefulness and relevance of NWP knowledge products.
+		14.	The SBSTA invited regional organizations and NWP partner organizations to disseminate NWP knowledge products to all Parties, in collaboration with national Governments, in particular developing countries, including the LDCs and SIDS and including at the local, subregional and regional level, as appropriate.
+		15.	The SBSTA welcomed the knowledge support provided to constituted bodies under the Convention such as the AC and the LEG under the NWP in collaboration with NWP thematic expert groups and partner organizations, and noted that this collaboration has improved access to scientific advice and expertise.
+		16.	The SBSTA requested the secretariat, in collaboration with NWP partner organizations, to implement the advice from the AC provided at its 19th meeting.
+		17.	The SBSTA also requested the secretariat, with a view to strengthening the support provided under the NWP to constituted bodies, including in relation to supporting them in addressing knowledge gaps in the context of capacity-building, finance and technology, and enhancing the responsiveness of the NWP to Parties’ needs, to:
+			(a)	Consider complementary areas of work to inform work under the NWP;
+			(b)	Strengthen long-term strategic engagement with constituted bodies with a view to enhancing sustainable adaptation action under the NWP;
+			(c)	Facilitate regular communication between constituted bodies and partners, including on the needs and mandates of the constituted bodies, in order to help NWP partners to better understand how they can support the work of constituted bodies, showcase joint actions and inform future collaborative actions;
+				(d)	Discuss with the constituted bodies knowledge gaps and needs identified by Parties in formulating and implementing their NAPs, and integrate any resulting guidance into the annual NWP workplans;
+				(e)	Collaborate under the Lima work programme on gender on identifying adaptation actions in which gender can be mainstreamed;
+				(f)	Collaborate with the FWG of the LCIPP on including indigenous expertise in climate change adaptation action;
+				(g)	Continue to contribute to the work of the LEG by addressing knowledge gaps in order to provide technical guidance and advice to developing countries in the context of formulating and implementing NAPs in collaboration with NWP partner organizations.
+		18.	The SBSTA invited NWP partner organizations to undertake activities to address gaps and needs in relation to the process to formulate and implement NAPs and share the outcomes with the AC and the LEG.
+		19.	The SBSTA welcomed the successful organization of the 13th NWP Focal Point Forum, on oceans, coastal areas and ecosystems, held in collaboration with the NWP expert group on oceans, also welcomed the engagement of the IPCC in the Forum, in particular its presentation of the IPCC Special Report on the Ocean and Cryosphere, and further welcomed the successful organization of the 14th Focal Point Forum, on biodiversity and climate change adaptation, held in collaboration with the NWP expert groups on oceans and on biodiversity and adaptation (with a focus on forests and grassland).
+		20.	The SBSTA welcomed the progress of the work of the secretariat, in partnership with NWP thematic expert groups, under the following of the priority NWP thematic areas:
+			(a)	Forests and grassland;
+			(b)	Oceans, coastal areas and ecosystems, including mega deltas, coral reefs and mangroves.
+		21.	The SBSTA requested the secretariat to initiate work in the priority thematic area of drought, water scarcity and land degradation neutrality and to consider all five priority thematic areas in its work under the NWP.
+		22.	The SBSTA welcomed the secretariat’s collaboration with NWP thematic expert groups and partner organizations on responding to the knowledge needs of all Parties, in particular developing countries, including the LDCs and SIDS, and invited the secretariat to:
+			(a)	Strive to achieve balanced representation of experts from all regions in the thematic expert groups;
+			(b)	Strengthen the role of the thematic expert groups in developing relevant sector-specific guidance to help all Parties, in particular developing countries, including the LDCs and SIDS, to identify sources of support, including financial, technological and capacity-building.
+		23.	The SBSTA welcomed the secretariat’s continued collaboration with NWP partner organizations on bridging priority knowledge gaps in the context of the Lima Adaptation Knowledge Initiative, in particular the implementation of the second phase of the Initiative in the Gulf Cooperation Council and North Africa subregions, and also welcomed the organization of the priority-setting workshop for SIDS in the Pacific.
+		24.	The SBSTA further welcomed the launch of the UN Climate Change and Universities Partnership Programme, noted the relevance of the resulting outputs for closing specific knowledge gaps and engaging youth in all Parties, in particular developing countries, including the LDCs and SIDS, and invited the secretariat to scale up the Programme with a view to bridging context-specific knowledge gaps in all regions.
+		25.	The SBSTA requested the secretariat to continue to implement actions and mobilize resources to close priority knowledge gaps in all Parties, in particular developing countries, including the LDCs and SIDS, recognizing that the Initiative has only been implemented in seven subregions to date and noting the need to scale it up to other subregions in collaboration with relevant NWP partner organizations and regional, subregional, national and local organizations.
+		26.	The SBSTA recognized the secretariat’s efforts to improve the usefulness and relevance of the knowledge products developed under the NWP, and welcomed the report capturing the results of the survey of knowledge users on the accessibility and applicability of the NWP knowledge products, noting that it is based on limited responses from national focal points.
+		27.	The SBSTA invited the secretariat to continue to enhance the accessibility and applicability of NWP knowledge products for all Parties and non-Party stakeholders, including with the active engagement of governments, national focal points and/or relevant contact points, NWP partner organizations and the NWP thematic expert groups, by:
+			(a)	Preparing a synthesis of knowledge products on activities supporting the work of constituted bodies on knowledge gaps related to, inter alia, capacity-building, finance and technology, as well as on activities with a regional focus and on related themes;
+			(b)	Translating relevant knowledge products, including thematic knowledge products, into United Nations languages, as appropriate;
+			(c)	Developing and employing tools to ensure that knowledge products are tailored to the needs of knowledge users and accessible in order to maximize the uptake of adaptation knowledge and increase the usefulness of the products to knowledge users implementing adaptation action;
+			(d)	Measuring the uptake of knowledge products by users, tracking progress and using the results to enhance their accessibility and applicability;
+			(e)	Continuing to enhance the adaptation knowledge portal to make it more accessible, user-friendly and relevant, including by drawing on inputs from Parties, national focal points and/or relevant contact points, and NWP partner organizations and updating methods, tools and knowledge resources in the portal, as well as the resources available in the AC inventory of methodologies for assessing adaptation needs in the context of national adaptation planning and implementation.
+		28.	The SBSTA recalled its conclusion that it will take stock of the operational and institutional modalities of the NWP at SBSTA 56 (June 2022) and proposed the following questions to guide that stocktake:
+			(a)	Which lessons learned, gaps, opportunities and challenges are associated with the operational and institutional modalities of the NWP in assisting Parties in implementing the Paris Agreement?
+			(b)	How has work under the NWP enhanced adaptation through knowledge, including through:
+				(i)	Engagement and coordination of national and subnational governments and NWP partner organizations in a manner that is demand driven and responsive to the adaptation and resilience needs of all Parties, in particular developing countries, including the LDCs and SIDS?
+				(ii)	Use and integration of diverse knowledge systems, including local and indigenous knowledge?
+			(c)	How are countries engaging under the NWP and communicating their adaptation knowledge needs and how could their engagement be strengthened?
+			(d)	How has the NWP supported constituted bodies in assisting Parties in implementing the Paris Agreement in line with the outcomes of SBSTA 44 and 50, including in relation to supporting their activities in addressing knowledge gaps related to capacity-building, finance and technology?
+			(e)	How does the secretariat monitor and evaluate work under the NWP, including the dissemination and uptake of knowledge products by national, subnational and community-level knowledge users, and how can this be improved?
+			(f)	Which additional thematic areas should be considered under the NWP, taking into account the different types of vulnerable ecosystem in different geographical regions, including mountainous regions?
+		29.	The SBSTA agreed that, on the basis of the outcomes of the stocktake, ways of strengthening the operational and institutional modalities of the NWP should be identified in order to enhance its performance and effectiveness in addressing the knowledge needs of all Parties, in particular developing countries, including the LDCs and SIDS, relevant to implementing the Paris Agreement.
+		30.	The SBSTA also agreed on the following modalities to inform the stocktake:
+			(a)	Inviting Parties, constituted bodies, NWP partner organizations and other relevant organizations to submit views on the performance and effectiveness of the NWP in addressing knowledge needs relevant to implementing the Paris Agreement via the submission portal by 31 March 2022;
+			(b)	Requesting the secretariat to prepare a synthesis report on the submissions referred to in paragraph 30(a) above for consideration at SBSTA 56;
+			(c)	Also requesting the secretariat to prepare a report summarizing the outcomes of the work under the NWP since SBSTA 48 for consideration at SBSTA 56, containing information on:
+				(i)	Lessons learned and challenges associated with implementing the NWP workplans and an analysis of the related successes, opportunities, gaps and challenges;
+				(ii)	The work of the NWP thematic expert groups;
+				(iii)	Advice from the AC for the NWP provided during its meetings and in the AC annual reports;
+				(iv)	The impact of work under the NWP focused on supporting activities of the constituted bodies;
+				(v)	Feedback, obtained through surveys and other means, from knowledge users in countries and regions on the accessibility, clarity and relevance of NWP knowledge products;
+				(vi)	Lessons learned in relation to using digital tools and modalities under the NWP;
+			(d)	Considering the annual progress reports of the NWP since SBSTA 48 and the results of the survey on NWP knowledge products referred to in paragraph 26 above as additional inputs to the stocktake.
+		31.	The SBSTA further agreed to apply a comprehensive and transparent approach to the stocktake, taking into consideration lessons learned by countries and regions and with the engagement of Parties, NWP partner organizations and non-Party stakeholders to ensure an effective outcome.
+		32.	The SBSTA took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraphs 12, 21, 24, 25, 27 and 30 above.
+		33.	The SBSTA requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+	IV.	Report of the Adaptation Committee (for 2019, 2020 and 2021)*
+(Agenda item 4)
+		1.	Proceedings
+		34.	The SBSTA considered this agenda item at its 4th and 6th meetings. It had before it documents FCCC/SB/2019/3, FCCC/SB/2020/2 and FCCC/SB/2021/6 and Corr.1. At the 4th meeting, the Chair recalled that COP 26 and CMA 3, at their 1st meetings, had referred to the SBSTA the consideration of the review of the progress, effectiveness and performance of the AC and the work on the global goal on adaptation, respectively. The Chair invited Ms. Sgobbi, AC Co-Chair, to deliver a brief oral report on the work of the AC. At the same meeting, the SBSTA agreed that the item would be considered together with the equally titled SBI 52–­55 agenda item 9 in informal consultations co-facilitated by Le-Anne Roper (Jamaica) and Paul Watkinson (France). At its 6th meeting, the SBSTA considered and adopted the conclusions below.
+			2.	Conclusions
+		35.	The SBSTA and the SBI considered but did not conclude their consideration of the reports of the AC for 2019, 2020 and 2021, including the matters referred to them by COP 26, including the review of the progress, effectiveness and performance of the AC, and CMA 3, including the work on the global goal on adaptation.
+		36.	The SBSTA and the SBI agreed to forward these matters for consideration at COP 26 and CMA 3 taking into account the text prepared by the co-facilitators for this agenda item.
+	V.	Report of the Executive Committee of the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts (for 2020 and 2021)*
+(Agenda item 5)
+		37.	The SBSTA considered this agenda item at its 4th and 6th meetings. It had before it documents FCCC/SB/2020/3 and FCCC/SB/2021/4 and Add.1–2. At the 4th meeting, the Chair invited Ms. Roper, Co-Chair of the Executive Committee of the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts, to deliver a brief oral report on the work of the Committee. The SBSTA agreed that the item would be considered together with the equally titled SBI 52–55 agenda item 10 in informal consultations co-facilitated by Cornelia Jaeger (Austria) and Kishan Kumarsingh (Trinidad and Tobago). A statement was made by a representative of one Party.
+		38.	At its 6th meeting, the SBSTA, having considered the reports of the Committee for 2020 and 2021, recommended a draft decision for consideration and adoption by the appropriate body or bodies.
+	VI.	Local Communities and Indigenous Peoples Platform
+(Agenda item 6)
+		39.	The SBSTA considered this agenda item at its 4th and 6th meetings. It had before it document FCCC/SBSTA/2021/1. At the 4th meeting, the Chair invited Thomas Cameron (FWG member representing Western European and other States) and Hindou Oumarou Ibrahim (FWG member representing the United Nations indigenous sociocultural region of Africa), Co-Chairs of the FWG of the LCIPP, to deliver a brief oral report on the work of the FWG. The SBSTA agreed that the item would be considered in informal consultations co-facilitated by Maxine Burkett (United States of America) and Mr. Fuller.
+		40.	At its 6th meeting, the SBSTA, having considered the second three-year workplan of the LCIPP, for 2022–2024, recommended a draft decision on this matter for consideration and adoption at COP 26.
+	VII.	Development and transfer of technologies: joint annual report of the Technology Executive Committee and the Climate Technology Centre and Network (for 2020 and 2021)*
+(Agenda item 7)
+		41.	The SBSTA considered this agenda item at its 4th and 6th meetings. It had before it documents FCCC/SB/2020/4 and FCCC/SB/2021/5. At the 4th meeting, the Chair invited Mareer Husny (Maldives), Vice-Chair of the Technology Executive Committee, and Omedi Jura (Kenya), Vice-Chair of the Advisory Board of the Climate Technology Centre and Network, to deliver brief oral reports on the work of those bodies. The SBSTA agreed that the item would be considered together with SBI 52–55 agenda sub-item 13(a), “Joint annual report of the Technology Executive Committee and the Climate Technology Centre and Network (for 2020 and 2021)”, in informal consultations co-facilitated by Ms. Gama and Toshiaki Nagata (Japan). At its 6th meeting, the SBSTA recommended draft decisions for consideration and adoption at COP 26 and CMA 3.
+	VIII.	Koronivia joint work on agriculture*
+(Agenda item 8)
+		1.	Proceedings
+		42.	The SBSTA considered this agenda item at its 4th and 6th meetings. It had before it documents FCCC/SB/2020/1, FCCC/SB/2021/1, FCCC/SB/2021/2 and FCCC/SB/2021/3 and Add.1 and relevant submissions. At its 4th meeting, the SBSTA agreed that the item would be considered together with the equally titled SBI 52–55 agenda item 8 in informal consultations co-facilitated by Philip Blackwell (Ireland) and Milagros Sandoval (Peru). At its 6th meeting, the SBSTA considered and adopted the conclusions below.
+			2.	Conclusions
+		43.	The SBSTA and the SBI continued their joint work on addressing issues related to agriculture.
+		44.	The SBSTA and the SBI welcomed with appreciation the continuation of work during the coronavirus disease 2019 pandemic. They welcomed the Koronivia road map workshop on topic 2(d) (Improved nutrient use and manure management towards sustainable and resilient agricultural systems) held at SB 51 and the workshops on topics 2(e) (Improved livestock management systems, including agropastoral production systems and others) and 2(f) (Socioeconomic and food security dimensions of climate change in the agricultural sector) held virtually at the UNFCCC Climate Dialogues 2020. They also welcomed the submissions from Parties and observers that served as input to the workshops.
+		45.	The SBSTA and the SBI further welcomed the intersessional workshop mandated by SB 50, held partially virtually and partially in person from June to October 2021. They welcomed with appreciation the financial contributions of the Governments of New Zealand and Ireland and of the Food and Agriculture Organization of the United Nations.
+		46.	The SBSTA and the SBI welcomed the reports on the four workshops referred to in paragraphs 44–45 above.
+		47.	Having considered the report on the workshop on topic 2(d) of the Koronivia road map, the SBSTA and the SBI recognized that soil and nutrient management practices and the optimal use of nutrients, including organic fertilizer and enhanced manure management, lie at the core of climate-resilient, sustainable food production systems and can contribute to global food security.
+		48.	Having considered the report on the workshop on topic 2(e) of the Koronivia road map, the SBSTA and the SBI also recognized that livestock management systems are very vulnerable to the impacts of climate change, and that sustainably managed livestock systems have high adaptive capacity and resilience to climate change while playing broad roles in safeguarding food and nutrition security, livelihoods, sustainability, nutrient cycling and carbon management. They noted that improving sustainable production and animal health, aiming to reduce greenhouse gas emissions in the livestock sector while enhancing sinks on pasture and grazing lands, can contribute to achieving long-term climate objectives, taking into account different systems and national circumstances.
+		49.	Having considered the report on the workshop on topic 2(f) of the Koronivia road map, the SBSTA and the SBI recognized that socioeconomic and food security dimensions are critical when dealing with climate change in agriculture and food systems. They also recognized the fundamental priority of safeguarding food security and ending hunger by designing sustainable and climate-resilient agricultural systems applying a systemic approach in line with the long-term global climate objectives, further recognizing the importance of long-term investments in agriculture focused on this objective.
+		50.	The SBSTA and the SBI noted the importance of scaling up support to enhance action on safeguarding food and nutrition security and ending hunger, aiming for inclusive, sustainable and climate-resilient agricultural systems, taking into consideration the vulnerability of agriculture to the impacts of climate change. They recognized the need to improve the enabling environment for mobilizing resources to implement action at the local, national and international level.
+		51.	The SBSTA and the SBI invited Parties to consider relevant policies, actions and measures, including national plans and strategies, that would help with implementing the activities referred to in paragraphs 47–50 above.
+		52.	The SBSTA and the SBI welcomed the participation in the workshops referred to in paragraphs 44–45 above of observers and representatives of the operating entities of the Financial Mechanism; the Adaptation Fund; the Least Developed Countries Fund and the Special Climate Change Fund (both administered by the Global Environment Facility); and the constituted bodies under the Convention. They also welcomed the work already undertaken on issues related to agriculture by these entities.
+		53.	The SBSTA and the SBI encouraged the continued involvement of constituted bodies and financing entities in the Koronivia joint work on agriculture, highlighting the potential for creating interlinkages that lead to enhanced action and improvements in implementation.
+		54.	The SBSTA and the SBI agreed to continue consideration of this matter, including the draft text elements on the report on the intersessional workshop, at SB 56 (June 2022) with a view to reporting on it to and recommending a draft decision for consideration and adoption at COP 27 (November 2022).
+	IX.	Sources of input for the global stocktake under the Paris Agreement
+(Agenda item 9)
+		1.	Proceeding
+			55.	The SBSTA considered this agenda item at its 4th and 6th meetings. At its 4th meeting, the SBSTA agreed that the item would be considered in informal consultations co-facilitated by Laura Juliana Arciniegas (Colombia) and Christiane Textor (Germany). At its 6th meeting, the SBSTA considered and adopted the conclusions below.
+		2.	Conclusions
+			56.	The SBSTA recalled decision 19/CMA.1 and considered the non-exhaustive lists in paragraphs 36–37 of that decision with a view to complementing the lists, while noting paragraphs 20, 25 and 26 of the decision.
+			57.	The SBSTA took note of the exchange of views by Parties on this matter and recalled paragraph 27 of decision 19/CMA.1.
+			58.	The SBSTA agreed that the non-exhaustive lists referred to in paragraph 56 above will serve as a basis for the sources and types of information for the first global stocktake.
+			59.	The SBSTA also agreed that, in addition to the lists referred to in paragraph 56 above, further sources and types of information pursuant to paragraphs 2 and 6(b) of decision 19/CMA.1 will serve as a basis for the sources and types of information for the first global stocktake with a view to informing the technical assessment component thereof.
+			60.	The SBSTA noted that, pursuant to paragraphs 24 and 37(d) of decision 19/CMA.1, relevant constituted bodies and forums and other institutional arrangements under or serving the Paris Agreement and/or the Convention, including those established after the adoption of decision 19/CMA.1, can prepare for the technical assessment of the first global stocktake, with the assistance of the secretariat, synthesis reports on the information identified in paragraph 36 of decision 19/CMA.1, taking into account paragraph 59 above, in their areas of expertise.
+	X.	Matters related to science and review
+(Agenda item 10)
+		A.	Research and systematic observation
+(Agenda sub-item 10(a))
+			1.	Proceedings
+				61.	The SBSTA considered this agenda sub-item at its 4th and 6th meetings. At its 4th meeting, the SBSTA agreed to consider the matter in informal consultations co-facilitated by Ladislaus Chang’a (United Republic of Tanzania) and Stefan Ruchti (Switzerland). At its 6th meeting, the SBSTA considered and adopted the conclusions below.
+			2.	Conclusions
+				62.	The SBSTA noted with appreciation the statements delivered during the World Leaders Summit stressing the importance of science in guiding climate policy and action.
+				63.	The SBSTA welcomed the activities and information reported in the statements delivered at the May–June 2021 sessions of the subsidiary bodies by representatives of GCOS and WMO and at this session by representatives of the Committee on Earth Observation Satellites and Coordination Group for Meteorological Satellites Working Group on Climate, GCOS, IOC-UNESCO, the IPCC, WMO and the World Climate Research Programme, and the corresponding reports and submissions provided, namely the GCOS Status Report and WMO submissions, including the State of the Global Climate 2021 report and the 2020 WMO Greenhouse Gas Bulletin. It noted the relevance of the reports to actions under the Convention and the Paris Agreement.
+				64.	The SBSTA welcomed the contribution of Working Group I to the AR6 and the SBSTA–IPCC special event thereon held at this session. It expressed its appreciation and gratitude to the IPCC and the scientific community for preparing this contribution and looks forward to their continued work on the AR6. The SBSTA appreciated the dedication of the IPCC experts in continuing their work during the coronavirus disease 2019 pandemic.
+				65.	The SBSTA noted with concern the state of the global climate system, as conveyed at Earth Information Days 2020 and 2021 and in the contribution of Working Group I to the AR6.
+				66.	The SBSTA expressed its appreciation to participating research programmes and organizations for their contributions to the twelfth and thirteenth meetings of the research dialogue and Earth Information Days 2020 and 2021.
+				67.	The SBSTA welcomed the reports by its Chair on the events referred to in paragraph 66 above. It invited its Chair to prepare, with the assistance of the secretariat, a summary report on Earth Information Day 2021.
+				68.	The SBSTA noted the significant progress in the work of the research and systematic observation community aimed at strengthening the global response to the threat of climate change, as discussed at the events, and the value of continuing the rich exchanges at future events.
+				69.	The SBSTA also noted the importance of broadening representation at future mandated events by increasing the participation of experts from a wide range of developing countries and geographical regions as well as of representatives of youth and knowledge holders, including local communities and indigenous peoples.
+				70.	The SBSTA encouraged Parties and relevant organizations to strengthen support for sustained systematic observations of the climate system for monitoring changes in the atmosphere, ocean and cryosphere, and on land, including by improving the density of observations in areas of poor coverage, developing and providing long-term data sets and facilitating free and open access to data.
+				71.	The SBSTA welcomed the outcomes of the extraordinary session of the World Meteorological Congress, particularly resolution 1 on the WMO unified data policy, resolution 2 on the Global Basic Observing Network and resolution 3 on the Systematic Observations Financing Facility, and encouraged Parties and relevant organizations to support the Facility in order to enhance and sustain implementation of the Global Basic Observing Network in developing countries, including the LDCs and SIDS.
+				72.	The SBSTA also encouraged Parties and relevant organizations to strengthen systematic observation and research, and address related gaps and needs, including with regard to:
+					(a)	Promoting exchange of usable and accessible scientific information and other relevant knowledge and guidance at the science–policy interface, including in support of implementation of the Convention and the Paris Agreement;
+					(b)	Connecting knowledge holders, innovators and technical experts with decision makers in an equitable and participatory manner so as to increase understanding and use of knowledge, products, tools and climate services that inform risk assessment and management;
+					(c)	Furthering the contribution of youth and local, indigenous and traditional knowledge to understanding climate change and its consequences, and weaving such knowledge into decision-making;
+					(d)	Understanding the opportunities for and challenges of implementing nature-based solutions in land and ocean ecosystems for supporting adaptation and mitigation action;
+					(e)	Improving the performance, development and application of regional and subregional climate models and other downscaling methods in order to improve understanding of local climate-related risks and inform regional, national and local decision-making, including in developing countries with high mountain areas, particularly the LDCs and SIDS;
+					(f)	Recognizing and fostering education as a means to build capacity for climate research in diverse communities, including in the LDCs and SIDS;
+					(g)	Addressing capacity-building requirements of developing countries;
+					(h)	Continuing to make advances in climate model simulations, analysis and methods combining multiple lines of evidence on a wider range of climate variables to improve parameterization of the physical climate system and understanding of scenarios;
+					(i)	Addressing the sensitivities of climate simulations to scenarios and parameterizations.
+				73.	The SBSTA noted the importance of building partnerships as a basis for strengthening understanding and collaboration at the national and regional level, including to facilitate cooperation on addressing key issues such as the ocean and cryosphere. In this regard, it recognized the work of WMO regional climate centres, and work by the Group on Earth Observations on developing relevant knowledge products, indicators, applications and services, notably biosphere observations for ocean and land.
+				74.	The SBSTA encouraged Parties and relevant organizations to support and catalyse the strengthening of data sets for national-level impact analyses and adaptation plans, particularly for the LDCs and SIDS.
+				75.	The SBSTA noted the need for further understanding of gaps in knowledge, including on both tipping points and incremental transformations in the climate system, including in the cryosphere and ocean, as highlighted at Earth Information Day 2021.
+				76.	The SBSTA invited Parties and relevant organizations to submit, via the submission portal, views on possible themes for the fourteenth meeting of the research dialogue, to be held in conjunction with SBSTA 56, by 28 February 2022, and for Earth Information Day 2022, to be held in conjunction with SBSTA 57 (November 2022), by 31 August 2022.
+		B.	Second periodic review of the long-term global goal under the Convention and of overall progress towards achieving it*
+(Agenda sub-item 10(b))
+			1.	Proceedings
+				77.	The SBSTA considered this agenda sub-item at its 4th and 6th meetings. At its 4th meeting, the SBSTA agreed that the item would be considered together with the equally titled SBI 52–55 agenda item 7 in a contact group co-chaired by Una May Gordon (Jamaica) and Frank McGovern (Ireland). At its 6th meeting, the SBSTA considered and adopted the conclusions below.
+			2.	Conclusions
+				78.	The SBSTA and the SBI convened a joint contact group to consider this matter.
+				79.	The SBSTA and the SBI noted that the first meeting of SED2 was held virtually in two sessions in November 2020 and June 2021, and the second meeting of SED2 was held in November 2021 in Glasgow.
+				80.	The SBSTA and the SBI congratulated the co-facilitators of SED2 on their nominations, and expressed appreciation for their effective facilitation of the first and second meetings of SED2.
+				81.	Recalling decision 5/CP.25, the SBSTA and the SBI noted that the third meeting of SED2 will be convened in conjunction with SB 56.
+				82.	The SBSTA and the SBI also noted that summary reports on the meetings of the structured expert dialogue will be included in the synthesis report referred to in decision 1/CP.18, paragraph 86(b), for consideration by the joint SBSTA–SBI contact group for the second periodic review of the long-term global goal under the Convention and of overall progress towards achieving it.
+				83.	The SBSTA and the SBI invited Parties and observers to submit via the submission portal by 4 March 2022 views on the third meeting of SED2.
+	XI.	Matters relating to the forum on the impact of the implementation of response measures serving the Convention, the Kyoto Protocol and the Paris Agreement*
+(Agenda item 11)
+		84.	The SBSTA considered this agenda item at its 4th and 6th meetings. At the 4th meeting, the Chair invited Annela Anger-Kraavi (Estonia), Co-Chair of the KCI, to deliver a brief oral report on the work of the KCI. At the same meeting, the SBSTA agreed that the item would be considered together with the equally titled SBI 52–55 agenda item 16 and that the forum on the impact of the implementation of response measures would be convened as a contact group co-chaired by Mattias Frumerie (Sweden) and Andrei Marcu (Papua New Guinea). At the 6th meeting, the Chair reported that Parties could not conclude consideration of this matter in time for the closing of the SBSTA and SBI sessions and that the Chairs would bring this matter to the attention of the COP President for further guidance.
+	XII.	Methodological issues under the Convention
+(Agenda item 12)
+		A.	Training programme for review experts for the technical review of greenhouse gas inventories of Parties included in Annex I to the Convention
+(Agenda sub-item 12(a))
+		B.	Training programme for review experts for the technical review of biennial reports and national communications of Parties included in Annex I to the Convention
+(Agenda sub-item 12(b))
+		C.	Revision of the UNFCCC reporting guidelines on annual inventories for Parties included in Annex I to the Convention
+(Agenda sub-item 12(c))
+		D.	Guidelines for the technical review of information reported under the Convention related to greenhouse gas inventories, biennial reports and national communications by Parties included in Annex I to the Convention
+(Agenda sub-item 12(d))
+		E.	Greenhouse gas data interface
+(Agenda sub-item 12(e))
+		F.	Common metrics to calculate the carbon dioxide equivalence of greenhouse gases
+(Agenda sub-item 12(f))
+		G.	Emissions from fuel used for international aviation and maritime transport
+(Agenda sub-item 12(g))
+			85.	At its 4th meeting, the SBSTA agreed to defer consideration of these matters to SBSTA 56.
+	XIII.	Methodological issues under the Kyoto Protocol
+(Agenda item 13)
+		A.	Land use, land-use change and forestry under Article 3, paragraphs 3–‍4, of the Kyoto Protocol and under the clean development mechanism
+(Agenda sub-item 13(a))
+			86.	At its 4th meeting, the SBSTA agreed to defer consideration of this matter to SBSTA 56.
+		B.	Implications of the inclusion of reforestation of lands with forest in exhaustion as afforestation and reforestation clean development mechanism project activities
+(Agenda sub-item 13(b))
+			87.	At its 4th meeting, the SBSTA agreed to defer consideration of this matter to SBSTA 56.
+	XIV.	Methodological issues under the Paris Agreement 
+(Agenda item 14)
+		A.	Common reporting tables for the electronic reporting of the information in the national inventory reports of anthropogenic emissions by sources and removals by sinks of greenhouse gases 
+(Agenda sub-item 14(a))
+		B.	Common tabular formats for the electronic reporting of the information necessary to track progress made in implementing and achieving nationally determined contributions under Article 4 of the Paris Agreement
+(Agenda sub-item 14(b))
+		C.	Common tabular formats for the electronic reporting of the information on financial, technology development and transfer, and capacity-building support provided and mobilized, as well as support needed and received, under Articles 9–11 of the Paris Agreement
+(Agenda sub-item 14(c))
+		D.	Outlines of the biennial transparency report, national inventory document and technical expert review report pursuant to the modalities, procedures and guidelines for the transparency framework for action and support
+(Agenda sub-item 14(d))
+		E.	Training programme for technical experts participating in the technical expert review
+(Agenda sub-item 14(e))
+			1.	Proceedings
+				88.	The SBSTA considered this agenda item at its 4th and 6th meetings. At its 4th meeting, the SBSTA agreed to establish a contact group co-chaired by Xiang Gao (China) and Helen Plume (New Zealand), who also convened informal consultations for sub-items 14(a), (b) and (d). The co-chairs were assisted by Seyni Nafo (Mali) and Karima Oustadi (Italy) (for sub-item 14(c)) and Jae Hyuk Jung (Republic of Korea) and Harry Vreuls (Netherlands) (for sub-item 14(e)) as co-facilitators of the informal consultations held under the contact group. At its 6th meeting, the SBSTA considered and adopted the conclusions below.
+			2.	Conclusions
+				89.	The SBSTA continued to discuss methodological issues under the Paris Agreement, specifically:
+					(a)	Common reporting tables referred to in chapter II of the annex to decision 18/CMA.1 for the electronic reporting of the information in the national inventory reports of anthropogenic emissions by sources and removals by sinks of greenhouse gases;
+					(b)	Common tabular formats referred to in chapter III of the annex to decision 18/CMA.1 for the electronic reporting of the information necessary to track progress made in implementing and achieving nationally determined contributions under Article 4 of the Paris Agreement;
+					(c)	Common tabular formats referred to in chapters V–VI of the annex to decision 18/CMA.1 for the electronic reporting of the information on financial, technology development and transfer, and capacity-building support provided and mobilized, as well as support needed and received, under Articles 9–11 of the Paris Agreement;
+					(d)	Outlines of the biennial transparency report, national inventory document and technical expert review report pursuant to the annex to decision 18/CMA.1;
+					(e)	A training programme for technical experts participating in the technical expert review, referred to in decision 18/CMA.1, paragraph 12(c).
+				90.	The SBSTA acknowledged that some Parties have applied, or expressed their willingness to apply, methodologies contained in the 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories in estimating emissions and removals for their national greenhouse gas inventories.
+				91.	At the same meeting, the SBSTA agreed to forward the outcome of its work on the matters referred to in paragraph 89 above for consideration by the CMA with a view to CMA 3 adopting a decision on these matters.
+	XV.	Matters relating to Article 6 of the Paris Agreement
+(Agenda item 15)
+		Proceedings
+			92.	The SBSTA considered this agenda item at its 4th and 6th meetings. At its 4th meeting, the SBSTA agreed to establish a contact group chaired by the SBSTA Chair and assisted by Mandy Rambharos (South Africa), Hugh Sealy (Barbados), Kim Solberg (Netherlands) and Peer Stiansen (Norway) as co-facilitators of the informal consultations held under the contact group. At its 6th meeting, the SBSTA considered and adopted the conclusions presented below under the respective agenda sub-items.
+		A.	Guidance on cooperative approaches referred to in Article 6, paragraph 2, of the Paris Agreement
+(Agenda sub-item 15(a))
+			Conclusions
+				93.	Pursuant to the request of the CMA, the SBSTA agreed to forward to the CMA the draft decision text on guidance on cooperative approaches referred to in Article 6, paragraph 2, of the Paris Agreement.
+				94.	The draft decision text is being forwarded for consideration at CMA 3 recognizing that this text does not represent a consensus among Parties and that further work by the CMA is necessary to finalize the decision.
+		B.	Rules, modalities and procedures for the mechanism established by Article 6, paragraph 4, of the Paris Agreement
+(Agenda sub-item 15(b))
+			Conclusions
+				95.	Pursuant to the request of the CMA, the SBSTA agreed to forward to the CMA the draft decision text on rules, modalities and procedures for the mechanism established by Article 6, paragraph 4, of the Paris Agreement.
+				96.	The draft decision text is being forwarded for consideration at CMA 3 recognizing that this text does not represent a consensus among Parties and that further work by the CMA is necessary to finalize the decision.
+		C.	Work programme under the framework for non-market approaches referred to in Article 6, paragraph 8, of the Paris Agreement
+(Agenda sub-item 15(c))
+			Conclusions
+				97.	Pursuant to the request of the CMA, the SBSTA agreed to forward to the CMA the draft decision text on the work programme under the framework for non-market approaches referred to in Article 6, paragraph 8, of the Paris Agreement.
+				98.	The draft decision text is being forwarded for consideration at CMA 3 recognizing that this text does not represent a consensus among Parties and that further work by the CMA is necessary to finalize the decision.
+	XVI.	Market and non-market mechanisms under the Convention
+(Agenda item 16)
+		A.	Framework for various approaches
+(Agenda sub-item 16(a))
+		B.	Non-market-based approaches
+(Agenda sub-item 16(b))
+		C.	New market-based mechanism
+(Agenda sub-item 16(c))
+			99.	At its 4th meeting, the SBSTA agreed to defer consideration of these matters to SBSTA 56.
+	XVII.	Cooperation with other international organizations
+(Agenda item 17)
+		1.	Proceedings
+			100.	The SBSTA considered this agenda item at its 4th and 6th meetings. It had before it documents FCCC/SBSTA/2020/INF.2 and FCCC/SBSTA/2021/INF.1. At its 4th meeting, the SBSTA agreed to the Chair’s proposal to draft conclusions in consultation with interested Parties. At its 6th meeting, the SBSTA considered and adopted the conclusions below.
+		2.	Conclusions
+			101.	The SBSTA welcomed the summary of the secretariat’s cooperative activities with United Nations entities and other intergovernmental organizations for May 2020 to May 2021, as well as the previous summary, for June 2019 to May 2020, prepared in 2020.
+			102.	The SBSTA also welcomed the information event, held during its May–June 2021 session, on the secretariat’s cooperation with United Nations entities and other intergovernmental organizations.
+			103.	The SBSTA noted the importance of the secretariat’s cooperation, within the scope of existing mandates provided by the governing bodies, with relevant United Nations entities and other intergovernmental organizations in relation to supporting Parties’ efforts to enhance the ambition of their climate action, including with regard to mitigation, adaptation and means of implementation, and contributing to the implementation of the 2030 Agenda for Sustainable Development.
+			104.	The SBSTA encouraged its Chair to continue to provide opportunities for Parties and stakeholders to exchange views on the progress of the secretariat’s cooperative activities with United Nations entities and other intergovernmental organizations and to provide guidance to the secretariat on this matter at future sessions.
+	XVIII.	Annual reports on technical reviews 
+(Agenda item 18)
+		A.	Technical review of information reported under the Convention by Parties included in Annex I to the Convention in their biennial reports and national communications 
+(Agenda sub-item 18(a))
+			105.	The SBSTA considered this agenda sub-item at its 4th meeting. It took note of the information contained in documents FCCC/SBSTA/2020/INF.5 and FCCC/SBSTA/2021/INF.3.
+		B.	Technical review of greenhouse gas inventories of Parties included in Annex I to the Convention
+(Agenda sub-item 18(b))
+			106.	The SBSTA considered this agenda sub-item at its 4th meeting. A statement was made by a representative of Ukraine. On a proposal by Ukraine, the SBSTA agreed to defer consideration of this sub-item to SBSTA 56.
+		C.	Technical review of greenhouse gas inventories and other information reported by Parties included in Annex I, as defined in Article 1, paragraph 7, of the Kyoto Protocol 
+(Agenda sub-item 18(c))
+			107.	The SBSTA considered this agenda sub-item at its 4th meeting. It took note of the information contained in documents FCCC/SBSTA/2020/INF.3 and FCCC/SBSTA/2021/INF.4.
+	XIX.	Other matters 
+(Agenda item 19)
+		108.	The SBSTA considered this agenda item at its 4th meeting. No other matters were raised.
+	XX.	Closure of and report on the session
+(Agenda item 20)
+		1.	Administrative and budgetary implications
+			109.	At the 6th meeting of the SBSTA, the Deputy Executive Secretary provided a preliminary evaluation of the administrative and budgetary implications of the conclusions adopted at this session, in accordance with rule 15 of the draft rules of procedure being applied. He informed the SBSTA that several activities resulting from the negotiations at this session called for more secretariat support and required resources over and above the core budget for the biennium 2022–2023.
+			110.	Under agenda item 3, “Nairobi work programme on impacts, vulnerability and adaptation to climate change”, supplementary funding in the amount of EUR 475,000 will be required in 2022–2023 to organize global and regional in-person events and to enhance the accessibility and applicability of NWP knowledge products for all Parties and non-Party stakeholders.
+			111.	Under agenda item 6, “Local Communities and Indigenous Peoples Platform”, supplementary funding in the amount of EUR 1.1 million will be required in 2022–2023 to support the implementation of the functions of the LCIPP, including for meetings, training workshops and round tables. The same estimate will be reported to the COP upon adoption of the related decision.
+			112.	The aforementioned activities under agenda items 3 and 6 are recurring or long-term activities, which means that they would be funded from the core budget in future bienniums (after 2023) if approved by the appropriate governing body.
+			113.	The cost of preparing synthesis and technical reports under SBSTA agenda items 3, “Nairobi work programme on impacts, vulnerability and adaptation to climate change”, and 10(a), “Research and systematic observation”, are expected to be absorbed from existing resources in the Trust Fund for Supplementary Activities.
+			114.	The Deputy Executive Secretary noted that the amounts presented were preliminary and based on the information available at that time. Estimated costs for 2024 and beyond would be reviewed in the context of the budget preparation for the biennium 2024–2025. He expressed the hope that the secretariat can count on the continued generosity of Parties in providing funding for these activities in a timely and predictable manner. He noted that without such contributions the secretariat will not be in a position to provide the requested support.
+		2.	Closure of and report on the session
+			115.	At its 6th meeting, the SBSTA considered and adopted the draft report on the session and authorized the Rapporteur, with the assistance of the secretariat and under the guidance of the Chair, to complete the report on the session and to make it available to all Parties.
+			116.	At the same meeting, statements were made by representatives of eight Parties, including seven on behalf of groups of Parties: Alliance of Small Island States; Coalition for Rainforest Nations; Environmental Integrity Group; European Union and its member States; Independent Association for Latin America and the Caribbean; LDCs; and Umbrella Group. Statements were also made by representatives of business and industry NGOs, environmental NGOs, indigenous peoples organizations, the women and gender constituency and youth NGOs.
+			117.	At the end of the 6th meeting, the Chair thanked all Parties for the constructive engagement throughout the session and all observers for their engagement. He also thanked the co-chairs and co-facilitators for their work, as well as the other presiding officers for the close collaboration throughout the past two years. The Chair then closed the session.
+			

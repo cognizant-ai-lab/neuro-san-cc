@@ -1,0 +1,1125 @@
+Subsidiary Body for Implementation
+	|  | United Nations | FCCC/SBI/2016/8 |
+	|  |  | Distr.: General 26 August 2016  Original: English |
+	
+Report of the Subsidiary Body for Implementation on its forty-fourth session, held in Bonn from 16 to 26 May 2016
+	Contents
+		Paragraphs	Page
+		I.	Opening of the session
+		(Agenda item 1)		1–2	5
+		II.	Organizational matters
+		(Agenda item 2)		3–13	5
+		A.	Adoption of the agenda		3–7	5
+		B.	Organization of the work of the session		8	7
+			C.	Facilitative sharing of views under the international consultation and analysis 
+process		9–10	8
+		D.	Other mandated events		11	8
+		E.	Election of officers other than the Chair		12–13	8
+			III.	Reporting from and review of Parties included in Annex I to the Convention
+		(Agenda item 3)		14–28	9
+				A.	Status of submission and review of second biennial reports from Parties 
+included in Annex I to the Convention		14	9
+				B.	Compilation and synthesis of sixth national communications and first 
+biennial reports from Parties included in Annex I to the Convention 		15–16	9
+				C.	Outcome of the first round of the international assessment and review 
+process (2014–2015)		17–22	9
+				D.	Revision of the “Guidelines for the preparation of national communications 
+by Parties included in Annex I to the Convention, Part II: UNFCCC 
+reporting guidelines on national communications”		23–28	10
+			IV.	Reporting from Parties not included in Annex I to the Convention
+		(Agenda item 4)		29–42	11
+				A.	Information contained in national communications from Parties not included 
+in Annex I to the Convention		29–41	11
+		B.	Provision of financial and technical support		29–41	11
+			C.	Summary reports on the technical analysis of biennial update reports of 
+Parties not included in Annex I to the Convention		42	13
+			V.	Development of modalities and procedures for the operation and use of a public 
+registry referred to in Article 4, paragraph 12, of the Paris Agreement 
+(Agenda item 5) 		43–47	14
+			VI.	Development of modalities and procedures for the operation and use of a public 
+registry referred to in Article 7, paragraph 12, of the Paris Agreement
+(Agenda item 6)		48–51	14
+			VII.	Matters relating to the mechanisms under the Kyoto Protocol
+		(Agenda item 7)		52–63	15
+				A.	Review of the modalities and procedures for the clean development 
+mechanism		52–56	15
+		B.	Review of the joint implementation guidelines		57–61	15
+			C.	Procedures, mechanisms and institutional arrangements for appeals against 
+decisions of the Executive Board of the clean development mechanism		62–63	16
+			VIII.	Matters relating to the least developed countries 
+(Agenda item 8)		64–80	16
+			IX.	National adaptation plans 
+(Agenda item 9)		81–89	18
+			X.	Third review of the Adaptation Fund 
+(Agenda item 10)		90–91	19
+			XI.	Scope and modalities for the periodic assessment of the Technology Mechanism 
+in relation to supporting the implementation of the Paris Agreement
+(Agenda item 11)		92–96	20
+			XII.	Capacity-building in developing countries 
+(Agenda item 12)		97–103	21
+				A.	Third comprehensive review of the implementation of the framework for 
+capacity-building under the Convention		97–98	21
+				B.	Third comprehensive review of the implementation of the framework for 
+capacity-building under the Kyoto Protocol		99	21
+		C.	Terms of reference for the Paris Committee on Capacity-building 		100–103	22
+			XIII.	Review of the Doha work programme on Article 6 of the Convention
+		(Agenda item 13)		104–114	22
+			XIV.	Impact of the implementation of response measures 
+(Agenda sub-item 14)		115–129	24
+		A.	Improved forum and work programme		115–123	24
+			B.	Modalities, work programme and functions under the Paris Agreement of 
+the forum on the impact of the implementation of response measures		124–127	25
+		C.	Matters relating to Article 3, paragraph 14, of the Kyoto Protocol		128	25
+		D.	Progress on the implementation of decision 1/CP.10		129	26
+			XV.	The scope of the next periodic review of the long-term goal under 
+the Convention and of overall progress towards achieving it
+(Agenda item 15)		130–134	26
+			XVI.	Gender and climate change (Agenda item 16)		135–142	27
+			XVII.	Arrangements for intergovernmental meetings
+		(Agenda item 17)		143–169	28
+			XVIII.	Administrative, financial and institutional matters
+		(Agenda item 18)		170–181	31
+		A.	Financial and budgetary matters		170–176	31
+		B.	Continuing review of functions and operations of the secretariat		177	32
+			C.	Privileges and immunities for individuals serving on constituted bodies 
+established under the Kyoto Protocol		178–179	32
+			D.	Privileges and immunities for individuals serving on constituted bodies 
+established under the Convention		180–181	32
+			XIX.	Other matters
+		(Agenda item 19)		182	33
+			XX.	Closure of and report on the session
+		(Agenda item 20)		183–191	33
+		Annexes
+			I.	Draft guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part II: UNFCCC reporting guidelines on national communications 		35
+			II.	Work programme on the improved forum on the impact of the implementation of response measures (June 2016 to November 2018)		68
+			III.	Terms of reference of the ad hoc technical expert groups on the impact of the implementation of response measures		70
+			
+		
+Addendum – FCCC/SBI/2016/8/Add.1
+Draft decisions forwarded for consideration and adoption by the Conference of the Parties and the Conference of the Parties serving as the meeting of the Parties to the 
+Kyoto Protocol
+	Draft decision -/CP.22. Outcome of the first round of the international assessment and review process (2014–2015)
+	Draft decision -/CP.22. Paris Committee on Capacity-building
+	Draft decision -/CP.22. Improving the effectiveness of the Doha work programme on Article 6 of the Convention
+	Draft decision -/CP.22. Financial and budgetary matters
+	Draft decision -/CMP.12. Financial and budgetary matters
+	Draft decision -/CMP.12. Review of the joint implementation guidelines
+	Draft Decision-/CMP.12. Third review of the Adaptation Fund
+	
+	I.	Opening of the session
+		(Agenda item 1)
+			1.	The forty-fourth session of the Subsidiary Body for Implementation (SBI) was held at the World Conference Center Bonn in Bonn, Germany, from 16 to 26 May 2016.
+			2.	The Chair of the SBI, Mr. Tomasz Chruszczow (Poland), opened the session on Monday, 16 May, and welcomed all Parties and observers. He also welcomed Mr. Zhihua Chen (China) as Vice-Chair of the SBI and, at the 2nd meeting on 20 May, he welcomed Mr. Sidat Yaffa (Gambia), who had just joined the session, as Rapporteur. At the opening plenary, Ms. Laurence Tubiana (France) made a statement on behalf of the Presidency of the Conference of the Parties (COP).
+	II.	Organizational matters
+		(Agenda item 2)
+		A.	Adoption of the agenda
+			(Agenda sub-item 2(a))
+				3.	At its 1st meeting, on 16 May, the SBI considered a note by the Executive Secretary containing the provisional agenda and annotations (FCCC/SBI/2016/1). Representatives of seven Parties made statements, including on behalf of the Group of 77 and China (G77 and China) and of the Umbrella Group.
+				4.	At the same meeting, the SBI adopted the agenda with the exclusion of item 5 and with sub-item 4(a) held in abeyance. The SBI agreed to the Chair’s proposal that he conduct consultations with interested Parties on item 5 of the provisional agenda and report back on progress made. The SBI also agreed to the Chair’s proposal that the Vice-Chair hold consultations on how to move forward with agenda sub-item 4(a) and report on the outcome of his consultations at the closing meeting of the SBI.
+				5.	At the 2nd meeting, the Chair reported to Parties on his consultations on item 5 of the provisional agenda and presented to the SBI document FCCC/SBI/2016/L.2 reflecting the results of the consultations. Representatives of three Parties made statements. On a proposal by the Chair, the SBI adopted the agenda contained in that document and presented below, replacing the agenda it had adopted at its 1st meeting.
+				1.	Opening of the session.
+				2.	Organizational matters:
+					(a)	Adoption of the agenda;
+					(b)	Organization of the work of the session;
+					(c)	Facilitative sharing of views under the international consultation and analysis process;
+					(d)	Other mandated events;
+					(e)	Election of officers other than the Chair.
+				3.	Reporting from and review of Parties included in Annex I to the Convention:
+					(a)	Status of submission and review of second biennial reports from Parties included in Annex I to the Convention;
+					(b)	Compilation and synthesis of sixth national communications and first biennial reports from Parties included in Annex I to the Convention;
+					(c)	Outcome of the first round of the international assessment and review process (2014–2015);
+					(d)	Revision of the “Guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part II: UNFCCC reporting guidelines on national communications”.
+				4.	Reporting from Parties not included in Annex I to the Convention:
+					(a)	Information contained in national communications from Parties not included in Annex I to the Convention (agenda sub-item held in abeyance);
+					(b)	Provision of financial and technical support;
+					(c)	Summary reports on the technical analysis of biennial update reports of Parties not included in Annex I to the Convention.
+					5.	Development of modalities and procedures for the operation and use of a public registry referred to in Article 4, paragraph 12, of the Paris Agreement.
+					6.	Development of modalities and procedures for the operation and use of a public registry referred to in Article 7, paragraph 12, of the Paris Agreement.
+				7.	Matters relating to the mechanisms under the Kyoto Protocol:
+					(a)	Review of the modalities and procedures for the clean development mechanism;
+					(b)	Review of the joint implementation guidelines;
+					(c)	Procedures, mechanisms and institutional arrangements for appeals against decisions of the Executive Board of the clean development mechanism.
+				8.	Matters relating to the least developed countries.
+				9.	National adaptation plans.
+				10.	Third review of the Adaptation Fund.
+					11.	Scope and modalities for the periodic assessment of the Technology Mechanism in relation to supporting the implementation of the Paris Agreement.
+				12.	Capacity-building in developing countries:
+					(a)	Third comprehensive review of the implementation of the framework for capacity-building under the Convention;
+					(b)	Third comprehensive review of the implementation of the framework for capacity-building under the Kyoto Protocol;
+					(c)	Terms of reference for the Paris Committee on Capacity-building.
+				13.	Review of the Doha work programme on Article 6 of the Convention.
+				14.	Impact of the implementation of response measures:
+					(a)	Improved forum and work programme;
+					(b)	Modalities, work programme and functions under the Paris Agreement of the forum on the impact of the implementation of response measures;
+					(c)	Matters relating to Article 3, paragraph 14, of the Kyoto Protocol;
+					(d)	Progress on the implementation of decision 1/CP.10.
+					15.	The scope of the next periodic review of the long-term global goal under the Convention and of overall progress towards achieving it.
+				16.	Gender and climate change.
+				17.	Arrangements for intergovernmental meetings.
+				18.	Administrative, financial and institutional matters:
+					(a)	Financial and budgetary matters;
+					(b)	Continuing review of functions and operations of the secretariat;
+					(c)	Privileges and immunities for individuals serving on constituted bodies established under the Kyoto Protocol;
+					(d)	Privileges and immunities for individuals serving on constituted bodies established under the Convention.
+				19.	Other matters.
+				20.	Closure of and report on the session.
+					6.	At the resumed 1st meeting, on 17 May, statements were made by representatives of nine Parties, including on behalf of the G77 and China, the Umbrella Group, the European Union (EU), the Environmental Integrity Group (EIG), the African Group, the Alliance of Small Island States (AOSIS), the least developed countries (LDCs), the Bolivarian Alliance for the Peoples of Our America – Peoples’ Trade Treaty, and the Independent Association for Latin America and the Caribbean (AILAC). Statements were also made by representatives of trade union non-governmental organizations (NGOs), women and gender NGOs, youth NGOs, environmental NGOs and indigenous peoples organizations.
+					7. 	At the resumed 3rd meeting, held on 26 May, the Chair reported back on the informal consultations of the Vice-Chair on agenda sub-item 4(a). He informed Parties that there was no consensus on the way forward with regard to this sub-item. On a proposal by the Chair, the SBI agreed to include this matter on the provisional agenda for SBI 45.
+		B.	Organization of the work of the session
+			(Agenda sub-item 2(b))
+				8.	The SBI considered this agenda sub-item at its 1st meeting, at which the Chair drew attention to the information note on the organization of the session posted on the SBI 44 web page. On a proposal by the Chair, the SBI agreed to proceed on the basis of the programme of work outlined in that information note and in line with previously adopted SBI conclusions on the timely conclusion of negotiations and related working practices.
+		C.	Facilitative sharing of views under the international consultation and analysis process
+			(Agenda sub-item 2(c))
+				9.	The SBI considered this agenda sub-item at its 1st meeting and took note of the information provided by the Chair on the organization of the first workshop of the facilitative sharing of views (FSV) under the international consultation and analysis (ICA) process, which was to take place on 20 and 21 May.
+				10.	The Chair drew attention to annex IV to decision 2/CP.17 as well as the FSV web page. He informed the SBI that the output of the ICA process will include, for each Party, a record of the proceedings of the FSV session and a summary report on the technical analysis of the biennial update report.
+		D.	Other mandated events
+			(Agenda sub-item 2(d))
+				11.	The SBI considered this agenda sub-item at its 1st meeting and took note of the information provided by the Chair on the mandated events, highlighting the technical expert meetings that are at the core of the technical examination processes.
+		E.	Election of officers other than the Chair
+			(Agenda sub-item 2(e))
+				12.	The SBI considered this agenda sub-item at its 1st meeting, as well as at its resumed 3rd meeting. At the 1st meeting, the Chair recalled rule 27 of the draft rules of procedure being applied, whereby the SBI is expected to elect its Rapporteur. At the same meeting, the SBI noted that the consultations on the nominations of the Rapporteur were ongoing and were being coordinated with the consultations being conducted on the nominations to all other bodies under the Convention and its Kyoto Protocol under the authority of the President of the COP.
+				13.	At the resumed 3rd meeting, the Chair informed Parties that no nomination for the post of Rapporteur had been received and that in accordance with rule 22, paragraph 2, of the draft rules of procedure being applied, Mr. Yaffa, the current Rapporteur, would remain in office until his replacement is elected at the next session of the SBI.
+	III.	Reporting from and review of Parties included in Annex I to the Convention
+		(Agenda item 3)
+		A.	Status of submission and review of second biennial reports from Parties included in Annex I to the Convention
+(Agenda sub-item 3(a))
+			Proceedings
+				14.	The SBI considered this agenda sub-item at its 1st meeting and took note of the information contained in document FCCC/SBI/2016/INF.1.
+		B.	Compilation and synthesis of sixth national communications and first biennial reports from Parties included in Annex I to the Convention
+(Agenda sub-item 3(b))
+			1.	Proceedings
+				15.	The SBI considered this agenda sub-item at its 1st meeting, and on 25 May at its 3rd meeting. At its 1st meeting, the SBI agreed to consider the agenda sub-item in informal consultations co-facilitated by Ms. Helen Plume (New Zealand) and Ms. Anne Rasmussen (Samoa). At its 3rd meeting, it considered and adopted the conclusions below.
+			2.	Conclusions
+				16.	The SBI took note of the compilation and synthesis of sixth national communications and first biennial reports from Parties included in Annex I to the Convention (Annex I Parties) prepared by the secretariat in 2014 and noted that the compilation and synthesis of second biennial reports from Annex I Parties will be discussed at SBI 45 (November 2016).
+		C.	Outcome of the first round of the international assessment and review process (2014–2015) 
+(Agenda sub-item 3(c))
+			1.	Proceedings
+				17.	The SBI considered this agenda sub-item at its 1st and 3rd meetings. At its 1st meeting, the SBI agreed to consider the agenda sub-item in informal consultations co-facilitated by Mr. Xiang Gao (China) and Ms. Plume. At its 3rd meeting, it considered and adopted the conclusions below.
+			2.	Conclusions
+				18.	The SBI continued its consideration of the nature and scope of the SBI conclusions in regard to the outcome of the first round of the international assessment and review (IAR) process.
+				19.	The SBI noted that, during the three IAR multilateral assessment working group sessions held at SBI 41, SBI 42 and SBI 43, a total of 43 developed country Parties that submitted their biennial reports were multilaterally assessed.
+				20.	The SBI took note of the publication of the Party records for the Parties referred to in paragraph 19 above. It noted that these records, which represent part of the experience gained in the first round of IAR, will inform the revision of the modalities and procedures referred to in decision 2/CP.17, paragraph 26.
+				21.	The SBI noted with appreciation that the first round of the IAR process is contributing to the achievement of the overall objectives referred to in decision 2/CP.17, annex II, paragraph 1, and contributed to building trust among Parties. It noted that, in total, Parties submitted 651 questions to the 43 Parties being multilaterally assessed during the question and answer period. The SBI also noted that the recommendations and encouragement contained in the technical review reports and the question and answer process that is part of IAR have assisted Parties in understanding the progress that still needs to be made in order to improve transparency.
+				22.	The SBI recommended a draft decision on this matter for consideration at COP 22 (November 2016).
+		D.	Revision of the “Guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part II: UNFCCC reporting guidelines on national communications”
+(Agenda sub-item 3(d))
+			1.	Proceedings
+				23.	The SBI considered this agenda sub-item at its 1st and resumed 3rd meetings. At the 1st meeting, the Chair informed Parties of a pre-sessional workshop on the revision of the “Guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part II: UNFCCC reporting guidelines on national communications” (hereinafter referred to as the UNFCCC reporting guidelines on NCs). The Chair notified Parties of a workshop report being published later that day that would serve as the basis for discussions under this agenda item.
+				24.	At its 1st meeting, the SBI agreed to consider the agenda sub-item in informal consultations co-facilitated by Ms. Fatuma Hussein (Kenya) and Ms. Plume. At its resumed 3rd meeting, it considered and adopted the conclusions below.
+			2.	Conclusions
+				25.	The SBI continued its consideration, initiated at SBI 40, of the revision of the UNFCCC reporting guidelines on NCs.
+				26.	The SBI acknowledged the progress in the revision of the UNFCCC reporting guidelines on NCs made by Parties during the workshop held on 13 and 14 May 2016 and noted that the workshop report provided a good basis for work on the matter during the session.
+				27.	The SBI agreed on the text of the draft revised guidelines as contained in annex I, except for the bracketed text in paragraph 71.
+				28.	The SBI also agreed to continue its consideration of the bracketed text mentioned in paragraph 27 above at SBI 45 with a view to finalizing the revised UNFCCC reporting guidelines on NCs at that session and recommending them for consideration and adoption at COP 22.
+	IV.	Reporting from Parties not included in Annex I to the Convention
+		(Agenda item 4)
+		A.	Information contained in national communications from Parties not included in Annex I to the Convention
+			(Agenda sub-item 4(a) held in abeyance)
+		B.	Provision of financial and technical support
+			(Agenda sub-item 4(b))
+			1.	Proceedings
+				29.	The SBI considered this agenda sub-item at its 1st and resumed 3rd meetings and had before it document FCCC/SBI/2016/INF.2. Representatives of 10 Parties made statements, including one on behalf of the EU. At the 1st meeting, the Chair invited a representative of the Global Environment Facility (GEF) to make a statement. At the same meeting, the Chair proposed to prepare draft conclusions on this sub-item in consultation with interested Parties.
+				30.	At its resumed 3rd meeting, in response to an exchange of views by several Parties after one Party raised a concern, the Chair acknowledged the work of the GEF in providing support and funding to Parties not included in Annex I to the Convention (non-Annex I Parties) for the preparation of multiple reports under the Convention, referred to in the conclusions under this sub-item, and encouraged non-Annex I Parties that have not done so to apply for such financial support. The Chair invited the GEF to cooperatively work with all recipient countries in order to ensure their effective access to GEF financial resources so the requests of Parties can be addressed in an appropriate and timely manner. At the same meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				31.	The SBI welcomed the information provided by the GEF secretariat on the financial support provided by the GEF for the preparation of biennial update reports (BURs) by non-Annex I Parties.
+				32.	The SBI invited the GEF to continue to provide detailed information on its activities relating to the preparation of BURs, including the dates of requests for funding, approval of funding and disbursement of funds and the approximate date of submission of BURs to the secretariat, for consideration at SBI 45.
+				33.	The SBI noted that, as at 16 May 2016, 32 non-Annex I Parties had submitted their first BUR and that a further 11 non-Annex I Parties are expected to submit theirs by 31 December 2016.
+				34.	It also noted that, as at 16 May 2016, the GEF secretariat had received and processed a total of 92 requests for funding from non-Annex I Parties to prepare their first BURs. Five of those requests were received after the initial deadline for submission of the first BURs in December 2014. The GEF has also received 12 requests from non-Annex I Parties for funding for the preparation of their second BURs; four such BURs are expected to be submitted by 31 December 2016.
+				35.	The SBI further noted that, as at 24 May 2016, there were many outstanding submissions of BURs from non-Annex I Parties, while recognizing the challenges that non-Annex I Parties face in submitting their BURs in a timely manner. It recalled decision 2/CP.17, paragraph 41(a), which states that non-Annex I Parties, consistent with their capabilities and the level of support provided for reporting, should submit their first BURs by December 2014. It encouraged non-Annex I Parties that have not yet completed and submitted their first BUR to do so as soon as possible.
+				36.	Recalling decision 2/CP.17, the SBI reiterated its urging of the non-Annex I Parties that have yet to submit their request to the GEF for support for the preparation of their first BUR to do so in a timely manner. In addition, it encouraged the GEF agencies to continue to facilitate the preparation and submission of project proposals by non-Annex I Parties for the preparation of their BURs and to respond to the project proposals.
+				37.	The SBI recalled the information provided by the GEF in its report to COP 21 on the procedures available to facilitate access by non-Annex I Parties to funding for the preparation of their national communications and multiple BURs within one application. Noting that 13 Parties have successfully utilized that facilitated procedure, the SBI encouraged all non-Annex I Parties to consider applying for funding for the preparation of multiple reports within one application, and requested GEF agencies to respond to such requests in a timely manner.
+				38.	The SBI welcomed the information provided by the GEF on its Global Support Programme for Preparation of National Communications and Biennial Update Reports by non-Annex I Parties, especially regarding the development and implementation of its 2016 work programme. The SBI encouraged non-Annex I Parties to take advantage of the opportunities for technical assistance and support available under the Global Support Programme.
+				39.	The SBI noted with appreciation that the GEF had made good progress on the establishment of the Capacity-building Initiative for Transparency as requested at COP 21. It reiterated its request to the GEF to provide further information on this matter in its report to COP 22.
+				40.	The SBI recognized the contribution made by the Consultative Group of Experts on National Communications from Parties not included in Annex I to the Convention (CGE) in providing technical support to non-Annex I Parties, and urged developed country Parties included in Annex II to the Convention and other developed country Parties in a position to do so to provide financial resources for the implementation of the CGE work programme.
+				41.	The SBI, recalling the request of non-Annex I Parties for further technical support aimed at improving their domestic capacity to facilitate continuity in meeting their reporting requirements, also urged developed country Parties included in Annex II to the Convention and other developed country Parties in a position to do so to provide financial resources for the secretariat to implement the activities referred to in the conclusions of SBI 42. It noted that such activities support non-Annex I Parties in building their transparency-related capacity, and requested the secretariat to report at SBI 45 on the progress made in this regard, including on relevant regional workshops held in 2016.
+		C.	Summary reports on the technical analysis of biennial update reports of Parties not included in Annex I to the Convention
+			(Agenda sub-item 4(c))
+			Proceedings
+				42.	The SBI considered this agenda sub-item at its 1st meeting. It took note of the nine summary reports made available so far on the UNFCCC website in the period from 18 December 2015 to 29 February 2016.
+	V.	Development of modalities and procedures for the operation and use of a public registry referred to in Article 4, paragraph 12, of the Paris Agreement
+		(Agenda item 5)
+		1.	Proceedings
+			43.	The SBI considered this agenda item at its 2nd and resumed 3rd meetings and had before it document FCCC/SBI/2016/INF.6. A representative of one Party made a statement. At its 2nd meeting, the SBI agreed to consider the agenda item in informal consultations co-facilitated by Ms. Madeleine Diouf Sarr (Senegal) and Ms. Gertraud Wollansky (Austria). At its resumed 3rd meeting, it considered and adopted the conclusions below, as amended.
+		2.	Conclusions
+			44.	The SBI initiated its deliberations in accordance with decision 1/CP.21, paragraph 29, referring to Article 4, paragraph 12, of the Paris Agreement.
+			45.	The SBI took note of the information provided by the secretariat on its approach to developing an interim public registry for nationally determined contributions and acknowledged that the secretariat will continue to improve, as appropriate, the interim registry.
+			46.	The SBI also took note of the views exchanged by Parties on the modalities and procedures for the operation and use of the public registry as referred to in decision 1/CP.21, paragraph 29, including on the linkages of its work under this agenda item to the work under SBI 44 agenda item 6, and to the work of the Ad Hoc Working Group on the Paris Agreement (APA).
+			47.	The SBI agreed to continue its consideration of this matter at SBI 45.
+	VI.	Development of modalities and procedures for the operation and use of a public registry referred to in Article 7, paragraph 12, of the Paris Agreement
+		(Agenda item 6)
+		1.	Proceedings
+			48.	The SBI considered this agenda item at its 2nd and resumed 3rd meetings. At its 2nd meeting, the SBI agreed to consider the agenda item in informal consultations co-facilitated by Mr. Georg Borsting (Norway) and Ms. Diouf Sarr. At its resumed 3rd meeting, it considered and adopted the conclusions below.
+		2.	Conclusions
+			49.	The SBI initiated its consideration of a public registry referred to in Article 7, paragraph 12, of the Paris Agreement.
+			50.	The SBI took note of the views expressed by Parties during the session on this matter, including on the existing or potential linkages to SBI 44 agenda item 5, the continued work of the secretariat on the interim registry, the web page maintained by the secretariat on undertakings in adaptation planning and the work of the APA.
+			51.	The SBI agreed to continue its consideration of this matter at SBI 45.
+	VII.	Matters relating to the mechanisms under the Kyoto Protocol
+		(Agenda item 7)
+		A.	Review of the modalities and procedures for the clean development mechanism
+			(Agenda sub-item 7(a))
+			1.	Proceedings
+				52.	The SBI considered this agenda sub-item at its 1st and 3rd meetings. At its 1st meeting, the SBI agreed to consider this agenda sub-item in informal consultations co-facilitated by Ms. Karoliina Anttonen (Finland) and Mr. Takalani Rambau (South Africa). At its 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				53.	In accordance with decision 4/CMP.9, the SBI continued its consideration of possible changes to the modalities and procedures for the clean development mechanism (CDM).
+				54.	The SBI requested the secretariat to prepare draft provisions containing definitions and/or requirements at a principle level on programmes of activities and roles of designated national authorities to supplement the current CDM modalities and procedures, based on the existing rules adopted by the Executive Board of the CDM.
+				55.	The SBI noted that there continue to be divergent views on the need for further changes to the CDM modalities and procedures.
+				56.	The SBI agreed to continue its consideration of this agenda sub-item at SBI 45 with a view to concluding it at that session.
+		B.	Review of the joint implementation guidelines
+			(Agenda sub-item 7(b))
+			1.	Proceedings
+				57.	The SBI considered this agenda sub-item at its 1st and 3rd meetings and had before it documents FCCC/SBI/2016/INF.7 and FCCC/SBI/2016/INF.8. At its 1st meeting, the SBI agreed to consider this agenda sub-item in informal consultations co-facilitated by Mr. Gerald Lindo (Jamaica) and Mr. Dimitar Nikov (France). At its 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				58.	In accordance with decisions 9/CMP.1, 4/CMP.6, 11/CMP.7 and 6/CMP.8, the SBI continued its review of the guidelines for the implementation of Article 6 of the Kyoto Protocol (hereinafter referred to as the joint implementation guidelines).
+				59.	The SBI agreed that the work it has undertaken on the review of the joint implementation guidelines is as recorded in the annex to document FCCC/SBI/2016/L.8.
+				60.	The SBI recommended a draft decision on this matter for consideration and adoption by the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol (CMP) at its twelfth session (November 2016).
+				61.	The SBI concluded its consideration of this agenda sub-item.
+		C.	Procedures, mechanisms and institutional arrangements for appeals against decisions of the Executive Board of the clean development mechanism
+			(Agenda sub-item 7(c))
+			1.	Proceedings
+				62.	The SBI considered this agenda sub-item at its 1st and resumed 3rd meetings. A representative of one Party made a statement. At its 1st meeting, the SBI agreed to consider this agenda sub-item in informal consultations facilitated by Ms. Attonen. At its resumed 3rd meeting, the SBI considered and adopted the conclusion below.
+			2.	Conclusion
+				63.	The SBI continued its consideration of this agenda sub-item. It agreed to continue its consideration of this matter at SBI 45 on the basis of, inter alia, the draft text contained in document FCCC/SBI/2012/33/Add.1.
+	VIII.	Matters relating to the least developed countries
+		(Agenda item 8)
+		1.	Proceedings
+			64.	The SBI considered this agenda item at its 1st and 3rd meetings and had before it document FCCC/SBI/2016/7. Representatives of four Parties made statements. At the 1st meeting, the Chair invited Mr. Abias Huongo (Angola), Chair of the Least Developed Countries Expert Group (LEG), to report on the group’s activities. At the same meeting, the SBI agreed to consider this agenda item in informal consultations facilitated by Mr. Mamadou Honadia (Burkina Faso). At its 3rd meeting, the SBI considered and adopted the conclusions below, as amended.
+		2.	Conclusions
+			65.	The SBI welcomed the report on the 29th meeting of the LEG, held in Dili, Timor-Leste, from 15 to 19 March 2016, and expressed its gratitude to the Government of Timor-Leste for hosting the meeting.
+			66.	The SBI also expressed its gratitude to the EU for financially supporting the work of the LEG.
+			67.	The SBI noted with appreciation the contributions made by Parties to the Least Developed Countries Fund (LDCF) and the Green Climate Fund (GCF).
+			68.	The SBI welcomed the two-year rolling work programme of the LEG for 2016–2017.
+			69.	The SBI noted with appreciation the continued active engagement and collaboration of the LEG with the Adaptation Committee, the Nairobi work programme on impacts, vulnerability and adaptation to climate change, other constituted bodies under the Convention and a wide range of relevant organizations, agencies and regional centres and networks, and encouraged this collaboration to continue.
+			70.	In the context of the mandate of the LEG as per decision 19/CP.21, the SBI welcomed the following vision developed by the LEG to guide the work of the LEG in supporting adaptation in the LDCs:
+				(a)	The achievement of demonstrable results in building adaptive capacity, strengthening resilience and reducing vulnerability to climate change in the LDCs;
+				(b)	The formulation of robust and good-quality national adaptation plans (NAPs) and the implementation of priority adaptation needs identified therein with funding from the GCF and other sources;
+				(c)	The existence of a well-structured adaptation planning process in the LDCs.
+			71.	The SBI took note of the initial consideration by the LEG of the mandates given to it by the COP in decision 1/CP.21 and looked forward to future updates and discussions thereon.
+			72.	The SBI welcomed the regional and global NAP Expos, to be organized by the LEG and/or relevant partners, as a useful modality for advancing progress on the process to formulate and implement NAPs and exchanging experience and good practices, including but not limited to accessing financial support from the GCF, the LDCF and bilateral, multilateral and other sources. It took note of the NAP Expo planned to take place from 11 to 15 July 2016 in Bonn, and invited Parties and relevant organizations to participate in the event.
+			73.	The SBI noted with appreciation the progress made by the LEG in collaborating with the GCF secretariat on providing technical guidance and advice to countries on accessing funding from the GCF for the process to formulate and implement NAPs, including the plan to hold dedicated sessions on the GCF at the NAP Expo in July 2016 and the training workshops that are planned under the current work programme of the LEG.
+			74.	The SBI noted that, as at 17 May 2016, 34 project proposals for the implementation of national adaptation programmes of action and for the process to formulate and implement NAPs, with requested funds totalling USD 226 million, had been technically cleared by the GEF and were awaiting funding from the LDCF. However, it also noted that, as at 31 March 2016, the funds available for those pipeline projects amounted to only USD 9.8 million.
+			75.	The SBI noted with concern the level of funding in the LDCF and urged additional contributions to the LDCF and other funds under the Financial Mechanism, as appropriate, recognizing the importance of the full implementation of national adaptation programmes of action for addressing urgent and immediate adaptation needs, building capacity for medium- and long-term adaptation planning and implementation, and successfully undertaking the process to formulate and implement NAPs.
+			76.	The SBI noted with appreciation the pledges made by Parties and others at COP 21 to the LDCF, totalling USD 252 million as at 5 December 2015. The SBI encouraged those Parties to convert their pledges into contributions as soon as possible.
+			77.	The SBI also noted with appreciation the contributions made by Parties to the GCF, totalling USD 9.9 billion as at 19 May 2016.
+			78.	The SBI took note of the progress made by the LDCs in undertaking the process to formulate and implement NAPs and reiterated the invitation of the COP to all LDCs and other developing country Parties that are not LDCs that may wish to do so to forward outputs, including NAP documents, and outcomes related to the process to formulate and implement NAPs to NAP Central.
+			79.	The SBI invited Parties and relevant organizations to continue to provide support for the implementation of the LEG work programme.
+			80.	The SBI requested that the actions of the secretariat to support the implementation of the LEG work programme be undertaken subject to the availability of financial resources.
+	IX.	National adaptation plans
+		(Agenda item 9)
+		1.	Proceedings
+			81.	The SBI considered this agenda item at its 1st and 3rd meetings and had before it document FCCC/SBI/2016/7. At its 1st meeting, the SBI agreed to consider this agenda item in informal consultations co-facilitated by Mr. Honadia and Ms. Beth Lavender (Canada). At its 3rd meeting, the SBI considered and adopted the conclusions below.
+		2.	Conclusions
+			82.	The SBI welcomed the information on the progress made and support provided in the process to formulate and implement NAPs as presented in the report on the 29th meeting of the LEG.
+			83.	The SBI acknowledged that the process to formulate and implement NAPs is significant for enhancing adaptive capacity, strengthening resilience and reducing vulnerability to climate change with a view to contributing to sustainable development in the broader context of the global goal on adaptation referred to in Article 7 of the Paris Agreement.
+			84.	The SBI also acknowledged that the process to formulate and implement NAPs will help Parties to effectively engage in adaptation planning processes and the implementation of actions, including the development or enhancement of relevant plans, policies and/or contributions, as referred to in Article 7 of the Paris Agreement.
+			85.	The SBI further acknowledged that the process to formulate and implement NAPs will also help Parties to engage in the process of identifying priorities, needs and gaps, and to enhance adaptation actions.
+			86.	The SBI noted with appreciation the progress made by the LEG and the Adaptation Committee so far in the fulfilment of their respective mandates relating to providing information on accessing funding from the GCF for the process to formulate and implement NAPs. It looks forward to the further engagement of the LEG and the Adaptation Committee with the GCF, and it requested them to include information on that engagement in their reports.
+			87.	The SBI also looks forward to the work of the Adaptation Committee and the LEG related to the experience of countries in accessing funding from the GCF for the process to formulate and implement NAPs, and further looks forward to information on such work being provided in their reports.
+			88.	The SBI recommended that COP 22 change the submission deadline referred to in decision 4/CP.21, paragraph 12(a), to 4 October 2017.
+			89.	The SBI continued its consideration of enhancing reporting related to the process to formulate and implement NAPs and agreed that the consideration of this matter would continue at SBI 46 (May 2017) taking into account relevant activities to be considered under the APA.
+	X.	Third review of the Adaptation Fund
+		(Agenda item 10)
+		Proceedings
+			90.	The SBI considered this agenda item at its 1st and 3rd meetings. At its 1st meeting, the SBI agreed to consider this agenda item in informal consultations co-facilitated by 
+Mr. Richard Muyungi (United Republic of Tanzania) and Ms. Gemma O’Reilly (Ireland).
+			91.	At its 3rd meeting, the SBI recommended a draft decision for consideration and adoption at CMP 12.
+	XI.	Scope and modalities for the periodic assessment of the Technology Mechanism in relation to supporting the implementation of the Paris Agreement
+		(Agenda item 11)
+		1.	Proceedings
+			92.	The SBI considered this agenda item at its 1st and 3rd meetings. At its 1st meeting, the SBI agreed to consider this agenda item in informal consultations co-facilitated by 
+Mr. Kishan Kumarsingh (Trinidad and Tobago) and Ms. Gabriela Fischerova (Slovakia). At its 3rd meeting, the SBI considered and adopted the conclusions below, noting the limited time SBI 45 will have to consider this matter due to the number of Convention and Kyoto Protocol bodies that will meet concurrently.
+		2.	Conclusions
+			93.	The SBI welcomed the oral reports of the Chair of the Technology Executive Committee and the Director of the Climate Technology Centre and Network on their planned activities that could support Parties in their efforts to implement the Paris Agreement.
+			94.	The SBI noted that the scope of the periodic assessment of the Technology Mechanism referred to in decision 1/CP.21, paragraph 69 (hereinafter referred to as the periodic assessment), will be in the context of Article 10 of the Paris Agreement and will focus on:
+				(a)	The effectiveness of the Technology Mechanism in supporting the implementation of the Paris Agreement on matters relating to technology development and transfer;
+				(b)	The adequacy of support provided to the Technology Mechanism in supporting the implementation of the Paris Agreement on matters relating to technology development and transfer.
+			95.	The SBI acknowledged the need to consider, in elaborating the scope and modalities for the periodic assessment, information emanating from processes currently being undertaken under the Convention, inter alia:
+				(a)	The review of the Climate Technology Centre and Network as referred to in decision 2/CP.17, annex VII, paragraph 20;
+				(b)	The development of the modalities for the global stocktake referred to in Article 14 of the Paris Agreement;
+				(c)	Work on transparency of action and support as referred to in Article 13 of the Paris Agreement;
+				(d)	The elaboration of the technology framework established under Article 10, paragraph 4, of the Paris Agreement.
+			96.	The SBI invited Parties and observer organizations to submit their views on the scope and modalities for the periodic assessment by 25 January 2017. It requested the secretariat to prepare a compilation and synthesis report of those views for consideration at SBI 46.
+	XII.	Capacity-building in developing countries
+		(Agenda item 12)
+		A.	Third comprehensive review of the implementation of the framework for capacity-building under the Convention
+			(Agenda sub-item 12(a))
+			1.	Proceedings
+				97.	The SBI considered this agenda sub-item at its 1st and resumed 3rd meetings and had before it documents FCCC/SBI/2016/3, FCCC/SBI/2016/4, FCCC/SBI/2016/MISC.1 and FCCC/TP/2016/1. At its 1st meeting, the SBI agreed to consider this agenda sub-item in informal consultations co-facilitated by Mr. Crispin d’Auvergne (Saint Lucia) and Mr. Paul Watkinson (France). At its resumed 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				98.	The SBI initiated, but did not conclude, its consideration of the third comprehensive review of the implementation of the framework for capacity-building in developing countries established under decision 2/CP.7, in accordance with decision 14/CP.21, paragraph 2. The SBI agreed to continue its consideration of this matter at SBI 45 on the basis of the draft decision text contained in the annex to document FCCC/SBI/2016/L.21, with a view to recommending a draft decision for consideration and adoption at COP 22.
+		B.	Third comprehensive review of the implementation of the framework for capacity-building under the Kyoto Protocol
+			(Agenda sub-item 12(b))
+			Proceedings
+				99.	The SBI considered this agenda sub-item at its 1st and resumed 3rd meetings and had before it documents FCCC/SBI/2016/3, FCCC/SBI/2016/4, FCCC/SBI/2016/MISC.1 and FCCC/TP/2016/1. At its 1st meeting, the SBI agreed to consider this agenda sub-item in informal consultations co-facilitated by Mr. d’Auvergne and Mr. Watkinson. At its resumed 3rd meeting, the SBI decided to continue consideration of this agenda sub-item at SBI 45.
+		C.	Terms of reference for the Paris Committee on Capacity-building
+			(Agenda sub-item 12(c))
+			1.	Proceedings
+				100.	The SBI considered this agenda sub-item at its 1st and resumed 3rd meetings and had before it document FCCC/SBI/2016/MISC.1. A representative of one Party made a statement. At its 1st meeting, the SBI agreed to consider this agenda sub-item in informal consultations co-facilitated by Mr. d’Auvergne and Mr. Watkinson. At its resumed 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				101.	The SBI recommended a draft decision on the terms of reference for the Paris Committee on Capacity-building for consideration and adoption at COP 22.
+				102.	The SBI invited Parties to consider their nominations to the Paris Committee on Capacity-building, as outlined in the draft terms of reference referred to in paragraph 101 above, with a view to the work of the Paris Committee on Capacity-building commencing at SBI 46.
+				103.	The SBI invited Parties to submit, by 29 August 2016, their views on the annual focus area or theme for the Paris Committee on Capacity-building for 2017, and on which representatives of the bodies established under the Convention and of the operating entities of the Financial Mechanism should be invited to the first meeting of the Paris Committee on Capacity-building, for consideration at SBI 45, with a view to the SBI making a recommendation on this matter for consideration and adoption at COP 22.
+	XIII.	Review of the Doha work programme on Article 6 of the Convention
+		(Agenda item 13)
+		1.	Proceedings
+			104.	The SBI considered this agenda item at its 1st, 3rd and resumed 3rd meetings and had before it documents FCCC/SBI/2016/5 and FCCC/SBI/2016/6. Representatives of two Parties made statements. At its 1st meeting, the SBI agreed to consider this agenda item in informal consultations facilitated by Mr. Albert Altarejos Magalang (Philippines). At its resumed 3rd meeting, the SBI considered and adopted the conclusions below.
+		2.	Conclusions
+			105.	The SBI welcomed the views of Parties, admitted observer organizations and other stakeholders on the organization of the 3rd in-session Dialogue on Article 6 of the Convention and on the agenda for the 4th in-session Dialogue on Action for Climate Empowerment, which were very useful in shaping the agenda and format of the 4th Dialogue.
+			106.	The SBI acknowledged the success of the 4th Dialogue on Action for Climate Empowerment and expressed its gratitude to Parties, admitted observer organizations and other stakeholders for sharing experiences and exchanging ideas, good practices and lessons learned regarding public participation, public awareness, public access to information and international cooperation on these matters. Furthermore, the SBI looked forward to considering the report on the 4th Dialogue on Action for Climate Empowerment at SBI 45.
+			107.	The SBI concluded that the annual in-session Dialogue on Action for Climate Empowerment will continue to be convened in conjunction with the sessions of the SBI taking place in Bonn.
+			108.	The SBI also concluded that upcoming sessions of the Dialogue on Action for Climate Empowerment need to take into account needs, gaps and barriers with respect to progress made in implementing the Doha work programme on Article 6 of the Convention.
+			109.	The SBI further concluded that the sessions of the Dialogue on Action for Climate Empowerment should focus on good practices and lessons learned on integrating the six elements of Article 6 of the Convention in relation to adaptation, mitigation, finance, transparency, technology development and transfer, and capacity-building.
+			110.	The SBI invited multilateral and bilateral institutions and organizations, including operating entities of the Financial Mechanism, to actively participate at upcoming sessions of the annual in-session Dialogue on Action for Climate Empowerment.
+			111.	The SBI also invited Parties, admitted observer organizations and other stakeholders to submit, by 25 January 2017, their feedback on the organization of the 4th Dialogue on Action for Climate Empowerment and their views on the agenda for the 5th Dialogue, which will focus on climate change education, training and international cooperation on these matters.
+			112.	The SBI welcomed the submissions referred to in paragraph 111 above as input to the intermediate review of progress of the Doha work programme.
+			113.	The SBI took note with appreciation of the synthesis report prepared by the secretariat on progress made in implementing the Doha work programme.
+			114.	The SBI completed the intermediate review of progress made in implementing the Doha work programme and recommended a draft decision on improving the effectiveness of the Doha work programme for consideration and adoption at COP 22.
+	XIV.	Impact of the implementation of response measures
+		(Agenda item 14)
+		A.	Improved forum and work programme
+			(Agenda sub-item 14(a))
+			1.	Proceedings
+				115.	The SBI considered this agenda sub-item at its 1st and resumed 3rd meetings and had before it documents FCCC/TP/2016/3 and FCCC/TP/2016/4. At its 1st meeting, the SBI agreed to consider this agenda sub-item together with agenda sub-item 7(a) of the Subsidiary Body for Scientific and Technological Advice (SBSTA) in a contact group co-chaired by the Chair of the SBI and the Chair of the SBSTA, Mr. Carlos Fuller (Belize), assisted by Ms. Natalya Kushko (Ukraine) and Mr. Andrei Marcu (Panama). The SBI also agreed to consider this agenda sub-item at this session jointly with SBI agenda sub-items 14(b), (c) and (d). At its resumed 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				116.	The SBI and the SBSTA considered the technical paper prepared by the secretariat to assist developing country Parties in assessing the impact of the implementation of response measures, including the use of modelling tools, and the technical paper to assist developing country Parties in their economic diversification initiatives. The SBI and the SBSTA encouraged developing country Parties to use these technical papers as guidance in their assessment of the impact of the implementation of response measures and their economic diversification initiatives. The SBI and the SBSTA noted that Parties considered the information contained in these technical papers for the purposes of advancing their work on the work programme on the impact of the implementation of response measures.
+				117.	The SBI and the SBSTA welcomed the offer by a Gulf Cooperation Council country to host a workshop to enhance work under the improved forum.
+				118.	The SBI and the SBSTA noted the interest of some Parties in a high-level event on economic diversification and sustainable development to be held at COP 22.
+				119.	The SBI and the SBSTA convened the first meeting of the improved forum on the impact of the implementation of response measures in accordance with decision 11/CP.21 and agreed to implement the work programme on the impact of the implementation of response measures as contained in annex II, under the guidance of the Chairs of the SBI and the SBSTA.
+				120.	The SBI and the SBSTA also agreed that in order to advance the work of the improved forum, the ad hoc technical expert groups shall function in accordance with the terms of reference contained in annex III.
+				121.	The SBI and the SBSTA requested the secretariat to support, under the guidance of the Chairs of the SBI and the SBSTA, the implementation of the work programme, including the activities of the ad hoc technical expert groups.
+				122.	The SBI and the SBSTA took note of the estimated budgetary implications of the actions to be undertaken by the secretariat referred to in paragraphs 119–121 above.
+				123.	The SBI and the SBSTA requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+		B.	Modalities, work programme and functions under the Paris Agreement of the forum on the impact of the implementation of response measures
+			(Agenda sub-item 14(b))
+			1.	Proceedings
+				124.	The SBI considered this agenda sub-item at its 1st and resumed 3rd meetings. At its 1st meeting, the SBI agreed to consider this agenda sub-item jointly with SBI agenda sub-item 14(a) and SBSTA agenda sub-item 7(a). At its resumed 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				125.	The SBI and the SBSTA initiated their consideration of the modalities, work programme and functions under the Paris Agreement of the forum on the impact of the implementation of response measures, in accordance with decision 1/CP.21, paragraph 34.
+				126.	The SBI and the SBSTA invited Parties and observer organizations to submit, by 12 September 2016, their views on the modalities, work programme and functions under the Paris Agreement of the forum on the impact of the implementation of response measures.
+				127.	They agreed to continue their consideration of this matter at their forty-fifth sessions taking into consideration the submissions referred to in paragraph 126 above.
+		C.	Matters relating to Article 3, paragraph 14, of the Kyoto Protocol
+			(Agenda sub-item 14(c))
+			Proceedings
+				128.	The SBI considered this agenda sub-item at its 1st and resumed 3rd meetings. A representative of one Party made a statement. At its 1st meeting, the SBI agreed to consider this agenda sub-item jointly with SBI agenda sub-item 14(a) and SBSTA sub-item 7(a). At the same meeting, the SBI agreed that the Chair of the SBI and the Chair of the SBSTA would undertake consultations with interested Parties on how to take up this agenda sub-item in future sessions of the SBI. At its resumed 3rd meeting, on a proposal by the Chair, the SBI agreed to continue consideration of how to take up this agenda sub-item at SBI 45.
+		D.	Progress on the implementation of decision 1/CP.10
+			(Agenda sub-item 14(d))
+			Proceedings
+				129.	The SBI considered this agenda sub-item at its 1st and resumed 3rd meetings. A representative of one Party made a statement. At its 1st meeting, the SBI agreed to consider this agenda sub-item jointly with SBI agenda sub-item 14(a) and SBSTA sub-item 7(a). At this same meeting, the SBI agreed that the Chair of the SBI would undertake consultations with interested Parties on how to take up this agenda sub-item in future sessions of the SBI. At its resumed 3rd meeting, on a proposal by the Chair, the SBI agreed to continue consideration of how to take up this agenda sub-item at SBI 45.
+	XV.	The scope of the next periodic review of the long-term goal under the Convention and of overall progress towards achieving it
+		(Agenda item 15)
+		1.	Proceedings
+			130.	The SBI considered this agenda item at its 1st and 3rd meetings. Representatives of three Parties made statements, including one on behalf of the EU and one on behalf of AOSIS. At its 1st meeting, the SBI agreed to consider this agenda item jointly with SBSTA agenda sub-item 6(c) in a contact group co-chaired by Mr. Leon Charles (Grenada) and Ms. Wollansky. At its 3rd meeting, the SBI considered and adopted the conclusions below.
+		2.	Conclusions
+			131.	The SBSTA and the SBI recalled that they had been requested by COP 21 to consider the scope of the next periodic review with a view to forwarding a recommendation for consideration by the COP by no later than 2018, as appropriate.
+			132.	They also recalled that the COP, at the same session, had agreed that the next periodic review should be conducted in an effective and efficient manner, avoid duplication of work and take into account the results of relevant work conducted under the Convention and its Kyoto Protocol and the subsidiary bodies. In that regard, the SBSTA and the SBI noted the relevant work on the global stocktake under the APA, the facilitative dialogue, which will take place in 2018, and the technical examination processes.
+			133.	In the light of the mandate referred to in paragraphs 131 and 132 above, the SBSTA and the SBI agreed to further consider the scope of the next periodic review at their forty-sixth sessions (May 2017) and to refine it, taking into account relevant experiences with the 2013–2015 review.
+			134.	The SBSTA and the SBI noted that an in-session workshop on the scope of the next periodic review could be useful and that they may consider the matter further at their forty-sixth sessions.
+	XVI.	Gender and climate change
+		(Agenda item 16)
+		1.	Proceedings
+			135.	The SBI considered this agenda item at its 1st and resumed 3rd meetings and had before it document FCCC/TP/2016/2. At its 1st meeting, the SBI agreed to consider this agenda sub-item in informal consultations co-facilitated by Mr. Martin Hession (EU) and Ms. Winfred Lichuma (Kenya). At its resumed 3rd meeting, the SBI considered and adopted the conclusions below.
+		2.	Conclusions
+			136.	The SBI welcomed the outcomes of and the recommendations provided by the participants at the in-session workshop, held on 18 and 19 May 2016, on gender-responsive climate policy with a focus on adaptation, capacity-building and training for delegates on gender issues. It noted with appreciation the submissions from Parties, observer organizations and other stakeholders provided as input to the in-session workshop.
+			137.	The SBI also welcomed the technical paper prepared by the secretariat titled “Guidelines or other tools for integrating gender considerations into climate change related activities under the Convention”. It encouraged Parties to use the resources identified in the technical paper.
+			138.	The SBI expressed its appreciation for the two-year Lima work programme on gender and noted with appreciation the contributions received in support of the work undertaken so far. It invited Parties to further enhance their participation in the work programme.
+			139.	The SBI expressed its support for the continuation and enhancement of the Lima work programme on gender.
+			140.	The SBI invited Parties and observer organizations to submit their views on possible elements and guiding principles for continuing and enhancing the Lima work programme on gender, by 29 August 2016, taking into account recommendations and insights resulting from activities already completed under the work programme. It requested the secretariat to compile those submissions into a miscellaneous document.
+			141.	The SBI, recalling decision 18/CP.20, paragraph 15, invited Parties and observer organizations to provide information on progress made in meeting the goals of achieving gender balance and gender-responsive climate policy.
+			142.	The SBI agreed to continue its consideration of this matter at SBI 45, with a view to preparing a draft decision for consideration and adoption at COP 22.
+	XVII.	Arrangements for intergovernmental meetings
+		(Agenda item 17)
+		1.	Proceedings
+			143.	The SBI considered this agenda item at its 1st and resumed 3rd meetings and had before it document FCCC/SBI/2016/2. Representatives of 14 Parties made statements, including on behalf of the Like-minded Developing Countries, the EU and the African Group. At its 1st meeting, a representative from the incoming Presidency of the COP (Morocco) made a statement. At the same meeting, the SBI agreed to consider this item in a contact group chaired by the SBI Chair.
+			144.	At the resumed 3rd meeting, the Chair recalled that he had invited Parties and observer organizations to share their views on any topic of their choice at the in-session workshop, proposed to be held at SBI 46, on opportunities to further enhance the effective engagement of non-Party stakeholders with a view to strengthening the implementation of the provisions of decision 1/CP.21.
+			145.	At the same meeting, the SBI considered and adopted the conclusions below. After that, one Party, speaking on behalf of the Like-minded Developing Countries and supported by a number of Parties, raised concerns of a technical and substantive nature. These Parties requested that it be recorded in the report that a technical issue was experienced with the electronic name-handling system. The Chair informed the SBI that the substantive concerns raised will continue to be discussed at SBI 46.
+		2.	Conclusions
+			146.	The SBI took note of document FCCC/SBI/2016/2 and welcomed the views expressed by Parties on the information contained therein.
+			147.	The SBI expressed its gratitude to the Government of Morocco for offering to host COP 22 and CMP 12 in Marrakech, from Monday, 7 November, to Friday, 18 November 2016. It took note with appreciation of the preparations and efforts that Morocco and the secretariat are undertaking to ensure the success of COP 22 and CMP 12. The SBI emphasized the importance of the principles of openness, transparency and inclusiveness in making arrangements for the United Nations Climate Change Conference in Marrakech.
+			148.	The SBI recalled the historic outcomes of the United Nations Climate Change Conference in Paris and noted that the Marrakech Conference will be an important step in implementing the Paris Agreement as well as in the further implementation of other mandates and initiatives under the COP, the CMP, the SBSTA, the SBI, the APA and the constituted bodies under the Convention.
+			149.	The SBI took note of the successful collaboration between previous presidencies and incoming presidencies and appreciates the close working relationship between the current Presidency and incoming Presidency in preparing for the Marrakech Conference. It encouraged future presidencies to continue to adopt such a collaborative approach.
+			150.	The SBI requested the secretariat to take note of the views expressed by Parties on the possible elements of the provisional agendas for COP 22 and CMP 12.
+			151.	The SBI invited the incoming Presidency, in consultation with the secretariat and the COP Bureau, to finalize the details of the arrangements for COP 22 and CMP 12, including arrangements for the high-level segment.
+			152.	The SBI agreed to continue the following existing practice: in the joint meetings of the COP and the CMP during the high-level segment, arrangements should be made for the delivery of concise national statements by ministers and other heads of delegation, with a recommended time limit of three minutes, and of concise statements by representatives of intergovernmental and non-governmental organizations, with a recommended time limit of two minutes.
+			153.	The SBI underlined the importance of the three mandated events to be convened at COP 22: the second biennial high-level ministerial dialogue on climate finance; the high-level event on climate action; and the facilitative dialogue referred to in decision 1/CP.21, paragraph 115.
+			154.	The SBI noted that, in keeping with the principle of rotation among regional groups, the President of COP 23 and CMP 13 would come from the Asia-Pacific States and the President of COP 24 and CMP 14 from the Eastern European States. It invited Parties, as a matter of urgency, to come forward with offers to host COP 23 and CMP 13, and COP 24 and CMP 14.
+			155.	The SBI recommended the following dates for the sessional periods in 2021, for consideration at COP 22:
+				(a)	First sessional period: Monday, 31 May, to Thursday, 10 June;
+				(b)	Second sessional period: Monday, 8 November, to Friday, 19 November.
+			156.	The SBI welcomed the exchange of views by Parties on the implications for the intergovernmental process following the adoption of the Paris Agreement and other decisions at the Paris Conference, including implications for the frequency and organization of sessions of the COP, the CMP and their subsidiary bodies and, following the entry into force of the Paris Agreement, the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement.
+			157.	The SBI acknowledged that, owing to the work arising from the Paris Agreement and the decisions adopted at the Paris Conference, it is necessary to continue convening sessions of the supreme bodies annually in the pre-2020 period. It therefore agreed to further consider session frequency and organization scenarios at SBI 48 (April–May 2018). The SBI requested the secretariat to provide more detailed information on the budgetary implications of different options in order to support the further consideration of these issues.
+			158.	The SBI recognized the need to take into account the important role of the implementation of mandates under the Paris Agreement and the implications of any change in the frequency and organization of sessions for the mandates and work resulting from the Paris Agreement.
+			159.	The SBI took note of the update provided by the secretariat on the implementation during the period 2014–2015 of the SBI conclusions on ways to further enhance the engagement of observer organizations in the intergovernmental process. It noted the summary provided by the secretariat of the evolution of stakeholder engagement in the UNFCCC process.
+			160.	The SBI welcomed the efforts made by the Governments of Poland, Peru and France in engaging stakeholders, including the private sector, local and subnational authorities and civil society, in the lead-up to, during and after COP 19 and CMP 9, COP 20 and CMP 10, and COP 21 and CMP 11, respectively.
+			161.	The SBI recalled the increased recognition of, and references to, various non-Party stakeholders in the Paris Agreement and decision 1/CP.21 and reaffirmed the fundamental value of effective participation by observers, both in the intergovernmental process and in undertaking practical action in response to climate change.
+			162.	The SBI also reaffirmed the value of contributions from observer organizations to deliberations on substantive issues and acknowledged the need to further enhance the effective engagement of observer organizations as the UNFCCC process moves forward into the implementation and operationalization of the Paris Agreement.
+			163.	In this context, the SBI agreed to convene an in-session workshop at SBI 46 on opportunities to further enhance the effective engagement of non-Party stakeholders with a view to strengthening the implementation of the provisions of decision 1/CP.21.
+			164.	In this regard, the SBI invited Parties, observer organizations and interested United Nations agencies to submit their views on opportunities to further enhance the effective engagement of non-Party stakeholders with a view to strengthening the implementation of the provisions of decision 1/CP.21, by 28 February 2017 at the latest. It requested the secretariat to prepare, by 30 April 2017, a summary report on the views contained in those submissions to be used as background information for the workshop referred to in paragraph 163 above. The SBI also requested the secretariat to prepare a report on that workshop for consideration at SBI 46.
+			165.	The SBI took note of the work of the secretariat on the establishment of a platform for the exchange of experiences and sharing of best practices on mitigation and adaptation in a holistic and integrated manner, as referred to in decision 1/CP.21, paragraph 135, and requested further information on the implementation of such work by SBI 46.
+			166.	The SBI noted that modes of observer engagement in other intergovernmental forums within the United Nations system may inform the UNFCCC process on efforts to enhance the engagement of non-Party stakeholders in climate action.
+			167.	The SBI also noted that the number of admitted observer organizations has nearly doubled since 2008 and requested the secretariat to take the necessary administrative measures in order to facilitate more effective participation of such organizations in the intergovernmental process.
+			168.	The SBI took note of the information provided by the secretariat on existing procedures and practices for the admission of observer organizations.
+			169.	The SBI also took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraphs 163 and 164 above. It requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+	XVIII.	Administrative, financial and institutional matters
+		(Agenda item 18)
+		A.	Financial and budgetary matters
+			(Agenda sub-item 18(a))
+			1.	Proceedings
+				170.	The SBI considered this agenda sub-item at its resumed 1st and resumed 3rd meetings, and had before it documents FCCC/SBI/2016/INF.3 and FCCC/SBI/2016/INF.5. The Executive Secretary made a statement, as well as the representative of one Party. At the resumed 1st meeting, the Chair proposed to prepare draft conclusions on this sub-item, with the assistance of the secretariat and in consultation with interested Parties.
+				171.	At its resumed 3rd meeting, the Chair informed the SBI that, in response to requests from several Parties, the secretariat will prepare an information note on the evolving functions and operations of the secretariat in the light of decision 1/CP.21. He also informed the SBI that this note will be considered at SBI 45 under the standing agenda item on administrative, financial and institutional matters, in the expectation that the consideration of this matter will continue at SBI 46. At the same meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				172.	The SBI took note of the information relating to the status of contributions as at 29 April 2016. It expressed its appreciation to the Parties that had paid their indicative contributions to the core budget and their fees for the international transaction log on time. The SBI urged those Parties that have not yet paid their contributions for 1996–2015 to do so as soon as possible.
+				173.	The SBI also expressed its appreciation to those Parties that had made voluntary contributions to the Trust Fund for Participation in the UNFCCC Process and the Trust Fund for Supplementary Activities. It urged Parties to contribute to the Trust Fund for Participation in the UNFCCC Process in order to ensure the widest possible participation therein in 2016, and to contribute to the Trust Fund for Supplementary Activities as well.
+				174.	The SBI requested the Executive Secretary to prepare an information note on the revised indicative contributions for the biennium 2016–2017 pursuant to United Nations General Assembly resolution A/RES/70/245 adopting the United Nations scale of assessments for the period 2016–2018 for consideration at SBI 45 with a view to the SBI preparing a draft decision on this matter for consideration and adoption at COP 22 and a draft decision for consideration and adoption at CMP 12.
+				175.	The SBI took note of the information relating to an overview of structures and bodies within the United Nations system that may inform Parties in making the budget process more efficient and transparent. It requested the secretariat to prepare an information document to further elaborate on document FCCC/SBI/2016/INF.5, including the range of options for improving the efficiency and transparency of the UNFCCC budget process included in paragraph 47 of that document, to enable SBI 45 to consider this matter under the agenda item on administrative, financial and institutional matters.
+				176.	The SBI took note of the Secretary-General’s decision to upgrade the position of the Executive Secretary from Assistant Secretary-General to Under-Secretary-General and to upgrade one of the D-2 positions to the level of Assistant Secretary-General to serve as Deputy Executive Secretary. It recommended draft decisions on these matters for consideration and adoption at COP 22 and CMP 12 (for the texts of the draft decisions, see document FCCC/SBI/2016/8/Add.1).
+		B.	Continuing review of functions and operations of the secretariat
+			(Agenda sub-item 18(b))
+			Proceedings
+				177.	The SBI considered this agenda sub-item at its resumed 1st meeting and agreed to continue to consider it at SBI 46.
+		C.	Privileges and immunities for individuals serving on constituted bodies established under the Kyoto Protocol
+			(Agenda sub-item 18(c))
+			1.	Proceedings
+				178.	The SBI considered this agenda sub-item at its resumed 1st meeting and at its 3rd meeting. At its resumed 1st meeting, the SBI agreed to consider this agenda sub-item in informal consultations facilitated by Mr. Peter Horne (Australia). At its 3rd meeting, the SBI considered and adopted the conclusions below.
+			2.	Conclusions
+				179.	The SBI took note of the views of Parties on privileges and immunities for individuals serving on constituted bodies established under the Kyoto Protocol and recommended that CMP 12 conclude the consideration of this issue.
+		D.	Privileges and immunities for individuals serving on constituted bodies established under the Convention
+			(Agenda sub-item 18(d))
+			1.	Proceedings
+				180.	The SBI considered this agenda sub-item at its resumed 1st meeting and at its 3rd meeting. At its resumed 1st meeting, the SBI agreed to consider this agenda sub-item in informal consultations facilitated by Mr. Horne. At its 3rd meeting, the SBI considered and adopted the conclusion below.
+			2.	Conclusions
+				181.	The SBI took note of the views of Parties on privileges and immunities for individuals serving on constituted bodies established under the Convention and recommended that COP 22 conclude the consideration of this issue.
+	XIX.	Other matters
+		(Agenda item 19)
+		Proceedings
+			182.	The SBI considered this agenda item at its 1st meeting. No other matters were raised by Parties.
+	XX.	Closure of and report on the session
+		(Agenda item 20)
+		1.	Administrative and budgetary implications
+			183.	At the resumed 3rd meeting, a representative of the secretariat provided a preliminary evaluation of the administrative and budgetary implications of the conclusions adopted during the session in accordance with the provisions of rule 15 of the draft rules of procedure being applied.
+			184.	He informed the SBI that there were a number of activities coming out of negotiations at the session that call for more support by the secretariat and, therefore, require additional resources over and above the approved core budget for the biennium 2016–2017. These comprise:
+				(a)	Under agenda item 12(c), “Terms of reference for the Paris Committee on Capacity-building”, funding in the amount of EUR 140,000 will be required to support and facilitate the work of the Paris Committee on Capacity-building;
+				(b)	Under agenda item 14(a), “Impact of the implementation of response measures: Improved forum and work programme”, funding in the amount of EUR 225,000 will be required to operationalize the work programme. Activities of this nature have been included in the recent call for contributions to the Trust Fund for Supplementary Activities. For the information of Parties, the same costs are also stated under SBSTA agenda item 7(a).
+			185.	He added that the above amounts were preliminary and based on the current available information. He noted that overall additional supplementary funds amounting to EUR 365,000 will be needed to cover additional requirements for the biennium 2016–2017 and expressed his gratitude to the continued generosity of Parties in providing additional funding for these activities in a timely and predictable manner as without supplementary contributions, the secretariat will not be in a position to provide the requested support.
+			186.	He also noted that some of the conclusions adopted by the SBI at its current session will have budgetary implications beyond 2017. With regard to the resource requirements for 2018–2019, he informed the SBI that they will be reviewed in the context of established budgetary procedures.
+		2.	Closure of and report on the session
+			187.	On 26 May, the SBI convened a meeting jointly with the SBSTA and the APA to bid farewell to Ms. Christiana Figueres, the outgoing Executive Secretary of the UNFCCC. Representatives of the current and incoming Presidencies of the COP, the presiding officers of the three subsidiary bodies as well as Ms. Patricia Espinosa, Executive Secretary designate, thanked her for the services provided during her time in office.
+			188.	Ms. Figueres recalled her first address to Parties in 2010, in which she invited all governments to rise to the challenge posed by the scale and urgency of the threat of climate change, and the subsequent six years characterized by the tireless efforts Parties made to respond to climate change. She thanked Parties for their hard work, national aspirations, cooperation with one another and collective ambition. She underlined the crucial role played by non-Party actors and civil society, and thanked subnational governments, corporations, financial institutions and civil society at large for their support of the climate change process. Ms. Figueres further expressed her appreciation to United Nations organizations and extended her deeply felt gratitude to the staff of the UNFCCC secretariat for their unwavering commitment, tireless dedication and collective wisdom.
+			189.	Fourteen Parties made statements, including on behalf of the African Group, AILAC, AOSIS, the Caribbean Community, the EIG, the EU, the G77 and China, the LDCs and the Umbrella Group.
+			190.	At its resumed 3rd meeting, the SBI considered and adopted the draft report on the session and authorized the Rapporteur, with the assistance of the secretariat and under the guidance of the Chair, to complete the report on the session and to make it available to all Parties.
+			191.	Closing statements were made by representatives of nine Parties, including on behalf of the G77 and China, the Umbrella Group, the EU, the EIG, the African Group, AOSIS, the LDCs and AILAC. Statements were also made by representatives of research and independent NGOs, women and gender NGOs, youth NGOs, indigenous peoples organizations and environmental NGOs. The Chair thanked Parties for their support and closed the session.
+			
+Annex I
+	Draft guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part II: UNFCCC reporting guidelines on national communications
+	I.	Objectives
+		1.	The objectives of these guidelines are:
+			(a)	To assist Parties included in Annex I to the Convention (Annex I Parties) in meeting their commitments under Articles 4 and 12 of the Convention;
+			(b)	To promote the provision of consistent, transparent, comparable, accurate and complete information in order to enable a thorough review and assessment of the implementation of the Convention by Parties, and to monitor the progress that Annex I Parties are making towards meeting their goals under the Convention;
+			(c)	To assist the Conference of the Parties (COP) in carrying out its responsibility to review the implementation of the Convention pursuant to its Article 7, paragraph 2(a), and the adequacy of the commitments under Article 4, paragraph 2(a) and (b), in accordance with Article 4, paragraph 2(d), of the Convention.
+	II.	Executive summary
+		2.	The national communication shall include an executive summary that summarizes the information and data contained in the full document. The executive summary shall consist of no more than 15 pages.
+	III.	National circumstances relevant to greenhouse gas emissions and removals
+		3.	Parties shall provide a description of their national circumstances, how the national circumstances affect greenhouse gas (GHG) emissions and removals, and how the national circumstances and changes therein affect GHG emissions and removals over time. Parties should provide information on how their national circumstances are relevant to factors affecting GHG emissions and removals, including disaggregated indicators, to explain the relationship between the national circumstances and emissions or removals. Parties may provide whatever information best describes their own national circumstances and historical trends. However, in order to improve the comparability of national communications, reporting information under the following headings is recommended:
+			(a)	Government structure: for example, roles and responsibilities of different levels of government and relevant interministerial decision-making processes or bodies;
+			(b)	Population profile: for example, total population, density and distribution;
+			(c)	Economic profile: for example, gross domestic product (GDP), GDP per capita (expressed in domestic currency and purchasing power parity), GDP by sector and international trade patterns;
+			(d)	Geographical profile: for example, area, latitude, land use and ecosystems;
+			(e)	Climate profile: for example, temperature distribution, annual temperature variation, precipitation distribution, climate variability and extreme events;
+			(f)	Energy (by fuel type, where appropriate): for example, energy resource base, production, market structure, prices, taxes, subsidies and trade;
+			(g)	Transportation: for example, modes (passenger and freight), travel distances and fleet characteristics;
+			(h)	Industry: for example, structure;
+			(i)	Waste: for example, waste sources and management practices;
+			(j)	Building stock and urban structure: for example, profile of residential and commercial buildings;
+			(k)	Agriculture: for example, structure and management practices;
+			(l)	Forest: for example, types and management practices;
+			(m)	Other circumstances.
+		Flexibility in accordance with Article 4, paragraphs 6 and 10, of the Convention
+			4.	Parties requesting flexibility or consideration in accordance with Article 4, paragraphs 6 and 10, of the Convention shall state the type of special consideration that they are seeking and provide a full explanation of their circumstances.
+	IV.	Greenhouse gas inventory information
+		A.	Summary tables
+			5.	Summary information from the national GHG inventory prepared in accordance with the “Guidelines for the preparation of national communications by Parties included in Annex I to the Convention, Part I: UNFCCC reporting guidelines on annual greenhouse gas inventories” (hereinafter referred to as the UNFCCC Annex I inventory reporting guidelines) (annex I to decision 24/CP.19 and any relevant decisions adopted subsequently by the COP) shall be provided for the period from 1990 (or another base year) to the latest year reported in the most recent annual inventory submission available (the most recent inventory year). The information provided in the national communication should be consistent with that provided in the most recent annual inventory submission available (for the year prior to the due date of submission of the national communication) and any differences should be fully explained.
+			6.	For the purpose of the national communication, complete inventory information need not be provided. However, at a minimum, Parties shall report the summary of GHG emissions and removals, including the information expressed in carbon dioxide (CO2) equivalent in emission trend tables provided in the common reporting format contained in the UNFCCC Annex I inventory reporting guidelines. Parties may elect to replicate the information reported in the biennial report submitted with the national communication. The tables may be provided as an annex, as part of the national communication rather than in the main text.
+		B.	Descriptive summary
+			7.	In the main text of the national communication, Parties should provide a descriptive summary and figures illustrating the GHG emissions reported in the summary tables referred to in paragraph 6 above. Parties should provide a description of the factors underlying emission trends.
+		C.	National inventory arrangements
+			8.	Parties shall provide summary information on their national inventory arrangements in accordance with the reporting requirements related to national inventory arrangements contained in the UNFCCC Annex I inventory reporting guidelines and on any changes to those national inventory arrangements since their previous national communication or biennial report.
+	V.	Policies and measures
+		A.	Selection of policies and measures to be reported in the national communication
+			9.	In accordance with Article 12, paragraph 2, of the Convention, Parties shall communicate information on policies and measures adopted to implement their commitments under Article 4, paragraph 2(a) and (b), of the Convention, which need not have the limitation or reduction of GHG emissions or the enhancement of removals as a primary objective.
+			10.	In their reporting, Parties should give priority to policies and measures, or combinations of policies and measures, that have the most significant impact on GHG emissions and removals, and they may also indicate those that are innovative and/or effectively replicable by other Parties. Parties may report on adopted policies and measures and those in the planning stage, but should clearly distinguish them from implemented policies and measures. The national communication does not have to report every policy and measure that affects GHG emissions.
+			11.	Policies and measures reported on should be: those implemented (those for which one or more of the following applies: (1) national legislation is in force; (2) one or more voluntary agreements have been established; (3) financial resources have been allocated; and (4) human resources have been mobilized); those adopted (those for which an official government decision has been made and there is a clear commitment to proceed with implementation); and/or those planned (options under discussion or announced and with a realistic chance of being adopted and implemented in the future) by governments at the national, state, provincial, regional and local levels, as applicable. Furthermore, policies and measures reported may also include those adopted in the context of regional or international efforts.
+			12.	Parties should report on actions taken to implement their commitments under Article 4, paragraph 2(e)(ii), of the Convention, which requires them to identify and periodically update their own policies and practices that encourage activities that lead to greater levels of anthropogenic GHG emissions than would otherwise occur. Parties should also provide the rationale for such actions in the context of their national communications.
+			13.	Parties are encouraged to provide, to the extent possible, detailed information on the assessment of the economic and social consequences of response measures.
+		B.	Structure of the policies and measures section of the national communication
+			14.	Parties shall organize the reporting on policies and measures by sector, indicating which GHGs (CO2, methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), sulphur hexafluoride (SF6) and nitrogen trifluoride (NF3)) are affected by which policies and measures. To the extent appropriate, the following sectors should be considered: energy, transport, industry/industrial processes and product use, agriculture, forestry/land use, land-use change and forestry (LULUCF), waste management/waste, other sectors and cross-cutting. Each sector shall have its own textual description of the significant policies and measures, as set out in section D below, supplemented by table 1 below. Parties may include separate text describing cross-sectoral policies and measures. Policies and measures influencing GHG emissions from international transport should be reported under the transport sector.
+			15.	In cases where a policy or measure has been maintained over time and is thoroughly described in a Party’s previous national communication and/or biennial report, reference should be made to it and only a brief description contained in the latest national communication, focusing on any alterations to the policy or measure or effects achieved.
+			16.	Some information, such as the effect of policies and measures, may be presented in aggregate for several complementary measures in a particular sector or affecting a particular gas.
+		C.	Policymaking process
+			17.	The national communication should describe the overall policy context, including any national targets for GHG mitigation. Strategies for sustainable development, long-term mitigation strategies or other relevant policy objectives may also be covered.
+			18.	The national communication should provide a description of the way in which progress with policies and measures to mitigate GHG emissions is monitored and evaluated over time. Institutional arrangements for the monitoring of GHG mitigation policy should also be reported in this context.
+		D.	Policies and measures and their effects
+			19.	The presentation of each policy or measure shall include information on each of the subject headings listed below. The presentation of each policy or measure should be concise and include the details suggested after each subject heading as follows:
+				(a)	Name of policy or measure;
+				(b)	Sector(s) affected. To the extent possible, the following sectors should be used: energy, transport, industry/industrial processes and product use, agriculture, forestry/LULUCF, waste management/waste, other sectors and cross-cutting, as appropriate;
+				(c)	The GHG(s) affected;
+				(d)	Objective and/or activity affected. The description of the objectives should focus on the key purposes and benefits of the policy or measure, including a description of activities and/or source and sink categories affected. Objectives should be described in quantitative terms, to the extent possible;
+				(e)	Type of instrument. To the extent possible, the following terms should be used: economic, fiscal, voluntary agreement, regulatory, information, education, research or other;
+				(f)	Status of implementation. It should be noted whether the policy or measure is no longer in place, in the planning stage, has been adopted or is under implementation. For adopted and implemented measures, additional information may include the funds already provided, future budget allocated and the time frame for implementation;
+				(g)	Brief description of the policy or measure;
+				(h)	Start year of implementation;
+				(i)	Implementing entity or entities. This should describe the role of national, state, provincial, regional and local governments and the involvement of any other entities;
+				(j)	Estimate of mitigation impact (for a particular year, not cumulative, in kt CO2 eq).
+			20.	In the description of each policy or measure or set of complementary measures reported, Parties shall include, as appropriate, a quantitative estimate of the impact of individual policies or measures or collections of policies and measures (if such estimation is not possible, Parties shall explain why), including estimated changes in activity levels and/or emissions and removals due to adopted and implemented policies and measures reported and a brief description of estimation methods. Estimates should be presented for a particular year, ending in either a zero or a five, following the most recent inventory year.
+			21.	Parties may also provide information under the following headings for each policy or measure reported:
+				(a)	Information on costs of policy or measure. Such information should be accompanied by a brief definition of the term ‘cost’ in this context;
+				(b)	Information on non-GHG mitigation benefits. Such benefits may include, for example, reduced emissions of other pollutants, or health benefits;
+				(c)	Information on how it interacts with other policies and measures at the national level. This may include a description of how policies complement each other in order to enhance overall GHG mitigation.
+			22.	In the light of the information provided in paragraph 34 below, Parties shall provide information on how they believe their policies and measures are modifying longer-term trends in anthropogenic GHG emissions and removals consistent with the objective of the Convention.
+		E.	Policies and measures no longer in place
+			23.	When policies and measures listed in previous national communications are no longer in place, Parties may explain why this is so.
+			
+			Table 1
+			Summary of policies and measures by sector
+				| Name of policy or measurea | Sector(s) affectedb | GHG(s) affected | Objective and/or activity affected | Type of instrumentc | Status of implementationd | Brief descriptione | Start year of implementation | Implementing entity or entities | Estimate of mitigation impact (not cumulative, in kt CO2 eq) |
+				|  |  |  |  |  |  |  |  |  | 20XXf | 2020 |
+				|  |  |  |  |  |  |  |  |  |  |  |  |
+				|  |  |  |  |  |  |  |  |  |  |  |  |
+				
+					Note: The two final columns specify the year identified by the Party for estimating impacts (based on the status of the measure and whether an ex post or ex ante estimation is available).
+						Abbreviation: GHG = greenhouse gas.
+					a   Parties should use an asterisk (*) to indicate that the policy or measure is included in the ‘with measures’ projection.
+					b   To the extent possible, the following sectors should be used: energy, transport, industry/industrial processes and product use, agriculture, forestry/land use, land-use change and forestry, waste management/waste, other sectors and cross-cutting, as appropriate.
+					c   To the extent possible, the following types of instrument should be referred to: economic, fiscal, voluntary agreement, regulatory, information, education, research and other.
+					d   To the extent possible, the following descriptive terms should be used to report on the status of implementation: implemented, adopted and planned.
+					e   Additional information may be provided on the cost of the policy or measure and the relevant timescale.
+					f   Optional year or years deemed relevant by the Party.
+				
+				
+				
+				
+	VI.	Projections and total effect of policies and measures
+		A.	Purpose
+			24.	The primary objective of the projections section of the national communication is to give an indication of future trends in GHG emissions and removals, given current national circumstances and implemented and adopted policies and measures, and to give an indication of the path of emissions and removals without such policies and measures.
+		B.	Projections
+			25.	At a minimum, Parties shall report a ‘with measures’ projection, in accordance with paragraph 26 below, and may report ‘without measures’ and ‘with additional measures’ projections.
+			26.	A ‘with measures’ projection shall encompass currently implemented and adopted policies and measures. If provided, a ‘with additional measures’ projection also encompasses planned policies and measures. If provided, a ‘without measures’ projection excludes all policies and measures implemented, adopted or planned after the year chosen as the starting point for that projection. In their reporting, Parties may refer to their ‘without measures’ projection as a ‘baseline’ or ‘reference’ projection, for example, if preferred, but should explain the nature of that projection.
+			27.	Parties may report a sensitivity analysis for any of the projections, but should aim to limit the number of scenarios presented. Parties may provide the results of a sensitivity analysis for the reported GHG emissions together with a brief explanation of the methodologies and parameters used.
+		C.	Presentation of projections relative to actual data
+			28.	Emission projections shall be presented relative to actual inventory data for the preceding years.
+			29.	For the ‘with measures’ and ‘with additional measures’ projections, the starting point should generally be the most recent inventory year. Parties may provide a ‘without measures’ projection starting from an earlier year.
+			30.	Parties should present their projections relative to unadjusted inventory data for the preceding years presented in the most recent annual inventory submission available. In addition, Parties may present their projections relative to adjusted inventory data. In that case, Parties shall explain the nature of the adjustments.
+		D.	Coverage and presentation
+			31.	Projections shall be presented on a sectoral basis. To the extent possible, the sectoral categories used should be the same as in the GHG inventories.
+			32.	Projections shall be presented on a gas-by-gas basis for the following GHGs: CO2, CH4, N2O, PFCs, HFCs, SF6 and NF3 (treating PFCs and HFCs collectively in each case). Parties may also provide projections of indirect emissions of carbon monoxide, nitrogen oxide and non-methane volatile organic compounds, as well as sulphur oxide. In addition, projections shall be provided in an aggregated format for each sector as well as for a national total, using global warming potential values agreed upon by the COP.
+			33.	To ensure consistency with inventory reporting, emission projections related to fuel sold to ships and aircraft engaged in international transport shall, to the extent possible, be reported separately and not included in the national total.
+			34.	In view of the objective of the Convention and the intent to modify longer-term trends in emissions and removals, Parties should include information on historical emissions and removals on a quantitative basis for the period from 1990 (or another base year, as appropriate) to the most recent inventory year. The information should be presented for 1990 (and another base year, as appropriate), 1995, 2000, 2005, 2010 and subsequent years that end in either a zero or a five up to the most recent inventory year. Parties should include projections on a quantitative basis, starting from the most recent inventory year and for subsequent years that end in either a zero or a five, extending at least 15 years from the most recent inventory year (e.g. 2020, 2025, 2030 and 2035). Projections and information on historical emissions and removals should be presented in tabular format. The tabular format used shall be as in tables 2, 3 and 4 below. For Parties using a base year other than 1990 for their GHG inventories, in accordance with Article 4, paragraph 6, of the Convention, inventory data for that year shall be given.
+			
+			
+			Table 2
+			Information on updated greenhouse gas projections under a ‘with measures’ scenarioa
+			|  | GHG emissions and removalsb, c
+(kt CO2 eq) | GHG emission projectionsc, d 
+(kt CO2 eq) |
+			|  | Base year | 1990 | 1995 | 2000 | 2005 | 2010 | … | 20XXe | 20YYf | … | … | … |
+			| Sectorg, h |  |  |  |  |  |  |  |  |  |  |  |  |
+			| Energy |  |  |  |  |  |  |  |  |  |  |  |  |
+			| Transport |  |  |  |  |  |  |  |  |  |  |  |  |
+			| Industry/industrial processes and product use |  |  |  |  |  |  |  |  |  |  |  |  |
+			| Agriculture |  |  |  |  |  |  |  |  |  |  |  |  |
+			| Forestry/LULUCF  Waste management/waste |  |  |  |  |  |  |  |  |  |  |  |  |
+			| Other (specify) |  |  |  |  |  |  |  |  |  |  |  |  |
+			| Gas |  |  |  |  |  |  |  |  |  |  |  |  |
+			| CO2 emissions including net CO2 from LULUCF |  |  |  |  |  |  |  |  |  |  |  |  |
+			| CO2 emissions excluding net CO2 from LULUCF |  |  |  |  |  |  |  |  |  |  |  |  |
+			| CH4 emissions including CH4 from LULUCF |  |  |  |  |  |  |  |  |  |  |  |  |
+			| CH4 emissions excluding CH4 from LULUCF |  |  |  |  |  |  |  |  |  |  |  |  |
+			| N2O emissions including N2O from LULUCF |  |  |  |  |  |  |  |  |  |  |  |  |
+			| N2O emissions excluding N2O from LULUCF |  |  |  |  |  |  |  |  |  |  |  |  |
+			| HFCs |  |  |  |  |  |  |  |  |  |  |  |  |
+			| PFCs |  |  |  |  |  |  |  |  |  |  |  |  |
+			| SF6 |  |  |  |  |  |  |  |  |  |  |  |  |
+			| Other (specify, e.g. NF3) |  |  |  |  |  |  |  |  |  |  |  |  |
+			| Total with LULUCFi |  |  |  |  |  |  |  |  |  |  |  |  |
+			| Total without LULUCF |  |  |  |  |  |  |  |  |  |  |  |  |
+			
+				Abbreviations: GHG = greenhouse gas, LULUCF = land use, land-use change and forestry.
+				a   In accordance with paragraph 25 of these guidelines, at a minimum Parties shall report a ‘with measures’ projection and they may also report ‘without measures’ and ‘with additional measures’ projections. If a Party chooses to report a ‘without measures’ and/or ‘with additional measures’ projection, it is to use table 3 and/or 4 below, respectively. If a Party does not choose to report a ‘without measures’ or ‘with additional measures’ projection, then it should not include table 3 or 4 in its national communication.
+				b   Emissions and removals reported in these columns should be as reported in the most recent annual inventory submission available and consistent with the emissions and removals reported in the table on GHG emissions and trends provided in accordance with section IV of these guidelines. Where the sectoral breakdown differs from that reported in the GHG inventory, Parties should explain in their national communication how the inventory sectors relate to the sectors reported in this table.
+				c   Parties may include indirect CO2 emissions in historical GHG emissions and in GHG emission projections and shall indicate this in a custom footnote below.
+				d   Parties should include projections on a quantitative basis starting from the most recent inventory year and for subsequent years that end in either a zero or a five, extending at least 15 years from the most recent inventory year.
+				e   The most recent inventory year.
+					f   A year that ends in either a zero or a five following the most recent inventory year, extending at least 15 years from the most recent inventory year.
+				g   In accordance with paragraph 31 of these guidelines, projections shall be presented on a sectoral basis, to the extent possible, using the same sectoral categories as used in the GHG inventories. This table should follow, to the extent possible, the same sectoral categories as those listed in paragraph 14 of these guidelines; namely, to the extent appropriate, the following sectors should be considered: energy, transport, industry/industrial processes and product use, agriculture, forestry/LULUCF, waste management/waste, other sectors and cross-cutting.
+				h   To the extent possible, the following sectors should be used: energy, transport, industry/industrial processes and product use, agriculture, forestry/LULUCF, waste management/waste and other sectors (i.e. cross-cutting), as appropriate.
+				i   Parties may choose to report total emissions with or without LULUCF, as appropriate.
+			
+				Custom footnote
+			Table 3
+			Information on updated greenhouse gas projections under a ‘without measures’ scenarioa
+			|  | GHG emissions and removalsb, c (kt CO2 eq) | GHG emissions and removalsc, d (kt CO2 eq) |
+			|  | Base year | 1990 | 1995 | 2000 | 2005 | 2010 | … | 20XXe | 20YYf | 20ZZg | … | … | … |
+			| Sectorh, i |  |  |  |  |  |  |  |  |  |  |
+			| Energy |  |  |  |  |  |  |  |  |  |  |
+			| Transport |  |  |  |  |  |  |  |  |  |  |
+			| Industry/industrial processes and product use |  |  |  |  |  |  |  |  |  |  |
+			| Agriculture |  |  |  |  |  |  |  |  |  |  |
+			| Forestry/LULUCF |  |  |  |  |  |  |  |  |  |  |
+			| Waste management/waste |  |  |  |  |  |  |  |  |  |  |
+			| Other (specify) |  |  |  |  |  |  |  |  |  |  |
+			| Gas |  |  |  |  |  |  |  |  |  |  |
+			| CO2 emissions including net CO2 from LULUCF |  |  |  |  |  |  |  |  |  |  |
+			| CO2 emissions excluding net CO2 from LULUCF |  |  |  |  |  |  |  |  |  |  |
+			| CH4 emissions including CH4 from LULUCF |  |  |  |  |  |  |  |  |  |  |
+			| CH4 emissions excluding CH4 from LULUCF |  |  |  |  |  |  |  |  |  |  |
+			| N2O emissions including N2O from LULUCF |  |  |  |  |  |  |  |  |  |  |
+			| N2O emissions excluding N2O from LULUCF |  |  |  |  |  |  |  |  |  |  |
+			| HFCs |  |  |  |  |  |  |  |  |  |  |
+			| PFCs |  |  |  |  |  |  |  |  |  |  |
+			| SF6 |  |  |  |  |  |  |  |  |  |  |
+			| Other (specify, e.g. NF3) |  |  |  |  |  |  |  |  |  |  |
+			| Total with LULUCFj |  |  |  |  |  |  |  |  |  |  |
+			| Total without LULUCF |  |  |  |  |  |  |  |  |  |  |
+			
+				Abbreviations: GHG = greenhouse gas, LULUCF = land use, land-use change and forestry.
+				a   In accordance with paragraph 25 of these guidelines, at a minimum Parties shall report a ‘with measures’ projection and they may also report ‘without measures’ and ‘with additional measures’ projections. If a Party chooses to report ‘without measures’ and/or ‘with additional measures’ projection, they are to use table 3 and/or 4 below, respectively. If a Party does not choose to report ‘without measures’ or ‘with additional measures’ projections, then it should not include table 3 or 4 in the national communication.
+				b   Emissions and removals reported in these columns should be as reported in the most recent annual inventory submission available and consistent with the emissions and removals reported in the table on GHG emissions and trends provided in accordance with section IV of these guidelines. Where the sectoral breakdown differs from that reported in the GHG inventory, Parties should explain in their national communication how the inventory sectors relate to the sectors reported in this table.
+				c   Parties may include indirect CO2 emissions in historical GHG emissions and in GHG emission projections and shall indicate this in a custom footnote below.
+				d   Parties should include projections on a quantitative basis starting from the most recent inventory year (or an earlier year followed by the most recent inventory year) and for subsequent years that end in either a zero or a five, extending at least 15 years from the most recent inventory year.
+				e   The starting year of the projections.
+				f   The most recent inventory year, in the case that the projections are started from an earlier year.
+					g   A year that ends in either a zero or a five, following the most recent inventory year, extending at least 15 years from the most recent inventory year.
+				h   In accordance with paragraph 31 of these guidelines, projections shall be presented on a sectoral basis, to the extent possible, using the same sectoral categories used in the GHG inventories. This table should follow, to the extent possible, the same sectoral categories as those listed in paragraph 14 of these guidelines; namely, to the extent appropriate, the following sectors should be considered: energy, transport, industry/industrial processes and product use, agriculture, forestry/LULUCF, waste management/waste, other sectors and cross-cutting.
+				i   To the extent possible, the following sectors should be used: energy, transport, industry/industrial processes and product use, agriculture, forestry/LULUCF, waste management/waste, other sectors (i.e. cross-cutting), as appropriate.
+					j   Parties may choose to report total emissions with or without LULUCF, as appropriate.
+			
+				Custom footnote
+			Table 4
+			Information on updated greenhouse gas projections under a ‘with additional measures’ scenarioa
+			|  | GHG emissions and removalsb, c (kt CO2 eq) |  | GHG emission projectionsc, d (kt CO2 eq) |
+			|  | Base year | 1990 | 1995 | 2000 | 2005 | 2010 | … | 20XXe | 20YYf | … | … | … |
+			| Sectorg,h |  |  |  |  |  |  |  |  |  |
+			| Energy |  |  |  |  |  |  |  |  |  |
+			| Transport |  |  |  |  |  |  |  |  |  |
+			| Industry/industrial processes and product use |  |  |  |  |  |  |  |  |  |
+			| Agriculture |  |  |  |  |  |  |  |  |  |
+			| Forestry/LULUCF |  |  |  |  |  |  |  |  |  |
+			| Waste management/waste |  |  |  |  |  |  |  |  |  |
+			| Other (specify) |  |  |  |  |  |  |  |  |  |
+			| Gas |  |  |  |  |  |  |  |  |  |
+			| CO2 emissions including net CO2 from LULUCF |  |  |  |  |  |  |  |  |  |
+			| CO2 emissions excluding net CO2 from LULUCF |  |  |  |  |  |  |  |  |  |
+			| CH4 emissions including CH4 from LULUCF |  |  |  |  |  |  |  |  |  |
+			| CH4 emissions excluding CH4 from LULUCF |  |  |  |  |  |  |  |  |  |
+			| N2O emissions including N2O from LULUCF |  |  |  |  |  |  |  |  |  |
+			| N2O emissions excluding N2O from LULUCF |  |  |  |  |  |  |  |  |  |
+			| HFCs |  |  |  |  |  |  |  |  |  |
+			| PFCs |  |  |  |  |  |  |  |  |  |
+			| SF6 |  |  |  |  |  |  |  |  |  |
+			| Other (specify, e.g. NF3) |  |  |  |  |  |  |  |  |  |
+			| Total with LULUCFi |  |  |  |  |  |  |  |  |  |
+			| Total without LULUCF |  |  |  |  |  |  |  |  |  |
+			
+				Abbreviations: GHG = greenhouse gas, LULUCF = land use, land-use change and forestry.
+				a   In accordance with paragraph 25 of these guidelines, at a minimum Parties shall report a ‘with measures’ projection and they may also report ‘without measures’ and ‘with additional measures’ projections. If a Party chooses to report ‘without measures’ and/or ‘with additional measures’ projections, they are to use table 3 and/or 4 below, respectively. If a Party does not choose to report ‘without measures’ or ‘with additional measures’ projections, then it should not include table 3 or 4 in the national communication.
+				b   Emissions and removals reported in these columns should be as reported in the most recent annual inventory submission available and consistent with the emissions and removals reported in the table on GHG emissions and trends provided in accordance with section IV of these guidelines. Where the sectoral breakdown differs from that reported in the GHG inventory, Parties should explain in their national communication how the inventory sectors relate to the sectors reported in this table.
+				c   Parties may include indirect CO2 emissions in historical GHG emissions and in GHG emission projections and shall indicate this in a custom footnote below.
+				d   Parties should include projections on a quantitative basis starting from the most recent inventory year and for subsequent years that end in either a zero or a five, extending at least 15 years from the most recent inventory year.
+				e   The most recent inventory year.
+				f   A year that ends in either a zero or a five, following the most recent inventory year, extending at least 15 years from the most recent inventory year.
+				g   In accordance with paragraph 31 of these guidelines, projections shall be presented on a sectoral basis, to the extent possible, using the same sectoral categories used in the GHG inventories. This table should follow, to the extent possible, the same sectoral categories as those listed in paragraph 14 of these guidelines; namely, to the extent appropriate, the following sectors should be considered: energy, transport, industry/industrial processes and product use, agriculture, forestry/LULUCF, waste management/waste, other sectors and cross-cutting.
+				h   To the extent possible, the following sectors should be used: energy, transport, industry/industrial processes and product use, agriculture, forestry/LULUCF, waste management/waste, other sectors (i.e. cross-cutting), as appropriate.
+				i   Parties may choose to report total emissions with or without LULUCF, as appropriate.
+			
+				Custom footnote
+			
+				
+				35.	Figures illustrating the information referred to in paragraphs 31–34 above should be presented showing unadjusted inventory data and a ‘with measures’ projection for the period from 1990 (or another base year, as appropriate) to the most recent inventory year and for subsequent years that end in either a zero or a five, extending at least 15 years from the most recent inventory year. Additional figures may also be presented. The figure below illustrates the presentation of a hypothetical Party’s projection of emissions. It shows unadjusted inventory data for the period from 1990 to the most recent inventory year and ‘with measures’, ‘with additional measures’ and ‘without measures’ projections.
+			Hypothetical Party’s projection of emissions
+			
+		E.	Assessment of aggregate effect of policies and measures
+			36.	The estimated and expected effects of individual policies and measures are addressed in the policies and measures section of the national communication. In the projections section of the national communication, Parties shall present the estimated and expected total effect of implemented and adopted policies and measures. Parties may also present the total expected effect of planned policies and measures.
+			37.	Parties shall provide an estimate of the total effect of their policies and measures, in accordance with the ‘with measures’ definition, compared with a situation without such policies and measures. That effect shall be presented in terms of GHG emissions avoided or sequestered, by gas (on a CO2 eq basis), in the most recent inventory year and in subsequent years that end in either a zero or a five, extending at least 15 years from the most recent inventory year (not cumulative savings). This information may be presented in tabular format.
+			38.	Parties may estimate the total effect of their measures by calculating the difference between a ‘with measures’ and a ‘without measures’ projection. Alternatively, Parties may use another approach, for example individually assessing the effect of each significant policy and measure and aggregating the individual effects to arrive at a total. In either case, in the reporting it should be clear from what year onward it was assumed that policies were implemented or not implemented in calculating the estimate.
+		F.	Methodology
+			39.	When projecting GHG emissions and removals and estimating the total effects of policies and measures on emissions and removals, Parties may use any models and/or approaches that they choose. Sufficient information should be reported in the national communication to allow a reader to obtain a basic understanding of such models and/or approaches.
+			40.	In the interest of transparency, for each model or approach used, Parties should briefly:
+				(a)	Explain for which gases and/or sectors it was used;
+				(b)	Describe its type and characteristics (for example, top-down model, bottom-up model, accounting model or expert judgment);
+				(c)	Describe the original purpose that it was designed for and, if applicable, how it has been modified for climate change purposes;
+				(d)	Summarize its strengths and weaknesses;
+				(e)	Explain how it accounts for any overlap or synergies that may exist between different policies and measures.
+			41.	Parties should provide references to more detailed information related to the information referred to in paragraph 40(a–e) above.
+			42.	Parties should report the main differences in assumptions, methods employed and results between the projections reported in the current national communication and those reported in previous national communications.
+			43.	The sensitivity of the projections to underlying assumptions should be discussed qualitatively and, where possible, quantitatively.
+			44.	To ensure transparency, Parties should report information on key underlying assumptions and values of variables such as GDP growth, population growth, tax levels and international fuel prices, using table 5 below. The information should be limited to that not covered by paragraph 45 below (i.e. it should not include sector-specific data).
+			45.	To provide the reader with an understanding of emission trends from 1990 to at least 15 years from the most recent inventory year, Parties shall present relevant information on factors and activities for each sector. Such information may be presented in tabular format.
+			
+				Table 5
+				Summary of key variables and assumptions used in the projections analysisa
+			|  | Historicalb | Projected |
+			| Key underlying assumptions | 1990 | 1995 | 2000 | 2005 | 2010 |  | … |  | 20XXc |  | 20YYd | … | … |  |  |
+			|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+			|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+			|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+			|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+			|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+			|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+			|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+			|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+			|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+			|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+			
+				a   Parties should include key underlying assumptions, as appropriate.
+				b   Parties should include the historical data used to develop the greenhouse gas emission projections reported.
+				c   The most recent inventory year.
+				d   A year that ends in either a zero or a five following the most recent inventory year, extending at least 15 years from the most recent inventory year.
+				
+			
+	VII.	Vulnerability assessment, climate change impacts and adaptation measures
+		46.	The national communication shall include information on the expected impacts of climate change and an outline of the action taken to implement Article 4, paragraph 1(b) and (e), of the Convention with regard to adaptation. Parties are encouraged to use and reference relevant methodologies and guidance for assessing climate change impacts, vulnerability and adaptation measures. Parties may refer, inter alia, to integrated plans for coastal zone management, water resources and agriculture. Parties may also report on specific results of scientific research in the field of vulnerability assessment and adaptation.
+		47.	Parties are encouraged to use the following structure when reporting information in this section:
+			(a)	Climate modelling, projections and scenarios: for example, updated information on climate modelling, climate projections and scenarios relevant to the assessment of climate change impacts and vulnerability;
+			(b)	Assessment of risks and vulnerability to climate change: for example, updated information on key economic, social and/or environmental vulnerabilities or risks related to current and expected climate change impacts;
+			(c)	Climate change impacts: for example, updated information on both observed and potential future impacts of climate change;
+			(d)	Domestic adaptation policies and strategies: for example, updated information on progress on adaptation policies, strategies or plans that illustrate the Party’s medium- and long-term approaches to addressing risks and vulnerability through its broader domestic development and sectoral planning;
+			(e)	Monitoring and evaluation framework: for example, updated information on approaches to the monitoring and evaluation of implemented adaptation strategies or plans;
+			(f)	Progress and outcomes of adaptation action: for example, updated information on adaptation measures taken to address current risks and vulnerabilities and on their status of implementation; and updated information on progress and, where possible, outcomes and the effectiveness of already implemented adaptation measures.
+	VIII.	Financial, technological and capacity-building support
+		48.	Parties included in Annex II to the Convention (Annex II Parties) shall provide information on the provision of financial, technological and capacity-building support to Parties not included in Annex I to the Convention (non-Annex I Parties), including information to show how this support is new and additional. In reporting such information, Parties should distinguish, to the extent possible, between support provided to non-Annex I Parties for mitigation and adaptation activities, noting the capacity-building elements of such activities, where relevant. For activities with multiple objectives, the funding could be reported as a contribution allocated partially to the other relevant objectives.
+		49.	Each Annex II Party shall provide a description of its national approach to the tracking of the provision of financial, technological and capacity-building support to non-Annex I Parties, if appropriate. This description shall also include information on indicators and delivery mechanisms used and allocation channels tracked.
+		50.	In reporting information in accordance with paragraphs 52 and 53 below, Annex II Parties shall use any methodology to be developed under the Convention, taking into account international experience. Annex II Parties shall describe the methodology used and shall report in a rigorous, robust and transparent manner the underlying assumptions and methodologies used to produce information on finance.
+		A.	Finance
+			51.	Each Annex II Party shall describe, to the extent possible, how it seeks to ensure that the resources it provides effectively address the needs of non-Annex I Parties with regard to climate change adaptation and mitigation.
+			52.	Each Annex II Party shall provide information on the financial support that it has disbursed and committed for the purpose of assisting non-Annex I Parties to mitigate GHG emissions and adapt to the adverse effects of climate change and any economic and social consequences of response measures, and for capacity-building and technology transfer in the areas of mitigation and adaptation, where appropriate. To that end, each Annex II Party shall provide summary information in textual and tabular format (see tables 6, 7 and 8 below) on allocation channels and annual contributions for the previous two calendar or financial years, without overlapping with the previous reporting periods, including, as appropriate, the following:
+				(a)	The Global Environment Facility, the Least Developed Countries Fund, the Special Climate Change Fund, the Adaptation Fund, the Green Climate Fund and the UNFCCC Trust Fund for Supplementary Activities;
+				(b)	Other multilateral climate change funds;
+				(c)	Multilateral financial institutions, including regional development banks;
+				(d)	Specialized United Nations bodies;
+				(e)	Contributions through bilateral, regional and other channels.
+			53.	Each Annex II Party shall provide the summary information referred to in paragraph 52 above for the previous two calendar or financial years in textual and tabular format on the annual financial support that it has provided for the purpose of assisting non-Annex I Parties, including the following:
+				(a)	The amount of financial resources (including the amount in original currency and its equivalent in United States dollars/international currency);
+				(b)	The type of support (for mitigation and adaptation activities);
+				(c)	The source of funding;
+				(d)	The financial instrument;
+				(e)	The sector;
+				(f)	An indication of what new and additional financial resources it has provided pursuant to Article 4, paragraph 3, of the Convention, including clarification of how it has determined that such resources are new and additional.
+			54.	Each Annex II Party shall provide detailed information on the assistance provided by it for the purpose of assisting developing country Parties that are particularly vulnerable to the adverse effects of climate change in meeting the costs of adaptation to those adverse effects, in textual format and with reference to table 6 below.
+			55.	Recognizing that the goal of mobilizing financial resources referred to in decision 1/CP.16, paragraph 98, includes private financial sources, each Annex II Party should report, to the extent possible, on private financial flows leveraged by bilateral climate finance towards mitigation and adaptation activities in non-Annex I Parties, and should report on policies and measures that promote the scaling up of private investment in mitigation and adaptation activities in developing country Parties.
+			56.	Each Annex II Party should specify the types of instrument used in the provision of their assistance, such as grants and concessional loans.
+			
+			
+				Table 6
+				Provision of public financial support: summary information in 20XX-3a
+			|  |  |  | Year |  |
+			| Allocation channel | Domestic currency |  | USDb |
+			|  | Core/ generalc, 1 | Climate-specificd, 2 |  | Core/ generalc | Climate-specificd,2 |
+			|  |  | Mitigation | Adaptation | Cross-cuttinge | Otherf |  |  | Mitigation | Adaptation | Cross-cuttinge | Otherf |
+			| Total contributions through multilateral channels: Multilateral climate change fundsg |  |  |  |  |  |  |  |  |  |  |  |
+			| Other multilateral climate change fundsh |  |  |  |  |  |  |  |  |  |  |  |
+			| Multilateral financial institutions, including regional development banks |  |  |  |  |  |  |  |  |  |  |  |
+			| Specialized United Nations bodies |  |  |  |  |  |  |  |  |  |  |  |
+			| Total contributions through bilateral, regional and other channels |  |  |  |  |  |  |  |  |  |  |  |
+			| Total |  |  |  |  |  |  |  |  |  |  |
+			
+				Note: Explanation of numerical footnotes is provided in the documentation box after tables 6, 7 and 8.
+				Abbreviation: USD = United States dollars.
+				a   Parties should fill in a separate table for each year, namely 20XX-3 and 20XX-2, where 20XX is the reporting year.
+				b   Parties should provide an explanation of the methodology used for currency exchange for the information provided in tables 6, 7 and 8 in the documentation box.
+				c   This refers to support provided to multilateral institutions that Parties cannot specify as being climate-specific.
+				d   Parties should explain in their national communication how they define funds as being climate-specific.
+				e   This refers to funding for activities that are cross-cutting across mitigation and adaptation.
+				f   Please specify.
+				g   Multilateral climate change funds listed in paragraph 52(a) of these guidelines.
+				h   Other multilateral climate change funds as referred to in paragraph 52(b) of these guidelines.
+			Table 7
+			Provision of public financial support: contributions through multilateral channels in 20XX-3a
+			| Donor funding | Total amount | Statusb, 3 | Funding source4 | Financial instrument5 | Type of 
+support6 | Sectorc, 7 |
+			|  | Core/generald, 1 | Climate-specifice, 2 | Committed
+Disbursed | ODA
+OOF
+Otherf | Grant Concessional loan Non-concessional loan Equity
+Otherf | Mitigation
+Adaptation 
+Cross-cuttingg
+Otherf | Energy
+Transport
+Industry
+Agriculture Forestry
+Water and sanitation Cross-cutting
+Otherf
+Not applicable |
+			|  | Domestic currency | USD | Domestic currency | USD |  |  |  |  |  |
+			| Multilateral climate change funds 1.  Global Environment Facility 2.  Least Developed Countries Fund 3.  Special Climate Change Fund 4.  Adaptation Fund 5.  Green Climate Fund 6.  UNFCCC Trust Fund for Supplementary Activities 7.  Other multilateral climate change funds |  |  |  |  |  |  |  |  |  |
+			| Subtotal |  |  |  |  |  |  |  |  |  |
+			| Multilateral financial institutions, including regional development banks 1.  World Bank 2.  International Finance Corporation 3.  African Development Bank 4.  Asian Development Bank 5.  European Bank for Reconstruction and Development 6.  Inter-American Development Bank                           7.  Other |  |  |  |  |  |  |  |  |  |
+			| Subtotal |  |  |  |  |  |  |  |  |  |
+			|  |  |  |  |  |  |  |  |  |  |
+			|  |  |  |  |  |  |  |  |  |  |
+			| Specialized United Nations bodies 1.  United Nations Development Programme
+     (specific programmes) 2. United Nations Environment Programme 
+    (specific programmes)  3. Other |  |  |  |  |  |  |  |  |  |
+			| Subtotal |  |  |  |  |  |  |  |  |  |
+			| Total |  |  |  |  |  |  |  |  |  |
+			
+				Note: Explanation of numerical footnotes is provided in the documentation box after tables 6, 7 and 8.
+				Abbreviations: ODA = official development assistance, OOF = other official flows, USD = United States dollars.
+				a   Parties should fill in a separate table for each year, namely 20XX-3 and 20XX-2, where 20XX is the reporting year.
+				b   Parties should explain, in their national communication, the methodologies used to specify the funds as disbursed and committed. Parties will provide the information for as many status categories as appropriate in the following order of priority: disbursed and committed.
+				c   Parties may select several applicable sectors. Parties may report sectoral distribution, as applicable, under “Other”.
+				d   This refers to support provided to multilateral institutions that Parties cannot specify as being climate-specific.
+				e   Parties should explain in their national communication how they define funds as being climate-specific.
+				f   Please specify.
+				g   This refers to funding for activities that are cross-cutting across mitigation and adaptation.
+			
+			
+			
+				
+					Table 8
+					Provision of public financial support: contributions through bilateral, regional and other channels in 20XX-3a
+				| Recipient country/
+region/project/programme/activityb | Total amount | Statusc, 3 | Funding source4 | Financial instrument5 | Type of
+ support6 | Sector,d, 7 | Additional Informatione |
+				|  | Climate-specificf, 2 | Committed
+Disbursed | ODA
+OOF
+Otherg | Grant
+Concessional loan Non-concessional loan Equity
+Otherg | Mitigation
+Adaptation
+Cross-cuttingh Otherg | Energy
+Transport
+Industry
+Agriculture
+Forestry
+Water and sanitation
+Cross-cutting
+Otherg |  |
+				|  | Domestic currency | USD |  |  |  |  |  |  |
+				|  |  |  |  |  |  |  |  |  |  |
+				|  |  |  |  |  |  |  |  |  |  |
+				|  |  |  |  |  |  |  |  |  |  |
+				|  |  |  |  |  |  |  |  |  |  |
+				|  |  |  |  |  |  |  |  |  |  |
+				|  |  |  |  |  |  |  |  |  |  |
+				|  |  |  |  |  |  |  |  |  |  |
+				
+					Note: Explanation of numerical footnotes is provided in the documentation box after tables 6, 7 and 8.
+					Abbreviations: ODA = official development assistance, OOF = other official flows, USD = United States dollars.
+					a   Parties should fill in a separate table for each year, namely 20XX-3 and 20XX-2, where 20XX is the reporting year.
+					b   Parties should report, to the extent possible, on the details contained in this table.
+						c   Parties should explain, in their national communication, the methodologies used to specify the funds as disbursed and committed. Parties will provide the information for as many status categories as appropriate in the following order of priority: disbursed and committed.
+					d   Parties may select several applicable sectors. Parties may report sectoral distribution, as applicable, under “Other”.
+					e   Parties should report, as appropriate, on project details and the implementing agency.
+					f   Parties should explain in their national communication how they define funds as being climate-specific.
+					g   Please specify.
+					h   This refers to funding for activities that are cross-cutting across mitigation and adaptation.
+				
+				
+					
+				
+			Documentation box
+				| 1: Core/general |
+				|  |
+				| 2: Climate-specific |
+				|  |
+				| 3: Status |
+				|  |
+				| 4: Funding source |
+				|  |
+				| 5: Financial instrument |
+				|  |
+				| 6: Type of support |
+				|  |
+				| 7: Sector |
+				|  |
+				| Each Party shall provide an indication of what new and additional financial resources it has provided and clarify how it has determined that such resources are new and additional. Please provide this information in relation to tables 7 and 8 |
+				|  |
+				
+				
+				
+		B.	Technology development and transfer
+			57.	Each Annex II Party shall provide information on measures taken to promote, facilitate and finance the transfer of, access to and the deployment of climate-friendly technologies for the benefit of non-Annex I Parties and for the support of the development and enhancement of endogenous capacities and technologies of non-Annex I Parties. Parties shall, where feasible, report activities related to technology transfer, including success and failure stories, using table 9 below.
+			58.	Each Annex II Party shall provide, in textual and tabular formats (see table 10 below), information on measures and activities related to technology transfer implemented or planned since its previous national communication or biennial report. In reporting such measures and activities, Annex II Parties shall, to the extent possible, provide information on the recipient country, the targeted area of mitigation or adaptation, the sector involved and the sources of technology transfer from the public or private sectors, and shall distinguish between activities undertaken by the public and private sectors. As the ability of Parties to collect adequate information on private-sector activities is limited, Parties may indicate, where feasible, how they have encouraged private-sector activities and how those activities help Parties to meet their commitments under Article 4, paragraphs 3, 4 and 5, of the Convention.
+			
+			
+			
+				Table 9
+				Description of selected projects or programmes that promoted practicable
+					steps to facilitate and/or finance the transfer of, or access to, environmentally sound technologies
+						| Project/programme title: |
+						| Purpose: |
+						| Recipient country: | Sector: | Total funding: | Years in operation: |
+						|  |  |  |  |
+						| Description: |
+						| Factors that led to project/programme’s success: |
+						| Technology transferred: |
+						| Impact on greenhouse gas emissions/removals (optional): |
+						
+						
+						| Table 10 Provision of support for technology development and transfera, b |
+						| Recipient country and/or region | Targeted area | Measures and activities related to technology transfer | Sectorc | Source of funding for technology transfer | Activities undertaken by | Status | Additional informationd |
+						|  | Mitigation Adaptation Mitigation and adaptation |  | Energy Transport Industry Agriculture Water and sanitation Other | Private  Public Private and public | Private Public Private and public | Implemented Planned |  |
+						|  |  |  |  |  |  |  |  |
+						
+							a   To be reported to the extent possible.
+							b   The table should include measures and activities implemented or planned since the previous national communication or biennial report.
+							c   Parties may report sectoral disaggregation, as appropriate.
+							d   Additional information may include, for example, information on funding for technology development and transfer provided, a short description of the measure or activity and information on cofinancing arrangements.
+						
+						
+		C.	Capacity-building
+			59.	Each Annex II Party shall provide information, to the extent possible, on how it has provided capacity-building support that responds to existing and emerging capacity-building needs identified by non-Annex I Parties in the areas of mitigation, adaptation and technology development and transfer. Information should be reported in textual and tabular format (see table 11 below) as a description of individual measures and activities.
+			Table 11
+			Provision of capacity-building supporta
+			| Recipient country/region | Targeted area | Programme or project title | Description of programme or projectb, c |
+			|  | Mitigation Adaptation Technology development and transfer Multiple areas |  |  |
+			|  |  |  |  |
+			| a   To be reported to the extent possible.  b   Each Party included in Annex II to the Convention shall provide information, to the extent possible, on how it has provided capacity-building support that responds to existing and emerging capacity-building needs identified by Parties not included in Annex I to the Convention in the areas of mitigation, adaptation and technology development and transfer. c   Additional information may be provided on, for example, the measure or activity and cofinancing arrangements. |
+			
+	IX.	Research and systematic observation
+		60.	Pursuant to Articles 4, paragraph 1(g) and (h), 5 and 12, paragraph 1(b), of the Convention, Annex I Parties shall communicate information on their actions relating to research and systematic observation.
+		61.	The national communication shall address both domestic and international activities (for example, the activities of the Intergovernmental Panel on Climate Change, the World Climate Research Programme, Future Earth and the Global Climate Observing System) and also reflect action taken to support related capacity-building in developing countries.
+		62.	Parties shall provide summary information on global climate observing system activities in accordance with paragraph 67 below. To guide the reporting under sections A and C below, Parties should refer to the detailed guidance provided in the revised “UNFCCC reporting guidelines on global climate observing systems” (annex to decision 11/CP.13) and any relevant decisions subsequently adopted by the COP.
+		63.	The national communication should report, in summary form, on action taken. For example, the results of research studies, model runs or data analysis should not be included in this section.
+		A.	General policy on and funding of research and systematic observation
+			64.	Parties should provide information on their general policy on and funding of research and systematic observation.
+			65.	Parties should identify opportunities for and barriers to free and open international exchange of data and information and report on action taken to overcome such barriers.
+		B.	Research
+			66.	Parties should provide, inter alia, information on highlights, innovations and significant efforts made with regard to:
+				(a)	Climate process and climate system studies, including paleoclimatic studies;
+				(b)	Modelling and prediction, including global and regional climate models;
+				(c)	Research on the impacts of climate change;
+				(d)	Socioeconomic analysis, including analysis of both the impacts of climate change and response options;
+				(e)	Research and development of mitigation and adaptation approaches, including technologies.
+		C.	Systematic observation
+			67.	Parties should provide summary information on the current status of national plans, programmes and support for ground- and space-based climate observing systems, including long-term continuity of data, data quality control and availability, and exchange and archiving of data in the following areas:
+				(a)	Atmospheric climate observing systems, including those measuring atmospheric constituents;
+				(b)	Ocean climate observing systems;
+				(c)	Terrestrial climate observing systems;
+				(d)	Cryosphere climate observing systems;
+				(e)	Support for developing countries to establish and maintain observing systems and related data and monitoring systems.
+	X.	Education, training and public awareness
+		68.	In accordance with Articles 4, paragraph 1(i), 6 and 12, paragraph 1(b), of the Convention, Annex I Parties shall communicate information on their actions relating to education, training and public awareness. In this section, Parties should report, inter alia, on public information and education materials, resource or information centres, training programmes and participation in international activities. Parties may report on the extent of public participation in the preparation or domestic review of the national communication.
+		69.	The national communication may present information on such aspects as:
+			(a)	General policy on education, training and public awareness;
+			(b)	Primary, secondary and higher education;
+			(c)	Public information campaigns;
+			(d)	Training programmes;
+			(e)	Resource or information centres;
+			(f)	Involvement of the public and non-governmental organizations;
+			(g)	Participation in international activities;
+			(h)	Monitoring, review and evaluation of the implementation of Article 6 of the Convention.
+	XI.	Updating of the guidelines
+		70.	These guidelines shall be reviewed and revised, as appropriate, in accordance with relevant COP decisions.
+	XII.	Structure of the national communication
+		71.	The information identified in these guidelines shall be communicated by each Party in a single document in one of the official languages of the United Nations. Parties shall provide an electronic version of their national communication to the secretariat through the appropriate UNFCCC submission system. The length of the national communication may be decided by the submitting Party, but every effort shall be made to avoid overlengthy national communications, in order to facilitate the consideration process. [Parties are encouraged to submit, where appropriate, an English translation of the national communication to facilitate its use in the review process, recognizing that this may place an additional burden on the Party.]
+		72.	Where supplementary documents are provided as annexes to the national communication, the annexes are considered as part of the national communication itself. A clear reference to the relevant information in the annexes should be provided in the main text of the national communication.
+		73.	Where statistical data are provided, they should be accompanied by a definition of terms, unless they are obvious.
+		74.	To facilitate the transparency, comparability and consistency of national communications, Parties shall organize the content of their national communication following the outline contained in the appendix and may rephrase the subsection headings as appropriate and explain the reasons for rephrasing. To ensure completeness, no mandatory element shall be excluded. If mandatory elements cannot be reported for any reason, the Party shall explain the reason for partial reporting in the section relating to those elements.
+		
+		Appendix
+			Structure of the national communication
+				
+				I.	Executive summary
+					
+					
+				II.	National circumstances relevant to greenhouse gas
+				emissions and removals
+				
+					
+				III.	Greenhouse gas inventory information
+					
+				A. Summary tables
+				B. 	Descriptive summary
+				C. 	National inventory arrangements
+					
+					
+				IV.	Policies and measures
+					
+				A. Policymaking process
+				B. 	Policies and measures and their effects
+				C. 	Policies and measures no longer in place
+					
+					
+				V. 	Projections and total effect of policies and measures
+					
+					A.	Projections
+					B.	Assessment of aggregate effect of policies and measures
+					C.	Methodology
+					
+						
+				VI. 	Vulnerability assessment, climate change impacts and
+				adaptation measures
+					
+					
+				VII. 	Financial, technological and capacity-building support
+					
+					A. Finance
+					B.	Technology development and transfer
+					C. 	Capacity-building
+						
+						
+				VIII. 	Research and systematic observation
+					
+					A. General policy on and funding of research and systematic observation
+					B. 	Research
+					C. 	Systematic observation
+						
+				IX. 	Education, training and public awareness
+					
+				Annex. Supplementary documents
+					
+					
+Annex II
+	Work programme on the improved forum on the impact of the implementation of response measures (June 2016 to November 2018)
+		| Before/during SBI 45 and SBSTA 45 (November 2016) |
+		| Elements | Estimated timeline/deliverable |
+		| Technical paper on just transition of the workforce, and the creation of decent work and quality jobs | By SBI 45 and SBSTA 45 Technical paper |
+		| Views and experiences, including on case studies, taking into account decision 11/CP.21, paragraphs 1 and 6, in the context of sustainable development, in order to implement the work of the improved forum, on: (1) Economic diversification and transformation;
+(2) Just transition of the workforce, and the creation of decent work and quality jobs | By SBI 45 and SBSTA 45 Submissions from Parties and organizations |
+		| Workshop on views and experiences, including on case studies, taking into account decision 11/CP.21, paragraphs 1 and 6, in the context of sustainable development, in order to implement the work of the improved forum on: (1) Economic diversification and transformation;
+(2) Just transition of the workforce and the creation of decent work and quality jobs | Before SBI 45 and SBSTA 45 Report on the workshop |
+		| In-forum discussion on the workshop, including, as appropriate, to provide a venue for Parties to raise priority areas, and, as appropriate, constituting an ad hoc technical expert group | During SBI 45 and SBSTA 45 Conclusions of the forum |
+		
+		
+		| Before/during SBI 46 and SBSTA 46 (May 2017) |
+		| Elements | Estimated timeline/deliverable |
+		| Work of ad hoc technical expert group, as appropriate | During SBI 46 and SBSTA 46 Report of the ad hoc technical expert group, as appropriate |
+		| In-forum discussion on the meeting of the ad hoc technical expert group, as appropriate | Not applicable |
+		| Parties’ discussion of recommendation to COP 23 (November 2017) | Possible draft recommendation to be forwarded for consideration at COP 23 |
+		
+		
+		| Before/during SBI 47 and SBSTA 47 (November 2017) |
+		| Elements | Estimated timeline/deliverable |
+		| In-forum discussion on possible needs for modelling tools, including capacity-building opportunities, related to the work programme on the improved forum on the impact of the implementation of response measures In-forum discussion on the areas of the work programme | During SBI 47 and SBSTA 47  Conclusions of the forum |
+		
+		
+		| Before/during SBI 48 and SBSTA 48 (April–May 2018) |
+		| Elements | Estimated timeline/deliverable |
+		| In-forum training workshop on use of economic modelling tools related to the work programme on the improved forum on the impact of the implementation of response measures | Report on the in-forum training workshop |
+		
+		
+		| Before/during SBI 49 and SBSTA 49 (November 2018) |
+		| Elements | Estimated timeline/deliverable |
+		| Review of the work of the improved forum | Draft conclusions/decisions |
+		
+			Abbreviations: COP = Conference of the Parties, SBI – Subsidiary Body for Implementation, SBSTA = Subsidiary Body for Scientific and Technological Advice.
+		
+Annex III
+	Terms of reference of the ad hoc technical expert groups on the impact of the implementation of response measures
+		1.	Pursuant to decision 11/CP.21, paragraph 4, the subsidiary bodies may constitute ad hoc technical expert groups (TEGs) to elaborate on the technical work under the improved forum on the impact of the implementation of response measures. A TEG is to make findings that will assist the improved forum in making recommendations.
+		2.	A TEG shall have regional balance in line with decision 11/CP.21, paragraph 4, and will take into account the goal of gender balance in line with decision 23/CP.18.
+		3.	A TEG shall be composed of:
+			(a)	Twelve experts with two members from each of the five regional groups of the United Nations, and one member each from the small island developing States and the least developed countries;
+			(b)	Two experts from intergovernmental organizations with experience in the relevant technical area.
+		4.	The participating experts shall serve in their independent expert capacity.
+		5.	An ad hoc TEG meets in session in conjunction with the meetings of the forum, unless otherwise decided by Parties.
+		6.	Technical experts will need to have relevant qualifications and expertise in scientific, technical and socioeconomic fields related to the areas of the work programme on the improved forum on the impact of the implementation of response measures. Parties will determine what expertise is required for a TEG.
+		7.	The members of a TEG shall be nominated and approved by Parties.
+		8.	The co-chairs of a TEG shall be nominated and approved by Parties with one co-chair nominated by developing country Parties and one co-chair nominated by developed country Parties.
+		9.	Meetings are open to attendance by accredited observer organizations and observers from Parties.
+		10.	The secretariat shall support the activities of a TEG, including facilitating the organization of meetings and preparing background materials and workshop/meeting reports, as requested by the TEG, and as appropriate.
+		
+			
+			
+			
+			

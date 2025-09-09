@@ -1,0 +1,569 @@
+|  | United Nations | FCCC/KP/CMP/2022/9/Add.1 |
+|  |  | Distr.: General 17 March 2023  Original: English |
+
+Conference of the Parties serving as the meeting 
+of the Parties to the Kyoto Protocol
+Report of the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol on its seventeenth session, held in Sharm el-Sheikh from 6 to 20 November 2022
+	Addendum
+	Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol at its seventeenth session
+	Contents
+Decisions adopted by the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol
+	Decision	Page
+	1/CMP.17	Date of completion of the expert review process under Article 8 of the 
+				Kyoto Protocol for the second commitment period		2
+	2/CMP.17	Guidance relating to the clean development mechanism		4
+	3/CMP.17	Guidance on the implementation of Article 6 of the Kyoto Protocol		9
+	4/CMP.17	Report of the Adaptation Fund Board for 2022		10
+	5/CMP.17	Fourth review of the Adaptation Fund		13
+	6/CMP.17	Compliance Committee		16
+	7/CMP.17	Report of the forum on the impact of the implementation of response measures		18
+	8/CMP.17	Administrative, financial and institutional matters		23
+	9/CMP.17	Administrative, financial and institutional matters		30
+	Resolution
+	1/CMP.17	Expression of gratitude to the Government of the Arab Republic of Egypt and
+				the people of the city of Sharm el-Sheikh		32
+	
+Decision 1/CMP.17
+Date of completion of the expert review process under Article 8 of the Kyoto Protocol for the second commitment period
+	The Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol,
+	Recalling Article 3, paragraph 1 bis, of the Kyoto Protocol, as amended,
+	Also recalling decisions 13/CMP.1, 14/CMP.1, 22/CMP.1, 3/CMP.11, 4/CMP.11, 10/CMP.11, 8/CMP.16 and 22/CP.26,
+	Further recalling decision 27/CMP.1, annex, chapter XIII, and decision 1/CMP.8, annex I, chapter C,
+	Clarifying that, with regard to decision 27/CMP.1, annex, chapter XIII, for the purposes of the second commitment period the reference to Article 3, paragraph 1, of the Kyoto Protocol shall be read as a reference to Article 3, paragraph 1 bis, of the Kyoto Protocol as amended,
+	Emphasizing the importance of the expert review process under Article 8 of the Kyoto Protocol for the final year of the second commitment period in view of its central role in the assessment of each Party’s compliance with its commitments under Article 3, paragraph 1 bis, of the Kyoto Protocol as amended,
+	Recognizing that there may be difficulties in finalizing the annual review reports for the 2022 review process by 15 April 2023 owing to the complexity of the process, as it is the final review for the second commitment period,
+	Noting the timely submission of the annual submissions due in 2022 of Parties included in Annex I,
+	Also noting the need for Parties to continue to support and facilitate the review process, including through the participation of nominated national experts in the greenhouse gas inventory review process,
+	Recalling that the secretariat maintains a compilation and accounting database to compile and account for emissions and assigned amounts, pursuant to Article 3, paragraphs 7 bis, 8 and 8 bis, of the Kyoto Protocol, as amended, and of additions to, and subtractions from, assigned amounts, pursuant to the same paragraphs, for the accounting of the compliance assessment, in order to facilitate the assessment of the compliance of each Party included in Annex I with its commitments under Article 3, paragraph 1 bis, of the Kyoto Protocol, as amended,
+		1.	Decides that the expert review process under Article 8 of the Kyoto Protocol for the final year of the second commitment period shall be completed by 1 June 2023 subject to the availability of resources, and also decides that, if the expert review process is not completed by that date, it shall continue, and the date of completion shall be the date of publication of the final inventory review report for the final year of the second commitment period;
+		2.	Urges Parties, expert review teams and the secretariat to expedite the review process in order to meet that deadline;
+		3.	Decides that the report upon expiration of the additional period for fulfilling commitments for the second commitment period, covering the information required in decision 13/CMP.1, annex, paragraph 49, using the standard electronic format tables as agreed in decision 3/CMP.11, shall be submitted as soon as practicable but not later than 45 days after the expiration of the additional period for fulfilling commitments for the second commitment period (the true-up period);
+		4.	Also decides that the secretariat shall produce in electronic format, on 30 July 2023 and every four weeks thereafter until the month of completion of the true-up period, the following information for each Party included in Annex I with a commitment inscribed in the third column of Annex B in the Doha Amendment to the Kyoto Protocol for the second commitment period, indicating clearly the source of the information:
+		(a)	Inventory data for each year of the second commitment period;
+		(b)	Total emissions over the second commitment period;
+	(c)	Total quantity of units held in Party holding accounts, cancellation accounts and the retirement account;
+		5.	Further decides that this information should include the total quantity of aggregated holdings in the clean development mechanism registry;
+		6.	Decides that information on the review processes remaining to be completed should be provided by the secretariat together with the information referred to in paragraph 4 above, including information on which reviews are incomplete, which stage the incomplete review processes have reached, on what dates previous stages were completed and, to the extent possible, when outstanding stages are expected to be completed.
+	9th plenary meeting
+	17 November 2022
+	
+		
+Decision 2/CMP.17
+Guidance relating to the clean development mechanism
+	The Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol,
+	Recalling Articles 3 and 12 of the Kyoto Protocol,
+	Also recalling decision 3/CMP.1 and subsequent guidance provided by the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol relating to the clean development mechanism,
+	Acknowledging the contribution to global efforts to address climate change of the clean development mechanism, which as at 31 October 2022 was responsible for 7,844 project activities being registered, 361 programmes of activities being registered and over 2.32 billion certified emission reductions being issued, of which over 389 million had been voluntarily cancelled either in national registries or in the clean development mechanism registry,
+	Welcoming the entry into force of the Doha Amendment to the Kyoto Protocol,
+	Cognizant of decisions 3/CMA.3 and 7/CMA.4 and their annexes,
+	Recognizing the need for a smooth transition from the clean development mechanism to the mechanism established by Article 6, paragraph 4, of the Paris Agreement,
+	I.	General
+		1.	Welcomes the annual report of the Executive Board of the clean development mechanism to the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol;
+		2.	Takes note of the work undertaken from 10 September 2021 to 8 September 2022 by the Executive Board, its panels and the secretariat in overseeing the implementation of the clean development mechanism and maintaining stakeholder engagement in its operations;
+		3.	Designates as operational entities those entities that have been accredited and provisionally designated as such by the Executive Board to carry out sectoral scope-specific validation and/or verification functions as set out in the annex;
+	II.	Functioning of the clean development mechanism beyond the end of the second commitment period of the Kyoto Protocol
+		4.	Acknowledges that the Executive Board recommended that the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol provide guidance on specific processes under the clean development mechanism relating to its functioning in the future;
+		5.	Also acknowledges that, pursuant to paragraph 15 of decision 2/CMP.16, the Executive Board may continue to receive and process, under the temporary measures adopted at its 108th meeting, requests for registration, renewal of crediting period and issuance of certified emission reductions for project activities and equivalent submissions for programmes of activities and the component project activities relating to emission reductions occurring after 31 December 2020 until the date when the process for submission of requests to the secretariat to transition the requests and other submissions that have been accorded provisional status to the mechanism established by Article 6, paragraph 4, of the Paris Agreement becomes operational;
+		6.	Requests the secretariat to prepare a technical paper to support the consideration by the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol at its eighteenth session (November–December 2023) on the functioning and operation of the processes and institutions of the clean development mechanism in the future, including appropriate time frames, with a view to avoiding a gap before the operationalization of the corresponding processes under the Article 6, paragraph 4, mechanism, including the following:
+			(a)	Submissions to the secretariat of requests for issuance of certified emission reductions for monitoring periods ending before 1 January 2021 in accordance with the relevant procedure developed by the Executive Board;
+			(b)	Submissions to the secretariat of requests for voluntary cancellation of certified emission reductions in accordance with the relevant procedure developed by the Executive Board;
+			(c)	Approval of new and revised methodologies, methodological tools and standardized baselines submitted under the bottom-up and initiated under the top-down process in accordance with the relevant procedure developed by the Executive Board;
+			(d)	Operation of the accreditation processes under the clean development mechanism;
+		7.	Also requests the Executive Board to assess the technical feasibility, as priority, to allow submissions of requests for registration, issuance and renewal of afforestation and reforestation project activities and programmes of activities under the temporary measures referred to in paragraph 5 above, and revise the procedure for the temporary measures, as necessary, without prejudice to the ongoing consideration by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement of activities involving removals under the Article 6, paragraph 4, mechanism;
+	III.	Transfer of certified emission reductions to the mechanism registry of the Article 6, paragraph 4, mechanism under the Paris Agreement
+		8.	Requests the clean development mechanism registry administrator, in accordance with paragraph 75(a) of the annex to decision 3/CMA.3, to identify certified emission reductions held in the clean development mechanism registry that are eligible for transfer to the mechanism registry for the Article 6, paragraph 4, mechanism, referred to in chapter VI (Mechanism registry) of the annex to decision 3/CMA.3 (eligible certified emission reductions);
+		9.	Decides that the transfer of eligible certified emission reductions, in accordance with paragraph 75(b) of the annex to decision 3/CMA.3, shall be effected through administrative cancellation of the eligible certified emission reductions in a dedicated administrative cancellation account in the clean development mechanism registry, and then the complete set of serial numbers of those cancelled eligible certified emission reductions and the details of the receiving account shall be communicated to the mechanism registry to enable their re-creation in the mechanism registry;
+		10.	Invites the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement to request the Supervisory Body to cooperate with the Executive Board on implementing the process for transferring eligible certified emission reductions to the mechanism registry;
+		11.	Requests the Executive Board, in coordination with the Supervisory Body and taking into account the timelines for implementing the mechanism registry and any relevant future decisions of the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol and the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement, to:
+			(a)	Develop and implement a procedure for project participants and Parties holding eligible certified emission reductions in the clean development mechanism registry, as well as the Trustee of the Adaptation Fund, to request the transfer of such certified emission reductions to the mechanism registry, noting that such project participants, Parties and the Trustee of the Adaptation Fund shall provide in their transfer requests:
+				(i)	The serial numbers of the eligible certified emission reductions requested to be transferred;
+				(ii)	The details of their receiving accounts in the mechanism registry to which the certified emission reductions are to be transferred;
+			(b)	Develop and implement a procedure that includes the following steps:
+				(i)	Providing to the host Party written notice of the request for transfer;
+				(ii)	Effecting the transfer if no written objection from the host Party is received within a time frame to be specified by the Executive Board;
+			(c)	Report on the implementation of the procedure for requesting the transfer of eligible certified emission reductions to the mechanism registry in its annual report to the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol;
+		12.	Also requests the clean development mechanism registry administrator to:
+			(a)	Implement the modifications to the clean development mechanism registry necessary for the transfer referred to in paragraph 9 above in a cost-efficient manner, leveraging the existing capabilities of the clean development mechanism registry;
+			(b)	Open the dedicated administrative cancellation account referred to in paragraph 9 above;
+			(c)	Establish the technical arrangements necessary for facilitating the electronic communication and reconciliation of data related to the cancelled eligible certified emission reductions to the mechanism registry;
+			(d)	Coordinate with the mechanism registry administrator on:
+				(i)	Establishing the technical arrangements referred to in paragraph 12(c) above;
+				(ii)	Reconciling data on cancelled eligible certified emission reductions communicated to the mechanism registry;
+			(e)	Include information on eligible certified emission reductions transferred to the mechanism registry in its regular reports to the designated national authorities of the host Parties of the activities that generated the certified emission reductions;
+			(f)	Publish the complete set of serial numbers of cancelled eligible certified emission reductions transferred to the mechanism registry on the clean development mechanism registry web page;
+	IV.	Management of financial resources
+		13.	Requests the Executive Board and the secretariat to ensure the efficient and prudent use of resources from the Trust Fund for the Clean Development Mechanism until the end of the operation of the processes under the clean development mechanism and its institutions, as per a timeline to be determined by the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol;
+		14.	Recalls its request to the Subsidiary Body for Implementation to review the status of the Trust Fund for the Clean Development Mechanism and to develop recommendations for consideration by the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol at its eighteenth session.
+		
+Annex
+Entities accredited and provisionally designated by the Executive Board of the clean development mechanism
+	[English only]
+	| Name of entity | Sectoral scopes (validation and verification) |
+	| Ampere for Renewable Energy (Ampere)a | 1, 3, 13 |
+	| China Environmental United Certification Center Co., Ltd. (CEC)a | 1–15 |
+	| Japan Quality Assurance Organisation (JQA)a | 1, 3–5, 10, 13–14 |
+	| Korea Energy Agency (KEA)a | 1, 3–5, 7, 9, 11–15 |
+	| Korea Testing & Research Institute (KTR)a | 1, 3–5, 11, 13 |
+	| Korean Foundation for Quality (KFQ)a | 1–5, 9, 11, 13, 15 |
+	| Korean Standards Association (KSA)a | 1–5, 9–10, 13–15 |
+	| Re Carbon Gözetim Denetim ve Belgelendirme Limited Sirketi 
+(Re Carbon)a | 1–3, 13, 15 |
+	| RINA Services S.p.A. (RINA)a | 1–7, 9–11, 13–15 |
+	| ERM Certification and Verification Services Limited (ERM CVS)b | 1, 3–5, 8–10, 13 |
+	| Foundation for Industrial Development – Management System Certification Institute (Thailand) (MASCI)b | 1, 13 |
+	
+		a  Accreditation granted for five years.
+		b  Expiration of the accreditation in its entirety.
+	10th plenary meeting
+	20 November 2022
+	
+	
+Decision 3/CMP.17
+	Guidance on the implementation of Article 6 of the Kyoto Protocol
+		The Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol,
+		Recalling Articles 3 and 6 of the Kyoto Protocol,
+		Also recalling decision 9/CMP.1 and subsequent guidance provided by the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol relating to joint implementation,
+			1.	Takes note with appreciation of the latest annual report of the Joint Implementation Supervisory Committee to the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol and the recommendation therein to consider discontinuing the Committee’s activities and functions;
+			2.	Notes the low level of activity under joint implementation, with the most recent activity under Track 1 and Track 2 occurring in 2015 and 2014 respectively;
+			3.	Commends the work undertaken by the Joint Implementation Supervisory Committee since its 1st meeting, in February 2006;
+			4.	Decides to terminate the Joint Implementation Supervisory Committee established by decision 9/CMP.1, paragraph 3;
+			5.	Requests the secretariat to take the necessary steps to conclude matters relating to the operations of the Committee and to prepare a report on the operation of Track 2, with recommendations on the orderly management of residual resources and other matters relevant to the termination of the Committee, for consideration by the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol at its eighteenth session (November–December 2023).
+		10th plenary meeting
+		20 November 2022
+		
+		
+Decision 4/CMP.17
+	Report of the Adaptation Fund Board for 2022
+		The Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol,
+		Recalling decisions 1/CMP.3, 1/CMP.4, 2/CMP.10, 1/CMP.11, 2/CMP.12, 1/CMP.13, 1/CMP.14, 3/CMP.15 and 3/CMP.16,
+		Also recalling decision 13/CMA.1,
+		1.	Takes note of the annual report of the Adaptation Fund Board for 2022, including its addendum, and the information therein;
+		2.	Notes the following information, actions and decisions relating to the Adaptation Fund Board presented in the report referred to in paragraph 1 above:
+			(a)	The accreditation of 1 national implementing entity and 2 regional implementing entities (with the national implementing entities granted direct access to resources from the Adaptation Fund), resulting in a total number of accredited implementing entities of 34 national (of which 10 in the least developed countries and 7 in small island developing States), 14 multilateral and 9 regional implementing entities, of which 33 were reaccredited (17 national implementing entities, 5 regional implementing entities and 11 multilateral implementing entities) for accessing resources from the Adaptation Fund directly;
+			(b)	Cumulative receipts of USD 1,235.06 million, as at 30 June 2022, into the Adaptation Fund Trust Fund, comprising USD 211.80 million from the monetization of certified emission reductions, USD 982.00 million from contributions and USD 41.26 million from investment income earned on the Trust Fund balance;
+			(c)	Contributions of USD 127.65 million, of which USD 3.42 million from the monetization of certified emission reductions, USD 123.18 million from additional contributions and USD 1.05 million from investment income, received between 1 July 2021 and 30 June 2022;
+			(d)	Contributions amounting to USD 123.18 million received between 1 July 2021 and 30 June 2022 and new pledges amounting to USD 349.00 million, of which USD 174.40 million received as at 8 November 2022, towards the Adaptation Fund resource mobilization target of USD 120.00 million per year for the biennium 2020–2021;
+			(e)	Outstanding pledged contributions of USD 174.60 million as at 8 November 2022;
+			(f)	Resources available for new funding approvals amounting to USD 219.25 million as at 30 June 2022;
+			(g)	New funding approvals, including for concrete single-country and regional (multi-country) proposals, grant proposals under the Medium-Term Strategy of the Adaptation Fund for 2018–2022 and readiness grants, amounting to USD 94.10 million as at 30 June 2022;
+			(h)	An active pipeline of project and programme proposals amounting to USD 333.70 million as at 30 June 2022, reflecting an upward trend from previous years;
+			(i)	Cumulative project and programme approvals increasing by around 11 per cent to USD 929.72 million between 1 July 2021 and 30 June 2022;
+			(j)	The approval of eight single-country project or programme proposals submitted by implementing entities, totalling USD 53.10 million, of which two proposals submitted by national implementing entities, amounting to USD 1.80 million; one single-country proposal submitted by a regional implementing entity, amounting to USD 10.00 million; and five single-country proposals submitted by multilateral implementing entities, totalling USD 41.30 million;
+			(k)	The approval of three multi-country projects, amounting to USD 39.90 million;
+			(l)	Cumulative disbursements to the 132 projects approved since the operationalization of the Adaptation Fund amounting to USD 567.84 million, including USD 76.40 million disbursed between 1 July 2021 and 30 June 2022;
+			(m)	The implementation of 80 projects, of which 5 initiated and 10 completed, between 1 July 2021 and 30 June 2022;
+			(n)	The approval of two small-grant proposals for innovation amounting to USD 0.50 million and one learning grant amounting to USD 0.15 million as well as the commencement of the second year of implementation of the Adaptation Fund Climate Innovation Accelerator;
+			(o)	Access for developing countries to the Adaptation Fund Climate Innovation Accelerator through the United Nations Development Programme, in addition to through the United Nations Environment Programme and the Climate Technology Centre and Network for countries without national implementing entities;
+			(p)	New activities under the Medium-Term Strategy of the Adaptation Fund for 2018–2022, including the approval of large grants for innovation, a funding window for enhanced direct access and guidance for implementing entities;
+			(q)	The launch of a virtual learning course on accessing project scale-up grants, the publication of knowledge products on key emerging themes in relation to climate adaptation, including transboundary approaches and youth engagement, and the streamlining of the Adaptation Fund accreditation process;
+			(r)	The organization of readiness events, held virtually, for accredited national implementing entities, including seminars, workshops and learning events on accessing Adaptation Fund grants, innovation, global accreditation and enhanced direct access, and a country exchange for South–South learning;
+			(s)	The approval of the 2022–2025 resource mobilization strategy and the resource mobilization action plan of the Adaptation Fund;
+			(t)	The approval of options for enhancing civil society participation and engagement in Adaptation Fund work;
+			(u)	The approval of the Adaptation Fund evaluation policy, which replaces the current evaluation framework;
+			(v)	The application of the updated Adaptation Fund gender policy and action plan and the consideration of ways to advance gender equality and the empowerment of women and girls in relation to addressing climate change;
+			(w)	The approval by the Adaptation Fund Board of the amendments to the strategic priorities, policies and guidelines, and operational policies and guidelines of the Adaptation Fund;
+			(x)	The promotion of linkages of the Adaptation Fund with other UNFCCC bodies, such as the Adaptation Committee, the Climate Technology Centre and Network, the Global Environment Facility, the Green Climate Fund, the Paris Committee on Capacity-building and the Standing Committee on Finance, with the Adaptation Fund Board having progressed in establishing linkages between the Adaptation Fund and the Green Climate Fund, including through a framework for promoting the scale-up of funded projects and the Community of Practice for Direct Access Entities;
+			(y)	The adoption of the Medium-Term Strategy of the Adaptation Fund for 2023–‍2027;
+		3.	Welcomes the financial pledges to the Adaptation Fund made by the Governments of Austria, France, Germany, Iceland, Ireland, Japan, New Zealand, Norway, Portugal, Republic of Korea, Spain, Sweden, Switzerland and the United States of America, as well as the government of the Walloon Region of Belgium and the provincial government of Quebec, equivalent to USD 211.58 million;
+		4.	Stresses the urgency of enhancing ambition and action in relation to adaptation and adaptation finance in this critical decade;
+		5.	Notes the outstanding pledged contributions to the Adaptation Fund and urges Parties to fulfil their pledges as soon as possible;
+		6.	Encourages continued and increased voluntary contributions of financial resources to the Adaptation Fund in line with the 2022–2025 resource mobilization strategy of the Fund;
+		7.	Recalls the invitation of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement to developed country Parties to consider multi-annual pledges to the Fund;
+		8.	Underscores the urgency of scaling up financial resources, including the provision of voluntary support, that are additional to the share of proceeds levied on certified emission reductions in order to support the resource mobilization efforts of the Adaptation Fund Board with a view to strengthening the Adaptation Fund;
+		9.	Emphasizes the importance of continuing to take actions to promote the adequacy and predictability of adaptation finance, taking into account the role of the Adaptation Fund in delivering dedicated support for adaptation;
+		10.	Notes with appreciation the work of the Adaptation Fund Board on adopting the amended operational policies and guidelines for developing country Parties to access resources from the Adaptation Fund and adopts the amended strategic priorities, policies and guidelines of the Adaptation Fund;
+		11.	Requests the Adaptation Fund Board to consider, in line with its mandate and decision 1/CMP.3, providing support for country-driven adaptation projects and programmes in developing countries with a view to assisting them in enhancing implementation of their national adaptation plans and other voluntary adaptation planning processes;
+		12.	Takes note of the Board’s work on complementarity and coherence with other multilateral climate funds with respect to accreditation and other areas of operations and encourages the Board to continue this work to streamline access modalities for project approval and the interoperability of reporting requirements, as appropriate;
+		13.	Requests the Board to adopt a policy on safeguarding against sexual exploitation and abuse and sexual harassment.
+		10th plenary meeting
+		20 November 2022
+			
+			
+	Decision 5/CMP.17
+	Fourth review of the Adaptation Fund
+		The Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol,
+		Recalling decisions 1/CMP.8, 2/CMP.13 and 4/CMP.16,
+		Reiterating the crucial importance of the Adaptation Fund as an essential channel for supporting adaptation action and a pioneer of direct access to adaptation finance, together with its focus on funding the full costs of concrete adaptation projects and programmes in developing countries,
+		Noting with concern the continued issues related to the sustainability, adequacy and predictability of funding from the Adaptation Fund, given the current prices of certified emission reductions, which affect its ability to fulfil its mandate,
+		Noting the importance of the full operationalization of Article 6 of the Paris Agreement in the context of scaling up the mobilization of Adaptation Fund resources,
+		1.	Takes note of the technical paper on the fourth review (covering 2018–2021) of the Adaptation Fund, which was prepared on the basis of the terms of reference for the review;
+		2.	Welcomes the positive results and performance of the Adaptation Fund, including its relevance, efficiency and effectiveness;
+		3.	Recognizes the comparative advantages of the Adaptation Fund, including the speed of project approval, strategic engagement of stakeholders at the subnational level, various institutional benefits, efficiency of institutional arrangements, enhancement of country ownership in the funding process, direct and regional access modalities and readiness programmes;
+		4.	Also recognizes the lessons learned and progress made since the third review of the Adaptation Fund, including the launch of new funding windows, the growth of the Fund’s project portfolio and the update of the Fund’s gender and evaluation policies, while acknowledging opportunities for improvement with regard to, inter alia, instruments, financial windows and knowledge management;
+		5.	Encourages the Adaptation Fund to strengthen ongoing efforts related to promoting resilience measures, improving policies and regulation, innovation, and development and diffusion of innovative adaptation practices, tools and technologies;
+		6.	Welcomes the increased contributions made to the Adaptation Fund during the fourth review period compared with the previous period;
+		7.	Notes with concern the outstanding pledged contributions to the Adaptation Fund and urges Parties that have not fulfilled their pledges to do so as soon as possible;
+		8.	Stresses the importance of financial contributions to the Adaptation Fund, including in the context of urging developed country Parties to at least double their collective provision of climate finance for adaptation to developing countries from 2019 levels by 2025, in the context of achieving a balance between mitigation and adaptation in the provision of scaled‑up financial resources, recalling Article 9, paragraph 4, of the Paris Agreement, as per decision 1/CMA.3, paragraph 18;
+		9.	Calls for continued and increased voluntary contributions of financial resources to the Adaptation Fund;
+		10.	Notes the importance of further enhancing the predictability of resources channelled through the Adaptation Fund;
+		11.	Also notes that multi-year contributions to the Adaptation Fund enhance the predictability of its funding, acknowledges that some developed country Parties have already committed to multi-year contributions to the Fund and encourages additional multi-year contributions to the Fund;
+		12.	Notes the resource mobilization strategy of the Adaptation Fund (2017–2020), which refers for the first time to subnational governments, the private sector and charitable foundations as possible additional sources of finance for the Adaptation Fund and encourages the Adaptation Fund Board to continue its efforts to mobilize finance from a variety of sources under its next resource mobilization strategy (2022–2025);
+		13.	Also encourages the Adaptation Fund Board to continue to enhance access to the Fund, including by:
+			(a)	Strengthening engagement with and support for building the institutional capacity of national implementing entities;
+			(b)	Expediting the disbursement of approved adaptation grants;
+			(c)	Further strengthening coherence and complementarity between the Adaptation Fund and other institutions’ funding adaptation projects and programmes, including the Green Climate Fund, in order to facilitate streamlining access modalities, as appropriate, including for accreditation, and scaling up Adaptation Fund projects;
+			(d)	Further improving geographical and thematic coverage in the accreditation of national and regional implementing entities;
+		14.	Requests the Adaptation Fund Board to include in its annual report to the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol at its eighteenth session and the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement at its fifth session (November–December 2023) information on aggregated actual results of projects and programmes funded by the Adaptation Fund, in particular across the Fund’s five core indicators, accompanied by qualitative analysis of successes, challenges and lessons learned;
+		15.	Also requests the Board to review and update the environmental and social safeguard policy of the Adaptation Fund, as needed;
+		16.	Further requests the Board to increase the gender-responsiveness of the resources provided by the Adaptation Fund;
+		17.	Invites the Board to consider ways to strengthen the engagement of the Adaptation Fund with the private sector in order to increase private sector participation in adaptation action;
+		18.	Notes that some Adaptation Fund policy and guidance documents and readiness activities are available or conducted in multiple official languages of the United Nations and invites the Adaptation Fund Board to continue to strengthen its provision of support and country engagement at the regional level;
+		19.	Requests the Subsidiary Body for Implementation at its sixty-second session (June 2025) to initiate the fifth review of the Adaptation Fund in accordance with the terms of reference contained in the annex to decision 4/CMP.16, or as amended, and to report back to its governing bodies at the session to be convened in conjunction with the thirty-first session of the Conference of the Parties (2026);
+		20.	Notes the recommendation of the Subsidiary Body for Implementation that subsequent reviews of the Adaptation Fund include a request for the secretariat to prepare a technical paper on the review, including inputs and submissions from Parties, for consideration by the Subsidiary Body for Implementation at its session that follows the adoption of the relevant terms of reference, to allow for substantive engagement.
+		10th plenary meeting
+		20 November 2022
+		
+		
+Decision 6/CMP.17
+Compliance Committee
+	The Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol,
+	Recalling Article 18 of the Kyoto Protocol,
+	Also recalling decisions 27/CMP.1, 4/CMP.2, 4/CMP.4 and 8/CMP.9,
+	Having considered the annual report of the Compliance Committee to the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol,
+	Recognizing the importance of enabling members and alternate members of the Compliance Committee of the Kyoto Protocol to remain in office until their successors have been elected and allowing for the intersessional replacement of members and alternate members,
+	Noting with appreciation the work of the Compliance Committee during the reporting period,
+	1.	Adopts the amendments to the rules of procedure of the Compliance Committee of the Kyoto Protocol contained in the annex, in accordance with the provisions of decision 27/CMP.1, annex, chapter III, paragraph 2(d);
+	2.	Encourages Parties to ensure sufficient allocation of resources when considering the budget of the Legal Affairs division of the secretariat for the biennium 2024–2025 in support of the work of the Compliance Committee.
+	
+Annex
+Amendments to the rules of procedure of the Compliance Committee of the Kyoto Protocol
+	The “Rules of procedure of the Compliance Committee of the Kyoto Protocol” contained in the annex to decision 4/CMP.2, as amended by decisions 4/CMP.4 and 8/CMP.9, are further amended as follows:
+	(a)	The following text should be inserted at the end of rule 3, paragraph 1:
+		“Each member and alternate member shall remain in office until his or her successor is elected.”
+	(b)	The following text should replace rule 3, paragraph 5:
+		“If a member or an alternate member resigns or is otherwise unable to complete the assigned term of office or to perform the functions of that office, the Committee may decide, bearing in mind the proximity of the next session of the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol, to appoint another member or alternate member from the same group or constituency to replace the said member or alternate member for the remainder of the term of that member or alternate member, in which case the appointment shall count as one term.”
+	9th plenary meeting
+	17 November 2022
+	
+	
+Decision 7/CMP.17
+Report of the forum on the impact of the implementation of response measures
+	The Conference of the Parties and the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol,
+	Recalling decisions 7/CP.24, 3/CMP.14, 7/CMA.1, 4/CP.25, 4/CMP.15, 19/CP.26 and 7/CMP.16,
+	1.	Welcome the Katowice Committee of Experts on the Impacts of the Implementation of Response Measures annual reports for 2019 and 2021–2022;
+	2.	Take note of the conclusion of consideration of the Katowice Committee on Impacts annual reports for 2019 and 2021–2022 by the forum on the impact of the implementation of response measures;
+	3.	Adopt the recommendations forwarded by the forum contained in sections I–VI below, pertaining to:
+		(a)	Lessons learned and best practices from analysis and assessment of positive and negative impacts of the implementation of response measures by Parties;
+		(b)	Activities 2, 3, 4, 5 and 11 respectively of the workplan of the forum and its Katowice Committee on Impacts;
+	4.	Invite Parties, observer organizations and stakeholders to implement the recommendations in sections I–VI below, as applicable;
+	5.	Request the forum and its Katowice Committee on Impacts and the secretariat to implement the recommendations in sections I–VI below, as applicable;
+	6.	Appreciate the progress of the Katowice Committee on Impacts in supporting the work of the forum on the impact of the implementation of response measures;
+	7.	Welcome the informal notes prepared by the Chairs of the Subsidiary Body for Scientific and Technological Advice and the Subsidiary Body for Implementation for the workshops held in conjunction with the fifty-sixth sessions of the subsidiary bodies on workplan activities 3, 4, 9 and 11;
+	8.	Appreciate the technical session on implementing activities 5 and 11 of the workplan and express their gratitude to the experts contributing to the work of the forum and its Katowice Committee on Impacts;
+	9.	Also express their gratitude to the Government of Antigua and Barbuda, the Government of Senegal, the International Labour Organization and the United Nations Development Programme for their in-kind, financial, administrative and substantive support that contributed to the success of the regional workshops held from 20 to 22 April 2022 in St. John’s, Antigua and Barbuda, and from 21 to 23 September 2022 in Saly, Senegal, on activity 3 of the workplan;
+	10.	Note that the midterm review of the workplan of the forum could not be concluded at these sessions, take note of the informal note on the midterm review and request the forum to continue the midterm review at the fifty-eighth sessions of the subsidiary bodies (June 2023);
+	11.	Also request the secretariat to organize a regional workshop on activity 3 of the workplan by the fifty-ninth sessions of the subsidiary bodies (November–December 2023), in collaboration with relevant organizations and stakeholders, to address regional needs and acknowledge the work that has been carried out by the Katowice Committee on Impacts and note that further regional workshops on activity 3 can be decided on by the forum;
+	12.	Invite Parties and observers to submit via the submission portal, by April 2023, their views and guiding questions for the review of the functions, work programme and modalities of the forum and request the secretariat to prepare the summary of the submissions as a basis of the discussion of the review, which is to start at the fifty-eighth and conclude at the fifty-ninth sessions of the subsidiary bodies;
+	13.	Take note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraphs 3, 11 and 12 above;
+	14.	Request that the actions of the secretariat called for in this decision be undertaken subject to the availability of financial resources;
+	I.	Lessons learned and best practices from analysis and assessment of positive and negative impacts of the implementation of response measures by Parties
+		15.	Encourage Parties to consider:
+			(a)	Developing methodologies and tools, including modelling tools, for the assessment and analysis of the impacts of the implementation of response measures in consultation with technical experts, practitioners and other relevant stakeholders, as appropriate;
+			(b)	Building capacity for development and deployment of methodologies and tools, in particular of developing country Parties, to inform and support national climate change mitigation and sustainable development priorities and policies;
+			(c)	Developing more national, regional and sector-specific case studies involving the assessment and analysis of the impacts of the implementation of response measures to enable an exchange of experience among Parties;
+	II.	Activity 2 of the workplan
+		16.	Encourage Parties to invest in the early planning of just transition policies that are inclusive and based on stakeholder engagement;
+		17.	Also encourage countries at very low levels of economic development to prioritize getting the fundamentals right prior to undertaking economic diversification, noting that as countries develop, multiple diversification paths become available;
+		18.	Request the secretariat, while noting that national circumstances differ, to conduct peer-to-peer learning, where possible, to facilitate planning and implementation of effective policies;
+	III.	Activity 3 of the workplan
+		19.	Encourage Parties to:
+			(a)	Consider the availability of country-level expertise, training, support and consultancy services when selecting a tool or methodology for assessing the impacts of the implementation of response measures;
+			(b)	Invest in data collection in line with national and international standards (for example, the United Nations System of National Accounts or the System of Environmental-Economic Accounting);
+			(c)	Establish capacity-building partnerships and networks for increasing the representation of developing countries in the use and development of impact assessment tools and methods for assessing the impacts of the implementation of response measures;
+			(d)	Consider both qualitative and quantitative methods for assessing the impact of the implementation of response measures;
+		20.	Request the forum and its Katowice Committee on Impacts to:
+			(a)	Facilitate the enhancement of the capacity of Parties, in particular developing country Parties, to develop and use impact assessment methodologies and tools for conducting their own assessments and analyses of the impacts of response measures, including on decent work and quality jobs, and economic, social, environmental, domestic, cross-border, positive and negative impacts; this includes facilitating the development of case studies as appropriate and the organization of targeted regional hands-on training workshops;
+			(b)	Develop and maintain a web-based user interface for selecting tools and methodologies and promote its use among Parties and stakeholders, as appropriate; a user manual for the interface could also be developed;
+		21.	Also request the secretariat to regularly update the existing database of tools and methodologies suitable for assessing the impacts of the implementation of response measures, as needed and as appropriate;
+	IV.	Activity 4 of the workplan
+		22.	Encourage Parties to:
+			(a)	Foster international cooperation to identify and share best practices and experience of countries that have successfully diversified their economies;
+			(b)	Identify barriers, domestic and non-domestic alike, as well as ways in which the international community could facilitate the sustainable economic development of all Parties;
+		23.	Request prioritization of the developing and sharing of case studies by Parties and experts, in particular on developing country Parties, on both just transition and economic diversification and transformation in order to understand the opportunities and challenges faced in their planning and implementation;
+		24.	Also request facilitation of the development of robust assessment tools and methodologies that can capture a range of multidimensional impacts of the implementation of response measures;
+		25.	Encourage relevant agencies, financial institutions and UNFCCC constituted bodies to enhance support for addressing issues related to the assessment and analysis of the impacts of the implementation of mitigation actions, policies and programmes, including nationally determined contributions and long-term low-emission development strategies, with a view to addressing the adverse impacts and maximizing opportunities;
+		26.	Also encourage relevant agencies to enhance and develop their existing training frameworks and modules on assessment and analysis so that they can be used for country-level training programmes and for developing impact assessment tools and methods;
+	V.	Activity 5 of the workplan
+		27.	Encourage Parties to:
+			(a)	Promote partnerships in research and development, including identifying risks and opportunities, and peer-to-peer learning involving relevant national and international stakeholders from public and private sectors, as well as civil society, local communities and indigenous peoples, youth, workers and research and academia in new industries and businesses;
+			(b)	Promote inter- and intracountry exchange of experience, best practices, research outcomes and learning on new industries and businesses, including by identifying relevant skills, making best use of existing knowledge and capabilities, and developing new skills through targeted training, retooling, retraining and reskilling;
+			(c)	Explore new technologies, carbon capture, utilization and storage, hydrogen and artificial intelligence tools to maximize the positive and minimize the negative impacts of the implementation of response measures;
+			(d)	Develop regulatory frameworks, as appropriate, for carbon capture, transport, utilization and storage, and hydrogen production, infrastructure and transport at the national, regional or global level to explore the possibility of standardizing the design and application, as appropriate, while ensuring high safety standards;
+			(e)	Remove barriers and strengthen policy support for carbon capture, utilization and storage to drive innovation and deployment to the scale-up, ensuring specific policy incentives critical to expanding the market frontier worldwide;
+			(f)	Collaborate on methodologies for calculating life cycle greenhouse gas emissions from hydrogen production, as needed, and developing comprehensive and science-based terminology and relevant standards for hydrogen deployment to promote widespread adoption of the hydrogen economy, while also removing barriers;
+		28.	Also encourage Parties, observer organizations and other relevant stakeholders to engage the private sector, including small and medium-sized enterprises, to facilitate the identification and exchange of experience and best practices to promote the creation of decent work and quality jobs in new industries and businesses;
+		29.	Further encourage Parties and stakeholders to foster collaboration, undertake joint pilot activities and programmes, and share knowledge, lessons learned and best practices, including from governments, business communities, research and academia, artificial intelligence experts and civil society groups;
+		30.	Encourage relevant stakeholders to undertake economic and financial analyses, including assessment of the diversification of investments and business models, for investment in the hydrogen economy, and to undertake scientific assessments to understand the national resource endowment potential for sustainable hydrogen production;
+	VI.	Activity 11 of the workplan
+		31.	Encourage Parties to undertake more in-depth analysis on the impacts of response measures, quantifying the co-benefits for the response measures, categorizing where the co‑benefits come from and who the beneficiaries of the co-benefits are, with a view to informing integrated climate actions;
+		32.	Request the Katowice Committee on Impacts to enhance the capacity of Parties, in particular developing country Parties, to develop and use country-specific tools and methodologies for assessing the environmental, social and economic co-benefits of climate change policies and actions.
+		10th plenary meeting
+		20 November 2022
+		
+		
+Decision 8/CMP.17
+	Administrative, financial and institutional matters
+		The Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol,
+		Recalling Article 13, paragraph 5, of the Kyoto Protocol,
+		Also recalling the financial procedures for the Conference of the Parties, which also apply to the Kyoto Protocol,
+		Having considered the information contained in the documents prepared by the secretariat on administrative, financial and institutional matters,
+	I.	Budget performance for the biennium 2020–2021
+		1.	Takes note of the information contained in the report on budget performance for the biennium 2020–2021 as at 31 December 2021 and the note on the status of contributions to the trust funds administered by the secretariat as at 23 May 2022;
+			2.	Expresses its appreciation to Parties that made contributions to the core budget in a timely manner;
+			3.	Expresses concern regarding the high level of outstanding contributions to the core budget for the current and previous bienniums, which has resulted in difficulties with cash flow and the effective implementation of activities;
+			4.	Strongly urges Parties that have not made contributions in full to the core budget for the current and/or previous bienniums to do so without further delay;
+			5.	Expresses its appreciation for the contributions to the Trust Fund for Participation in the UNFCCC Process and to the Trust Fund for Supplementary Activities received from Parties, including those contributions that allow for greater flexibility in allocation;
+		6.	Urges Parties to further contribute to the Trust Fund for Participation in the UNFCCC Process in order to ensure the widest possible participation in the process in 2022–2023, and to the Trust Fund for Supplementary Activities to ensure a high level of implementation of the UNFCCC work programme;
+			7.	Reiterates its appreciation to the Government of Germany for its annual voluntary contribution to the core budget of EUR 766,938 and its special contribution of EUR 1,789,522 as Host Government of the secretariat;
+			8.	Requests the Executive Secretary to take further measures to reduce Parties’ outstanding contributions;
+	II.	Other budgetary matters
+		9.	Takes note of the information contained in the document prepared by the secretariat on efforts to further improve the efficiency and transparency of the UNFCCC budget process;
+		10.	Also takes note of the information contained in the note by the secretariat on the revised scales of indicative contributions for 2022–2023;
+		11.	Adopts the indicative scale of contributions contained in the annex;
+		12.	Decides that the scale of contributions contained in the annex shall also be applicable for 2022, covering 11 per cent of the contributions specified in table 1 in decision 22/CP.26;
+		13.	Takes note of the information contained in the note on the updated work programme of the secretariat for the biennium 2022–2023;
+		14.	Also takes note of the information contained in the note on possible long-term financing strategies for secretariat employee benefit liabilities;
+		15.	Further takes note of the mechanisms currently in place for funding employee benefits, as summarized in section III of the note referred to in paragraph 14 above;
+		16.	Requests the secretariat to continue implementing the mechanisms referred in paragraph 15 above;
+		17.	Also requests the secretariat to inform the Subsidiary Body for Implementation of any relevant developments with regard to the funding of employee benefits, including any relevant resolutions adopted by the United Nations General Assembly;
+		18.	Strongly urges the secretariat to publish documents on budgetary matters in a timely manner;
+	III.	UNFCCC annual report
+		19.	Takes note of the information contained in the annual report on 2021 secretariat activities, programme delivery highlights and financial performance.
+		
+Annex
+Indicative scale of contributions from Parties to the Kyoto Protocol for 2022–2023
+	| Party | United Nations scale of assessments for 2022–2024 (%) | UNFCCC revised indicative scale of contributions for 2022–2023 (%) |
+	| Afghanistan | 0.006 | 0.008 |
+	| Albania | 0.008 | 0.010 |
+	| Algeria | 0.109 | 0.141 |
+	| Angola | 0.010 | 0.013 |
+	| Antigua and Barbuda | 0.002 | 0.003 |
+	| Argentina | 0.719 | 0.930 |
+	| Armenia | 0.007 | 0.009 |
+	| Australia | 2.111 | 2.731 |
+	| Austria | 0.679 | 0.878 |
+	| Azerbaijan | 0.030 | 0.039 |
+	| Bahamas | 0.019 | 0.025 |
+	| Bahrain | 0.054 | 0.070 |
+	| Bangladesh | 0.010 | 0.013 |
+	| Barbados | 0.008 | 0.010 |
+	| Belarus | 0.041 | 0.053 |
+	| Belgium | 0.828 | 1.071 |
+	| Belize | 0.001 | 0.001 |
+	| Benin | 0.005 | 0.006 |
+	| Bhutan | 0.001 | 0.001 |
+	| Bolivia (Plurinational State of) | 0.019 | 0.025 |
+	| Bosnia and Herzegovina | 0.012 | 0.016 |
+	| Botswana | 0.015 | 0.019 |
+	| Brazil | 2.013 | 2.604 |
+	| Brunei Darussalam | 0.021 | 0.027 |
+	| Bulgaria | 0.056 | 0.072 |
+	| Burkina Faso | 0.004 | 0.005 |
+	| Burundi | 0.001 | 0.001 |
+	| Cabo Verde | 0.001 | 0.001 |
+	| Cambodia | 0.007 | 0.009 |
+	| Cameroon | 0.013 | 0.017 |
+	| Central African Republic | 0.001 | 0.001 |
+	| Chad | 0.003 | 0.004 |
+	| Chile | 0.420 | 0.543 |
+	| China | 15.254 | 19.735 |
+	| Colombia | 0.246 | 0.318 |
+	| Comoros | 0.001 | 0.001 |
+	| Congo | 0.005 | 0.006 |
+	| Cook Islands | 0.000 | 0.001 |
+	| Costa Rica | 0.069 | 0.089 |
+	| Côte d’Ivoire | 0.022 | 0.028 |
+	| Croatia | 0.091 | 0.118 |
+	| Cuba | 0.095 | 0.123 |
+	| Cyprus | 0.036 | 0.047 |
+	| Czechia | 0.340 | 0.440 |
+	| Democratic People’s Republic of Korea | 0.005 | 0.006 |
+	| Democratic Republic of the Congo | 0.010 | 0.013 |
+	| Denmark | 0.553 | 0.715 |
+	| Djibouti | 0.001 | 0.001 |
+	| Dominica | 0.001 | 0.001 |
+	| Dominican Republic | 0.067 | 0.087 |
+	| Ecuador | 0.077 | 0.100 |
+	| Egypt | 0.139 | 0.180 |
+	| El Salvador | 0.013 | 0.017 |
+	| Equatorial Guinea | 0.012 | 0.016 |
+	| Eritrea | 0.001 | 0.001 |
+	| Estonia | 0.044 | 0.057 |
+	| Eswatini | 0.002 | 0.003 |
+	| Ethiopia | 0.010 | 0.013 |
+	| European Union | 0.000 | 2.500 |
+	| Fiji | 0.004 | 0.005 |
+	| Finland | 0.417 | 0.540 |
+	| France | 4.318 | 5.587 |
+	| Gabon | 0.013 | 0.017 |
+	| Gambia | 0.001 | 0.001 |
+	| Georgia | 0.008 | 0.010 |
+	| Germany | 6.111 | 7.906 |
+	| Ghana | 0.024 | 0.031 |
+	| Greece | 0.325 | 0.420 |
+	| Grenada | 0.001 | 0.001 |
+	| Guatemala | 0.041 | 0.053 |
+	| Guinea | 0.003 | 0.004 |
+	| Guinea-Bissau | 0.001 | 0.001 |
+	| Guyana | 0.004 | 0.005 |
+	| Haiti | 0.006 | 0.008 |
+	| Honduras | 0.009 | 0.012 |
+	| Hungary | 0.228 | 0.295 |
+	| Iceland | 0.036 | 0.047 |
+	| India | 1.044 | 1.351 |
+	| Indonesia | 0.549 | 0.710 |
+	| Iran (Islamic Republic of) | 0.371 | 0.480 |
+	| Iraq | 0.128 | 0.166 |
+	| Ireland | 0.439 | 0.568 |
+	| Israel | 0.561 | 0.726 |
+	| Italy | 3.189 | 4.126 |
+	| Jamaica | 0.008 | 0.010 |
+	| Japan | 8.033 | 10.393 |
+	| Jordan | 0.022 | 0.028 |
+	| Kazakhstan | 0.133 | 0.172 |
+	| Kenya | 0.030 | 0.039 |
+	| Kiribati | 0.001 | 0.001 |
+	| Kuwait | 0.234 | 0.303 |
+	| Kyrgyzstan | 0.002 | 0.003 |
+	| Lao People’s Democratic Republic | 0.007 | 0.009 |
+	| Latvia | 0.050 | 0.065 |
+	| Lebanon | 0.036 | 0.047 |
+	| Lesotho | 0.001 | 0.001 |
+	| Liberia | 0.001 | 0.001 |
+	| Libya | 0.018 | 0.023 |
+	| Liechtenstein | 0.010 | 0.013 |
+	| Lithuania | 0.077 | 0.100 |
+	| Luxembourg | 0.068 | 0.088 |
+	| Madagascar | 0.004 | 0.005 |
+	| Malawi | 0.002 | 0.003 |
+	| Malaysia | 0.348 | 0.450 |
+	| Maldives | 0.004 | 0.005 |
+	| Mali | 0.005 | 0.006 |
+	| Malta | 0.019 | 0.025 |
+	| Marshall Islands | 0.001 | 0.001 |
+	| Mauritania | 0.002 | 0.003 |
+	| Mauritius | 0.019 | 0.025 |
+	| Mexico | 1.221 | 1.580 |
+	| Micronesia (Federated States of) | 0.001 | 0.001 |
+	| Monaco | 0.011 | 0.014 |
+	| Mongolia | 0.004 | 0.005 |
+	| Montenegro | 0.004 | 0.005 |
+	| Morocco | 0.055 | 0.071 |
+	| Mozambique | 0.004 | 0.005 |
+	| Myanmar | 0.010 | 0.013 |
+	| Namibia | 0.009 | 0.012 |
+	| Nauru | 0.001 | 0.001 |
+	| Nepal | 0.010 | 0.013 |
+	| Netherlands | 1.377 | 1.782 |
+	| New Zealand | 0.309 | 0.400 |
+	| Nicaragua | 0.005 | 0.006 |
+	| Niger | 0.003 | 0.004 |
+	| Nigeria | 0.182 | 0.235 |
+	| Niue | 0.000 | 0.001 |
+	| North Macedonia | 0.007 | 0.009 |
+	| Norway | 0.679 | 0.878 |
+	| Oman | 0.111 | 0.144 |
+	| Pakistan | 0.114 | 0.147 |
+	| Palau | 0.001 | 0.001 |
+	| Panama | 0.090 | 0.116 |
+	| Papua New Guinea | 0.010 | 0.013 |
+	| Paraguay | 0.026 | 0.034 |
+	| Peru | 0.163 | 0.211 |
+	| Philippines | 0.212 | 0.274 |
+	| Poland | 0.837 | 1.083 |
+	| Portugal | 0.353 | 0.457 |
+	| Qatar | 0.269 | 0.348 |
+	| Republic of Korea | 2.574 | 3.330 |
+	| Republic of Moldova | 0.005 | 0.006 |
+	| Romania | 0.312 | 0.404 |
+	| Russian Federation | 1.866 | 2.414 |
+	| Rwanda | 0.003 | 0.004 |
+	| Saint Kitts and Nevis | 0.002 | 0.003 |
+	| Saint Lucia | 0.002 | 0.003 |
+	| Saint Vincent and the Grenadines | 0.001 | 0.001 |
+	| Samoa | 0.001 | 0.001 |
+	| San Marino | 0.002 | 0.003 |
+	| Sao Tome and Principe | 0.001 | 0.001 |
+	| Saudi Arabia | 1.184 | 1.532 |
+	| Senegal | 0.007 | 0.009 |
+	| Serbia | 0.032 | 0.041 |
+	| Seychelles | 0.002 | 0.003 |
+	| Sierra Leone | 0.001 | 0.001 |
+	| Singapore | 0.504 | 0.652 |
+	| Slovakia | 0.155 | 0.201 |
+	| Slovenia | 0.079 | 0.102 |
+	| Solomon Islands | 0.001 | 0.001 |
+	| Somalia | 0.001 | 0.001 |
+	| South Africa | 0.244 | 0.316 |
+	| Spain | 2.134 | 2.761 |
+	| Sri Lanka | 0.045 | 0.058 |
+	| Sudan | 0.010 | 0.013 |
+	| Suriname | 0.003 | 0.004 |
+	| Sweden | 0.871 | 1.127 |
+	| Switzerland | 1.134 | 1.467 |
+	| Syrian Arab Republic | 0.009 | 0.012 |
+	| Tajikistan | 0.003 | 0.004 |
+	| Thailand | 0.368 | 0.476 |
+	| Timor-Leste | 0.001 | 0.001 |
+	| Togo | 0.002 | 0.003 |
+	| Tonga | 0.001 | 0.001 |
+	| Trinidad and Tobago | 0.037 | 0.048 |
+	| Tunisia | 0.019 | 0.025 |
+	| Türkiye | 0.845 | 1.093 |
+	| Turkmenistan | 0.034 | 0.044 |
+	| Tuvalu | 0.001 | 0.001 |
+	| Uganda | 0.010 | 0.013 |
+	| Ukraine | 0.056 | 0.072 |
+	| United Arab Emirates | 0.635 | 0.822 |
+	| United Kingdom of Great Britain and Northern Ireland | 4.375 | 5.660 |
+	| United Republic of Tanzania | 0.010 | 0.013 |
+	| Uruguay | 0.092 | 0.119 |
+	| Uzbekistan | 0.027 | 0.035 |
+	| Vanuatu | 0.001 | 0.001 |
+	| Venezuela (Bolivarian Republic of) | 0.175 | 0.226 |
+	| Viet Nam | 0.093 | 0.120 |
+	| Yemen | 0.008 | 0.010 |
+	| Zambia | 0.008 | 0.010 |
+	| Zimbabwe | 0.007 | 0.009 |
+	| Total | 75.365 | 100.000 |
+	
+		
+	
+	
+Decision 9/CMP.17
+	Administrative, financial and institutional matters
+		The Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol,
+		Recalling Article 13, paragraph 5, of the Kyoto Protocol,
+			Also recalling the financial procedures for the Conference of the Parties, which also apply to the Kyoto Protocol,
+		Taking note of decision 27/CP.27,
+		Having considered the information contained in the documents prepared by the secretariat on administrative, financial and institutional matters for this session,
+	I.	Audit report and financial statements for 2021
+		1.	Takes note of the financial report and audited financial statements for 2021 and the report of the United Nations Board of Auditors, which include recommendations, and the comments of the secretariat thereon;
+			2.	Expresses its appreciation to the United Nations for arranging the audit of the accounts of the Convention;
+			3.	Also expresses its appreciation to the auditors for their valuable observations and recommendations;
+			4.	Expresses concern about the high number of recommendations from the United Nations Board of Auditors not yet implemented by the secretariat;
+			5.	Urges the Executive Secretary to implement the recommendations of the auditors, as appropriate, and to update Parties on progress;
+	II.	Other financial and budgetary matters
+		6.	Takes note of the information contained in the note on the updated work programme of the secretariat for the biennium 2022–2023;
+		7.	Also takes note of the information contained in the note on the status of contributions to the trust funds administered by the secretariat as at 21 October 2022;
+		8.	Expresses its appreciation to Parties that made contributions to the core budget in a timely manner;
+		9.	Expresses concern regarding the high level of outstanding contributions to the core budget for the current and previous bienniums, which has resulted in difficulties with cash flow and the effective implementation of activities;
+		10.	Strongly urges Parties that have not made contributions in full to the core budget for the current and/or previous bienniums to do so without further delay;
+		11.	Expresses its appreciation for the contributions to the Trust Fund for Participation in the UNFCCC Process and to the Trust Fund for Supplementary Activities received from Parties, including those contributions that allow for greater flexibility in allocation;
+		12.	Urges Parties to further contribute to the Trust Fund for Participation in the UNFCCC Process in order to ensure the widest possible participation in the process in 2022–2023, and to the Trust Fund for Supplementary Activities to ensure a high level of implementation of the UNFCCC work programme;
+		13.	Reiterates its appreciation to the Government of Germany for its annual voluntary contribution to the core budget of EUR 766,938 and its special contribution of EUR 1,789,522 as Host Government of the secretariat;
+		14.	Requests the Executive Secretary to take further measures to reduce Parties’ outstanding contributions.
+		9th plenary meeting
+		17 November 2022
+		
+		
+Resolution 1/CMP.17
+	Expression of gratitude to the Government of the Arab Republic of Egypt and the people of the city of Sharm el‑Sheikh
+		Resolution submitted by the United Arab Emirates
+			The Conference of the Parties, the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol and the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement,
+			Having met in Sharm el-Sheikh from 6 to 20 November 2022,
+			1.	Express their profound gratitude to the Government of the Arab Republic of Egypt for having made it possible for the twenty-seventh session of the Conference of the Parties, the seventeenth session of the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol and the fourth session of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement to be held in Sharm el-Sheikh;
+			2.	Request the Government of the Arab Republic of Egypt to convey to the city and people of Sharm el-Sheikh the gratitude of the Conference of the Parties, the Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol and the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement for the hospitality and warmth extended to the participants.
+			10th plenary meeting
+			20 November 2022
+				

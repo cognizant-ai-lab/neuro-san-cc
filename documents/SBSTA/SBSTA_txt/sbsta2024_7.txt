@@ -1,0 +1,544 @@
+|  | United Nations | FCCC/SBSTA/2024/7 |
+|  |  | Distr.: General 30 July 2024  Original: English |
+
+Subsidiary Body for Scientific and Technological Advice
+Report of the Subsidiary Body for Scientific and Technological Advice on its sixtieth session, held in Bonn from 3 to 13 June 2024
+	Contents
+		Page
+		Abbreviations and acronyms		4
+		I.	Opening of the session
+(Agenda item 1)		5
+		II.	Organizational matters
+(Agenda item 2)		5
+		A.	Adoption of the agenda		5
+		B.	Election of officers other than the Chair		6
+		C.	Organization of the work of the session		7
+		D.	Mandated events		7
+		III.	Matters relating to the global stocktake: procedural and logistical elements of the overall
+global stocktake process
+(Agenda item 3)		8
+		IV.	Research and systematic observation
+(Agenda item 4)		8
+		V.	Matters relating to adaptation
+(Agenda item 5)		9
+			A.	Matters relating to the global goal on adaptation		9
+			B.	Report of the Adaptation Committee and review of the progress, effectiveness and 
+performance of the Adaptation Committee		13
+			C.	Nairobi work programme on impacts, vulnerability and adaptation to climate change		13
+		VI.	Terms of reference for the 2024 review of the Warsaw International Mechanism for 
+Loss and Damage associated with Climate Change Impacts
+(Agenda item 6)		14
+		VII.	Local Communities and Indigenous Peoples Platform
+(Agenda item 7)		15
+		VIII.	Sharm el-Sheikh mitigation ambition and implementation work programme
+(Agenda item 8)		15
+		IX.	United Arab Emirates just transition work programme
+(Agenda item 9)		16
+		X.	Matters relating to the forum on the impact of the implementation of response measures 
+serving the Convention, the Kyoto Protocol and the Paris Agreement
+(Agenda item 10)		17
+		XI.	Sharm el-Sheikh joint work on implementation of climate action on agriculture and food security (Agenda item 11)		18
+		XII.	Matters relating to the operation of the clean development mechanism
+(Agenda item 12)		19
+		XIII.	Matters relating to Article 6 of the Paris Agreement
+(Agenda item 13)		20
+			A.	Guidance on cooperative approaches referred to in Article 6, paragraph 2, of 
+the Paris Agreement and in decision 2/CMA.3		20
+			B.	Rules, modalities and procedures for the mechanism established by Article 6, paragraph 4,
+of the Paris Agreement and referred to in decision 3/CMA.3		21
+			C.	Work programme under the framework for non-market approaches referred to in Article 6, paragraph 8, of the Paris Agreement and in decision 4/CMA.3		22
+		XIV.	Methodological issues
+(Agenda item 14)		24
+		A.	Greenhouse gas data interface		24
+		B.	Emissions from fuel used for international aviation and maritime transport		24
+		C.	Reporting tools under the enhanced transparency framework		25
+		XV.	Annual reports on technical reviews
+(Agenda item 15)		26
+			A.	Technical review of information reported by Parties included in Annex I to 
+the Convention in their biennial reports and national communications		26
+			B.	Technical review of greenhouse gas inventories of Parties included in Annex I
+to the Convention		26
+			C.	Technical review of greenhouse gas inventories and other information reported by 
+Parties included in Annex I		26
+		XVI.	Cooperation with other international organizations
+(Agenda item 16)		27
+		XVII.	Other matters
+(Agenda item 17)		27
+		XVIII.	Closure of and report on the session
+(Agenda item 18)		27
+		Annexes
+			I.	Terms of reference for the 2024 review of the Warsaw International Mechanism for 
+Loss and Damage associated with Climate Change Impacts		29
+			II.	Road map for the Sharm el-Sheikh joint work on implementation of climate action on 
+agriculture and food security		32
+
+Addendum – FCCC/SBSTA/2024/7/Add.1
+Draft decision forwarded for consideration and adoption by the Conference of the Parties
+	
+Abbreviations and acronyms
+	| AILAC | Independent Association for Latin America and the Caribbean |
+	| AOSIS | Alliance of Small Island States |
+	| CDM | clean development mechanism |
+	| CMA | Conference of the Parties serving as the meeting of the Parties to the Paris Agreement |
+	| CMP | Conference of the Parties serving as the meeting of the Parties to the Kyoto Protocol |
+	| COP | Conference of the Parties |
+	| EIG | Environmental Integrity Group |
+	| EU | European Union |
+	| GCNMA | Glasgow Committee on Non-market Approaches |
+	| IPCC | Intergovernmental Panel on Climate Change |
+	| LDC | least developed country |
+	| LMDCs | Like-minded Developing Countries |
+	| LT-LEDS | long-term low-emission development strategy(ies) |
+	| NAP | national adaptation plan |
+	| NDC | nationally determined contribution |
+	| NGO | non-governmental organization |
+	| NMA | non-market approach |
+	| NWP | Nairobi work programme on impacts, vulnerability and adaptation to climate change |
+	| SB | sessions of the subsidiary bodies |
+	| SBI | Subsidiary Body for Implementation |
+	| SBSTA | Subsidiary Body for Scientific and Technological Advice |
+	| WIM | Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts |
+	
+	
+I.	Opening of the session
+(Agenda item 1)
+	1.	SBSTA 60 was held at the World Conference Center Bonn in Bonn, Germany, from 3 to 13 June 2024.
+	2.	The SBSTA Chair, Harry Vreuls (Kingdom of the Netherlands), opened the session and welcomed all Parties and observers. He also welcomed Nathalie Flores González (Dominican Republic) as Vice-Chair and Zita Kassa Wilks (Gabon) as Rapporteur.
+	3.	The opening included welcoming remarks by the UNFCCC Executive Secretary, Simon Stiell, and tribute was paid to the late Daniel Machado da Fonseca (Brazil) for his significant contribution to the UNFCCC process.
+II.	Organizational matters
+(Agenda item 2)
+	A.	Adoption of the agenda
+(Agenda sub-item 2(a))
+		4.	At its 1st meeting, held together with the 1st meeting of SBI 60, on 3 June, the SBSTA considered the note by the Executive Secretary containing the provisional agenda and annotations. The Chair recalled that, during the pre-sessional consultations, Parties had expressed eagerness to work during the session and broad support for the proposed approach to adopting the agenda.
+		5.	At the same meeting, the Chair proposed that the agenda be adopted with the exception of item 17 of the provisional agenda, with the understanding that he would conduct consultations on the way forward for that matter.
+		6.	As proposed by the Chair, the SBSTA adopted the agenda as follows:
+			1.	Opening of the session.
+			2.	Organizational matters:
+				(a)	Adoption of the agenda;
+				(b)	Election of officers other than the Chair;
+				(c)	Organization of the work of the session;
+				(d)	Mandated events.
+			3.	Matters relating to the global stocktake: procedural and logistical elements of the overall global stocktake process.*
+			4.	Research and systematic observation.
+			5.	Matters relating to adaptation:
+				(a)	Matters relating to the global goal on adaptation;*
+				(b)	Report of the Adaptation Committee and review of the progress, effectiveness and performance of the Adaptation Committee;*
+				(c)	Nairobi work programme on impacts, vulnerability and adaptation to climate change.
+			6.	Terms of reference for the 2024 review of the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts.*
+			7.	Local Communities and Indigenous Peoples Platform.
+			8.	Sharm el-Sheikh mitigation ambition and implementation work programme.*
+			9.	United Arab Emirates just transition work programme.*
+			10.	Matters relating to the forum on the impact of the implementation of response measures serving the Convention, the Kyoto Protocol and the Paris Agreement.*
+			11.	Sharm el-Sheikh joint work on implementation of climate action on agriculture and food security.*
+			12.	Matters relating to the operation of the clean development mechanism.
+			13.	Matters relating to Article 6 of the Paris Agreement:
+				(a)	Guidance on cooperative approaches referred to in Article 6, paragraph 2, of the Paris Agreement and in decision 2/CMA.3;
+				(b)	Rules, modalities and procedures for the mechanism established by Article 6, paragraph 4, of the Paris Agreement and referred to in decision 3/CMA.3;
+				(c)	Work programme under the framework for non-market approaches referred to in Article 6, paragraph 8, of the Paris Agreement and in decision 4/CMA.3.
+			14.	Methodological issues:
+				(a)	Greenhouse gas data interface;
+				(b)	Emissions from fuel used for international aviation and maritime transport;
+				(c)	Reporting tools under the enhanced transparency framework.
+			15.	Annual reports on technical reviews:
+				(a)	Technical review of information reported by Parties included in Annex I to the Convention in their biennial reports and national communications;
+				(b)	Technical review of greenhouse gas inventories of Parties included in Annex I to the Convention;
+				(c)	Technical review of greenhouse gas inventories and other information reported by Parties included in Annex I.
+			16.	Cooperation with other international organizations.
+			17.	Other matters.
+			18.	Closure of and report on the session.
+		7.	Representatives of three Parties made statements, including two on behalf of groups of Parties: African Group and LMDCs.
+	B.	Election of officers other than the Chair
+(Agenda sub-item 2(b))
+		8.	At the 1st meeting, the Chair recalled that the SBSTA was expected to elect its Vice-Chair and Rapporteur for 2024. At the 3rd meeting, on 13 June, the Chair informed the SBSTA that the secretariat had not received any nominations for the Vice-Chair and Rapporteur. In accordance with rule 22, paragraph 2, of the draft rules of procedure being applied, the serving Vice-Chair, Nathalie Flores González, and Rapporteur, Zita Kassa Wilks, will remain in office until their successors have been elected at SBSTA 61 (November 2024).
+	C.	Organization of the work of the session
+(Agenda sub-item 2(c))
+		9.	At the 1st meeting, the Chair encouraged Parties to engage constructively in the negotiations and respect meeting times, and recalled the deadline for all groups to conclude work by 6 p.m. on 12 June in order to ensure the timely availability of draft conclusions in all official languages of the United Nations for the closing plenary on 13 June. He encouraged Parties to keep all informal consultations open to observers in accordance with established practice.
+		10.	On a proposal by the Chair, the SBSTA agreed to proceed on that basis and in line with previously adopted SBI conclusions on the timely conclusion of negotiations and related working practices.
+		11.	At the 2nd meeting of the SBSTA, held together with the 2nd meeting of SBI 60, on 3 June, statements were made by representatives of 30 Parties, including 14 on behalf of groups of Parties: African Group; AILAC; AOSIS; Arab Group; Bolivarian Alliance for the Peoples of Our America – People’s Trade Treaty; Brazil, South Africa, India and China; Coalition for Rainforest Nations; EIG; EU and its member States; Group of 77 and China; Group SUR (formerly Argentina, Brazil and Uruguay); LDCs; LMDCs; and Umbrella Group. Statements were also made by representatives of seven United Nations and other intergovernmental organizations: Global Climate Observing System, Intergovernmental Oceanographic Commission of the United Nations Educational, Scientific and Cultural Organization, International Civil Aviation Organization, International Maritime Organization, IPCC, World Climate Research Programme and World Meteorological Organization; and by representatives of eight UNFCCC NGO constituencies: business and industry, children and youth, environmental, research and independent, and trade union NGOs, Indigenous Peoples organizations, local government and municipal authorities, and women and gender constituency.
+		12.	All documents prepared for this session are available on the UNFCCC website.
+	D.	Mandated events
+(Agenda sub-item 2(d))
+		13.	At its 1st meeting, the SBSTA took note of the information provided by its Chair on the mandated events being held in conjunction with this session.
+III.	Matters relating to the global stocktake: procedural and logistical elements of the overall global stocktake process*
+(Agenda item 3)
+	1.	Proceedings
+		14.	At its 1st meeting, the SBSTA agreed that this item would be considered together with the equally titled SBI 60 agenda sub-item 5(a) in informal consultations co-facilitated by Thureya Al Ali (United Arab Emirates) and Patrick Spicer (Canada). At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+	2.	Conclusions
+		15.	The SBSTA and the SBI welcomed the conclusion of the first global stocktake and the adoption of decision 1/CMA.5 on the outcome thereof.
+		16.	The SBSTA and the SBI commenced and advanced consideration of refining the procedural and logistical elements of the overall global stocktake process on the basis of experience gained from the first global stocktake, in accordance with paragraph 192 of decision 1/CMA.5.
+		17.	The SBSTA and the SBI took note of the informal note prepared by the co‑facilitators for the relevant agenda items at these sessions, noted that the informal note does not represent consensus among Parties and agreed to continue consideration of this matter, taking into account the informal note, at SB 61 (November 2024) with a view to CMA 6 (November 2024) concluding consideration of the matter.
+IV.	Research and systematic observation
+(Agenda item 4)
+	1.	Proceedings
+		18.	At its 1st meeting, the SBSTA agreed to consider this matter in informal consultations co-facilitated by Frank McGovern (Ireland) and Patricia Nyinguro (Kenya). At its 3rd meeting, the SBSTA considered and adopted the conclusions below. Representatives of six Parties made statements, including five on behalf of groups of Parties: African Group, AOSIS, EU and its member States, LMDCs and Umbrella Group.,
+	2.	Conclusions
+		19.	The SBSTA noted the importance of discussion under this agenda item on scientific advances and research gaps and needs relevant to supporting work under the Convention and the Paris Agreement.
+		20.	The SBSTA noted with appreciation the statements delivered at the opening plenary of this session by representatives of the Global Climate Observing System, the Intergovernmental Oceanographic Commission, the IPCC, the World Climate Research Programme and the World Meteorological Organization.
+		21.	The SBSTA emphasized the need to ensure the continuity and sustainability of research and systematic observation for data availability, which are fundamental for research, including for the Global Climate Observing System, and encouraged enhanced support in that regard.
+		22.	The SBSTA acknowledged the important role of national meteorological and hydrological services and similar organizations in providing timely, reliable and actionable information.
+		23.	The SBSTA welcomed the commencement of the seventh assessment cycle and the progress of work of the IPCC.
+		24.	The SBSTA encouraged the IPCC to continue providing relevant information to Parties on scientific, technical and socioeconomic aspects of climate change and to enhance inclusivity and regional representation in its seventh assessment cycle.
+		25.	The SBSTA took note with appreciation of the sixteenth meeting of the research dialogue, held on 4 June 2024.
+		26.	The SBSTA noted the discussion on scientific advances and knowledge gaps, as well as on research needs and research capacity-building needs, including those from previous meetings of the research dialogue, and encouraged Parties and the scientific community to take action to address climate-related research gaps and needs, including by strengthening research capacity at the regional level, inclusivity and scientific cooperation.
+		27.	The SBSTA invited Parties and relevant organizations to submit via the submission portal by 14 March 2025 views on possible themes for the seventeenth meeting of the research dialogue, to be held in conjunction with SBSTA 62 (June 2025).
+		28.	The SBSTA encouraged its Chair to identify themes for the research dialogue, in a consultative and inclusive manner, on the basis of the submissions from Parties and relevant organizations referred to in paragraph ‎27 above, and to consider inviting the scientific community to present on how research needs and gaps are being addressed.
+V.	Matters relating to adaptation
+(Agenda item 5)
+	A.	Matters relating to the global goal on adaptation*
+(Agenda sub-item 5(a))
+		1.	Proceedings
+			29.	At its 1st meeting, the SBSTA agreed that this sub-item would be considered together with the equally titled SBI 60 agenda sub-item 10(a) in informal consultations co-facilitated by Tina Kobilšek (Slovenia) and Pedro Pedroso (Cuba). At its 3rd meeting, the SBSTA considered and adopted the conclusions below. Representatives of two Parties made statements.
+		2.	Conclusions
+			30.	The SBSTA and the SBI initiated consideration of matters relating to the global goal on adaptation and agreed to continue consideration of views, focusing, inter alia, on matters related to paragraph 38(a–e) of decision 2/CMA.5, at SB 61 with a view to providing recommendations for consideration and adoption at CMA 7 (November 2025) at the latest.
+			31.	The SBSTA and the SBI invited Parties to submit views on matters related to paragraph 38 of decision 2/CMA.5 via the submission portal by no later than six weeks prior to SB 61.
+			32.	The SBSTA and the SBI recalled preambular paragraph 6 of decision 2/CMA.5, which recalls relevant provisions and principles of the Convention and the Paris Agreement.
+			33.	The SBSTA and the SBI recognized that means of implementation for adaptation, such as finance, technology transfer and capacity-building, are crucial to the implementation of the United Arab Emirates Framework for Global Climate Resilience, and also recognized that factors such as leadership, institutional arrangements, policies, data and knowledge, skills and education, public participation, and strengthened and inclusive governance are also crucial to enabling the implementation of adaptation action as referred to in paragraphs 24–‍33 of decision 2/CMA.5.
+			34.	The SBSTA and the SBI recalled paragraph 22 of decision 2/CMA.5, which recognizes the leadership of Indigenous Peoples and local communities as stewards of nature and encourages ethical and equitable engagement with Indigenous Peoples and local communities and the application of traditional knowledge, the knowledge, wisdom and values of Indigenous Peoples, and local knowledge systems in implementing the United Arab Emirates Framework for Global Climate Resilience.
+			35.	The SBSTA and the SBI also recalled paragraph 13 of decision 2/CMA.5, which encourages Parties, when implementing the United Arab Emirates Framework for Global Climate Resilience and their adaptation efforts, when integrating adaptation into relevant socioeconomic and environmental policies and actions and in pursuing the targets referred to in paragraphs 9–10 of the same decision, to take into account, where possible, country-driven, gender-responsive, participatory and fully transparent approaches, as well as human rights approaches, and to ensure intergenerational equity and social justice, taking into consideration vulnerable ecosystems, groups and communities and including children, youth and persons with disabilities.
+			36.	The SBSTA and the SBI took note of the report prepared by the secretariat synthesizing submissions from Parties and observers on matters related to and modalities of the United Arab Emirates–Belém work programme on indicators for measuring progress achieved towards the targets referred to in paragraphs 9–10 of decision 2/CMA.5.
+			37.	The SBSTA and the SBI expressed appreciation to their respective Chairs and the secretariat for organizing and to the Government of Bhutan for hosting the workshop, held in Thimphu from 15 to 17 May 2024, on matters related to the United Arab Emirates–Belém work programme.
+			38.	The SBSTA and the SBI invited Parties and non-Party stakeholders, including relevant UNFCCC constituted bodies, United Nations organizations and specialized agencies, and other relevant organizations from all geographical regions, to submit via the submission portal by 31 July 2024 information on existing indicators for measuring progress towards the targets referred to in paragraphs 9–10 of decision 2/CMA.5 in use at the local, national, regional and global level, including, if available, information on associated methodologies and data readiness for such indicators, as well as identified gaps and areas for which the development of new indicators may be needed.
+			39.	The SBSTA and the SBI requested their Chairs to prepare, with the support of the secretariat, in collaboration with relevant United Nations organizations and specialized agencies, and with contributions from relevant constituted bodies, a compilation and mapping of existing indicators relevant to measuring progress towards the targets referred to in paragraphs 9–10 of decision 2/CMA.5, including information on areas potentially not covered by existing indicators, in advance of the workshop referred to in paragraph ‎51 below, taking into account the submissions referred to in paragraph ‎38 above and the sources of information under the United Arab Emirates Framework for Global Climate Resilience referred to in paragraph 15 of decision 2/CMA.5.
+			40.	The SBSTA and the SBI agreed that the work under the United Arab Emirates–Belém work programme contributes to the purpose of the United Arab Emirates Framework for Global Climate Resilience, which is defined in paragraph 7 of decision 2/CMA.5 as guiding the achievement of the global goal on adaptation and the review of overall progress in achieving it with a view to reducing the increasing adverse impacts, risks and vulnerabilities associated with climate change, as well as enhancing adaptation action and support.
+			41.	The SBSTA and the SBI also agreed that the mapping referred to in paragraph ‎39 above may consider:
+				(a)	The relevance of the indicators to measuring progress towards one or more of the targets referred to in paragraphs 9–10 of decision 2/CMA.5;
+				(b)	The specific relevance of the indicators to adaptation, including enhancing adaptive capacity, strengthening resilience and reducing vulnerability to climate change;
+				(c)	Whether quantitative and/or qualitative information applies to the indicators;
+				(d)	Data availability for the indicators;
+				(e)	The ability of the indicators to reflect regional, national and local circumstances;
+				(f)	The applicability of the indicators across different contexts;
+				(g)	The ease of interpretation of the indicators;
+				(h)	The clarity of methodologies associated with the indicators;
+				(i)	The ability of the indicators to be aggregated across levels and disaggregated by demographic and socioeconomic characteristics, such as vulnerability, gender, age, disability, race, socioeconomic status, and status as Indigenous Peoples, as appropriate and depending on national circumstances;
+				(j)	The indicators’ basis on the best available science;
+				The indicators’ basis on traditional knowledge, Indigenous Peoples’ knowledge and local knowledge systems;
+				(k)	That the indicators should not be used as a basis for comparison between Parties.
+			42.	The SBSTA and the SBI invited the Adaptation Committee to prepare a contribution to the compilation and mapping referred to in paragraph ‎39 above by identifying information on indicators reported by Parties in their national reports and communications in the context of the work referred to in paragraph 45 of decision 2/CMA.5.
+			43.	The SBSTA and the SBI requested their Chairs to convene technical experts to assist in the technical work under the United Arab Emirates–Belém work programme, including reviewing and refining the compilation and mapping of existing indicators referred to in paragraph ‎39 above and, as needed, developing new indicators for measuring progress achieved towards the targets referred to in paragraphs 9–10 of decision 2/CMA.5.
+			44.	The SBSTA and the SBI agreed that the technical experts referred to in paragraph ‎43 above should have relevant qualifications and expertise related to the targets referred to in paragraphs 9–10 of decision 2/CMA.5 and that experts shall serve in an independent capacity.
+			45.	The SBSTA and the SBI requested their Chairs to ensure balance in terms of technical expertise related to the targets referred to in paragraphs 9–10 of decision 2/CMA.5, geographical representation and gender.
+			46.	The SBSTA and the SBI agreed that the participation of experts will include:
+				(a)	Experts with balanced and inclusive geographical and gender representation, including experts from small island developing States and the LDCs, taking into account recommendations of Parties, as appropriate, and giving special consideration in terms of support for participation to experts from developing countries eligible for funding under the UNFCCC process;
+				(b)	Experts from United Nations and other intergovernmental organizations, international and regional organizations, and research and academic institutions with experience in a relevant technical area, taking into account the recommendations of these organizations and institutions;
+				(c)	Indigenous knowledge holders.
+			47.	The SBSTA and the SBI requested the secretariat, with input from the technical experts, to prepare technical reports, including through work at virtual meetings, containing a list of proposed new indicators for assessing overall progress towards achievement of the targets referred to in paragraphs 9–10 of decision 2/CMA.5 that may be needed to fill any gaps in coverage by existing indicators, as appropriate, by May 2025 for consideration at SB 62 (June 2025).
+			48.	The SBSTA and the SBI agreed to consider issuing regular invitations for submissions from Parties and observers on topics that would inform the technical work under the United Arab Emirates–Belém work programme.
+			49.	The SBSTA and the SBI invited interested United Nations organizations and specialized agencies and other relevant organizations to explore the possibility of hosting meetings of technical experts referred to in paragraph ‎43 above, including providing financial support for the meetings.
+			50.	The SBSTA and the SBI agreed to take stock of the work under the United Arab Emirates–Belém work programme, including the assessment of areas not covered by existing indicators and, as needed, the development of new indicators, at SB 61, 62 and 63 (November 2025) with a view to informing the decision on the work programme at CMA 7.
+			51.	The SBSTA and the SBI requested their Chairs to organize, with the support of the secretariat, a hybrid workshop for Parties and the technical experts referred to in paragraph ‎43 above, following the completion of the mapping referred to in paragraph ‎39 above and prior to CMA 6, with the aim of:
+				(a)	Facilitating expert review and refinement of the mapping referred to in paragraph ‎39 above;
+				(b)	Enabling a dialogue between Parties and the technical experts referred to in paragraph ‎43 above on the mapping and providing an opportunity for the technical experts to clarify the methodologies and assumptions used in refining the mapping;
+				(c)	Providing Parties with the opportunity to reflect on the outcome of the mapping and on progress in the work on indicators in preparation for CMA 7.
+			52.	The SBSTA and the SBI noted that the workshop referred to in paragraph ‎51 above could be organized back to back with a meeting of the Adaptation Committee.
+			53.	The SBSTA and the SBI requested the secretariat to publish the refined mapping of indicators as part of a report on the workshop referred to in paragraph ‎51 above prior to CMA 6.
+			54.	The SBSTA and the SBI also requested their Chairs to organize, with the support of the secretariat, two hybrid workshops for Parties, experts and observers under the United Arab Emirates–Belém work programme, one to take stock of the progress of work by the technical experts, to be held in conjunction with SB 62, and one to reflect on the final list of potential indicators to be agreed at CMA 7, to be held between SB 62 and 63.
+			55.	The SBSTA and the SBI further requested the secretariat, including through its regional collaboration centres, to disseminate relevant information to help to engage regional organizations and research and academic institutions in the work on indicators.
+			56.	The SBSTA and the SBI requested the secretariat to make the final outputs of the technical work available in the six official languages of the United Nations.
+			57.	The SBSTA and the SBI agreed to consider additional work by the technical experts referred to in paragraph ‎43 above, and associated modalities, at SB 61 with a view to making a recommendation on this matter for consideration at CMA 6.
+			58.	The SBSTA and the SBI also agreed to consider any additional activities under the United Arab Emirates–Belém work programme at future sessions of the subsidiary bodies, if needed.
+			59.	The SBSTA and the SBI further agreed to continue considering the nature of the final outcome of the United Arab Emirates–Belém work programme at SB 61 and 62, following the mapping referred to in paragraph ‎53 above and the work of the technical experts referred to in paragraph ‎43 above.
+			60.	The SBSTA and the SBI took note of the importance of data readiness assessments in relation to indicators for the targets referred to in paragraphs 9–10 of decision 2/CMA.5 and invited Parties to consider the matter at SB 61.
+			61.	The SBSTA and the SBI took note of the views expressed by Parties at these sessions in relation to the matters described in paragraphs ‎57–‎60 above, and in relation to other considerations, which may be considered at SB 61, as appropriate, recognizing that these views do not capture those of all Parties and do not represent consensus.
+			62.	The SBSTA and the SBI took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraphs ‎42, ‎51, ‎54 and ‎56 above.
+			63.	They requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+	B.	Report of the Adaptation Committee and review of the progress, effectiveness and performance of the Adaptation Committee*
+(Agenda sub-item 5(b))
+		1.	Proceedings
+			64.	At its 1st meeting, the SBSTA agreed that its Chair would convene consultations on this sub-item together with the SBI Chair for the equally titled SBI 60 agenda sub-item 10(b). At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+		2.	Conclusions
+			65.	The SBSTA and the SBI recommended that COP 29 (November 2024) and CMA 6 take note of the report of the Adaptation Committee for 2023.
+			66.	The SBSTA and the SBI agreed to continue consideration of the review of the progress, effectiveness and performance of the Adaptation Committee at SB 61.
+			67.	The SBSTA and the SBI also agreed to consider the annual report of the Adaptation Committee and the review of the progress, effectiveness and performance of the Adaptation Committee under two separate agenda sub-items at future sessions.
+	C.	Nairobi work programme on impacts, vulnerability and adaptation to climate change
+(Agenda sub-item 5(c))
+		1.	Proceedings
+			68.	At its 1st meeting, the SBSTA agreed to consider this matter in informal consultations co-facilitated by Camila Minerva Rodriguez Tavarez (Dominican Republic) and Morgan Whalen (Canada). At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+		2.	Conclusions
+			69.	The SBSTA noted the reports prepared for this session on progress in implementing activities under the NWP and on activities under the NWP, by region, between 2019 and 2023, and also noted the information therein, including on next steps and new activities under the NWP, as well as the indicative NWP workplan for 2024–2025.
+			70.	The SBSTA welcomed the engagement of NWP thematic expert groups and partners in the 16th NWP Focal Point Forum, on understanding and closing adaptation knowledge gaps in mountains, high-latitude areas and the cryosphere, held at COP 28; the work under the NWP to date in its thematic areas; the efforts of the secretariat to establish linkages between work under the NWP and that under other United Nations conventions and bodies; and the progress in enhancing the dissemination of knowledge products developed under the NWP.
+			71.	The SBSTA requested the secretariat to continue implementing the mandates related to the NWP contained in documents FCCC/SBSTA/2018/4, FCCC/SBSTA/2022/6 and FCCC/SBSTA/2023/4.
+			72.	The SBSTA invited Parties, NWP partner organizations and other relevant organizations to provide financial and in-kind support, as appropriate, for the implementation of activities under the NWP.
+			73.	The SBSTA took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraph ‎69 above.
+			74.	It requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+VI.	Terms of reference for the 2024 review of the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts*
+(Agenda item 6)
+	1.	Proceedings
+		75.	At its 1st meeting, the SBSTA agreed that this item would be considered together with the equally titled SBI 60 agenda item 12 in informal consultations co-facilitated by Pepetua Latasi (Tuvalu) and Meredith Ryder-Rude (United States of America). At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+	2.	Conclusions
+		76.	The SBSTA and the SBI finalized the terms of reference for the 2024 review of the WIM, as contained in annex I.
+		77.	The SBSTA and the SBI agreed to undertake that review at SB 61 on the basis of those terms of reference and to forward the outcomes to the appropriate governing body or bodies for consideration.
+		78.	The SBSTA and the SBI invited Parties and non-Party stakeholders to submit via the submission portal by 30 September 2024, in order to serve as input to the 2024 review of the WIM, inter alia:
+		Views on strengths, weaknesses, gaps, challenges and opportunities related to enhancing the effectiveness and efficiency of the WIM;
+		Views on the use and usefulness of the outputs of the WIM and the usefulness of activities under the WIM;
+		Views on improvements of the WIM and the implementation of its functions;
+		Other inputs on how the WIM can promote the implementation of approaches to averting, minimizing and addressing loss and damage associated with climate change impacts.
+		79.	The SBSTA and the SBI encouraged Parties to consult their loss and damage contact points in preparing the submissions referred to in paragraph ‎78 above, as appropriate.
+		80.	The SBSTA and the SBI requested the secretariat to prepare a summary of the views referred to in paragraph ‎78 above to serve as input to the 2024 review of the WIM.
+		81.	The SBSTA and the SBI also requested the secretariat to prepare a background paper to inform the 2024 review of the WIM, with the paper to include information on the status of work, activities and outputs under the WIM, covering:
+		Relevant decisions and mandates;
+		Institutional arrangements relating to loss and damage established since the 2019 review of the WIM, including those of the expert groups, the technical expert group and the task force under the WIM and the engagement of loss and damage contact points;
+		Progress of implementation of the workplan of the WIM Executive Committee and the plans of action of its expert groups, technical expert group and task force;
+		Progress of operationalization of the Santiago network for averting, minimizing and addressing loss and damage associated with the adverse effects of climate change in all regions, including consideration of the reports on the regional scoping workshops that took place in 2023;
+		Implementation under the WIM of mandates and recommendations arising from the 2019 review of the WIM and relevant outcomes of the first global stocktake, as set out in decision 1/CMA.5.
+		82.	The SBSTA and the SBI further requested the secretariat, under the guidance of the Chairs of the subsidiary bodies, to organize an event, to be held in conjunction with SB 61, to provide inputs to the 2024 review of the WIM through engagement of Parties and non-Party stakeholders in structured discussions taking into account the terms of reference for the review.
+		83.	The SBSTA and the SBI noted the discussions that took place among Parties at these sessions relating to representation on the WIM Executive Committee.
+		84.	The SBSTA and the SBI took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraphs ‎80–‎82 above.
+		85.	They requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+VII.	Local Communities and Indigenous Peoples Platform
+(Agenda item 7)
+	86.	At its 1st meeting, the SBSTA agreed to consider this matter in informal consultations co-facilitated by Kajsa Fernström Nåtby (Sweden) and Clement Yow Mulalap (Federated States of Micronesia).
+	87.	The SBSTA recommended a draft decision for consideration and adoption at COP 29.
+VIII.	Sharm el-Sheikh mitigation ambition and implementation work programme*
+(Agenda item 8)
+	88.	At its 1st meeting, the SBSTA agreed that this item would be considered together with the equally titled SBI 60 agenda item 6 in informal consultations co-facilitated by Carlos Fuller (Belize) and Kay Harrison (New Zealand).
+	89.	At the 3rd meeting, the Chair informed the SBSTA that Parties could not conclude consideration of this matter at this session. In accordance with rules 10(c) and 16 of the draft rules of procedure being applied, the matter will be included in the provisional agenda for SBSTA 61. Representatives of 14 Parties made statements, including 8 on behalf of groups of Parties: African Group, AILAC, AOSIS, EIG, EU and its member States, LDCs, LMDCs and Umbrella Group.
+IX.	United Arab Emirates just transition work programme*
+(Agenda item 9)
+	1.	Proceedings
+		90.	At its 1st meeting, the SBSTA agreed that this item would be considered together with the equally titled SBI 60 agenda item 7 in a joint contact group co-chaired by Marianne Karlsen (Norway) and Kishan Kumarsingh (Trinidad and Tobago). At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+	2.	Conclusions
+		91.	The SBSTA and the SBI considered matters relating to the implementation of the United Arab Emirates just transition work programme.
+		92.	The SBSTA and the SBI welcomed the first hybrid dialogue under the work programme, held from 2 to 3 June 2024 on the topic “Just transition pathways to achieving the goals of the Paris Agreement through NDCs, NAPs and LT-LEDS”, as decided upon and communicated by the Chairs of the SBSTA and the SBI on the basis of views submitted by Parties, observers and other non-Party stakeholders.
+		93.	The SBSTA and the SBI recognized the significant contribution of the late Daniel Machado da Fonseca, who most recently held the position of Head of the Climate Action Division at the Ministry of Foreign Affairs of Brazil, to the deliberations on just transition pathways, resulting in the successful establishment of the work programme.
+		94.	The SBSTA and the SBI reiterated that the topic of the second hybrid dialogue under the work programme, to be held prior to SB 61, will be decided by the Chairs of the SBSTA and the SBI taking into account submissions from Parties, observers and other non-Party stakeholders and invited the Chairs to consider, in deciding on the topic in a transparent and consultative manner, the outcomes of the first hybrid dialogue and the inputs provided by Parties during the joint contact group on the work programme in the light of the elements contained in paragraph 2 of decision 3/CMA.5.
+		95.	The SBSTA and the SBI emphasized working systematically to cover the elements contained in paragraph 2 of decision 3/CMA.5.
+		96.	The SBSTA and the SBI also emphasized the importance of ensuring the effective and inclusive participation and active and constructive engagement of Parties and non-Party stakeholders in the second dialogue, and encouraged their Chairs to consider interactive formats for engagement, increasing the participation of non-Party stakeholders, especially from developing countries, and facilitating interaction among participants with a view to informing discussions under the work programme.
+		97.	The SBSTA and the SBI emphasized the need to hold the second dialogue organized under the work programme, as per paragraph 5 of decision 3/CMA.5, prior to SB 61 in order for the reports to be made available in a timely manner.
+		98.	The SBSTA and the SBI encouraged their Chairs to prepare and publish, starting from the first dialogue and immediately following each dialogue under the work programme, an informal summary of the discussions at that dialogue, including on opportunities, best practices, actionable solutions, challenges and barriers, ensuring that those discussions are reflected in a comprehensive and balanced manner.
+		99.	The SBSTA and the SBI agreed to continue consideration of this matter at SB 61, taking note of the informal note prepared by the co-chairs for the relevant agenda items at these sessions under their own responsibility, the exchanges of views and inputs by Parties under these agenda items at these sessions, views submitted via the submission portal no later than four weeks prior to SB 61, and the annual summary report on the dialogues with a view to recommending a draft decision on the matter for consideration and adoption at CMA 6, recognizing that all inputs do not represent consensus among Parties and further work is necessary to finalize the decision.
+		100.	The SBSTA and the SBI took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraphs ‎97–‎98 above.
+		101.	They requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+X.	Matters relating to the forum on the impact of the implementation of response measures serving the Convention, the Kyoto Protocol and the Paris Agreement*
+(Agenda item 10)
+	1.	Proceedings
+		102.	At its 1st meeting, the SBSTA agreed that this item would be considered together with the equally titled SBI 60 agenda item 8 in a joint contact group co-chaired by Xolisa Ngwadla (Botswana) and Maria Samuelsen (Denmark). At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+	2.	Conclusions
+		103.	The SBSTA and the SBI convened a meeting of the forum on the impact of the implementation of response measures at these sessions.
+		104.	The SBSTA and the SBI welcomed the forum’s technical events on guidelines and policy frameworks to promote just transition within and across sectors and on understanding the positive and negative impacts of low- and zero-emission transportation technologies, and expressed gratitude to the experts for their contributions to the events.
+		105.	The SBSTA and the SBI initiated the development of the five-year workplan of the forum and its Katowice Committee of Experts on the Impacts of the Implementation of Response Measures in line with the forum’s functions, work programme and modalities, taking into account relevant policy issues of concern to Parties, referred to in decisions 13/CP.28, 4/CMP.18 and 19/CMA.5.
+		106.	The SBSTA and the SBI agreed to continue work on this matter at SB 61, taking into account the non-paper prepared by the co-chairs for the relevant agenda items at these sessions available on the UNFCCC website, with a view to recommending a draft decision on the matter for consideration and adoption at COP 29, CMP 19 (November 2024) and CMA 6.
+XI.	Sharm el-Sheikh joint work on implementation of climate action on agriculture and food security*
+(Agenda item 11)
+	1.	Proceedings
+		107.	At its 1st meeting, the SBSTA agreed that this item would be considered together with the equally titled SBI 60 agenda item 9 in informal consultations co-facilitated by Annela Anger-Kraavi (Slovakia) and Una May Gordon (Belize). At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+	2.	Conclusions
+		108.	The SBSTA and the SBI continued consideration of the Sharm el-Sheikh joint work on implementation of climate action on agriculture and food security. They welcomed the views submitted by Parties and observers on the elements of that joint work, including on topics for the workshops referred to in paragraph 15(b) of decision 3/CP.27 and on the operationalization of the Sharm el-Sheikh online portal referred to in paragraph 16 of that decision.
+		109.	The SBSTA and the SBI requested the secretariat to dedicate time during the workshops referred to in paragraph ‎112 below to coordinate in relation to the joint work, and agreed to include this in the report to COP 31 (November 2026) on the progress and outcomes of the joint work.
+		110.	The SBSTA and the SBI recalled paragraph 13 of decision 3/CP.27, in which current and future COP Presidencies, high-level champions and other actors were invited, when promoting climate initiatives, to take into account the conclusions referred to in paragraph 2 of decision 3/CP.27 in considering issues related to agriculture and to promote the sharing of information and knowledge on best practices and means of implementation. They highlighted the potential contribution of current initiatives to the implementation of the joint work and invited the secretariat to include information on progress under and the outcomes of those initiatives in the annual synthesis report referred to in paragraph 15(a) of decision 3/CP.27.
+		111.	The SBSTA and the SBI also invited relevant international organizations to submit information on their activities related to the joint work via the Sharm el-Sheikh online portal referred to in paragraph 16 of decision 3/CP.27 by 31 December each year. They requested the secretariat to prepare the annual synthesis report referred to in paragraph 15(a) of decision 3/CP.27 taking into account that information, and to make the annual report available for consideration at the first regular sessions of the subsidiary bodies each year, starting in 2025. They noted that the first annual synthesis report, to be prepared according to the timeline contained in annex II, should cover the period starting from 2013 in order to encompass the implementation of the outcomes of the Koronivia joint work on agriculture and previous activities.
+		112.	The SBSTA and the SBI, recalling paragraph 15(b) of decision 3/CP.27, requested the secretariat to hold in-session workshops in hybrid format, facilitating both virtual and in-person participation, in accordance with the road map contained in annex II, and encouraged observers to participate in the workshops. They recalled the request to the secretariat in that same paragraph to invite representatives of the constituted bodies under the Convention, the operating entities of the Financial Mechanism, the Adaptation Fund, the Least Developed Countries Fund, the Special Climate Change Fund and observers to participate in the workshops.
+		113.	The SBSTA and the SBI requested the secretariat to prepare a report on each of the workshops referred to in paragraph ‎112 above for consideration by the subsidiary bodies at their sessions following the respective workshop.
+		114.	The SBSTA and the SBI invited Parties and observers to submit via the submission portal, for each workshop referred to in paragraph ‎112 above, views on the subject of that workshop, options for its format and suggested speakers by the deadline specified in annex II.
+		115.	Recalling paragraphs 9–10 of decision 3/CP.27, the SBSTA and the SBI recognized the importance of considering the vulnerability of farmers and other groups vulnerable to climate change impacts, especially small-scale farmers, Indigenous Peoples, local communities, women, youth and children, as well as their knowledge, experience and leadership, in scaling up action and support, including with regard to capacity-building, access to finance, and technology development and transfer.
+		116.	The SBSTA and the SBI requested the secretariat to develop the Sharm el-Sheikh online portal in accordance with the timeline specified in annex II.
+		117.	The SBSTA and the SBI agreed to continue consideration of this matter at SB 61.
+		118.	The SBSTA and the SBI took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraphs ‎109, ‎111, ‎112, ‎113 and ‎116 above.
+		119.	They requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+XII.	Matters relating to the operation of the clean development mechanism
+(Agenda item 12)
+	1.	Proceedings
+		120.	At its 1st meeting, the SBSTA agreed to consider this matter in informal consultations co-facilitated by Karoliina Anttonen (Finland) and Alick Muvundika (Zambia). At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+	2.	Conclusions
+		121.	The SBSTA considered matters relating to the operation of the CDM.
+		122.	The SBSTA welcomed the technical papers by the secretariat on the operations of the CDM registry beyond the end of the second commitment period of the Kyoto Protocol and on the necessary level of resources for the functioning and operation of the processes and institutions under the CDM.
+		123.	The SBSTA requested the secretariat to contact the CDM project participants that have not paid their share of proceeds to request them to confirm their intention to pay, and to report on the responses received to the SBSTA.
+		124.	The SBSTA also requested the secretariat to prepare a technical paper on the further breakdown of the necessary level of resources for the activities, processes and institutions that need to continue under the CDM, beyond the breakdown contained in the previous technical papers on this matter and the annual report of the CDM Executive Board to the CMP for 2023–2024, and to include in the paper modalities for how available funds in the trust fund for the CDM are transferred to the Adaptation Fund and to other areas potentially in need of funding, for consideration at SBSTA 61.
+		125.	The SBSTA agreed to continue consideration of this matter at SBSTA 61 with a view to recommending a draft decision thereon for consideration and adoption at CMP 19.
+		126.	The SBSTA took note of the estimated budgetary implications of the activity to be undertaken by the secretariat referred to in paragraph ‎124 above.
+		127.	It requested that the action of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+XIII.	Matters relating to Article 6 of the Paris Agreement
+(Agenda item 13)
+	A.	Guidance on cooperative approaches referred to in Article 6, paragraph 2, of the Paris Agreement and in decision 2/CMA.3
+(Agenda sub-item 13(a))
+		1.	Proceedings
+			128.	At its 1st meeting, the SBSTA agreed to consider this matter in informal consultations co-facilitated by Maria AlJishi (Saudi Arabia) and Peer Stiansen (Norway). At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+		2.	Conclusions
+			129.	The SBSTA, pursuant to paragraphs 4, 16, 17 and 22 of decision 6/CMA.4, considered the guidance on cooperative approaches referred to in Article 6, paragraph 2, of the Paris Agreement and in decision 2/CMA.3.
+			130.	The SBSTA took note of the work on common nomenclatures undertaken in response to paragraph 17(j) of decision 6/CMA.4, concluded that there is no need for further discussion of this matter and deemed its consideration thereof completed. The SBSTA recommended that the CMA conclude its consideration of the matter.
+			131.	The SBSTA requested the secretariat, as the administrator of the centralized accounting and reporting platform, to develop an initial list of common nomenclatures, to develop a process for requesting the establishment of and changes to common nomenclatures, pursuant to chapter II.B of annex I to decision 6/CMA.4, and to report on its progress in its annual report to the CMA referred to in paragraph 36(c) of the annex to decision 2/CMA.3.
+			132.	The SBSTA took note of the work on the modalities for reviewing information that is confidential undertaken in response to paragraph 16(a)(ii) of decision 6/CMA.4, concluded that there is no need for further discussion of the matter and deemed its consideration thereof completed. The SBSTA recommended that the CMA conclude its consideration of the matter.
+			133.	The SBSTA requested the secretariat to develop, publish and implement the necessary administrative procedures, including a specific code of conduct for technical expert review teams under Article 6 of the Paris Agreement, for treating and reviewing information identified as confidential by participating Parties under the provisions relating to the review of such information contained in chapter VII of annex II to decision 6/CMA.4, and to report on its progress in its annual report to the CMA referred to in paragraph 36(c) of the annex to decision 2/CMA.3.
+			134.	The SBSTA took note of the work undertaken in response to paragraph 16(b)(ii) of decision 6/CMA.4 related to whether internationally transferred mitigation outcomes could include emission avoidance, and agreed to continue consideration of this matter at SBSTA 68 (2028). The SBSTA noted that, in the absence of further guidance by the CMA, the current guidance applies, and that emission avoidance is not included in the current guidance.
+			135.	The SBSTA took note of the draft text prepared for this agenda sub-item at this session, noting that it does not represent consensus among Parties.
+			136.	The SBSTA requested the secretariat to organize a workshop for Parties, to be held in hybrid format prior to SBSTA 61 in conjunction with the workshop to be organized under the SBSTA agenda sub-item entitled “Rules, modalities and procedures for the mechanism established by Article 6, paragraph 4, of the Paris Agreement and referred to in decision 3/CMA.3”, to facilitate consideration of the draft text referred to in paragraph ‎135 above, on matters related to authorization, the agreed electronic format, sequencing, application of first transfer, addressing inconsistencies and the issues regarding registries.
+			137.	The SBSTA agreed to continue consideration of the draft text referred to in paragraph ‎135 above at SBSTA 61 with a view to recommending a draft decision on the matter for consideration and adoption at CMA 6.
+			138.	The SBSTA invited Parties to make contributions to the trust fund for supplementary activities for operationalizing the guidance on cooperative approaches and supporting the intersessional work referred to in paragraph ‎136 above.
+			139.	The SBSTA took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraph ‎136 above.
+			140.	It requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+	B.	Rules, modalities and procedures for the mechanism established by Article 6, paragraph 4, of the Paris Agreement and referred to in decision 3/CMA.3
+(Agenda sub-item 13(b))
+		1.	Proceedings
+			141.	At its 1st meeting, the SBSTA agreed to consider this matter in informal consultations co-facilitated by Kate Hancock (Australia) and Sonam Tashi (Bhutan). At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+		2.	Conclusions
+			142.	The SBSTA, pursuant to paragraphs 8–9 of decision 7/CMA.4, considered matters relating to the rules, modalities and procedures for the mechanism established by Article 6, paragraph 4, of the Paris Agreement and referred to in decision 3/CMA.3.
+			143.	The SBSTA took note of the work undertaken in response to paragraph 8 of decision 7/CMA.4 on further responsibilities of the Supervisory Body for the Article 6, paragraph 4, mechanism and of Parties that host activities under Article 6, paragraph 4, of the Paris Agreement, in order for such host Parties to elaborate on and apply national arrangements for the mechanism under the approval and supervision of the Supervisory Body, and agreed to continue consideration of this matter at SBSTA 68.
+			144.	The SBSTA took note of the work undertaken in response to paragraph 9(a) of decision 7/CMA.4 on consideration of whether Article 6, paragraph 4, activities could include emission avoidance and conservation enhancement, and agreed to continue consideration of the matter at SBSTA 68. The SBSTA noted that, in the absence of further guidance by the CMA, the current rules, modalities and procedures apply, and that emission avoidance is not included in the current rules, modalities and procedures. The SBSTA also noted that conservation enhancement is not a separate category of activity in the current rules, modalities and procedures.
+			145.	The SBSTA took note of the draft text prepared for this agenda sub-item at this session, noting that it does not represent consensus among Parties.
+			146.	The SBSTA requested the secretariat to organize a workshop for Parties, to be held in hybrid format prior to SBSTA 61 in conjunction with the workshop to be organized under the SBSTA agenda sub-item entitled “Guidance on cooperative approaches referred to in Article 6, paragraph 2, of the Paris Agreement and referred to in decision 2/CMA.3”, to facilitate consideration of the draft text referred to in paragraph ‎145 above, on matters related to authorization and the registry for the Article 6, paragraph 4, mechanism.
+			147.	The SBSTA agreed to continue consideration of the draft text referred to in paragraph ‎145 above at SBSTA 61 with a view to recommending a draft decision on the matter for consideration and adoption at CMA 6.
+			148.	The SBSTA invited Parties to make contributions to the trust fund for supplementary activities for operationalizing the rules, modalities and procedures for the Article 6, paragraph 4, mechanism and supporting the intersessional work referred to in paragraph ‎146 above.
+			149.	The SBSTA took note of the estimated budgetary implications of the activity to be undertaken by the secretariat referred to in paragraph ‎146 above.
+			150.	It requested that the action of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+	C.	Work programme under the framework for non-market approaches referred to in Article 6, paragraph 8, of the Paris Agreement and in decision 4/CMA.3
+(Agenda sub-item 13(c))
+		1.	Proceedings
+			151.	At its 1st meeting, the SBSTA agreed to convene the 5th meeting of the GCNMA in a contact group co-chaired by Kristin Qui (Trinidad and Tobago) and Jacqueline Ruesga (New Zealand). At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+		2.	Conclusions
+			152.	The SBSTA convened GCNMA 5 at this session.
+			153.	The SBSTA welcomed:
+			The broad participation of Parties, relevant bodies, representatives of institutional arrangements and processes under the Convention and the Paris Agreement and observers, including the 14 presentations made by them, in the in-session workshop held in conjunction with GCNMA 5 on the matters referred to in paragraph 15(c) of decision 17/CMA.5, as well as the focused exchange of views on financial, technology and capacity-building support available or provided for identifying and developing NMAs, including on enhancing access to various types of support and identifying investment opportunities and actionable solutions that support the achievement of NDCs, that took place at the workshop, thereby implementing the activities referred to in paragraph 8(b)(ii) of the annex to decision 4/CMA.3 under the work programme under the framework for NMAs referred to in Article 6, paragraph 8, of the Paris Agreement and in decision 4/CMA.3;
+			The operationalization of the UNFCCC web-based platform for recording and exchanging information on NMAs, known as the NMA Platform, referred to in paragraph 8(b)(i) of the annex to decision 4/CMA.3, thereby implementing the work programme activities referred to therein;
+			The constructive use of spin-off groups at GCNMA 5.
+			154.	The SBSTA took note of:
+			The report by the secretariat on the in-session workshop held in conjunction with GCNMA 4, thereby implementing the work programme activities referred to in paragraph 8(b)(ii) of the annex to decision 4/CMA.3;
+			The synthesis report by the secretariat on topics for spin-off groups and existing NMAs in the initial focus areas of the work programme activities;
+			The updates provided by the secretariat at GCNMA 5 in relation to the NMA Platform, including the:
+			Launch of the key functions on the Platform that enable national focal points for Article 6, paragraph 8, of the Paris Agreement to submit and record information on NMAs;
+			Publication of a manual for the national focal points for Article 6, paragraph 8, of the Paris Agreement on submitting and recording information on NMAs on the Platform;
+			Receipt of 52 nominations for national focal points for Article 6, paragraph 8, of the Paris Agreement as at 12 June 2024.
+			155.	The SBSTA invited Parties that have not yet notified the secretariat of their national focal points for Article 6, paragraph 8, of the Paris Agreement to do so to enable them to access the NMA Platform.
+			156.	The SBSTA noted paragraph 32 of decision 1/CMA.5, which emphasizes the urgent need to strengthen integrated, holistic and balanced NMAs in accordance with Article 6, paragraph 8, of the Paris Agreement, in the context of sustainable development and poverty eradication, in a coordinated and effective manner, including through mitigation, adaptation, finance, technology transfer and capacity-building, as appropriate.
+			157.	The SBSTA encouraged Parties to identify and submit their NMAs and to provide information on financial, technology and capacity-building support available or provided for identifying, developing and implementing NMAs on the NMA Platform.
+			158.	The SBSTA noted paragraph 4 of decision 8/CMA.4, which requested the GCNMA to undertake an expedited and simple assessment of the progress and outcomes of the first phase of implementing the work programme activities at GCNMA 6, to be held in November 2024, with a view to improving and recommending the schedule for implementing the work programme activities for the second phase.
+			159.	The SBSTA invited Parties and observers to submit via the submission portal by 31 August 2024 views and information on the progress and outcomes of the first phase of implementing the work programme activities, and views on improving and recommending the schedule for implementing the work programme activities for the second phase, and requested the secretariat to make arrangements for a spin-off group at GCNMA 6 to enable discussions on the basis of those submissions.
+			160.	The SBSTA also requested the secretariat to:
+			Add links to the Climate Technology Centre and Network and the Paris Committee on Capacity-building on the NMA Platform in recognition of their potential to provide technology and capacity-building support for identifying and developing NMAs;
+			Organize an in-session workshop, including round-table discussions, to be held in conjunction with GCNMA 6 with a focus on, inter alia:
+			Sharing information on NMAs submitted to the NMA Platform;
+			Inviting interested Parties, relevant bodies, institutional arrangements and processes under the Convention and the Paris Agreement related to, inter alia, mitigation, adaptation, finance, technology development and transfer, and capacity-building, including United Nations bodies, multilateral, bilateral and other public donors, and private and non-governmental organizations, to provide information on financial, technology and capacity-building support available or provided for identifying, developing or implementing NMAs for recording on the NMA Platform;
+			Include, as part of its broader capacity-building programme related to Article 6 of the Paris Agreement, activities related to the work programme under the framework for NMAs pursuant to paragraph 21 of decision 8/CMA.4.
+			161.	The SBSTA took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraph ‎160 above.
+			162.	It requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+XIV.	Methodological issues
+(Agenda item 14)
+	A.	Greenhouse gas data interface
+(Agenda sub-item 14(a))
+		163.	At its 1st meeting, the SBSTA agreed to consider this matter in informal consultations co-facilitated by Thiago Mendes (Brazil) and Daniela Romano (Italy). At the 3rd meeting, the Chair informed the SBSTA that Parties could not conclude consideration of the matter at this session. In accordance with rules 10(c) and 16 of the draft rules of procedure being applied, the matter will be included in the provisional agenda for SBSTA 61.
+	B.	Emissions from fuel used for international aviation and maritime transport
+(Agenda sub-item 14(b))
+		1.	Proceedings
+			164.	At its 1st meeting, the SBSTA agreed to consider this matter in informal consultations co-facilitated by Martin Cames (Germany) and Pacifica F. Achieng Ogola (Kenya). At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+		2.	Conclusions
+			165.	The SBSTA continued consideration of this matter.
+			166.	It agreed to continue consideration of this matter at SBSTA 61.
+	C.	Reporting tools under the enhanced transparency framework
+(Agenda sub-item 14(c))
+		1.	Proceedings
+			167.	At its 1st meeting, the SBSTA agreed to consider this matter in informal consultations co-facilitated by Thiago Mendes and Daniela Romano. At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+		2.	Conclusions
+			168.	The SBSTA welcomed with appreciation the secretariat’s development of a test version of the tools for the electronic reporting of the common reporting tables and common tabular formats under the enhanced transparency framework.
+			169.	The SBSTA also welcomed with appreciation the secretariat’s organization, including in cooperation with partner organizations, of regular hands-on technical training workshops to demonstrate the functions of those reporting tools to national experts from Parties.
+			170.	The SBSTA considered the technical paper by the secretariat on the experience of Parties with the test version of the reporting tools, including the challenges faced by developing country Parties in integrating the tools into their national inventory arrangements.
+			171.	The SBSTA noted that the secretariat will make the reporting tools available for reporting by Parties by the end of June 2024 and that some features, as highlighted in the presentation by the secretariat during the relevant mandated event at this session, will require further development to maintain consistency with and fulfil the requirements set out in decision 5/CMA.3.
+			172.	The SBSTA emphasized the importance of the secretariat providing the necessary training and technical support to enhance the capacity and ability of developing country Parties, in particular countries with the least capacity, such as the LDCs, and those that are particularly vulnerable to the adverse effects of climate change, such as small island developing States, to use the reporting tools, particularly in the first six months after their release; noted the importance of the training mandated in paragraphs 14 and 16 of decision 5/CMA.3 being delivered online and/or in person, as appropriate; and strongly encouraged the secretariat to make use of online platforms, training and resources.
+			173.	The SBSTA noted that Parties will report the common reporting tables and common tabular formats in accordance with the annexes to decision 5/CMA.3. It encouraged the secretariat to develop the reporting tools so that they can generate tables in any United Nations official language.
+			174.	The SBSTA requested the secretariat to inform the UNFCCC national focal points about upcoming training activities on the IPCC inventory software.
+			175.	The SBSTA noted that additional resources may be required for organizing trainings for Parties on using the reporting tools and for integrating the remaining features, as highlighted in the presentation referred to in paragraph ‎171 above, into the reporting tools.
+			176.	The SBSTA took note of the estimated budgetary implications of the activities to be undertaken by the secretariat referred to in paragraph ‎173 above.
+			177.	It requested that the actions of the secretariat called for in these conclusions be undertaken subject to the availability of financial resources.
+XV.	Annual reports on technical reviews
+(Agenda item 15)
+	A.	Technical review of information reported by Parties included in Annex I to the Convention in their biennial reports and national communications
+(Agenda sub-item 15(a))
+		1.	Proceedings
+			178.	At its 1st meeting, the SBSTA agreed to consider this matter in informal consultations co-facilitated by Ole-Kenneth Nielsen (Denmark) and Marcelo Rocha (Brazil). At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+		2.	Conclusions
+			179.	The SBSTA considered the report for 2023 on the technical review of information reported by Parties included in Annex I to the Convention in their biennial reports and national communications. The SBSTA took note of the information in the report.
+	B.	Technical review of greenhouse gas inventories of Parties included in Annex I to the Convention
+(Agenda sub-item 15(b))
+		1.	Proceedings
+			180.	At its 1st meeting, the SBSTA agreed to consider this matter in informal consultations co-facilitated by Ole-Kenneth Nielsen and Marcelo Rocha. At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+		2.	Conclusions
+			181.	The SBSTA considered the report for 2023 on the technical review of greenhouse gas inventories of Parties included in Annex I to the Convention. The SBSTA took note of the information in this report.
+	C.	Technical review of greenhouse gas inventories and other information reported by Parties included in Annex I
+(Agenda sub-item 15(c))
+		1.	Proceedings
+			182.	At its 1st meeting, the SBSTA agreed to consider this matter in informal consultations co-facilitated by Ole-Kenneth Nielsen and Marcelo Rocha. At its 3rd meeting, the SBSTA considered and adopted the conclusions below.
+		2.	Conclusions
+			183.	The SBSTA considered the report for 2023 on the technical review of greenhouse gas inventories and other information reported by Parties included in Annex I. The SBSTA took note of the information in the report.
+XVI.	Cooperation with other international organizations
+(Agenda item 16)
+	184.	The SBSTA considered this matter at its 1st meeting. It took note of the information contained in document FCCC/SBSTA/2024/INF.1.
+XVII.	Other matters
+(Agenda item 17)
+	185.	The SBSTA considered this agenda item at its 1st meeting. No other matters were raised.
+XVIII.	Closure of and report on the session
+(Agenda item 18)
+	1.	Administrative and budgetary implications
+		186.	At the 3rd meeting, a representative of the secretariat informed the SBSTA that several activities resulting from the conclusions adopted at this session require additional resources over and above the core budget for the biennium 2024–2025. Relevant requests for activities are contained in conclusions adopted under various SBSTA, including joint SBSTA–SBI, agenda items.
+		187.	Under joint SBSTA agenda sub-item 5(a) and SBI agenda sub-item 10(a), “Matters relating to the global goal on adaptation”, supplementary funding of EUR 627,000 will be required in 2024–2025 to organize three workshops in hybrid format under the United Arab Emirates–Belém work programme and to make the final outputs of the technical work available in the official languages of the United Nations.
+		188.	Under joint SBSTA agenda item 6 and SBI agenda item 12, “Terms of reference for the 2024 review of the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts”, supplementary funding of EUR 62,000 will be required in 2024 to prepare outputs and summaries to inform the 2024 review of the WIM and to organize an event to be held at SB 61.
+		189.	Under agenda item 7, “Local Communities and Indigenous Peoples Platform”, supplementary funding of EUR 1.55 million will be required in 2025 to enable members of the Facilitative Working Group of the Local Communities and Indigenous Peoples Platform to participate in UNFCCC sessions and possibly for arrangements for simultaneous interpretation in the official languages of the United Nations.
+		190.	Under joint SBSTA agenda item 9 and SBI agenda item 7, “United Arab Emirates just transition work programme”, supplementary funding of EUR 45,000 will be required in 2024–2025 to prepare an annual synthesis report, organize in-session workshops in hybrid format and prepare a report on each workshop.
+		191.	Under joint SBSTA agenda item 11 and SBI agenda item 9, “Sharm el-Sheikh joint work on implementation of climate action on agriculture and food security”, supplementary funding of EUR 164,000 will be required in 2024 and EUR 242,000 in 2025 to develop the Sharm el-Sheikh online portal, organize in-session workshops and prepare a synthesis report.
+		192.	Under agenda sub-item 13(a), “Guidance on cooperative approaches referred to in Article 6, paragraph 2, of the Paris Agreement and in decision 2/CMA.3”, supplementary funding of EUR 113,000 will be required in 2024 to organize a workshop to facilitate Parties’ consideration of the draft text prepared for this agenda sub-item at this session.
+		193.	Under agenda sub-item 13(b), “Rules, modalities and procedures for the mechanism established by Article 6, paragraph 4, of the Paris Agreement and referred to in decision 3/CMA.3”, supplementary funding of EUR 113,000 will be required in 2024 to organize a workshop to facilitate Parties’ consideration of the draft text prepared for this agenda sub-item at this session.
+		194.	Under agenda sub-item 14(c), “Reporting tools under the enhanced transparency framework”, supplementary funding of EUR 735,000 will be required in 2024 to further develop the tools for reporting under the enhanced transparency framework so that they can generate reporting tables in any United Nations official language.
+		195.	Activities newly mandated under agenda items 7, 9 and 11 include recurring or long‑term activities and those under agenda items 5(a), 6, 11, 13(a–b) and 14(c) include short‑term or temporary activities according to the categorization established for the UNFCCC budget.
+		196.	The representative of the secretariat noted that the presented amounts, totalling EUR 3.65 million, are preliminary and based on information available at the time. The representative noted that the secretariat is counting on the continued generosity of Parties to provide supplementary funding for these activities in a timely and predictable manner as without such contributions it will be a challenge for the secretariat to provide the requested support.
+		197.	The representative concluded by noting that costs for 2026 and beyond will be reviewed in the context of preparing the budget for the biennium 2026–2027.
+	2.	Closure of and report on the session
+		198.	At the 4th meeting of the SBSTA, held together with the 4th meeting of SBI 60, on 13 June, statements were made by representatives of 25 Parties, including 14 on behalf of groups of Parties: African Group; AILAC; AOSIS; Arab Group; Bolivarian Alliance for the Peoples of Our America – People’s Trade Treaty; Brazil, South Africa, India and China; EIG; EU and its member States; Group of 77 and China; Group SUR (formerly Argentina, Brazil and Uruguay); LDCs; LMDCs; Mountain Partnership; and Umbrella Group. Statements were also made by representatives of eight UNFCCC NGO constituencies: business and industry, children and youth, environmental, farmers and agricultural, research and independent, and trade union NGOs, Indigenous Peoples organizations, and women and gender constituency.
+		199.	At the 5th meeting of the SBSTA, held together with the 5th meeting of SBI 60, on 13 June, the SBSTA considered and adopted the draft report on the session and authorized the Rapporteur, with the assistance of the secretariat and under the guidance of the Chair, to complete the report on the session and make it available to Parties.
+		200.	The Chair thanked all Parties and observers for their constructive engagement throughout the session. He also thanked the co-chairs of contact groups and co-facilitators of informal consultations for their work, the other presiding officers for their close collaboration and the translators, technicians and World Conference Center Bonn staff for their support and facilitation. The Chair then closed the session.
+			
+	Annex I
+	Terms of reference for the 2024 review of the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts
+	XIX.	Mandate
+		201.	Decisions 4/CP.22 and 2/CMA.2, paragraph 46, provide recommendations regarding the 2024 review of the WIM.
+	XX.	Objective
+		202.	During the 2024 review, Parties will consider, inter alia, progress in implementing the functions of the WIM, as set out in decision 2/CP.19, and the performance of and achievements facilitated by those functions; progress in achieving the long-term vision of the WIM; progress in implementing the activities of the WIM Executive Committee and those under the Santiago network for averting, minimizing and addressing loss and damage associated with the adverse effects of climate change; and ways in which the WIM may be enhanced and strengthened, as appropriate, in the light of the current context in which the WIM is implemented, to promote implementation of approaches to averting, minimizing and addressing loss and damage associated with the adverse effects of climate change.
+	XXI.	Scope
+		203.	Parties will review the WIM since its 2019 review, taking into account the broader context of work on averting, minimizing and addressing loss and damage under and outside the Convention and the Paris Agreement; the segments of the population that are already vulnerable, as set out in paragraph 7(a)(iii) of decision 3/CP.18; and the evolving needs and priorities of developing countries that are particularly vulnerable to the adverse effects of climate change.
+		204.	The review will focus on, inter alia:
+			(a)	The performance of the WIM and its functions as set out in decision 2/CP.19, and how it can continue to be fit-for-purpose to promote the implementation of approaches to averting, minimizing and addressing loss and damage;
+			(b)	The structure of the WIM, including its Executive Committee and its Santiago network;
+			(c)	The usefulness, use, development and dissemination of the outputs of the WIM, including in relation to developing countries that are particularly vulnerable to the adverse effects of climate change;
+			(d)	Collaboration, coordination, partnerships and coherence and synergies of work under the WIM in relation to bodies, entities and work programmes, including the funding arrangements, including a fund, for responding to loss and damage referred to in paragraphs 2–3 of decisions 2/CP.27 and 2/CMA.4, and with stakeholders under and outside the Convention and the Paris Agreement;
+			(e)	The progress of implementation of the workplan of the WIM Executive Committee, including in relation to outreach and communication, and the work programme of the Santiago network in relation to implementing the functions of the WIM;
+			(f)	The response under the WIM to relevant decisions and the Paris Agreement.
+		205.	In their assessment, Parties will consider:
+			(a)	The effectiveness and efficiency of the work under the WIM, including of its Executive Committee, expert groups, technical expert group, task force and Santiago network, regarding, inter alia, timeliness, relevance, usefulness, visibility, coherence, complementarity, synergies, comprehensiveness, responsiveness and resourcing;
+			(b)	Barriers and gaps, challenges and opportunities, good practices and lessons learned in the context of the implementation of the WIM.
+	XXII.	Inputs and sources of information
+		206.	Being guided by the best available science, Indigenous Peoples’ knowledge and the knowledge systems of local communities, the inputs to the review are as follows:
+			(a)	The background paper referred to in paragraph ‎81 of this document;
+			(b)	The annual reports and outputs of the WIM Executive Committee, and the joint report of the Executive Committee and the Santiago network;
+			(c)	The views relevant to the WIM submitted by Parties and non-Party stakeholders referred to in paragraph ‎78 of this document;
+			(d)	The summary of the views as referred to in paragraph ‎80 of this document;
+			(e)	The workplan of the WIM Executive Committee and the work programme of the Santiago network;
+			(f)	Relevant decisions and the Paris Agreement.
+		207.	Sources of information for the review may include:
+			(a)	Relevant scientific and technical reports of national, regional and international organizations;
+			(b)	Relevant national and regional strategies, plans and reports;
+			(c)	Relevant outputs of constituted bodies and from events organized in the UNFCCC process, including the Glasgow dialogue and the summary reports thereon.
+		208.	An event will be organized by the secretariat, to be held in conjunction with and at the start of SB 61, to provide inputs for the review through engagement of Parties and non-Party stakeholders in structured discussions taking into account these terms of reference.
+	XXIII.	Modalities
+		209.	The modalities to be used in conducting the review are:
+			(a)	The call for the submissions referred to in paragraph ‎6(c) above;
+			(b)	The consideration by Parties of the above-mentioned inputs and sources of information in the light of the objective and scope of the review.
+	XXIV.	Expected output
+		210.	On the basis of the assessment of progress undertaken in accordance with paragraphs 1–‎9 above, a draft decision will be prepared at SB 61, including a set of recommendations that respond to the objective of the review as referred to in paragraph‎ 2 above.
+		211.	
+		Annex II
+		Road map for the Sharm el-Sheikh joint work on implementation of climate action on agriculture and food security
+			| Timeline | Activities |
+			| Between SB 60 and 61 (November 2024) | Development of the Sharm el-Sheikh online portal by the secretariat |
+			| SB 61 | Presentation of the Sharm el-Sheikh online portal by the secretariat |
+			| Between SB 61 and 62 (June 2025) | Submissions from Parties and observers, by 1 March 2025, on the workshop on topic 1: systemic and holistic approaches to the implementation of climate action on agriculture, food systems and food security, understanding, cooperation and integration into plans |
+			|  | Preparation by the secretariat of the first annual synthesis report under the joint work |
+			|  | Further development of the Sharm el-Sheikh online portal by the secretariat |
+			| SB 62 | Workshop on topic 1, including time to coordinate in relation to the joint work |
+			|  | Consideration of the first annual synthesis report |
+			|  | Further consideration of the online portal |
+			| Between SB 62 and 63 (November 2025) | Preparation by the secretariat of the report on the workshop on topic 1 |
+			| SB 63 | Consideration of the report on the workshop on topic 1 |
+			| Between SB 63 and 64 (June 2026) | Submissions from Parties and observers, by 1 March 2026, on the workshop on topic 2: progress, challenges and opportunities related to identifying needs and accessing means of implementation for climate action on agriculture and food security, including sharing of best practices |
+			|  | Preparation by the secretariat of the annual synthesis report |
+			| SB 64 | Workshop on topic 2, including time to coordinate in relation to the joint work |
+			|  | Consideration of the annual synthesis report |
+			| Between SB 64 and 65 (November 2026) | Preparation by the secretariat of the report on the workshop on topic 2 |
+			| SB 65 | Consideration of the report on the workshop on topic 2 |
+			|  | Finalization of discussions on the progress and outcomes of the joint work for reporting thereon to COP 31 (November 2026) |
+			
+			
