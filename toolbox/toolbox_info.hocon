@@ -1,0 +1,382 @@
+# Copyright (C) 2023-2025 Cognizant Digital Business, Evolutionary AI.
+# All Rights Reserved.
+# Issued under the Academic Public License.
+#
+# You can be released from the terms, and requirements of the Academic Public
+# License by purchasing a commercial license.
+# Purchase of a commercial license is mandatory for any use of the
+# neuro-san SDK Software in commercial settings.
+#
+# END COPYRIGHT
+
+# This is a toolbox that allows user to add tools from langchain or shared coded tools for easy access.
+# For more information about tools in the default toolbox and how to use them in the agent network hocon, see
+# https://github.com/cognizant-ai-lab/neuro-san-studio/blob/main/docs/user_guide.md#toolbox
+
+{
+
+    # ---------- Anthropic Tools ----------
+
+    # Requirement to use this agent network:
+    # - langchain-anthropic>=0.3.13
+    # - ANTHROPIC_API_KEY
+    # See https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview and
+    # https://python.langchain.com/docs/integrations/chat/anthropic/#built-in-tools
+
+    "anthropic_search": {
+        "class": "anthropic_web_search.AnthropicWebSearch",
+        "description": "Tool that provides web search capabilities",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "The text to search in."
+                },
+            },
+            "required": ["query"]
+        }
+    },
+    "anthropic_code_execution": {
+        "class": "anthropic_code_execution.AnthropicCodeExecution",
+        "description": "Executes Python code and performs tasks such as plotting, data analysis, or math using the Anthropic Code Execution tool.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "A natural language instruction or request to be executed by the code interpreter (e.g., a math problem, plotting instruction, or data transformation)."
+                },
+            },
+            "required": ["query"]
+        }
+    },
+
+    # ---------- Agent Network Tools ----------
+
+    "call_agent": {
+        "class": "call_agent.CallAgent",
+        "description": "Call the agent to respond to inquiry.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "agent_name": {
+                    "type": "string",
+                    "description": "Name of the agent to call. Do not include file extension such as '.hocon' in the name."
+                },
+                "inquiry": {
+                    "type": "string",
+                    "description": "The inquiry"
+                },
+            },
+            "required": ["inquiry"]
+        } 
+    },
+
+    # This tool uses pyvis to generate a html, and open it in chrome browser.
+    "agent_network_html_generator": {
+        "class": "agent_network_html_generator.AgentNetworkHtmlGenerator"
+        "description": "Generate a html file from agent network hocon",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "agent_name": {
+                    "type": "string",
+                    "description": "Name of the agent to create html for. Do not include file extension such as '.hocon' in the name."
+                }
+            },
+            "required": ["agent_name"]
+        }
+    },
+
+    # ---------- Gmail Tools ----------
+    "gmail_toolkit": {
+        # This is the class of the tool to use
+        # Before using this tool make sure to
+        # pip install -U langchain-google-community\[gmail\]
+        # and get the credentials.json by following instructions from
+        # https://developers.google.com/workspace/gmail/api/quickstart/python#authorize_credentials_for_a_desktop_application
+        "class": "langchain_google_community.gmail.toolkit.GmailToolkit",
+
+        # This is where more info on the tool can be found.
+        "base_tool_info_url": "https://python.langchain.com/docs/integrations/tools/gmail/",
+
+        # Note that these tools do not support file attachment.
+    },
+
+    "send_gmail_message_with_attachment": {
+        # This is the coded tool for sending an email with attachment
+        "class": "gmail_attachment.GmailAttachment"
+        "description": "Send an email with attachment",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "to": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "List of recipient email addresses"
+                },
+                "attachment_paths": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "List of absolute paths of the attached files"
+                },
+                "cc": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "List of CC email addresses"
+                },
+                "bcc": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "List of BCC email addresses"
+                },
+                "subject": {
+                    "type": "string",
+                    "description": "Subject of the email"
+                },
+                "message": {
+                    "type": "string",
+                    "description": "Message or body of the email"
+                }
+            },
+            "required": ["to", "attachment_path"]
+            # The other arguments are optional
+        }
+    },
+
+    # ---------- OpenAI Tools ----------
+
+    # Requirement to use these tools:
+    # - langchain-openai >= 0.3.26
+    # - OPENAI_API_KEY
+    # See https://platform.openai.com/docs/guides/tools?api-mode=responses and
+    # https://python.langchain.com/docs/integrations/chat/openai/#responses-api
+
+    "openai_search": {
+        "class": "openai_web_search.OpenAIWebSearch",
+        "description": "Tool that provides web search capabilities",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "The text to search in."
+                },
+            },
+            "required": ["query"]
+        }
+    },
+    "openai_code_interpreter": {
+        "class": "openai_code_interpreter.OpenAICodeInterpreter",
+        "description": "Executes Python code and performs tasks such as plotting, data analysis, or math using the OpenAI Code Interpreter tool.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "A natural language instruction or request to be executed by the code interpreter (e.g., a math problem, plotting instruction, or data transformation)."
+                },
+            },
+            "required": ["query"]
+        }
+    },
+        
+    # ---------- RAG Tools ----------
+    #
+    # Supported Vector Store: In-Memory and PostgreSQL vector stores
+    #
+    # Prerequisites for PostgreSQL:
+    #   - Install Docker: https://www.docker.com/get-started/
+    #   - Install Python package: pip install langchain-postgres
+    #   - Set environment variables: POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_HOST, POSTGRES_PORT, POSTGRES_DB
+    #   - Run: docker run --name pgvector-container -e POSTGRES_USER=<user> -e POSTGRES_PASSWORD=<password> -e POSTGRES_DB=<db_name> -p 6024:5432 -d pgvector/pgvector:pg16
+
+
+    # To use this tool, start by installing the required package:
+    #     pip install atlassian-python-api
+    #
+    # Additional installations may be required depending on the attachment types used.
+    # For details, see https://python.langchain.com/api_reference/_modules/langchain_community/document_loaders/confluence.html#ConfluenceLoader
+    # Set "username" and "api_key" in the agent network hocon or 
+    # as environment variable "JIRA_USERNAME" and "JIRA_API_TOKEN", respectively.
+    "confluence_rag": {
+        # This is a coded tool for RAG on confluence pages.
+        "class": "confluence_rag.ConfluenceRag",
+        "description": "Retrieve information from the given confluence documents",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "Query for retrieval"
+                }
+            },
+            "required": ["query"]
+        }      
+    },
+
+    # To use this tool, start by installing the required package:
+    #     pip install langchain-docling
+    "docling_rag": {
+        # This is a coded tool for RAG on multiple file format.
+        # See https://python.langchain.com/docs/integrations/document_loaders/docling/ and
+        # https://docling-project.github.io/docling/
+        "class": "docling_rag.DoclingRag", 
+        "description": "Retrieve information from the given files",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "Query for retrieval"
+                }
+            },
+            "required": ["query"]
+        }
+    },
+
+    "pdf_rag": {
+        # This is a coded tool for RAG on PDF files.
+        "class": "pdf_rag.PdfRag", 
+        "description": "Retrieve information from the given PDF files",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "Query for retrieval"
+                }
+            },
+            "required": ["query"]
+        }
+    },
+
+    "wikipedia_rag": {
+        # This is a coded tool for RAG on Wikipedia pages.
+        "class": "wikipedia_rag.WikipediaRag",
+        "description": "Retrieve information from Wikipedia and answer a query using RAG.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "Query for retrieval"
+                }
+            },
+            "required": ["query"]
+        }
+    },
+    
+    "arxiv_rag": {
+        # This is a coded tool for RAG on Arxiv Articles.
+        "class": "arxiv_rag.ArxivRag",
+        "description": "Retrieve information from arXiv and answer a query using RAG.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "Retrieval question to answer over arXiv documents"
+                },
+            },
+            "required": ["query"]
+        }
+    }
+
+    # ---------- Search Tools ----------
+
+    # To use this search tool, obtain an API key from: https://brave.com/search/api/
+    # Once you have the API key, set it using the BRAVE_API_KEY environment variable.
+    # You can optionally set a custom search URL via the BRAVE_URL environment variable.
+    # If BRAVE_URL is not set, the default is: https://api.search.brave.com/res/v1/web/search?q=
+    # You can also configure the request timeout (in seconds) using BRAVE_TIMEOUT; the default is 30 seconds.
+    "brave_search": {
+        "class": "brave_search.BraveSearch",
+        "description": "Performs a web search using Brave Search.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "search_terms": {
+                    "type": "string",
+                    "description": "The query string or keywords to search for."
+                },
+            },
+            "required": ["search_terms"]
+        }
+    },
+
+    # This search tool requires no API key.
+    # Reference: https://github.com/deedy5/ddgs
+    "ddgs_search": {
+        "class": "ddgs_search.DdgsSearch",
+        "description": "Performs a web search using DDGS Search.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "search_terms": {
+                    "type": "string",
+                    "description": "The query string or keywords to search for."
+                },
+            },
+            "required": ["search_terms"]
+        }
+    },
+
+    # To use this search tool, you must
+    #
+    # 1. Create a Custom Search Engine (CSE)
+    #   * Go to  https://programmablesearchengine.google.com/
+    #   * Click "Add" → Choose sites or use "*" to search the whole web (then enable that in settings).
+    #   * Note your Search Engine ID (cx).
+    # 2. Get Google API key
+    #  * Go to: https://console.cloud.google.com/
+    #  * Enable the Custom Search API.
+    #  * Create an API key under APIs & Services > Credentials.
+    #
+    # Use the CSE ID in step 1 to set GOOGLE_SEARCH_CSE_ID environment variable.
+    # Use the API key in step 2 to set GOOGLE_SEARCH_API_KEY environment variable.
+    #
+    # You can optionally set a custom search URL and a custom timeout via the GOOGLE_SEARCH_URL and GOOGLE_SEARCH_TIMEOUT environment variables.
+    # Otherwise, the default values of "https://www.googleapis.com/customsearch/v1" and "30" are used, respectively
+    "google_search": {
+        "class": "google_search.GoogleSearch",
+        "description": "Performs a web search using Google Search.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "search_terms": {
+                    "type": "string",
+                    "description": "The query string or keywords to search for."
+                },
+            },
+            "required": ["search_terms"]
+        }
+    },
+
+    # To use this search tool, obtain an API key from: https://serper.dev/
+    # Once you have the API key, set it using the SERPER_API_KEY environment variable.
+    "google_serper": {
+        "class": "google_serper.GoogleSerper",
+        "description": "Search the web using a keyword-based query.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "The search term or question to look up online."
+                }
+            },
+            "required": ["query"]
+        }
+    },
+
+}
