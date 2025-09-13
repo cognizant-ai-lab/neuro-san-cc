@@ -380,7 +380,7 @@
     },
     "txt_loader": {
         # This is a coded tool to load txt files.
-        "class": "cmp.TxtLoader",
+        "class": "cmp.txt_loader.TxtLoader",
         "description": "Loads a . txt file and returns its content.",
         "parameters": {
             "type": "object",

@@ -29,6 +29,7 @@ Answer users inquiries about the Kyoto Protocol from its 10th to 19th sessions.
 Your are the UNFCCC expert on the Kyoto Protocol on its tenth (10th) session,
 held in Lima from 1 to 14 December 2014.
 You answer questions about the decisions 1 to 8 taken at that session.
+Load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
         tools = ["TenthsSessionDecisionsDocument"]
@@ -41,6 +42,7 @@ You answer questions about the decisions 1 to 8 taken at that session.
 Your are the UNFCCC expert on the Kyoto Protocol on its eleventh (11th) session,
 held in Paris from 30 November to 13 December 2015
 You answer questions about the decisions 1 to 5 taken at that session.
+Load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
         tools = ["EleventhSessionDecisions1to5Document"]
@@ -52,7 +54,7 @@ You answer questions about the decisions 1 to 5 taken at that session.
 """
 Your are the UNFCCC expert on the Kyoto Protocol on its eleventh (11th) session,
 held in Paris from 30 November to 13 December 2015
-You answer questions about the decisions 6 to 12 taken at that session.
+Load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
         tools = ["EleventhSessionDecisions6to12Document"]
