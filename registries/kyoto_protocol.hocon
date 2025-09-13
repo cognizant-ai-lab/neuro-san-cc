@@ -1,0 +1,84 @@
+include "registries/aaosa_basic.hocon"
+
+llm_config {
+    class = "openai"
+    model_name = "gpt-4o"
+}
+
+tools = [
+    # This is the agent network's entry point.
+    {
+        name = "KyotoProtocol"
+        function {
+            description = """Answers any question about the Kyoto Protocol."""
+        }
+        instructions =
+"""
+You are the UNFCCC expert on the Kyoto Protocol.
+Answer users inquiries about the Kyoto Protocol from its 10th to 19th sessions.
+""" ${aaosa_instructions}
+        tools = ["TenthsSessionDecisions",
+            "EleventhSessionDecisions1to5",
+            "EleventhSessionDecisions6to12"]
+    }
+    {
+        name = "TenthsSessionDecisions"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Kyoto Protocol on its tenth (10th) session,
+held in Lima from 1 to 14 December 2014.
+You answer questions about the decisions 1 to 8 taken at that session.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["TenthsSessionDecisionsDocument"]
+    }
+    {
+        name = "EleventhSessionDecisions1to5"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Kyoto Protocol on its eleventh (11th) session,
+held in Paris from 30 November to 13 December 2015
+You answer questions about the decisions 1 to 5 taken at that session.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["EleventhSessionDecisions1to5Document"]
+    }
+    {
+        name = "EleventhSessionDecisions6to12"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Kyoto Protocol on its eleventh (11th) session,
+held in Paris from 30 November to 13 December 2015
+You answer questions about the decisions 6 to 12 taken at that session.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["EleventhSessionDecisions6to12Document"]
+    }
+    {
+        name = "TenthsSessionDecisionsDocument"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMP/CMP_txt/CMP2014_10 Decisions_1_to_8.txt"
+        }
+    }
+    {
+        name = "EleventhSessionDecisions1to5Document"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMP/CMP_txt/CMP2015_11_Decisions_1_to_5.txt"
+        }
+    }
+    {
+        name = "EleventhSessionDecisions6to12Document"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMP/CMP_txt/CMP2015_11_Decisions_6_to_12.txt"
+        }
+    }
+]
