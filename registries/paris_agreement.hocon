@@ -1,0 +1,381 @@
+include "registries/aaosa_basic.hocon"
+
+llm_config {
+    class = "openai"
+    model_name = "gpt-4.1"
+//    model_name = "claude-opus-4-1"
+}
+
+tools = [
+    # This is the agent network's entry point.
+    {
+        name = "ParisAgreement"
+        function {
+            description = """Answers any question about the Paris Agreement."""
+        }
+        instructions =
+"""
+You are the UNFCCC expert on the Paris Agreement.
+Answer users inquiries about the Paris Agreement using the relevant decision documents.
+""" ${aaosa_instructions}
+        tools = ["CMA2016Decisions",
+            "CMA2018Decisions_3_12",
+            "CMA2018Decisions_13_20",
+            "CMA2019Decisions",
+            "CMA2021Decisions_1_4",
+            "CMA2021Decisions_5",
+            "CMA2021Decisions_6_24",
+            "CMA2022Decisions_1_5",
+            "CMA2022Decisions_6_11",
+            "CMA2022Decisions_12_24",
+            "CMA2023Decisions_1_5",
+            "CMA2023Decisions_6_16"
+            "CMA2023Decisions_17_21",
+            "CMA2024Decisions_1_7",
+            "CMA2024Decisions_8_15"
+            "CMA2024Decisions_16_23"
+        ]
+    }
+    {
+        name = "CMA2016Decisions"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in Marrakech from 15 to 18 November 2016.
+You answer questions about the decisions taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2016DecisionsDoc"]
+    }
+    {
+        name = "CMA2016DecisionsDoc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2016_1.1_Decisions_1_to_2.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CMA2018Decisions_3_12"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in Katowice from 2 to 15 December 2018.
+You answer questions about the decisions 3 to 12 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2018Decisions_3_12_Doc"]
+    }
+    {
+        name = "CMA2018Decisions_3_12_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2018_1.3_Decisions_3_to_12.txt"
+        }
+    }
+    {
+        name = "CMA2018Decisions_13_20"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in Katowice from 2 to 15 December 2018.
+You answer questions about the decisions 13 to 20 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2018Decisions_13_20_Doc"]
+    }
+    {
+        name = "CMA2018Decisions_13_20_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2018_1.3_Decisions_13_to_20.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CMA2019Decisions"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in Madrid from 2 to 15 December 2019.
+You answer questions about the decisions taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2019DecisionsDoc"]
+    }
+    {
+        name = "CMA2019DecisionsDoc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2019_2_Decisions_1_to_9.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CMA2021Decisions_1_4"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in Glasgow from 31 October to 13 November 2021.
+You answer questions about the decisions 1 to 4 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2021Decisions_1_4_Doc"]
+    }
+    {
+        name = "CMA2021Decisions_1_4_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2021_3_Decisions_1_to_4.txt"
+        }
+    }
+    {
+        name = "CMA2021Decisions_5"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in Glasgow from 31 October to 13 November 2021.
+You answer questions about decision 5 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2021Decisions_5_Doc"]
+    }
+    {
+        name = "CMA2021Decisions_5_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2021_3_2021_Decisions_5.txt"
+        }
+    }
+    {
+        name = "CMA2021Decisions_6_24"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in Glasgow from 31 October to 13 November 2021.
+You answer questions about the decisions 6 to 24 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2021Decisions_6_24_Doc"]
+    }
+    {
+        name = "CMA2021Decisions_6_24_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2021_3_Decisions_6_to_24.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CMA2022Decisions_1_5"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in Sharm el-Sheikh from 6 to 20 November 2022.
+You answer questions about the decisions 1 to 5 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2022Decisions_1_5_Doc"]
+    }
+    {
+        name = "CMA2022Decisions_1_5_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2022_4_Decisions_1_to_5.txt"
+        }
+    }
+    {
+        name = "CMA2022Decisions_6_11"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in Sharm el-Sheikh from 6 to 20 November 2022.
+You answer questions about the decisions 6 to 11 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2022Decisions_6_11_Doc"]
+    }
+    {
+        name = "CMA2022Decisions_6_11_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2022_4_Decisions_6_to_11.txt"
+        }
+    }
+    {
+        name = "CMA2022Decisions_12_24"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in Sharm el-Sheikh from 6 to 20 November 2022.
+You answer questions about the decisions 12 to 24 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2022Decisions_12_24_Doc"]
+    }
+    {
+        name = "CMA2022Decisions_12_24_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2022_4_Decisions_12_to_24.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CMA2023Decisions_1_5"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in the United Arab Emirates from 30 November to 13 December 2023.
+You answer questions about the decisions 1 to 5 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2023Decisions_1_5_Doc"]
+    }
+    {
+        name = "CMA2023Decisions_1_5_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2023_5_Decisions_1_to_5.txt"
+        }
+    }
+    {
+        name = "CMA2023Decisions_6_16"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in the United Arab Emirates from 30 November to 13 December 2023.
+You answer questions about the decisions 6 to 16 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2023Decisions_6_16_Doc"]
+    }
+    {
+        name = "CMA2023Decisions_6_16_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2023_5_Decisions_6_to_16.txt"
+        }
+    }
+    {
+        name = "CMA2023Decisions_17_21"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in the United Arab Emirates from 30 November to 13 December 2023.
+You answer questions about the decisions 17 to 21 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2023Decisions_17_21_Doc"]
+    }
+    {
+        name = "CMA2023Decisions_17_21_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2023_5_Decisions_17_to_21.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CMA2024Decisions_1_7"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in Baku from 11 to 24 November 2024.
+You answer questions about the decisions 1 to 7 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2024Decisions_1_7_Doc"]
+    }
+    {
+        name = "CMA2024Decisions_1_7_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2024_6_Decisions_1_to_7.txt"
+        }
+    }
+    {
+        name = "CMA2024Decisions_8_15"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in Baku from 11 to 24 November 2024.
+You answer questions about the decisions 8 to 15 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2024Decisions_8_15_Doc"]
+    }
+    {
+        name = "CMA2024Decisions_8_15_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2024_6_Decisions_8_to_15.txt"
+        }
+    }
+    {
+        name = "CMA2024Decisions_16_23"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Paris Agreement session
+held in Baku from 11 to 24 November 2024.
+You answer questions about the decisions 16 to 23 taken at that session.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA2024Decisions_16_23_Doc"]
+    }
+    {
+        name = "CMA2024Decisions_16_23_Doc"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMA/CMA_txt/CMA2024_6_Decisions_16_to_23.txt"
+        }
+    }
+]
