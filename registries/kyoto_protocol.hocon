@@ -2,7 +2,8 @@ include "registries/aaosa_basic.hocon"
 
 llm_config {
     class = "openai"
-    model_name = "gpt-4o"
+    model_name = "gpt-4.1"
+//    model_name = "claude-opus-4-1"
 }
 
 tools = [
@@ -17,12 +18,21 @@ tools = [
 You are the UNFCCC expert on the Kyoto Protocol.
 Answer users inquiries about the Kyoto Protocol from its 10th to 19th sessions.
 """ ${aaosa_instructions}
-        tools = ["TenthsSessionDecisions",
+        tools = ["TenthSessionDecisions",
             "EleventhSessionDecisions1to5",
-            "EleventhSessionDecisions6to12"]
+            "EleventhSessionDecisions6to12",
+            "TwelvethSessionDecisions",
+            "ThirteenthSessionDecisions",
+            "FourteenthSessionDecisions",
+            "FifteenthSessionDecisions",
+            "SixteenthSessionDecisions",
+            "SeventeenthSessionDecisions",
+            "EighteenthSessionDecisions",
+            "NineteenthSessionDecisions"
+        ]
     }
     {
-        name = "TenthsSessionDecisions"
+        name = "TenthSessionDecisions"
         function = ${aaosa_call}
         instructions =
 """
@@ -32,7 +42,15 @@ You answer questions about the decisions 1 to 8 taken at that session.
 Load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["TenthsSessionDecisionsDocument"]
+        tools = ["TenthSessionDecisionsDocument"]
+    }
+    {
+        name = "TenthSessionDecisionsDocument"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMP/CMP_txt/CMP2014_10 Decisions_1_to_8.txt"
+        }
     }
     {
         name = "EleventhSessionDecisions1to5"
@@ -48,6 +66,14 @@ Load the document and read it carefully before answering.
         tools = ["EleventhSessionDecisions1to5Document"]
     }
     {
+        name = "EleventhSessionDecisions1to5Document"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMP/CMP_txt/CMP2015_11_Decisions_1_to_5.txt"
+        }
+    }
+    {
         name = "EleventhSessionDecisions6to12"
         function = ${aaosa_call}
         instructions =
@@ -60,27 +86,171 @@ Load the document and read it carefully before answering.
         tools = ["EleventhSessionDecisions6to12Document"]
     }
     {
-        name = "TenthsSessionDecisionsDocument"
-        toolbox = "txt_loader"
-        args = {
-            # File path is relative to the root directory of the repo.
-            "file_path": "documents/CMP/CMP_txt/CMP2014_10 Decisions_1_to_8.txt"
-        }
-    }
-    {
-        name = "EleventhSessionDecisions1to5Document"
-        toolbox = "txt_loader"
-        args = {
-            # File path is relative to the root directory of the repo.
-            "file_path": "documents/CMP/CMP_txt/CMP2015_11_Decisions_1_to_5.txt"
-        }
-    }
-    {
         name = "EleventhSessionDecisions6to12Document"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
             "file_path": "documents/CMP/CMP_txt/CMP2015_11_Decisions_6_to_12.txt"
+        }
+    }
+    {
+        name = "TwelvethSessionDecisions"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Kyoto Protocol on its twelveth (12th) session,
+held in Marrakech from 7 to 18 November 2016.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["TwelvethSessionDecisionsDocument"]
+    }
+    {
+        name = "TwelvethSessionDecisionsDocument"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMP/CMP_txt/CMP2016_12_Decisions_1_to_8.txt"
+        }
+    }
+    {
+        name = "ThirteenthSessionDecisions"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Kyoto Protocol on its thirteenth (13th) session,
+held in Bonn from 6 to 18 November 2017.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["ThirteenthSessionDecisionsDocument"]
+    }
+    {
+        name = "ThirteenSessionDecisionsDocument"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMP/CMP_txt/CMP2017_13_Decisions_1_to_7.txt"
+        }
+    }
+    {
+        name = "FourteenthSessionDecisions"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Kyoto Protocol on its fourteenth (14th) session,
+held in Katowice from 2 to 15 December 2018.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["FourteenthSessionDecisionsDocument"]
+    }
+    {
+        name = "FourteenthSessionDecisionsDocument"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMP/CMP_txt/CMP2018_14_Decisions_1_to_5.txt"
+        }
+    }
+    {
+        name = "FifteenthSessionDecisions"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Kyoto Protocol on its fifteenth (15th) session,
+held in Madrid from 2 to 15 December 2019.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["FifteenthSessionDecisionsDocument"]
+    }
+    {
+        name = "FifteenthSessionDecisionsDocument"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMP/CMP_txt/CMP2019_15_Decisions_1_to_7.txt"
+        }
+    }
+    {
+        name = "SixteenthSessionDecisions"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Kyoto Protocol on its sixteenth (16th) session,
+held in Glasgow from 31 October to 13 November 2021.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["SixteenthSessionDecisionsDocument"]
+    }
+    {
+        name = "SixteenthSessionDecisionsDocument"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMP/CMP_txt/CMP2021_16_Decisions_1_to_10.txt"
+        }
+    }
+    {
+        name = "SeventeenthSessionDecisions"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Kyoto Protocol on its seventeenth (17th) session,
+held in Sharm el-Sheikh from 6 to 20 November 2022.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["SeventeenthSessionDecisionsDocument"]
+    }
+    {
+        name = "SeventeenthSessionDecisionsDocument"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMP/CMP_txt/CMP2022_17_Decisions_1_to_9.txt"
+        }
+    }
+    {
+        name = "EighteenthSessionDecisions"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Kyoto Protocol on its eighteenth (18th) session,
+held in the United Arab Emirates from 30 November to 13 December 2023.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["EighteenthSessionDecisionsDocument"]
+    }
+    {
+        name = "EighteenthSessionDecisionsDocument"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMP/CMP_txt/CMP2023_18_Decisions_1_to_7.txt"
+        }
+    }
+    {
+        name = "NineteenthSessionDecisions"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the UNFCCC expert on the Kyoto Protocol on its nineteenth (19th) session,
+held in Baku from 11 to 24 November 2024.
+Load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["NineteenthSessionDecisionsDocument"]
+    }
+    {
+        name = "NineteenthSessionDecisionsDocument"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/CMP/CMP_txt/CMP2024_19_Decisions_1_to_5.txt"
         }
     }
 ]
