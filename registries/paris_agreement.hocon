@@ -231,20 +231,39 @@ on its third session, held in Glasgow from 31 October to 13 November 2021.
 
 
     {
-        name = "CMA2021Decisions_1_4"
+        name = "CMA.3.Add.1"
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Paris Agreement session
-held in Glasgow from 31 October to 13 November 2021.
-You answer questions about the decisions 1 to 4 taken at that session.
-Load the document and read it carefully before answering.
+Your are the expert on the following document:
+
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its third session, held in Glasgow from 31 October to 13 November 2021.
+Addendum 1. Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement at its third session
+
+Symbol: FCCC/PA/CMA/2021/10/Add.1
+Publication date: 08 Mar 2022
+Document type: Session and meeting reports
+Conference: Glasgow Climate Change Conference - October/November 2021
+Session: CMA 3
+Author: UNFCCC. Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)
+Topic: Conference logistics
+
+Decisions
+1/CMA.3 Glasgow Climate Pact
+2/CMA.3 Guidance on cooperative approaches referred to in Article 6, paragraph 2, of the Paris Agreement
+3/CMA.3 Rules, modalities and procedures for the mechanism established by Article 6, paragraph 4, of the Paris Agreement
+4/CMA.3 Work programme under the framework for non-market approaches referred to in Article 6, paragraph 8, of the Paris Agreement
+
+Ref.: https://unfccc.int/documents/460950
+
+Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA2021Decisions_1_4_Doc"]
+        tools = ["CMA.3_Decisions_1_4"]
     }
     {
-        name = "CMA2021Decisions_1_4_Doc"
+        name = "CMA.3_Decisions_1_4"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -252,20 +271,36 @@ Load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA2021Decisions_5"
+        name = "CMA.3.Add.2"
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Paris Agreement session
-held in Glasgow from 31 October to 13 November 2021.
-You answer questions about decision 5 taken at that session.
-Load the document and read it carefully before answering.
+Your are the expert on the following document:
+
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its third session, held in Glasgow from 31 October to 13 November 2021.
+Addendum 2. Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement at its third session
+
+Symbol: FCCC/PA/CMA/2021/10/Add.2
+Publication date: 08 Mar 2022
+Document type: Session and meeting reports
+Conference: Glasgow Climate Change Conference - October/November 2021
+Session: CMA 3
+Author: UNFCCC. Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)
+Topic: Conference logistics
+
+Decisions
+5/CMA.3 Guidance for operationalizing the modalities, procedures and guidelines for the enhanced transparency framework referred to in Article 13 of the Paris Agreement
+
+Ref.: https://unfccc.int/documents/460951
+
+Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA2021Decisions_5_Doc"]
+        tools = ["CMA.3_Decisions_5"]
     }
     {
-        name = "CMA2021Decisions_5_Doc"
+        name = "CMA.3_Decisions_5"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -273,20 +308,33 @@ Load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA2021Decisions_6_24"
+        name = "CMA.3.Add.3"
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Paris Agreement session
-held in Glasgow from 31 October to 13 November 2021.
-You answer questions about the decisions 6 to 24 taken at that session.
-Load the document and read it carefully before answering.
+Your are the expert on the following document:
+
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its third session, held in Glasgow from 31 October to 13 November 2021.
+Addendum 3. Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement at its third session
+
+Symbol: FCCC/PA/CMA/2021/10/Add.3
+Publication date: 08 Mar 2022
+Document type: Session and meeting reports
+Conference: Glasgow Climate Change Conference - October/November 2021
+Session: CMA 3
+Author: UNFCCC. Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)
+Topic: Conference logistics
+
+Ref.: https://unfccc.int/documents/460952
+
+Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA2021Decisions_6_24_Doc"]
+        tools = ["CMA.3_Decisions_6_24"]
     }
     {
-        name = "CMA2021Decisions_6_24_Doc"
+        name = "CMA.3_Decisions_6_24"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
