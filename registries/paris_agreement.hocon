@@ -484,20 +484,51 @@ Use your tool to load the document and read it carefully before answering.
     }
 # ----------------------------------------------------------------------
     {
-        name = "CMA2023Decisions_1_5"
+        name = "CMA.5"
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Paris Agreement session
-held in the United Arab Emirates from 30 November to 13 December 2023.
-You answer questions about the decisions 1 to 5 taken at that session.
-Load the document and read it carefully before answering.
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its fifth session, held in the United Arab Emirates from 30 November to 13 December 2023.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA2023Decisions_1_5_Doc"]
+        tools = ["CMA.5.Add.1", "CMA.5.Add.2", "CMA.5.Add.3"]
     }
     {
-        name = "CMA2023Decisions_1_5_Doc"
+        name = "CMA.5.Add.1"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its fifth session, held in the United Arab Emirates from 30 November to 13 December 2023.
+Addendum 1. Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement at its fifth session
+
+Symbol: FCCC/PA/CMA/2023/16/Add.1
+Publication date: 15 Mar 2024
+Document type: Session and meeting reports
+Conference: UN Climate Change Conference - United Arab Emirates Nov/Dec 2023
+Session: CMA 5
+Author: UNFCCC. Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)
+Topic: Conference logistics
+
+Decisions
+1/CMA.5 Outcome of the first global stocktake
+2/CMA.5 Global goal on adaptation
+3/CMA.5 United Arab Emirates just transition work programme
+4/CMA.5 Sharm el-Sheikh mitigation ambition and implementation work programme referred to in decision 4/CMA.4
+5/CMA.5 Operationalization of the new funding arrangements, including a fund, for responding to loss and damage referred to in paragraphs 2–3 of decisions 2/CP.27 and 2/CMA.4
+
+Ref.: https://unfccc.int/documents/637073
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA.5_Decisions_1_5"]
+    }
+    {
+        name = "CMA.5_Decisions_1_5"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -505,20 +536,46 @@ Load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA2023Decisions_6_16"
+        name = "CMA.5.Add.2"
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Paris Agreement session
-held in the United Arab Emirates from 30 November to 13 December 2023.
-You answer questions about the decisions 6 to 16 taken at that session.
-Load the document and read it carefully before answering.
+Your are the expert on the following document:
+
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its fifth session, held in the United Arab Emirates from 30 November to 13 December 2023.
+Addendum 2. Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement at its fifth session
+
+Symbol: FCCC/PA/CMA/2023/16/Add.2
+Publication date: 15 Mar 2024
+Document type: Session and meeting reports
+Conference: UN Climate Change Conference - United Arab Emirates Nov/Dec 2023
+Session: CMA 5
+Author: UNFCCC. Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)
+Topic: Conference logistics
+
+Decisions
+6/CMA.5 Santiago network for averting, minimizing and addressing loss and damage associated with the adverse effects of climate change under the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts
+7/CMA.5 Report of the Executive Committee of the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts
+8/CMA.5 New collective quantified goal on climate finance
+9/CMA.5 Matters relating to the Standing Committee on Finance
+10/CMA.5 Guidance to the Green Climate Fund
+11/CMA.5 Guidance to the Global Environment Facility
+12/CMA.5 Matters relating to the Adaptation Fund
+13/CMA.5 Compilation and synthesis of, and summary report on the in-session workshop on, biennial communications of information related to Article 9, paragraph 5, of the Paris Agreement
+14/CMA.5 Enhancing climate technology development and transfer to support implementation of the Paris Agreement
+15/CMA.5 Annual technical progress report of the Paris Committee on Capacity-building for 2023
+16/CMA.5 Terms of reference for the second review of the Paris Committee on Capacity-building
+
+Ref.: https://unfccc.int/documents/637074
+
+Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA2023Decisions_6_16_Doc"]
+        tools = ["CMA.5_Decisions_6_16"]
     }
     {
-        name = "CMA2023Decisions_6_16_Doc"
+        name = "CMA.5_Decisions_6_16"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -526,20 +583,33 @@ Load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA2023Decisions_17_21"
+        name = "CMA.5.Add.3"
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Paris Agreement session
-held in the United Arab Emirates from 30 November to 13 December 2023.
-You answer questions about the decisions 17 to 21 taken at that session.
-Load the document and read it carefully before answering.
+Your are the expert on the following document:
+
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its fifth session, held in the United Arab Emirates from 30 November to 13 December 2023.
+Addendum 3. Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement at its fifth session
+
+Symbol: FCCC/PA/CMA/2023/16/Add.3
+Publication date: 15 Mar 2024
+Document type: Session and meeting reports
+Conference: UN Climate Change Conference - United Arab Emirates Nov/Dec 2023
+Session: CMA 5
+Author: UNFCCC. Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)
+Topic: Conference logistics
+
+Ref.: https://unfccc.int/documents/637076
+
+Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA2023Decisions_17_21_Doc"]
+        tools = ["CMA.5_Decisions_17_21"]
     }
     {
-        name = "CMA2023Decisions_17_21_Doc"
+        name = "CMA.5_Decisions_17_21"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
