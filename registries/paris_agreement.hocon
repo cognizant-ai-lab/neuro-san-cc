@@ -226,10 +226,6 @@ on its third session, held in Glasgow from 31 October to 13 November 2021.
         command = ${aaosa_command}
         tools = ["CMA.3.Add.1", "CMA.3.Add.2", "CMA.3.Add.3"]
     }
-
-
-
-
     {
         name = "CMA.3.Add.1"
         function = ${aaosa_call}
@@ -343,20 +339,51 @@ Use your tool to load the document and read it carefully before answering.
     }
 # ----------------------------------------------------------------------
     {
-        name = "CMA2022Decisions_1_5"
+        name = "CMA.4"
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Paris Agreement session
-held in Sharm el-Sheikh from 6 to 20 November 2022.
-You answer questions about the decisions 1 to 5 taken at that session.
-Load the document and read it carefully before answering.
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its fourth session, held in Sharm el-Sheikh from 6 to 20 November 2022.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA2022Decisions_1_5_Doc"]
+        tools = ["CMA.4.Add.1", "CMA.4.Add.2", "CMA.4.Add.3"]
     }
     {
-        name = "CMA2022Decisions_1_5_Doc"
+        name = "CMA.4.Add.1"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its fourth session, held in Sharm el-Sheikh from 6 to 20 November 2022.
+Addendum 1. Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement at its fourth session
+
+Symbol: FCCC/PA/CMA/2022/10/Add.1
+Publication date: 17 Mar 2023
+Document type: Session and meeting reports
+Conference: Sharm el-Sheikh Climate Change Conference - November 2022
+Session: CMA 4
+Author: UNFCCC. Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)
+Topic: Conference logistics
+
+Decisions
+1/CMA.4 Sharm el-Sheikh Implementation Plan
+2/CMA.4 Funding arrangements for responding to loss and damage associated with the adverse effects of climate change, including a focus on addressing loss and damage
+3/CMA.4 Glasgow–Sharm el-Sheikh work programme on the global goal on adaptation referred to in decision 7/CMA.3
+4/CMA.4 Sharm el-Sheikh mitigation ambition and implementation work programme
+5/CMA.4 New collective quantified goal on climate finance
+
+Ref.: https://unfccc.int/documents/626569
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA.4_Decisions_1_5"]
+    }
+    {
+        name = "CMA.4_Decisions_1_5"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -364,20 +391,41 @@ Load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA2022Decisions_6_11"
+        name = "CMA.4.Add.2"
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Paris Agreement session
-held in Sharm el-Sheikh from 6 to 20 November 2022.
-You answer questions about the decisions 6 to 11 taken at that session.
-Load the document and read it carefully before answering.
+Your are the expert on the following document:
+
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its fourth session, held in Sharm el-Sheikh from 6 to 20 November 2022.
+Addendum 2. Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement at its fourth session
+
+Symbol: FCCC/PA/CMA/2022/10/Add.2
+Publication date: 17 Mar 2023
+Document type: Session and meeting reports
+Conference: Sharm el-Sheikh Climate Change Conference - November 2022
+Session: CMA 4
+Author: UNFCCC. Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)
+Topic: Conference logistics
+
+Decisions
+6/CMA.4 Matters relating to cooperative approaches referred to in Article 6, paragraph 2, of the Paris Agreement
+7/CMA.4 Guidance on the mechanism established by Article 6, paragraph 4, of the Paris Agreement
+8/CMA.4 Matters relating to the work programme under the framework for non-market approaches referred to in Article 6, paragraph 8, of the Paris Agreement
+9/CMA.4 Reviews on a voluntary basis of the information reported pursuant to decision 18/CMA.1, annex, chapter IV, and respective training courses needed
+10/CMA.4 Report of the Adaptation Committee for 2022 and review of the progress, effectiveness and performance of the Adaptation Committee
+11/CMA.4 Matters relating to the least developed countries
+
+Ref.: https://unfccc.int/documents/626570
+
+Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA2022Decisions_6_11_Doc"]
+        tools = ["CMA.4_Decisions_6_11"]
     }
     {
-        name = "CMA2022Decisions_6_11_Doc"
+        name = "CMA.4_Decisions_6_11"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -385,20 +433,49 @@ Load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA2022Decisions_12_24"
+        name = "CMA.4.Add.3"
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Paris Agreement session
-held in Sharm el-Sheikh from 6 to 20 November 2022.
-You answer questions about the decisions 12 to 24 taken at that session.
-Load the document and read it carefully before answering.
+Your are the expert on the following document:
+
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its fourth session, held in Sharm el-Sheikh from 6 to 20 November 2022.
+Addendum 3. Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement at its fourth session
+
+Symbol: FCCC/PA/CMA/2022/10/Add.3
+Publication date: 17 Mar 2023
+Document type: Session and meeting reports
+Conference: Sharm el-Sheikh Climate Change Conference - November 2022
+Session: CMA 4
+Author: UNFCCC. Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)
+Topic: Conference logistics
+
+Decisions
+12/CMA.4 Santiago network for averting, minimizing and addressing loss and damage associated with the adverse effects of climate change under the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts
+13/CMA.4 Report of the Executive Committee of the Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts
+14/CMA.4 Matters relating to the Standing Committee on Finance
+15/CMA.4 Terms of reference for the second review of the functions of the Standing Committee on Finance
+16/CMA.4 Guidance to the Green Climate Fund
+17/CMA.4 Guidance to the Global Environment Facility
+18/CMA.4 Matters relating to the Adaptation Fund
+19/CMA.4 Enhancing climate technology development and transfer to support implementation of the Paris Agreement
+20/CMA.4 First periodic assessment referred to in paragraph 69 of decision 1/CP.21
+21/CMA.4 Annual technical progress report of the Paris Committee on Capacity-building for 2022
+22/CMA.4 Action plan under the Glasgow work programme on Action for Climate Empowerment
+23/CMA.4 Report of the forum on the impact of the implementation of response measures
+24/CMA.4 Rules of procedure of the committee to facilitate implementation and promote compliance referred to in Article 15, paragraph 2, of the Paris Agreement
+Resolution 1/CMA.4 Expression of gratitude to the Government of the Arab Republic of Egypt and the people of the city of Sharm el-Sheikh
+
+Ref.: https://unfccc.int/documents/626571
+
+Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA2022Decisions_12_24_Doc"]
+        tools = ["CMA.4_Decisions_12_24"]
     }
     {
-        name = "CMA2022Decisions_12_24_Doc"
+        name = "CMA.4_Decisions_12_24"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
