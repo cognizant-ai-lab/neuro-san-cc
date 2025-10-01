@@ -17,62 +17,105 @@ tools = [
 """
 You are the UNFCCC expert on the Paris Agreement.
 Answer users inquiries about the Paris Agreement using the relevant decision documents.
+Your sub-agents are organized by session and decision numbers.
 """ ${aaosa_instructions}
-        tools = ["CMA2016Decisions",
-            "CMA2018Decisions_3_12",
-            "CMA2018Decisions_13_20",
-            "CMA2019Decisions",
-            "CMA2021Decisions_1_4",
-            "CMA2021Decisions_5",
-            "CMA2021Decisions_6_24",
-            "CMA2022Decisions_1_5",
-            "CMA2022Decisions_6_11",
-            "CMA2022Decisions_12_24",
-            "CMA2023Decisions_1_5",
-            "CMA2023Decisions_6_16"
-            "CMA2023Decisions_17_21",
-            "CMA2024Decisions_1_7",
-            "CMA2024Decisions_8_15"
-            "CMA2024Decisions_16_23"
+        tools = ["CMA.1",
+            "CMA.2",
+            "CMA.3",
+            "CMA.4",
+            "CMA.5",
+            "CMA.6",
         ]
     }
     {
-        name = "CMA2016Decisions"
+        name = "CMA.1"
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Paris Agreement session
-held in Marrakech from 15 to 18 November 2016.
-You answer questions about the decisions taken at that session.
-Load the document and read it carefully before answering.
+Your are the expert on the Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its first session, held 2016–2018 across three COPs.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA2016DecisionsDoc"]
+        tools = ["CMA.1.1", "CMA.1.3.Add.1", "CMA.1.3.Add.2"]
     }
     {
-        name = "CMA2016DecisionsDoc"
+        name = "CMA.1.1"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on the first part of its first session, held in Marrakech from 15 to 18 November 2016.
+Addendum. Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+
+Symbol: FCCC/PA/CMA/2016/3/Add.1
+Publication date: 31 Jan 2017
+Document type: Session and meeting reports
+Conference: Marrakech Climate Change Conference - November 2016
+Session: CMA 1
+Author: UNFCCC. Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)
+
+Decisions
+1/CMA.1 Matters relating to the implementation of the Paris Agreement
+2/CMA.1 Rules of procedure of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+Resolution 1/CMA.1 Expression of gratitude to the Government of the Kingdom of Morocco and the people of Marrakech
+
+Ref.: https://unfccc.int/documents/9677
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA.1.1_Decisions_1_2"]
+    }
+    {
+        name = "CMA.1.1_Decisions_1_2"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
             "file_path": "documents/CMA/CMA_txt/CMA2016_1.1_Decisions_1_to_2.txt"
         }
     }
-# ----------------------------------------------------------------------
     {
-        name = "CMA2018Decisions_3_12"
+        name = "CMA.1.3.Add.1"
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Paris Agreement session
-held in Katowice from 2 to 15 December 2018.
-You answer questions about the decisions 3 to 12 taken at that session.
-Load the document and read it carefully before answering.
+Your are the expert on the following document:
+
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on the third part of its first session, held in Katowice from 2 to 15 December 2018.
+Addendum 1. Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+
+Symbol: FCCC/PA/CMA/2018/3/Add.1
+Publication date: 19 Mar 2019
+Document type: Session and meeting reports
+Conference: Katowice Climate Change Conference - December 2018
+Session: CMA 1-3
+Author: UNFCCC. Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)
+Topic: Conference logistics
+
+Decisions
+3/CMA.1 Matters relating to the implementation of the Paris Agreement
+4/CMA.1 Further guidance in relation to the mitigation section of decision 1/CP.21
+5/CMA.1 Modalities and procedures for the operation and use of a public registry referred to in Article 4, paragraph 12, of the Paris Agreement
+6/CMA.1 Common time frames for nationally determined contributions referred to in Article 4, paragraph 10, of the Paris Agreement
+7/CMA.1 Modalities, work programme and functions under the Paris Agreement of the forum on the impact of the implementation of response measures
+8/CMA.1 Matters relating to Article 6 of the Paris Agreement and paragraphs 36–40 of decision 1/CP.21
+9/CMA.1 Further guidance in relation to the adaptation communication, including, inter alia, as a component of nationally determined contributions, referred to in Article 7, paragraphs 10 and 11, of the Paris Agreement
+10/CMA.1 Modalities and procedures for the operation and use of a public registry referred to in Article 7, paragraph 12, of the Paris Agreement
+11/CMA.1 Matters referred to in paragraphs 41, 42 and 45 of decision 1/CP.21
+12/CMA.1 Identification of the information to be provided by Parties in accordance with Article 9, paragraph 5, of the Paris Agreement
+
+Ref.: https://unfccc.int/documents/193407
+
+Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA2018Decisions_3_12_Doc"]
+        tools = ["CMA.1.3_Decisions_3_12"]
     }
     {
-        name = "CMA2018Decisions_3_12_Doc"
+        name = "CMA.1.3_Decisions_3_12"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -80,20 +123,44 @@ Load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA2018Decisions_13_20"
+        name = "CMA.1.3.Add.2"
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Paris Agreement session
-held in Katowice from 2 to 15 December 2018.
-You answer questions about the decisions 13 to 20 taken at that session.
-Load the document and read it carefully before answering.
+Your are the expert on the following document:
+
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on the third part of its first session, held in Katowice from 2 to 15 December 2018.
+Addendum 2. Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+
+Symbol FCCC/PA/CMA/2018/3/Add.2
+Publication date 19 Mar 2019
+Document type Session and meeting reports
+Conference Katowice Climate Change Conference - December 2018
+Session CMA 1-3
+Author UNFCCC. Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)
+Topic Conference logistics
+
+Decisions
+13/CMA.1 Matters relating to the Adaptation Fund
+14/CMA.1 Setting a new collective quantified goal on finance in accordance with decision 1/CP.21, paragraph 53
+15/CMA.1 Technology framework under Article 10, paragraph 4, of the Paris Agreement
+16/CMA.1 Scope of and modalities for the periodic assessment referred to in paragraph 69 of decision 1/CP.21
+17/CMA.1 Ways of enhancing the implementation of education, training, public awareness, public participation and public access to information so as to enhance actions under the Paris Agreement
+18/CMA.1 Modalities, procedures and guidelines for the transparency framework for action and support referred to in Article 13 of the Paris Agreement
+19/CMA.1 Matters relating to Article 14 of the Paris Agreement and paragraphs 99–101 of decision 1/CP.21
+20/CMA.1 Modalities and procedures for the effective operation of the committee to facilitate implementation and promote compliance referred to in Article 15, paragraph 2, of the Paris Agreement
+Resolution 3/CMA.1 Expression of gratitude to the Government of the Republic of Poland and the people of the city of Katowice
+
+Ref.: https://unfccc.int/documents/193408
+
+Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA2018Decisions_13_20_Doc"]
+        tools = ["CMA.1.3_Decisions_13_20"]
     }
     {
-        name = "CMA2018Decisions_13_20_Doc"
+        name = "CMA.1.3_Decisions_13_20"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -102,20 +169,45 @@ Load the document and read it carefully before answering.
     }
 # ----------------------------------------------------------------------
     {
-        name = "CMA2019Decisions"
+        name = "CMA.2"
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Paris Agreement session
-held in Madrid from 2 to 15 December 2019.
-You answer questions about the decisions taken at that session.
-Load the document and read it carefully before answering.
+Your are the expert on the following document:
+
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its second session, held in Madrid from 2 to 15 December 2019.
+Addendum. Part two: Action taken by the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement at its second session
+
+Symbol: FCCC/PA/CMA/2019/6/Add.1
+Publication date: 16 Mar 2020
+Document type: Session and meeting reports
+Conference: UN Climate Change Conference - December 2019
+Session: CMA 2
+Author: UNFCCC. Conference of the Parties serving as the meeting of the Parties to the Paris Agreement (CMA)
+Topic: Conference logistics
+
+Decisions
+1/CMA.2 Chile Madrid Time for Action
+2/CMA.2 Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts and its 2019 review
+3/CMA.2 Initial institutional arrangements for capacity-building under the Paris Agreement
+4/CMA.2 Workplan of the forum on the impact of the implementation of response measures and its Katowice Committee of Experts on the Impacts of the Implementation of Response Measures
+5/CMA.2 Matters relating to the Standing Committee on Finance
+6/CMA.2 Guidance to the Green Climate Fund
+7/CMA.2 Guidance to the Global Environment Facility
+8/CMA.2 Enhancing climate technology development and transfer to support implementation of the Paris Agreement
+9/CMA.2 Matters relating to Article 6 of the Paris Agreement
+Resolution 1/CMA.2 Expression of gratitude to the Government of the Republic of Chile, the Government of the Kingdom of Spain and the people of the city of Madrid
+
+Ref.: https://unfccc.int/documents/210477
+
+Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA2019DecisionsDoc"]
+        tools = ["CMA.2_Decisions_1_9"]
     }
-    {
-        name = "CMA2019DecisionsDoc"
+   {
+        name = "CMA.2_Decisions_1_9"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -123,6 +215,21 @@ Load the document and read it carefully before answering.
         }
     }
 # ----------------------------------------------------------------------
+    {
+        name = "CMA.3"
+        function = ${aaosa_call}
+        instructions =
+"""
+Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+on its third session, held in Glasgow from 31 October to 13 November 2021.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CMA.3.Add.1", "CMA.3.Add.2", "CMA.3.Add.3"]
+    }
+
+
+
+
     {
         name = "CMA2021Decisions_1_4"
         function = ${aaosa_call}
