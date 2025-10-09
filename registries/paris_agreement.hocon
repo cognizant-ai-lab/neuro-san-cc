@@ -19,16 +19,16 @@ You are the UNFCCC expert on the Paris Agreement.
 Answer users inquiries about the Paris Agreement using the relevant decision documents.
 Your sub-agents are organized by session and decision numbers.
 """ ${aaosa_instructions}
-        tools = ["CMA.1",
-            "CMA.2",
-            "CMA.3",
-            "CMA.4",
-            "CMA.5",
-            "CMA.6",
+        tools = ["CMA_1",
+            "CMA_2",
+            "CMA_3",
+            "CMA_4",
+            "CMA_5",
+            "CMA_6",
         ]
     }
     {
-        name = "CMA.1"
+        name = "CMA_1"
         function = ${aaosa_call}
         instructions =
 """
@@ -36,10 +36,10 @@ Your are the expert on the Report of the Conference of the Parties serving as th
 on its first session, held 2016–2018 across three COPs.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.1.1", "CMA.1.3.Add.1", "CMA.1.3.Add.2"]
+        tools = ["CMA_1_1", "CMA_1_3_Add_1", "CMA_1_3_Add_2"]
     }
     {
-        name = "CMA.1.1"
+        name = "CMA_1_1"
         function = ${aaosa_call}
         instructions =
 """
@@ -66,10 +66,10 @@ Ref.: https://unfccc.int/documents/9677
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.1.1_Decisions_1_2"]
+        tools = ["CMA_1_1_Decisions_1_2"]
     }
     {
-        name = "CMA.1.1_Decisions_1_2"
+        name = "CMA_1_1_Decisions_1_2"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -77,7 +77,7 @@ Use your tool to load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA.1.3.Add.1"
+        name = "CMA_1_3_Add_1"
         function = ${aaosa_call}
         instructions =
 """
@@ -112,10 +112,10 @@ Ref.: https://unfccc.int/documents/193407
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.1.3_Decisions_3_12"]
+        tools = ["CMA_1_3_Decisions_3_12"]
     }
     {
-        name = "CMA.1.3_Decisions_3_12"
+        name = "CMA_1_3_Decisions_3_12"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -123,7 +123,7 @@ Use your tool to load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA.1.3.Add.2"
+        name = "CMA_1_3_Add.2"
         function = ${aaosa_call}
         instructions =
 """
@@ -157,10 +157,10 @@ Ref.: https://unfccc.int/documents/193408
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.1.3_Decisions_13_20"]
+        tools = ["CMA_1_3_Decisions_13_20"]
     }
     {
-        name = "CMA.1.3_Decisions_13_20"
+        name = "CMA_1_3_Decisions_13_20"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -169,7 +169,7 @@ Use your tool to load the document and read it carefully before answering.
     }
 # ----------------------------------------------------------------------
     {
-        name = "CMA.2"
+        name = "CMA_2"
         function = ${aaosa_call}
         instructions =
 """
@@ -204,10 +204,10 @@ Ref.: https://unfccc.int/documents/210477
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.2_Decisions_1_9"]
+        tools = ["CMA_2_Decisions_1_9"]
     }
    {
-        name = "CMA.2_Decisions_1_9"
+        name = "CMA_2_Decisions_1_9"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -216,7 +216,7 @@ Use your tool to load the document and read it carefully before answering.
     }
 # ----------------------------------------------------------------------
     {
-        name = "CMA.3"
+        name = "CMA_3"
         function = ${aaosa_call}
         instructions =
 """
@@ -224,10 +224,10 @@ Report of the Conference of the Parties serving as the meeting of the Parties to
 on its third session, held in Glasgow from 31 October to 13 November 2021.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.3.Add.1", "CMA.3.Add.2", "CMA.3.Add.3"]
+        tools = ["CMA_3_Add_1", "CMA_3_Add_2", "CMA_3_Add_3"]
     }
     {
-        name = "CMA.3.Add.1"
+        name = "CMA_3_Add_1"
         function = ${aaosa_call}
         instructions =
 """
@@ -256,10 +256,10 @@ Ref.: https://unfccc.int/documents/460950
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.3_Decisions_1_4"]
+        tools = ["CMA_3_Decisions_1_4"]
     }
     {
-        name = "CMA.3_Decisions_1_4"
+        name = "CMA_3_Decisions_1_4"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -267,7 +267,7 @@ Use your tool to load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA.3.Add.2"
+        name = "CMA_3_Add_2"
         function = ${aaosa_call}
         instructions =
 """
@@ -293,10 +293,10 @@ Ref.: https://unfccc.int/documents/460951
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.3_Decisions_5"]
+        tools = ["CMA_3_Decisions_5"]
     }
     {
-        name = "CMA.3_Decisions_5"
+        name = "CMA_3_Decisions_5"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -304,7 +304,7 @@ Use your tool to load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA.3.Add.3"
+        name = "CMA_3_Add_3"
         function = ${aaosa_call}
         instructions =
 """
@@ -327,10 +327,10 @@ Ref.: https://unfccc.int/documents/460952
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.3_Decisions_6_24"]
+        tools = ["CMA_3_Decisions_6_24"]
     }
     {
-        name = "CMA.3_Decisions_6_24"
+        name = "CMA_3_Decisions_6_24"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -339,7 +339,7 @@ Use your tool to load the document and read it carefully before answering.
     }
 # ----------------------------------------------------------------------
     {
-        name = "CMA.4"
+        name = "CMA_4"
         function = ${aaosa_call}
         instructions =
 """
@@ -347,10 +347,10 @@ Report of the Conference of the Parties serving as the meeting of the Parties to
 on its fourth session, held in Sharm el-Sheikh from 6 to 20 November 2022.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.4.Add.1", "CMA.4.Add.2", "CMA.4.Add.3"]
+        tools = ["CMA_4_Add_1", "CMA_4_Add_2", "CMA_4_Add_3"]
     }
     {
-        name = "CMA.4.Add.1"
+        name = "CMA_4_Add_1"
         function = ${aaosa_call}
         instructions =
 """
@@ -380,10 +380,10 @@ Ref.: https://unfccc.int/documents/626569
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.4_Decisions_1_5"]
+        tools = ["CMA_4_Decisions_1_5"]
     }
     {
-        name = "CMA.4_Decisions_1_5"
+        name = "CMA_4_Decisions_1_5"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -391,7 +391,7 @@ Use your tool to load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA.4.Add.2"
+        name = "CMA_4_Add_2"
         function = ${aaosa_call}
         instructions =
 """
@@ -422,10 +422,10 @@ Ref.: https://unfccc.int/documents/626570
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.4_Decisions_6_11"]
+        tools = ["CMA_4_Decisions_6_11"]
     }
     {
-        name = "CMA.4_Decisions_6_11"
+        name = "CMA_4_Decisions_6_11"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -433,7 +433,7 @@ Use your tool to load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA.4.Add.3"
+        name = "CMA_4_Add_3"
         function = ${aaosa_call}
         instructions =
 """
@@ -472,10 +472,10 @@ Ref.: https://unfccc.int/documents/626571
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.4_Decisions_12_24"]
+        tools = ["CMA_4_Decisions_12_24"]
     }
     {
-        name = "CMA.4_Decisions_12_24"
+        name = "CMA_4_Decisions_12_24"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -484,7 +484,7 @@ Use your tool to load the document and read it carefully before answering.
     }
 # ----------------------------------------------------------------------
     {
-        name = "CMA.5"
+        name = "CMA_5"
         function = ${aaosa_call}
         instructions =
 """
@@ -492,10 +492,10 @@ Report of the Conference of the Parties serving as the meeting of the Parties to
 on its fifth session, held in the United Arab Emirates from 30 November to 13 December 2023.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.5.Add.1", "CMA.5.Add.2", "CMA.5.Add.3"]
+        tools = ["CMA_5_Add_1", "CMA_5_Add_2", "CMA_5_Add_3"]
     }
     {
-        name = "CMA.5.Add.1"
+        name = "CMA_5_Add_1"
         function = ${aaosa_call}
         instructions =
 """
@@ -525,10 +525,10 @@ Ref.: https://unfccc.int/documents/637073
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.5_Decisions_1_5"]
+        tools = ["CMA_5_Decisions_1_5"]
     }
     {
-        name = "CMA.5_Decisions_1_5"
+        name = "CMA_5_Decisions_1_5"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -536,7 +536,7 @@ Use your tool to load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA.5.Add.2"
+        name = "CMA_5_Add_2"
         function = ${aaosa_call}
         instructions =
 """
@@ -572,10 +572,10 @@ Ref.: https://unfccc.int/documents/637074
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.5_Decisions_6_16"]
+        tools = ["CMA_5_Decisions_6_16"]
     }
     {
-        name = "CMA.5_Decisions_6_16"
+        name = "CMA_5_Decisions_6_16"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -583,7 +583,7 @@ Use your tool to load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA.5.Add.3"
+        name = "CMA_5_Add_3"
         function = ${aaosa_call}
         instructions =
 """
@@ -606,10 +606,10 @@ Ref.: https://unfccc.int/documents/637076
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.5_Decisions_17_21"]
+        tools = ["CMA_5_Decisions_17_21"]
     }
     {
-        name = "CMA.5_Decisions_17_21"
+        name = "CMA_5_Decisions_17_21"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -618,7 +618,7 @@ Use your tool to load the document and read it carefully before answering.
     }
 # ----------------------------------------------------------------------
     {
-        name = "CMA.6"
+        name = "CMA_6"
         function = ${aaosa_call}
         instructions =
 """
@@ -626,10 +626,10 @@ Report of the Conference of the Parties serving as the meeting of the Parties to
 on its sixth session, held in Baku from 11 to 24 November 2024.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.6.Add.1", "CMA.6.Add.2", "CMA.6.Add.3"]
+        tools = ["CMA_6_Add_1", "CMA_6_Add_2", "CMA_6_Add_3"]
     }
     {
-        name = "CMA.6.Add.1"
+        name = "CMA_6_Add_1"
         function = ${aaosa_call}
         instructions =
 """
@@ -661,10 +661,10 @@ Ref.: https://unfccc.int/documents/644937
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.6_Decisions_1_7"]
+        tools = ["CMA_6_Decisions_1_7"]
     }
     {
-        name = "CMA.6_Decisions_1_7"
+        name = "CMA_6_Decisions_1_7"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -672,7 +672,7 @@ Use your tool to load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA.6.Add.2"
+        name = "CMA_6_Add_2"
         function = ${aaosa_call}
         instructions =
 """
@@ -705,10 +705,10 @@ Ref.: https://unfccc.int/documents/644938
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.6_Decisions_8_15"]
+        tools = ["CMA_6_Decisions_8_15"]
     }
     {
-        name = "CMA.6_Decisions_8_15"
+        name = "CMA_6_Decisions_8_15"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
@@ -716,7 +716,7 @@ Use your tool to load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA.6.Add.3"
+        name = "CMA_6_Add_3"
         function = ${aaosa_call}
         instructions =
 """
@@ -750,10 +750,10 @@ Ref.: https://unfccc.int/documents/644944
 Use your tool to load the document and read it carefully before answering.
 """ ${aaosa_instructions}
         command = ${aaosa_command}
-        tools = ["CMA.6_Decisions_16_23"]
+        tools = ["CMA_6_Decisions_16_23"]
     }
     {
-        name = "CMA.6_Decisions_16_23"
+        name = "CMA_6_Decisions_16_23"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
