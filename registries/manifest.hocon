@@ -1,6 +1,5 @@
 {
     "kyoto_protocol.hocon": true,
     "paris_agreement.hocon": true,
-    "cop.hocon": true,
     "unfccc.hocon": true,
 }
