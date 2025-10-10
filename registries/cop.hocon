@@ -1,0 +1,1139 @@
+include "registries/aaosa_basic.hocon"
+
+llm_config {
+    class = "openai"
+    model_name = "gpt-4.1"
+}
+
+tools = [
+    # This is the agent network's entry point.
+    {
+        name = "COP"
+        function {
+            description = """Answers any question about the Conference of the Parties (COP) sessions."""
+        }
+        instructions =
+"""
+You are the UNFCCC expert on the Conference of the Parties (COP) events.
+Answer users inquiries about COP from its 20th to 29th sessions.
+""" ${aaosa_instructions}
+        tools = ["CP_20_2014",
+            "CP_21_2015",
+            "CP_22_2016",
+            "CP_23_2017",
+            "CP_24_2018",
+            "CP_25_2019",
+            "CP_26_2021",
+            "CP_27_2022",
+            "CP_28_2023",
+            "CP_29_2024"
+        ]
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CP_20_2014"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the Report of the Conference of the Parties on its twentieth session,
+held in Lima from 1 to 14 December 2014.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2014_10_Add_1", "CP_2014_10_Add_2", "CP_2014_10_Add_3"]
+    }
+    {
+        name = "CP_2014_10_Add_1"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twentieth session, held in Lima from 1 to 14 December 2014
+	Addendum
+Part two: Action taken by the Conference of the Parties at its twentieth session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	1/CP.20	Lima Call for Climate Action
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2014_10_Add_1_Decisions"]
+    }
+    {
+        name = "CP_2014_10_Add_1_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2014_20 - 2014 - decision 1.txt"
+        }
+    }
+    {
+        name = "CP_2014_10_Add_2"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twentieth session, held in Lima from 1 to 14 December 2014
+	Addendum
+Part two: Action taken by the Conference of the Parties at its twentieth session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	2/CP.20	Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts
+	3/CP.20	National adaptation plans
+	4/CP.20	Report of the Adaptation Committee
+	5/CP.20	Long-term climate finance
+	6/CP.20	Report of the Standing Committee on Finance
+	7/CP.20	Report of the Green Climate Fund to the Conference of the Parties and
+guidance to the Green Climate Fund
+	8/CP.20	Report of the Global Environment Facility to the Conference of the Parties and
+guidance to the Global Environment Facility
+	9/CP.20	Fifth review of the Financial Mechanism
+	10/CP.20 Further guidance to the Least Developed Countries Fund
+	11/CP.20 Methodologies for the reporting of financial information by Parties included
+in Annex I to the Convention
+	12/CP.20 Fifth Assessment Report of the Intergovernmental Panel on Climate Change
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2014_10_Add_2_Decisions"]
+    }
+    {
+        name = "CP_2014_10_Add_2_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2014_20 - 2014 - decision 2 to 12.txt"
+        }
+    }
+    {
+        name = "CP_2014_10_Add_3"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twentieth session, held in Lima from 1 to 14 December 2014
+	Addendum
+Part two: Action taken by the Conference of the Parties at its twentieth session
+	Contents
+Decisions adopted by the Conference of the Parties
+
+	Decision
+	13/CP.20 Guidelines for the technical review of information reported under the
+Convention related to greenhouse gas inventories, biennial reports and
+national communications by Parties included in Annex I to the Convention
+	14/CP.20 Training programme for review experts for the technical review of greenhouse gas inventories
+of Parties included in Annex I to the Convention
+	15/CP.20 Training programme for review experts for the technical review of biennial reports
+and national communications of Parties included in Annex I to the Convention
+	16/CP.20 Joint annual report of the Technology Executive Committee and the
+Climate Technology Centre and Network for 2013
+	17/CP.20 Joint annual report of the Technology Executive Committee and the
+Climate Technology Centre and Network for 2014
+	18/CP.20 Lima work programme on gender
+	19/CP.20 The Lima Ministerial Declaration on Education and Awareness-raising
+	20/CP.20 Forum and work programme on the impact of the implementation of
+response measures
+	21/CP.20 Parties included in Annex I to the Convention whose special circumstances
+are recognized by the Conference of the Parties
+	22/CP.20 Administrative, financial and institutional matters
+	23/CP.20 Revisions to the financial procedures for the Conference of the Parties,
+its subsidiary bodies and the secretariat
+	24/CP.20 Dates and venues of future sessions
+
+	Resolution
+	1/CP.20	Expression of gratitude to the Government of the Republic of Peru
+and the people of the city of Lima
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2014_10_Add_3_Decisions"]
+    }
+    {
+        name = "CP_2014_10_Add_3_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2014_20 - 2014 - decision 13 to 24.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CP_21_2015"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the Report of the Conference of the Parties on its twenty-first session,
+held in Paris from 30 November to 13 December 2015.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2015_21_Add_1", "CP_2015_21_Add_2", "CP_2015_21_Add_3"]
+    }
+    {
+        name = "CP_2015_21_Add_1"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-first session, held in Paris from 30 November to 13 December 2015
+	Addendum
+Part two: Action taken by the Conference of the Parties at its twenty-first session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	1/CP.21	Adoption of the Paris Agreement
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2015_21_Add_1_Decisions"]
+    }
+    {
+        name = "CP_2015_21_Add_1_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2015_21 - 2015 - decision 1.txt"
+        }
+    }
+    {
+        name = "CP_2015_21_Add_2"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-first session, held in Paris from 30 November to 13 December 2015
+	Addendum
+Part two: Action taken by the Conference of the Parties at its twenty-first session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	2/CP.21	Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts
+	3/CP.21	Report of the Adaptation Committee
+	4/CP.21	National adaptation plans
+	5/CP.21	Long-term climate finance
+	6/CP.21	Report of the Standing Committee on Finance
+	7/CP.21	Report of the Green Climate Fund to the Conference of the Parties and guidance to the Green Climate Fund
+	8/CP.21	Report of the Global Environment Facility to the Conference of the Parties and
+guidance to the Global Environment Facility
+	9/CP.21	Methodologies for the reporting of financial information by Parties included in Annex I to the Convention
+	10/CP.21 The 2013–2015 review
+	11/CP.21 Forum and work programme on the impact of the implementation of response measures
+	12/CP.21 Enhancing climate technology development and transfer through the Technology Mechanism
+	13/CP.21 Linkages between the Technology Mechanism and the Financial Mechanism of the Convention
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2015_21_Add_2_Decisions"]
+    }
+    {
+        name = "CP_2015_21_Add_2_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2015_21 - 2015 - decisions 2 to 13.txt"
+        }
+    }
+    {
+        name = "CP_2015_21_Add_3"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-first session, held in Paris from 30 November to 13 December 2015
+	Addendum
+Part two: Action taken by the Conference of the Parties at its twenty-first session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	14/CP.21 Capacity-building under the Convention
+	15/CP.21 Terms of reference for the intermediate review of the Doha work programme on
+Article 6 of the Convention
+	16/CP.21 Alternative policy approaches, such as joint mitigation and adaptation approaches
+for the integral and sustainable management of forests
+	17/CP.21 Further guidance on ensuring transparency, consistency, comprehensiveness and
+effectiveness when informing on how all the safeguards referred to in decision
+1/CP.16, appendix I, are being addressed and respected
+	18/CP.21 Methodological issues related to non-carbon benefits resulting from the
+implementation of the activities referred to in decision 1/CP.16, paragraph 70
+	19/CP.21 Extension of the mandate of the Least Developed Countries Expert Group
+	20/CP.21 Technical review in 2016 of greenhouse gas inventories from Parties included in
+Annex I to the Convention
+	21/CP.21 Administrative, financial and institutional matters
+	22/CP.21 Programme budget for the biennium 2016–2017
+	23/CP.21 Dates and venues of future sessions
+	Resolution
+	1/CP.21	Expression of gratitude to the Government of the French Republic and the
+people of the city of Paris
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2015_21_Add_3_Decisions"]
+    }
+    {
+        name = "CP_2015_21_Add_3_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2015_21 - 2015 - decisions 14 to 23.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CP_22_2016"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the Report of the Conference of the Parties on its twentieth session,
+held in Lima from 1 to 14 December 2014.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2016_10_Add_1", "CP_2016_10_Add_2"]
+    }
+    {
+        name = "CP_2016_10_Add_1"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-second session, held in Marrakech from 7 to 18 November 2016
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty-second session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	1/CP.22	Preparations for the entry into force of the Paris Agreement and the first session
+of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement
+	2/CP.22	Paris Committee on Capacity-building
+	3/CP.22	Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts
+	4/CP.22	Review of the Warsaw International Mechanism for Loss and Damage associated
+with Climate Change Impacts
+	5/CP.22	Review and report of the Adaptation Committee
+	6/CP.22	National adaptation plans
+	7/CP.22	Long-term climate finance
+	8/CP.22	Report of the Standing Committee on Finance
+	9/CP.22	Terms of reference for the review of the functions of the Standing Committee on Finance
+	10/CP.22 Report of the Green Climate Fund to the Conference of the Parties and guidance to the Green Climate Fund
+	11/CP.22 Report of the Global Environment Facility to the Conference of the Parties and
+guidance to the Global Environment Facility
+	12/CP.22 Sixth review of the Financial Mechanism
+	13/CP.22 Initiation of a process to identify the information to be provided by Parties in
+accordance with Article 9, paragraph 5, of the Paris Agreement
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2016_10_Add_1_Decisions"]
+    }
+    {
+        name = "CP_2016_10_Add_1_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2016_22 - 2016 - decisions 1 to 13.txt"
+        }
+    }
+    {
+        name = "CP_2016_10_Add_2"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-second session, held in Marrakech from 7 to 18 November 2016
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty-second session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	14/CP.22 Linkages between the Technology Mechanism and the Financial Mechanism of the Convention
+	15/CP.22 Enhancing climate technology development and transfer through the Technology Mechanism
+	16/CP.22 Third comprehensive review of the implementation of the framework for
+capacity-building in developing countries under the Convention
+	17/CP.22 Improving the effectiveness of the Doha work programme on Article 6 of the Convention
+	18/CP.22 Outcome of the first round of the international assessment and review process (2014–2015)
+	19/CP.22 Implementation of the global observing system for climate
+	20/CP.22 Work of the Consultative Group of Experts on National Communications from
+Parties not included in Annex I to the Convention
+	21/CP.22 Gender and climate change
+	22/CP.22 Financial and budgetary matters
+	23/CP.22 Administrative, financial and institutional matters
+	24/CP.22 Dates and venues of future sessions
+	25/CP.22 Rules of procedure of the Conference of the Parties serving as the meeting of the
+Parties to the Paris Agreement
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2016_10_Add_2_Decisions"]
+    }
+    {
+        name = "CP_2016_10_Add_2_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2016_22 - 2016 - decisions 14 to 22.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CP_23_2017"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the Report of the Conference of the Parties on its twenty-third session,
+held in Bonn from 6 to 18 November 2017.
+Decisions are split into two documents:
+- CP_2017_11_Add_1 with decisions 1 to 12
+- CP_2017_11_Add_2 with decisions 13 to 22
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2017_11_Add_1", "CP_2017_11_Add_2"]
+    }
+    {
+        name = "CP_2017_11_Add_1"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-third session, held in Bonn from 6 to 18 November 2017
+
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty-third session
+    Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	1/CP.23	Fiji momentum for implementation
+	2/CP.23	Local communities and indigenous peoples platform
+	3/CP.23	Establishment of a gender action plan
+	4/CP.23	Koronivia joint work on agriculture
+	5/CP.23	Warsaw International Mechanism for Loss and Damage associated
+with Climate Change Impacts
+	6/CP.23	Long-term climate finance
+	7/CP.23	Report of the Standing Committee on Finance
+	8/CP.23	Review of the functions of the Standing Committee on Finance
+	9/CP.23	Report of the Green Climate Fund to the Conference of the Parties
+and guidance to the Green Climate Fund
+	10/CP.23 Report of the Global Environment Facility to the Conference of
+the Parties and guidance to the Global Environment Facility
+	11/CP.23 Sixth review of the Financial Mechanism
+	12/CP.23 Process to identify the information to be provided by Parties in
+accordance with Article 9, paragraph 5, of the Paris Agreement
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2017_11_Add_1_Decisions"]
+    }
+    {
+        name = "CP_2017_11_Add_1_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2017_23 - 2017 - decisions 1 to 12.txt"
+        }
+    }
+    {
+        name = "CP_2017_11_Add_2"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-third session, held in Bonn from 6 to 18 November 2017
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty-third session
+    Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	13/CP.23 Assessment of the technical examination processes on mitigation and adaptation
+	14/CP.23 Review of the effective implementation of the Climate Technology Centre and Network
+	15/CP.23 Enhancing climate technology development and transfer through the Technology Mechanism
+	16/CP.23 Annual technical progress report of the Paris Committee on Capacity-building for 2017
+	17/CP.23 Fourth review of the implementation of the framework for
+capacity-building in countries with economies in transition
+	18/CP.23 Scope of the next periodic review of the long-term global goal under
+the Convention and of overall progress towards achieving it
+	19/CP.23 Training programme for review experts for the technical review of
+biennial reports and national communications of Parties included in
+Annex I to the Convention
+	20/CP.23 Administrative, financial and institutional matters
+	21/CP.23 Programme budget for the biennium 2018–2019
+	22/CP.23 Dates and venues of future sessions
+	Resolution
+	1/CP.23	Expression of gratitude to the Government of the Federal Republic
+of Germany and the people of the city of Bonn
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2017_11_Add_2_Decisions"]
+    }
+    {
+        name = "CP_2017_11_Add_2_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2017_23 - 2017 - decisions 13 to 22.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CP_24_2018"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the Report of the Conference of the Parties on its twenty-fourth session,
+held in Katowice from 2 to 15 December 2018.
+Decisions are split into two documents:
+- CP_2018_10_Add_1 with decisions 1 to 12
+- CP_2018_10_Add_2 with decisions 13 to 20
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2018_10_Add_1", "CP_2018_10_Add_2"]
+    }
+    {
+        name = "CP_2018_10_Add_1"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-fourth session, held in Katowice from 2 to 15 December 2018
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty-fourth session
+    Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	1/CP.24	Preparations for the implementation of the Paris Agreement and
+the first session of the Conference of the Parties serving as
+the meeting of the Parties to the Paris Agreement
+	2/CP.24	Local Communities and Indigenous Peoples Platform
+	3/CP.24	Long-term climate finance
+	4/CP.24	Report of the Standing Committee on Finance
+	5/CP.24	Report of the Green Climate Fund to the Conference of the Parties
+and guidance to the Green Climate Fund
+	6/CP.24	Report of the Global Environment Facility to the Conference of
+the Parties and guidance to the Global Environment Facility
+	7/CP.24	Modalities, work programme and functions under the Convention
+of the forum on the impact of the implementation of response measures
+	8/CP.24	National adaptation plans
+	9/CP.24	Report of the Adaptation Committee
+	10/CP.24	Report of the Executive Committee of the Warsaw International
+Mechanism for Loss and Damage associated with Climate Change Impacts
+	11/CP.24	Review of the terms of reference of the Consultative Group of
+Experts on National Communications from Parties not included in
+Annex I to the Convention
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2018_10_Add_1_Decisions"]
+    }
+    {
+        name = "CP_2018_10_Add_1_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2018_24 - 2018 - decisions 1 to 12.txt"
+        }
+    }
+    {
+        name = "CP_2018_10_Add_2"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-fourth session, held in Katowice from 2 to 15 December 2018
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty-fourth session
+    Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	12/CP.24 Review of the Climate Technology Centre and Network
+	13/CP.24 Enhancing climate technology development and transfer through the Technology Mechanism
+	14/CP.24 Linkages between the Technology Mechanism and the Financial
+Mechanism of the Convention
+	15/CP.24 Annual technical progress report of the Paris Committee on
+Capacity-building
+	16/CP.24 Least developed countries work programme
+	17/CP.24 Dates and venues of future sessions
+	18/CP.24 Administrative, financial and institutional matters
+	Resolution
+	1/CP.24	Expression of gratitude to the Government of the Republic of
+Poland and the people of the city of Katowice
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2018_10_Add_2_Decisions"]
+    }
+    {
+        name = "CP_2018_10_Add_2_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2018_24 - 2018 - decisions 13 to 20.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CP_25_2019"
+        function = ${aaosa_call}
+        instructions =
+"""
+Report of the Conference of the Parties on its twenty-fifth session,
+held in Madrid from 2 to 15 December 2019
+Decisions are split into two documents:
+- CP_2019_13_Add_1 with decisions 1 to 6
+- CP_2019_13_Add_2 with decisions 7 to 18
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2019_13_Add_1", "CP_2019_13_Add_2"]
+    }
+    {
+        name = "CP_2019_13_Add_1"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-fifth session, held in Madrid from 2 to 15 December 2019
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty-fifth session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	1/CP.25	Chile Madrid Time for Action
+	2/CP.25	Warsaw International Mechanism for Loss and Damage associated
+with Climate Change Impacts and its 2019 review
+	3/CP.25	Enhanced Lima work programme on gender and its gender action plan
+	4/CP.25	Workplan of the forum on the impact of the implementation of
+response measures and its Katowice Committee of Experts on the
+Impacts of the Implementation of Response Measures
+	5/CP.25	Scope of the second periodic review of the long-term global goal
+under the Convention and of overall progress towards
+achieving it
+	6/CP.25	Revision of the UNFCCC reporting guidelines on national
+communications for Parties included in Annex I to the Convention
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2019_13_Add_1_Decisions"]
+    }
+    {
+        name = "CP_2019_13_Add_1_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2019_25 - 2019 - Decisions 1 to 6.txt"
+        }
+    }
+    {
+        name = "CP_2019_13_Add_2"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-fifth session, held in Madrid from 2 to 15 December 2019
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty-fifth session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	7/CP.25	National adaptation plans
+	8/CP.25	Annual technical progress report of the Paris Committee on
+Capacity-building for 2019
+	9/CP.25	Review of the Paris Committee on Capacity-building
+	10/CP.25 Fourth comprehensive review of the implementation of the
+framework for capacity-building in developing countries under the Convention
+	11/CP.25 Matters relating to the Standing Committee on Finance
+	12/CP.25 Report of the Green Climate Fund to the Conference of the Parties
+and guidance to the Green Climate Fund
+	13/CP.25 Report of the Global Environment Facility to the Conference of the
+Parties and guidance to the Global Environment Facility
+	14/CP.25 Enhancing climate technology development and transfer through
+the Technology Mechanism
+	15/CP.25 Terms of reference for the review of the Doha work programme on
+Article 6 of the Convention
+	16/CP.25 Dates and venues of future sessions
+	17/CP.25 Programme budget for the biennium 2020–2021
+	18/CP.25 Administrative, financial and institutional matters Resolution
+	1/CP.25	Expression of gratitude to the Government of the Republic of Chile,
+the Government of the Kingdom of Spain and the people of the city of Madrid
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2019_13_Add_2_Decisions"]
+    }
+    {
+        name = "CP_2019_13_Add_2_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2019_25 - 2019 - Decisions 7 to 18.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CP_26_2021"
+        function = ${aaosa_call}
+        instructions =
+"""
+Report of the Conference of the Parties on its twenty-sixth session,
+held in Glasgow from 31 October to 13 November 2021.
+Decisions are split into two documents:
+- CP_2021_12_Add_1 with decisions 1 to 11
+- CP_2021_12_Add_2 with decisions 12 to 23
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2021_12_Add_1", "CP_2021_12_Add_2"]
+    }
+    {
+        name = "CP_2021_12_Add_1"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-sixth session, held in Glasgow from 31 October to
+13 November 2021
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty-sixth session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	1/CP.26	Glasgow Climate Pact
+	2/CP.26	Report of the Adaptation Committee (for 2019, 2020 and 2021)
+	3/CP.26	National adaptation plans
+	4/CP.26	Long-term climate finance
+	5/CP.26	Matters relating to the Standing Committee on Finance
+	6/CP.26	Report of the Green Climate Fund to the Conference of the Parties and guidance to
+	the Green Climate Fund
+	7/CP.26	Report of the Global Environment Facility to the Conference of the Parties and
+	guidance to the Global Environment Facility
+	8/CP.26	Compilation and synthesis of, and summary report on the in-session workshop on,
+	biennial communications of information related to Article 9, paragraph 5, of the Paris Agreement
+	9/CP.26	Enhancing climate technology development and transfer through the Technology Mechanism
+	10/CP.26 Review of the constitution of the Advisory Board of the Climate Technology Centre and Network
+	11/CP.26 Second review of the Climate Technology Centre and Network
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2021_12_Add_1_Decisions"]
+    }
+    {
+        name = "CP_2021_12_Add_1_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2021_26 - 2021 - Decisions 1 to 11.txt"
+        }
+    }
+    {
+        name = "CP_2021_12_Add_2"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-sixth session, held in Glasgow from 31 October to 13 November 2021
+	Addendum
+	Contents
+		Part two: Action taken by the Conference of the Parties at its twenty- sixth session
+	Decisions adopted by the Conference of the Parties
+
+	Decision
+	12/CP.26 Annual technical progress reports of the Paris Committee on Capacity-building for 2020 and 2021
+	13/CP.26 Fifth review of the implementation of the framework for capacity-building in countries with economies in
+transition under the Convention
+    14/CP.26 Revised terms of reference of the Consultative Group of Experts
+    15/CP.26 Extension of the mandate of the Least Developed Countries Expert Group
+    16/CP.26 Local Communities and Indigenous Peoples Platform
+    17/CP.26 Warsaw International Mechanism for Loss and Damage associated with Climate Change Impacts
+    18/CP.26 Glasgow work programme on Action for Climate Empowerment
+    19/CP.26 Matters relating to the forum on the impact of the implementation of response measures
+    20/CP.26 Gender and climate change
+    21/CP.26 Dates and venues of future sessions
+    22/CP.26 Programme budget for the biennium 2022–2023
+    23/CP.26 Administrative, financial and institutional matters
+    Resolution
+    1/CP.26 Expression of gratitude to the Government of the United Kingdom of Great Britain and Northern Ireland and
+the people of the city of Glasgow
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2021_12_Add_2_Decisions"]
+    }
+    {
+        name = "CP_2021_12_Add_2_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2021_26 - 2021 - Decisions 12 to 23.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CP_27_2022"
+        function = ${aaosa_call}
+        instructions =
+"""
+Report of the Conference of the Parties on its twenty-seventh session,
+held in Sharm el-Sheikh from 6 to 20 November 2022.
+Decisions are split into 3 documents:
+- CP_2022_10_Add_1 with decisions 1 to 12
+- CP_2022_10_Add_2 with decisions 13 to 23
+- CP_2022_10_Add_3 with decisions 24 to 27
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2022_10_Add_1", "CP_2022_10_Add_2", "CP_2022_10_Add_3"]
+    }
+    {
+        name = "CP_2022_10_Add_1"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-seventh session,
+held in Sharm el-Sheikh from 6 to 20 November 2022
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty-seventh session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	1/CP.27	Sharm el-Sheikh Implementation Plan
+	2/CP.27	Funding arrangements for responding to loss and damage associated with the
+			adverse effects of climate change, including a focus on addressing loss and damage
+	3/CP.27	Sharm el-Sheikh joint work on implementation of climate action on agriculture and food security
+	4/CP.27	Revision of the modalities and procedures for international assessment and review
+	5/CP.27	Revision of the modalities and guidelines for international consultation and analysis
+	6/CP.27	Revision of the UNFCCC reporting guidelines on annual inventories for Parties
+			included in Annex I to the Convention
+	7/CP.27	Common metrics used to calculate the carbon dioxide equivalence of
+			anthropogenic greenhouse gas emissions by sources and removals by sinks
+	8/CP.27	Report of the Adaptation Committee for 2022 and review of the progress,
+			effectiveness and performance of the Adaptation Committee
+	9/CP.27	National adaptation plans
+	10/CP.27 Matters relating to the least developed countries
+	11/CP.27 Santiago network for averting, minimizing and addressing loss and damage associated
+with the adverse effects of climate change under the Warsaw International Mechanism
+for Loss and Damage associated with Climate Change Impacts
+	12/CP.27 Report of the Executive Committee of the Warsaw International Mechanism for
+			 Loss and Damage associated with Climate Change Impacts
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2022_10_Add_1_Decisions"]
+    }
+    {
+        name = "CP_2022_10_Add_1_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2022_27 - 2022 - Decisions 1 to 12.txt"
+        }
+    }
+    {
+        name = "CP_2022_10_Add_2"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-seventh session, held in Sharm el-Sheikh from 6 to 20 November 2022
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty‑seventh session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	13/CP.27 Long-term climate finance
+	14/CP.27 Matters relating to the Standing Committee on Finance
+	15/CP.27 Terms of reference for the second review of the functions of the
+			 Standing Committee on Finance
+	16/CP.27 Report of the Green Climate Fund to the Conference of the Parties and
+			 guidance to the Green Climate Fund
+	17/CP.27 Report of the Global Environment Facility to the Conference of the Parties and
+			 guidance to the Global Environment Facility
+	18/CP.27 Enhancing climate technology development and transfer through the Technology Mechanism
+	19/CP.27 Annual technical progress report of the Paris Committee on Capacity-building for 2022
+	20/CP.27 Report of the forum on the impact of the implementation of response measures
+	21/CP.27 Second periodic review of the long-term global goal under the Convention and
+			 of overall progress towards achieving it
+	22/CP.27 Implementation of the Global Climate Observing System
+	23/CP.27 Action plan under the Glasgow work programme on Action for Climate Empowerment	44
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2022_10_Add_2_Decisions"]
+    }
+    {
+        name = "CP_2022_10_Add_2_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2022_27 - 2022 - Decisions 13 to 23.txt"
+        }
+    }
+    {
+        name = "CP_2022_10_Add_3"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-seventh session, held in Sharm el-Sheikh from 6 to 20 November 2022
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its
+twenty-seventh session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	24/CP.27 Intermediate review of the implementation of the gender action plan
+	25/CP.27 Dates and venues of future sessions
+	26/CP.27 Administrative, financial and institutional matters
+	27/CP.27 Administrative, financial and institutional matters
+	Resolution
+	1/CP.27	Expression of gratitude to the Government of the Arab Republic of Egypt and
+			the people of the city of Sharm el-Sheikh
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2022_10_Add_3_Decisions"]
+    }
+    {
+        name = "CP_2022_10_Add_3_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2022_27 - 2022 - Decisions 24 to 27.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CP_28_2023"
+        function = ${aaosa_call}
+        instructions =
+"""
+Report of the Conference of the Parties on its twenty-eighth session,
+held in the United Arab Emirates from 30 November to 13 December 2023.
+Decisions are split into two documents:
+- CP_2023_11_Add_1 with decisions 1 to 9
+- CP_2023_11_Add_2 with decisions 10 to 19
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2023_11_Add_1", "CP_2023_11_Add_2"]
+    }
+    {
+        name = "CP_2023_11_Add_1"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-eighth session, held in the United Arab Emirates from 30 November to 13 December 2023
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty‑eighth session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	1/CP.28	Operationalization of the new funding arrangements, including a fund, for responding
+to loss and damage referred to in paragraphs 2–3 of decisions 2/CP.27 and 2/CMA.4
+	2/CP.28	Santiago network for averting, minimizing and addressing loss and damage associated
+with the adverse effects of climate change under the Warsaw International Mechanism
+for Loss and Damage associated with Climate Change Impacts
+	3/CP.28	Report of the Executive Committee of the Warsaw International Mechanism for Loss
+and Damage associated with Climate Change Impacts
+	4/CP.28	Long-term climate finance
+	5/CP.28	Matters relating to the Standing Committee on Finance
+	6/CP.28	Report of the Green Climate Fund to the Conference of the Parties and guidance to
+			the Green Climate Fund
+	7/CP.28	Report of the Global Environment Facility to the Conference of the Parties and
+			guidance to the Global Environment Facility
+	8/CP.28	Compilation and synthesis of, and summary report on the in-session workshop on,
+biennial communications of information related to Article 9, paragraph 5, of the
+Paris Agreement
+	9/CP.28	Enhancing climate technology development and transfer through the Technology
+Mechanism
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2023_11_Add_1_Decisions"]
+    }
+    {
+        name = "CP_2023_11_Add_1_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2023_28 - 2023 - Decisions 1 to 9.txt"
+        }
+    }
+    {
+        name = "CP_2023_11_Add_2"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-eighth session,
+held in the United Arab Emirates from 30 November to 13 December 2023
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty‑eighth session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	10/CP.28 Linkages between the Technology Mechanism and the Financial Mechanism
+	11/CP.28 Annual technical progress report of the Paris Committee on capacity-building for 2023
+	12/CP.28 Terms of reference for the second review of the Paris Committee on capactity -building
+	13/CP.28 Review of the functions, work programme and modalities of the forum on the
+impact of the implementation of response measures, midterm review of the workplan
+and report of the forum
+	14/CP.28 Sixth Assessment Report of the Intergovernmental Panel on Climate Change
+	15/CP.28 Gender and climate change
+	16/CP.28 Presidency youth climate champion
+	17/CP.28 Dates and venues of future sessions
+	18/CP.28 Administrative, financial and institutional matters
+	19/CP.28 Administrative, financial and institutional matters
+	Resolution
+	1/CP.28	Expression of gratitude to the Government of the United Arab Emirates
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2023_11_Add_2_Decisions"]
+    }
+    {
+        name = "CP_2023_11_Add_2_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2023_28 - 2023 - Decisions 10 to 19.txt"
+        }
+    }
+# ----------------------------------------------------------------------
+    {
+        name = "CP_29_2024"
+        function = ${aaosa_call}
+        instructions =
+"""
+Report of the Conference of the Parties on its twenty-ninth session, held in Baku from 11 to 24 November 2024.
+Decisions are split into two documents:
+- CP_2024_11_Add_1 with decisions 1 to 10
+- CP_2024_11_Add_2 with decisions 11 to 21
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2024_11_Add_1", "CP_2024_11_Add_2"]
+    }
+    {
+        name = "CP_2024_11_Add_1"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-ninth session, held in Baku from 11 to 24 November 2024
+	Addendum
+	Part two: Action taken by the Conference of the Parties at its twenty‑ninth session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+		1/CP.29	Long-term climate finance
+		2/CP.29	Matters relating to the Standing Committee on Finance
+		3/CP.29	Report of the Green Climate Fund to the Conference of the Parties and guidance to
+the Green Climate Fund
+		4/CP.29	Report of the Global Environment Facility to the Conference of the Parties and
+guidance to the Global Environment Facility
+		5/CP.29	Report of the Fund for responding to Loss and Damage and guidance to the Fund
+		6/CP.29	Arrangements between the Conference of the Parties, the Conference of the Parties
+serving as the meeting of the Parties to the Paris Agreement and the Board of the
+Fund for responding to Loss and Damage
+		7/CP.29	Gender and climate change
+		8/CP.29	Warsaw International Mechanism for Loss and Damage associated with Climate
+Change Impacts and joint annual report of its Executive Committee and the
+Santiago network for averting, minimizing and addressing loss and damage
+associated with the adverse effects of climate change
+		9/CP.29	Poznan strategic programme on technology transfer
+		10/CP.29 Enhancing climate technology development and transfer through the Technology
+Mechanism
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2024_11_Add_1_Decisions"]
+    }
+    {
+        name = "CP_2024_11_Add_1_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2024_29 - 2024 - Decisions 1 to 10.txt"
+        }
+    }
+    {
+        name = "CP_2024_11_Add_2"
+        function = ${aaosa_call}
+        instructions =
+"""
+Your are the expert on the following document:
+
+Report of the Conference of the Parties on its twenty-ninth session, held in Baku from 11 to 24 November 2024
+	Addendum
+		Part two: Action taken by the Conference of the Parties at its twenty‑ninth session
+	Contents
+Decisions adopted by the Conference of the Parties
+	Decision
+	11/CP.29 Terms of reference for the fifth comprehensive review of the implementation of the framework
+	         for capacity-building in developing countries under the Convention
+	12/CP.29 Second review of the Paris Committee on Capacity-building
+	13/CP.29 Annual technical progress report of the Paris Committee on Capacity-building for 2024
+	14/CP.29 Local Communities and Indigenous Peoples Platform
+	15/CP.29 Matters relating to the least developed countries
+	16/CP.29 Matters relating to the impacts of the implementation of response measures
+	17/CP.29 Climate high-level champions
+	18/CP.29 Periodic review of the long-term global goal under the Convention and of overall
+progress towards achieving it
+	19/CP.29 Dates and venues of future sessions
+	20/CP.29 Administrative, financial and institutional matters
+	21/CP.29 Administrative, financial and institutional matters
+	Resolution
+	1/CP.29	Expression of gratitude to the Government of the Republic of Azerbaijan and the
+people of the city of Baku
+
+Use your tool to load the document and read it carefully before answering.
+""" ${aaosa_instructions}
+        command = ${aaosa_command}
+        tools = ["CP_2024_11_Add_2_Decisions"]
+    }
+    {
+        name = "CP_2024_11_Add_2_Decisions"
+        toolbox = "txt_loader"
+        args = {
+            # File path is relative to the root directory of the repo.
+            "file_path": "documents/COP/COP_txt/cp2024_29 - 2024 - Decisions 11 to 21.txt"
+        }
+    }
+]
