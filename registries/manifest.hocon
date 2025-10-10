@@ -1,5 +1,4 @@
 {
-    "coffee_finder.hocon": true,
     "kyoto_protocol.hocon": true,
     "paris_agreement.hocon": true,
     "unfccc.hocon": true,
