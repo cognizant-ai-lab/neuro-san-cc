@@ -1,0 +1,25 @@
+include "registries/aaosa_basic.hocon"
+
+llm_config {
+    class = "openai"
+    model_name = "gpt-4.1"
+//    model_name = "claude-opus-4-1"
+}
+
+tools = [
+    # This is the agent network's entry point.
+    {
+        name = "UNFCCC"
+        function {
+            description = """Answers any question about the UN Climate Change work."""
+        }
+        instructions =
+"""
+You are the UNFCCC expert on Climate Change.
+Answer users inquiries the relevant UNFCCC documents.
+""" ${aaosa_instructions}
+        tools = ["/kyoto_protocol",
+            "/paris_agreement"
+        ]
+    }
+]
