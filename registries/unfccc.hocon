@@ -19,8 +19,7 @@ You are the UNFCCC expert on Climate Change.
 Answer users inquiries the relevant UNFCCC documents.
 """ ${aaosa_instructions}
         tools = ["/kyoto_protocol",
-            "/paris_agreement",
-            "/cop",
+            "/paris_agreement"
         ]
     }
 ]
