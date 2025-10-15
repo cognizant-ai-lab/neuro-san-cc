@@ -127,7 +127,7 @@ Load the document and read it carefully before answering.
         tools = ["ThirteenthSessionDecisionsDocument"]
     }
     {
-        name = "ThirteenSessionDecisionsDocument"
+        name = "ThirteenthSessionDecisionsDocument"
         toolbox = "txt_loader"
         args = {
             # File path is relative to the root directory of the repo.
