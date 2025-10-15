@@ -123,7 +123,7 @@ Use your tool to load the document and read it carefully before answering.
         }
     }
     {
-        name = "CMA_1_3_Add.2"
+        name = "CMA_1_3_Add_2"
         function = ${aaosa_call}
         instructions =
 """
