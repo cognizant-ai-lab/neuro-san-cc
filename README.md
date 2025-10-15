@@ -91,25 +91,34 @@ For testing the API keys, please refer to this [documentation](./docs/api_key.md
 
 ### Run
 
-There are multiple ways in which we can now use the neuro-san server with a client:
+Neuro SAN Studio provides a user-friendly environment to interact with agent networks.
 
-<!-- pyml disable-next-line line-length -->
-#### Option 1: Using [`nsflow`](https://github.com/cognizant-ai-lab/nsflow) as a developer-oriented web client
+1. Start the server and client with a single command, from the project root directory:
 
-If you want to use neuro-san with a FastAPI-based developer-oriented client, follow these steps:
+    ```bash
+    python -m run
+    ```
 
-* Start the server and client with a single command, from project root:
+2. Navigate to [http://localhost:4173/](http://localhost:4173/) to access the UI.
+3. (Optional) Check the logs:
+   * For the server logs: `logs/server.log`
+   * For the client logs: `logs/nsflow.log`
+   * For the agents logs: `logs/thinking_dir/*`
 
-  ```bash
-  python -m run
-  ```
+Use the `--help` option to see the various config options for the `run` command:
 
-* As a default
-    * Frontend will be available at: `http://127.0.0.1:4173`
-    * The client and server logs will be saved to `logs/nsflow.log` and `logs/server.log` respectively.
+```bash
+python -m run --help
+```
 
-* To see the various config options for this app, on terminal
+### Using the agent networks
 
-  ```bash
-  python -m run --help
-  ```
+Select the `paris_agreement` network for instance, and ask it questions like:
+
+> What are the main differences between the Sharm el-Sheikh decision and the Baku decision on Article 6.2?
+
+If it has a hard time finding the Baku documentation, help it a bit:
+
+> Baku is CMA.6
+
+And you should get a comprehensive answer.
