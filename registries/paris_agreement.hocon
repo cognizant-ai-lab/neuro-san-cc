@@ -29,16 +29,16 @@ You are the UNFCCC expert on the Paris Agreement.
 Answer users inquiries about the Paris Agreement using the relevant decision documents.
 Your sub-agents are organized by session and decision numbers.
 """ ${aaosa_instructions}
-        tools = ["CMA_1",
-            "CMA_2",
-            "CMA_3",
-            "CMA_4",
-            "CMA_5",
-            "CMA_6",
+        tools = ["CMA_1_Marrakech_2016_to_Katowice_2018",
+            "CMA_2_Madrid_2019",
+            "CMA_3_Glasgow_2021",
+            "CMA_4_Sharm_el-Sheikh_2022",
+            "CMA_5_United_Arab_Emirates_2023",
+            "CMA_6_Baku_2024",
         ]
     }
     {
-        name = "CMA_1"
+        name = "CMA_1_Marrakech_2016_to_Katowice_2018"
         function = ${aaosa_call}
         instructions =
 """
@@ -179,7 +179,7 @@ Use your tool to load the document and read it carefully before answering.
     }
 # ----------------------------------------------------------------------
     {
-        name = "CMA_2"
+        name = "CMA_2_Madrid_2019"
         function = ${aaosa_call}
         instructions =
 """
@@ -226,7 +226,7 @@ Use your tool to load the document and read it carefully before answering.
     }
 # ----------------------------------------------------------------------
     {
-        name = "CMA_3"
+        name = "CMA_3_Glasgow_2021"
         function = ${aaosa_call}
         instructions =
 """
@@ -349,7 +349,7 @@ Use your tool to load the document and read it carefully before answering.
     }
 # ----------------------------------------------------------------------
     {
-        name = "CMA_4"
+        name = "CMA_4_Sharm_el-Sheikh_2022"
         function = ${aaosa_call}
         instructions =
 """
@@ -494,7 +494,7 @@ Use your tool to load the document and read it carefully before answering.
     }
 # ----------------------------------------------------------------------
     {
-        name = "CMA_5"
+        name = "CMA_5_United_Arab_Emirates_2023"
         function = ${aaosa_call}
         instructions =
 """
@@ -628,7 +628,7 @@ Use your tool to load the document and read it carefully before answering.
     }
 # ----------------------------------------------------------------------
     {
-        name = "CMA_6"
+        name = "CMA_6_Baku_2024"
         function = ${aaosa_call}
         instructions =
 """
