@@ -1,5 +1,7 @@
-# neuro-san-cc
-Neuro SAN applied to Climate Change
+# Neuro SAN Climate Change
+Neuro SAN applied to Climate Change.
+
+Answers questions about the Conference of the Parties (COP), the Kyoto Protocol (CMP) and the Paris Agreement (CMA) using the United Nations Framework Convention on Climate Change (UNFCCC) report documents. For instance, [ FCCC/PA/CMA/2024/17/Add.1](https://unfccc.int/documents/644937) from [CMA 6](https://unfccc.int/event/cma-6).
 
 For more details about Neuro SAN, please check the [Neuro SAN Studio](https://github.com/cognizant-ai-lab/neuro-san-studio) repository.
 
