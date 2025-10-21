@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability, please report it by emailing [security@example.com].
+If you discover a security vulnerability, please report it by emailing labgithub@cognizant.com.
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
