@@ -110,6 +110,7 @@ Constraints:
 * Each and every file in the file_list must be represented in
   at least one group.
 * Any single group may have at least one, but never more than 7 files in it.
+* There can be at most 7 groups.
 
 Output the JSON structure described.
 """,
