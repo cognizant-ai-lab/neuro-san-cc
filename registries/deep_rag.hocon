@@ -99,10 +99,11 @@ This is a description of how the individual files in the file_list might be orga
 Examine the names of the files in the file_list and take into account any user_description
 of the file naming structure to come up with a JSON structure
 which describes the following:
-* A short "name" for the overall strategy for the grouping
-* A "description" of the overall strategy for how the files are to be grouped
+* A short "name" for the overall strategy for the grouping in snake case.
+* A "description" of the overall strategy for how the files are to be grouped.
+    If you must mention the word 'files' in your description, use the word 'content' instead.
 * A "groups" list which contains one JSON entry for each of the groups, each entry of which has:
-    1. A short "name" for the group which is unique and is the primary reference to the group
+    1. A short "name" for the group which is unique and is the primary reference to the group in snake case.
     2. A "description" of the group and how it is unique from the other groups.
     3. A "files" list that contains each of the files that belong in the group.
 
