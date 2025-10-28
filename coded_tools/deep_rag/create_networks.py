@@ -27,10 +27,10 @@ from leaf_common.config.file_of_class import FileOfClass
 from leaf_common.persistence.easy.easy_hocon_persistence import EasyHoconPersistence
 
 from neuro_san.interfaces.coded_tool import CodedTool
+from neuro_san.internals.graph.filters.string_common_defs_config_filter import StringCommonDefsConfigFilter
+from neuro_san.internals.graph.filters.dictionary_common_defs_config_filter import DictionaryCommonDefsConfigFilter
 from neuro_san.interfaces.reservation import Reservation
 from neuro_san.interfaces.reservationist import Reservationist
-
-from neuro_san.internals.graph.filters.string_common_defs_config_filter import StringCommonDefsConfigFilter
 
 
 class CreateNetworks(CodedTool):
@@ -56,10 +56,13 @@ class CreateNetworks(CodedTool):
         Constructor
         """
         # Only want to do these things once.
+        persistence = EasyHoconPersistence()
         file_of_class = FileOfClass(__file__)
         template_file: str = file_of_class.get_file_in_basis("group_template.hocon")
-        persistence = EasyHoconPersistence()
         self.network_template: Dict[str, Any] = persistence.restore(file_reference=template_file)
+
+        aaosa_file: str = file_of_class.get_file_in_basis("../../registries/aaosa_basic.hocon")
+        self.aaosa_defs: Dict[str, Any] = persistence.restore(file_reference=aaosa_file)
 
         self.logger: Logger = getLogger(self.__class__.__name__)
 
@@ -223,12 +226,20 @@ class CreateNetworks(CodedTool):
 
         # Create the content agent spec by replacing strings in strategic places
         content_agent: Dict[str, Any] = deepcopy(content_template)
-        replacements: Dict[str, Any] = {
+        string_replacements: Dict[str, Any] = {
             "one_content_file": tool_name,
             "content": file_content,
+            "aaosa_command": self.aaosa.get("aaosa_command"),
+            "aaosa_instructions": self.aaosa.get("aaosa_instructions")
         }
-        string_filter = StringCommonDefsConfigFilter(replacements)
+        string_filter = StringCommonDefsConfigFilter(string_replacements)
         content_agent = string_filter.filter(content_agent)
+
+        dict_replacements: Dict[str, Any] = {
+            "aaosa_call": self.aaosa_defs.get("aaosa_call"),
+        }
+        dict_filter = DictionaryCommonDefsConfigFilter(dict_replacements)
+        content_agent = dict_filter.filter(content_agent)
 
         return content_agent
 
@@ -243,10 +254,19 @@ class CreateNetworks(CodedTool):
         replacements: Dict[str, Any] = {
             "one_group": group.get("name"),
             "group_description": group.get("description"),
-            "structure_description": self.grouping_json.get("description")
+            "structure_description": self.grouping_json.get("description"),
+            "aaosa_command": self.aaosa.get("aaosa_command"),
+            "aaosa_instructions": self.aaosa.get("aaosa_instructions")
         }
         string_filter = StringCommonDefsConfigFilter(replacements)
         front_man = string_filter.filter(front_man)
+
+        dict_replacements: Dict[str, Any] = {
+            "aaosa_call": self.aaosa_defs.get("aaosa_call"),
+        }
+        dict_filter = DictionaryCommonDefsConfigFilter(dict_replacements)
+        front_man = dict_filter.filter(front_man)
+
         front_man["tools"] = tools
 
         return front_man

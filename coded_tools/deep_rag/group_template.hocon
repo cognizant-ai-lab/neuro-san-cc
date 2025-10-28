@@ -13,8 +13,6 @@
 # The schema specifications for this file are documented here:
 # https://github.com/cognizant-ai-lab/neuro-san/blob/main/docs/agent_hocon_reference.md
 
-include "registries/aaosa_basic.hocon"
-
 {
     "llm_config": {
         "model_name": "gpt-4o",
@@ -22,7 +20,7 @@ include "registries/aaosa_basic.hocon"
     "tools": [
         {
             "name": "{one_group}",
-            "function": "${aaosa_call}",
+            "function": "aaosa_call",
             "instructions": """
 You are coordinating questions and answers to/from experts who are the authority on
 certain sub-sections of content within a larger work.
@@ -34,26 +32,26 @@ The sub-group content organization which is your domain can be described as the 
 The larger work content organization can be described as the following:
 {structure_description}
 
-${aaosa_instructions}
+{aaosa_instructions}
 """,
-            "command": "${aaosa_command}",
+            "command": "{aaosa_command}",
             "tools": ["to_be_filled_in_automatically"]
         },
         {
             "name": "{one_content_file}",
-            "function": "${aaosa_call}",
+            "function": "aaosa_call",
             "instructions": """
 You are the expert on a specific section of content within a larger work.
 Answer questions only as they pertain your section of the content.
 Do not try to guess about other sections of the content you do not have.
 
-${aaosa_instructions}
+{aaosa_instructions}
 
 Here is the section of content which is your expertise in its entirety:
 
 {content}
 """,
-            "command": "${aaosa_command}"
+            "command": "{aaosa_command}"
         }
     ]
 }
