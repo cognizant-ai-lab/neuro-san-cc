@@ -170,7 +170,7 @@ Output the JSON structure described.
                 }
             },
 
-            "class": "create_branching_group_network.CreateBranchingGroupNetwork",
+            "class": "create_networks.CreateNetworks",
             "allow": {
                 "reservations": True
             }
