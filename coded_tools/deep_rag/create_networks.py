@@ -221,6 +221,7 @@ class CreateNetworks(CodedTool):
 
         # Asynchronously read the content of the file
         filepath = Path(self.files_directory) / file_name
+        self.logger.info("Reading %s", filepath)
         async with aiofiles.open(filepath, "r") as my_file:
             file_content: str = my_file.read()
 
@@ -233,13 +234,13 @@ class CreateNetworks(CodedTool):
             "aaosa_instructions": self.aaosa_defs.get("aaosa_instructions")
         }
         string_filter = StringCommonDefsConfigFilter(string_replacements)
-        content_agent = string_filter.filter(content_agent)
+        content_agent = string_filter.filter_config(content_agent)
 
         dict_replacements: Dict[str, Any] = {
             "aaosa_call": self.aaosa_defs.get("aaosa_call"),
         }
         dict_filter = DictionaryCommonDefsConfigFilter(dict_replacements)
-        content_agent = dict_filter.filter(content_agent)
+        content_agent = dict_filter.filter_config(content_agent)
 
         return content_agent
 
@@ -259,13 +260,13 @@ class CreateNetworks(CodedTool):
             "aaosa_instructions": self.aaosa_defs.get("aaosa_instructions")
         }
         string_filter = StringCommonDefsConfigFilter(replacements)
-        front_man = string_filter.filter(front_man)
+        front_man = string_filter.filter_config(front_man)
 
         dict_replacements: Dict[str, Any] = {
             "aaosa_call": self.aaosa_defs.get("aaosa_call"),
         }
         dict_filter = DictionaryCommonDefsConfigFilter(dict_replacements)
-        front_man = dict_filter.filter(front_man)
+        front_man = dict_filter.filter_config(front_man)
 
         front_man["tools"] = tools
 
