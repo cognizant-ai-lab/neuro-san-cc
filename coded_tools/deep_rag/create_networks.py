@@ -126,6 +126,7 @@ class CreateNetworks(CodedTool):
         except ValueError as exception:
             # Report exceptions from below as errors here.
             error: str = f"{exception}"
+            self.logger.error(error)
             return error
 
         if deployed_event is not None:
@@ -312,6 +313,8 @@ class CreateNetworks(CodedTool):
         external_tools: List[str] = []
         for reservation in reservations:
             res_id: str = reservation.get_url()
+            if not res_id.startswith("/") or not res_id.startswith("http"):
+                res_id = "http://localhost/" + res_id
             external_tools.append(res_id)
 
         # Start out with the front man from the template, but replace him with what's made.
