@@ -222,31 +222,50 @@ class CreateNetworks(CodedTool):
         """
         Creates a single agent node that sponsors one section of the content
         """
-
         # Asynchronously read the content of the file
         filepath = Path(self.files_directory) / file_name
         self.logger.info("Reading %s", filepath)
         async with aiofiles.open(filepath, "r") as my_file:
-            file_content: str = my_file.read()
+            file_content: str = await my_file.read()
 
         # Create the content agent spec by replacing strings in strategic places
         content_agent: Dict[str, Any] = deepcopy(content_template)
         string_replacements: Dict[str, Any] = {
             "one_content_file": tool_name,
             "content": file_content,
+        }
+
+        content_agent = self.filter_agent(content_agent, string_replacements)
+        return content_agent
+
+    def filter_agent(self, agent_spec: Dict[str, Any], replacements: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Common filters
+        """
+        # Create a network spec so the ConfigFilters from neuro_san can work on it
+        network_spec: Dict[str, Any] = {
+            "tools": [agent_spec]
+        }
+
+        # Set up string replacements and include AAOSA stuff that we have to do
+        # ourselves because we are creating a dictionary and not a hocon file.
+        string_replacements: Dict[str, str] = {
             "aaosa_command": self.aaosa_defs.get("aaosa_command"),
             "aaosa_instructions": self.aaosa_defs.get("aaosa_instructions")
         }
+        string_replacements.update(replacements)
         string_filter = StringCommonDefsConfigFilter(string_replacements)
-        content_agent = string_filter.filter_config(content_agent)
+        network_spec = string_filter.filter_config(network_spec)
 
+        # Similarly set up dictionary value replacements
         dict_replacements: Dict[str, Any] = {
             "aaosa_call": self.aaosa_defs.get("aaosa_call"),
         }
         dict_filter = DictionaryCommonDefsConfigFilter(dict_replacements)
-        content_agent = dict_filter.filter_config(content_agent)
+        network_spec = dict_filter.filter_config(network_spec)
 
-        return content_agent
+        # Retrieve the modified agent spec
+        return network_spec["tools"][0]
 
     def create_front_man(self, front_man: Dict[str, Any],
                          group: Dict[str, Any],
@@ -256,21 +275,12 @@ class CreateNetworks(CodedTool):
         """
 
         # Replace strings in the front man first
-        replacements: Dict[str, Any] = {
+        string_replacements: Dict[str, Any] = {
             "one_group": group.get("name"),
             "group_description": group.get("description"),
             "structure_description": self.grouping_json.get("description"),
-            "aaosa_command": self.aaosa_defs.get("aaosa_command"),
-            "aaosa_instructions": self.aaosa_defs.get("aaosa_instructions")
         }
-        string_filter = StringCommonDefsConfigFilter(replacements)
-        front_man = string_filter.filter_config(front_man)
-
-        dict_replacements: Dict[str, Any] = {
-            "aaosa_call": self.aaosa_defs.get("aaosa_call"),
-        }
-        dict_filter = DictionaryCommonDefsConfigFilter(dict_replacements)
-        front_man = dict_filter.filter_config(front_man)
+        front_man = self.filter_agent(front_man, string_replacements)
 
         front_man["tools"] = tools
 
