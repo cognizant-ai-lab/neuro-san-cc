@@ -229,8 +229,8 @@ class CreateNetworks(CodedTool):
         string_replacements: Dict[str, Any] = {
             "one_content_file": tool_name,
             "content": file_content,
-            "aaosa_command": self.aaosa.get("aaosa_command"),
-            "aaosa_instructions": self.aaosa.get("aaosa_instructions")
+            "aaosa_command": self.aaosa_defs.get("aaosa_command"),
+            "aaosa_instructions": self.aaosa_defs.get("aaosa_instructions")
         }
         string_filter = StringCommonDefsConfigFilter(string_replacements)
         content_agent = string_filter.filter(content_agent)
@@ -255,8 +255,8 @@ class CreateNetworks(CodedTool):
             "one_group": group.get("name"),
             "group_description": group.get("description"),
             "structure_description": self.grouping_json.get("description"),
-            "aaosa_command": self.aaosa.get("aaosa_command"),
-            "aaosa_instructions": self.aaosa.get("aaosa_instructions")
+            "aaosa_command": self.aaosa_defs.get("aaosa_command"),
+            "aaosa_instructions": self.aaosa_defs.get("aaosa_instructions")
         }
         string_filter = StringCommonDefsConfigFilter(replacements)
         front_man = string_filter.filter(front_man)
