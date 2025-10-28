@@ -311,7 +311,7 @@ class CreateNetworks(CodedTool):
         # Make a list of the external networks for the reservations to reference as tools
         external_tools: List[str] = []
         for reservation in reservations:
-            res_id: str = reservation.get_reservation_id()
+            res_id: str = reservation.get_url()
             external_tools.append(res_id)
 
         # Start out with the front man from the template, but replace him with what's made.

@@ -64,11 +64,11 @@ Providing some hints as to how you have structured the file names will also help
     tool to determine the high-level structure for the resulting network.
     Call the JSON output of this step the grouping_json.
 
-2.  Pass the full grouping_json to the create_branching_group_network tool.
+2.  Pass the full grouping_json to the create_network tool.
 
-3.  Return the full grouping_json JSON description of how the files should be grouped at a high-level.
+Return what the create_network tool returns as output
 """,
-            "tools": ["rough_structure", "create_branching_group_network"],
+            "tools": ["rough_structure", "create_network"],
 
             "allow": {
                 "to_upstream": {
@@ -137,7 +137,7 @@ Output the JSON structure described.
 """,
         },
         {
-            "name": "create_branching_group_network",
+            "name": "create_network",
             "function": {
                 "description": "Processes the grouping_json structure to create a network.",
                 "parameters": {
