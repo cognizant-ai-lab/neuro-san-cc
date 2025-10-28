@@ -91,7 +91,13 @@ The order of these file names can matter.
                             "description": """
 This is a description of how the individual files in the file_list might be organized.
 """
-                        }
+                        },
+                        "grouping_constraints": {
+                            "type": "string",
+                            "description": """
+This is an optional description of any grouping constraints from the user.
+"""
+                        },
                     }
                 },
             },
@@ -112,6 +118,7 @@ Constraints:
   at least one group.
 * Any single group may have at least one, but never more than 7 files in it.
 * There can be at most 7 groups.
+* Whenever possible follow the advice in the grouping_constraints, if that is present.
 
 Output the JSON structure described.
 """,
