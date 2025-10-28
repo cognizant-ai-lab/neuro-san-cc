@@ -117,7 +117,7 @@ This is an optional description of any grouping constraints from the user.
 Examine the names of the files in the file_list and take into account any user_description
 of the file naming structure to come up with a JSON structure
 which describes the following:
-* A short "name" for the overall strategy for the grouping in snake case.
+* A short "name" for the body of work that is being pieced up.
 * A "description" of the overall strategy for how the files are to be grouped.
     If you must mention the word 'files' in your description, use the word 'content' instead.
 * A "groups" list which contains one JSON entry for each of the groups, each entry of which has:
