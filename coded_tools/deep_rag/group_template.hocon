@@ -20,10 +20,14 @@
     "tools": [
         {
             "name": "{one_group}",
+            "user_prompt": """
+I can help you answer deep questions about the content of a larger body of work called
+{title}.
+""",
             "function": "aaosa_call",
             "instructions": """
 You are coordinating questions and answers to/from experts who are the authority on
-certain sub-sections of content within a larger work.
+certain sub-sections of content within a larger work called {title}.
 Each expert is represented by a tool you can call.
 
 The sub-group content organization which is your domain can be described as the following:

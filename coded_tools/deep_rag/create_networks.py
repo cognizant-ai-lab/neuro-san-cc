@@ -144,6 +144,9 @@ class CreateNetworks(CodedTool):
         return output
 
     async def assemble_deployments(self, reservationist: Reservationist) -> Dict[Reservation, Dict[str, Any]]:
+        """
+        Create all the networks that are to be deployed together.
+        """
 
         # Get the list of the groups
         groups: List[Dict[str, Any]] = self.grouping_json.get("groups")
@@ -214,7 +217,10 @@ class CreateNetworks(CodedTool):
 
         # Start out with the front man from the template, but replace him with what's made.
         front_man: Dict[str, Any] = tools[self.TEMPLATE_FRONT_MAN_INDEX]
-        tools[self.TEMPLATE_FRONT_MAN_INDEX] = self.create_front_man(front_man, group, content_tools)
+        front_man = self.create_front_man(front_man, group, content_tools)
+        # We don't need user prompts here
+        del front_man["user_prompt"]
+        tools[self.TEMPLATE_FRONT_MAN_INDEX] = front_man
 
         return agent_spec
 
@@ -280,6 +286,7 @@ class CreateNetworks(CodedTool):
             "one_group": group.get("name"),
             "group_description": group.get("description"),
             "structure_description": self.grouping_json.get("description"),
+            "title": self.grouping_json.get("name"),
         }
         front_man = self.filter_agent(front_man, string_replacements)
 
@@ -302,6 +309,9 @@ class CreateNetworks(CodedTool):
         return deployments
 
     def make_group_network(self, reservations: List[Reservation]) -> Dict[str, Any]:
+        """
+        Creates a final front-man network for the rest.
+        """
 
         agent_spec: Dict[str, Any] = deepcopy(self.network_template)
         tools: List[Dict[str, Any]] = agent_spec.get("tools")
@@ -319,7 +329,9 @@ class CreateNetworks(CodedTool):
 
         # Start out with the front man from the template, but replace him with what's made.
         front_man: Dict[str, Any] = tools[self.TEMPLATE_FRONT_MAN_INDEX]
-        tools[self.TEMPLATE_FRONT_MAN_INDEX] = self.create_front_man(front_man, self.grouping_json, external_tools)
+        front_man = self.create_front_man(front_man, self.grouping_json, external_tools)
+        front_man["function"]["description"] = front_man["user_prompt"]
+        tools[self.TEMPLATE_FRONT_MAN_INDEX] = front_man
 
         return agent_spec
 
