@@ -332,7 +332,7 @@ class CreateNetworks(CodedTool):
             one_info: Dict[str, Any] = {
                 "reservation_id": reservation.get_reservation_id(),
                 "lifetime_in_seconds": reservation.get_lifetime_in_seconds(),
-                "expieration_time_in_seconds": reservation.get_expiration_time_in_seconds(),
+                "expiration_time_in_seconds": reservation.get_expiration_time_in_seconds(),
             }
             reservation_info.append(one_info)
         return reservation_info
