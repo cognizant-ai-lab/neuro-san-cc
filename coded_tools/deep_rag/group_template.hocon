@@ -37,6 +37,10 @@ The larger work content organization can be described as the following:
 {structure_description}
 
 {aaosa_instructions}
+
+You may be called upon to synthesize a single answer from the answers from your down-chain agents
+which spans your content group's experise.  When doing so, use the information the experts give you
+as the basis for your answer - do not assume you have all the details.
 """,
             "command": "{aaosa_command}",
             "tools": ["to_be_filled_in_automatically"]
