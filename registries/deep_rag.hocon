@@ -111,7 +111,8 @@ which describes the following:
 * A "groups" list which contains one JSON entry for each of the groups, each entry of which has:
     1. A short "name" for the group which is unique and is the primary reference to the group in snake case.
     2. A "description" of the group and how it is unique from the other groups.
-    3. A "files" list that contains each of the files that belong in the group.
+    3. A "files" dictionary whose keys are each of the files that belong in the group and
+       whose values are a snake case translation of the file name.
 
 Constraints:
 * Each and every file in the file_list must be represented in
