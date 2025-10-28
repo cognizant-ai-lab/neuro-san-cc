@@ -136,7 +136,7 @@ class CreateNetworks(CodedTool):
         reservation_info: List[Dict[str, Any]] = self.assemble_reservation_info(deployments.keys())
         sly_data["agent_reservations"] = reservation_info
 
-        entry: Dict[str, Any] = reservation_info[0]
+        entry: Dict[str, Any] = reservation_info[-1]
         entry_reservation_id: str = entry.get("reservation_id")
         entry_lifetime: str = entry.get("lifetime_in_seconds")
         output: str = f"The main agent to access your deep rag network is {entry_reservation_id}" + \
