@@ -193,6 +193,10 @@ class CreateNetworks(CodedTool):
 
         # The last item in the tools list of the template is the template for a content node.
         content_template: Dict[str, Any] = tools.pop()
+
+        logstr: str = dumps(group, indent=4, sort_keys=True)
+        self.logger.info("Processing group: %s", logstr)
+
         files: Dict[str, str] = group.get("files")
 
         # Create each content-focused node
