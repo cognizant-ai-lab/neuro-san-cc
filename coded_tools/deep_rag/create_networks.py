@@ -16,7 +16,7 @@ from typing import List
 
 import aiofiles
 
-# from asyncio import Event
+from asyncio import Event
 from copy import deepcopy
 from json import dumps
 from logging import getLogger
@@ -24,7 +24,6 @@ from logging import Logger
 from pathlib import Path
 
 from leaf_common.config.file_of_class import FileOfClass
-# from leaf_common.parsers.dictionary_extractor import DictionaryExtractor
 from leaf_common.persistence.easy.easy_hocon_persistence import EasyHoconPersistence
 
 from neuro_san.interfaces.coded_tool import CodedTool
@@ -49,6 +48,8 @@ class CreateNetworks(CodedTool):
     """
 
     TEMPLATE_FRONT_MAN_INDEX: int = 0
+    ONE_HOUR: float = 60 * 60
+    LIFETIME: float = ONE_HOUR
 
     def __init__(self):
         """
@@ -104,10 +105,41 @@ class CreateNetworks(CodedTool):
         empty: Dict[str, Any] = {}
         self.grouping_json: Dict[str, Any] = args.get("grouping_json", empty)
         self.files_directory: str = args.get("files_directory")
-        reservationist: Reservationist = args.get("reservationist")
 
         logstr: str = dumps(self.grouping_json, indent=4, sort_keys=True)
         self.logger.info("grouping_json is %s", logstr)
+
+        reservationist: Reservationist = args.get("reservationist")
+        deployments: Dict[Reservation, Dict[str, Any]] = await self.assemble_deployments(reservationist)
+
+        # Deploy the reservations with confirmation event
+        # If you don't really need to wait until the new agent(s) has been deployed
+        # then set confirmation=False, and don't bother about waiting for the Event.
+        deployed_event: Event = None
+        try:
+            async with reservationist:
+                deployed_event = await reservationist.deploy(deployments, confirmation=True)
+
+        except ValueError as exception:
+            # Report exceptions from below as errors here.
+            error: str = f"{exception}"
+            return error
+
+        if deployed_event is not None:
+            await deployed_event.wait()
+
+        # Assemble the output
+        reservation_info: List[Dict[str, Any]] = self.assemble_reservation_info(deployments.keys())
+        sly_data["agent_reservations"] = reservation_info
+
+        entry: Dict[str, Any] = reservation_info[0]
+        entry_reservation_id: str = entry.get("reservation_id")
+        entry_lifetime: str = entry.get("lifetime_in_seconds")
+        output: str = f"The main agent to access your deep rag network is {entry_reservation_id}" + \
+                      f"Hurry, it's only available for {entry_lifetime} seconds."
+        return output
+
+    async def assemble_deployments(self, reservationist: Reservationist) -> Dict[Reservation, Dict[str, Any]]:
 
         # Get the list of the groups
         groups: List[Dict[str, Any]] = self.grouping_json.get("groups")
@@ -118,12 +150,18 @@ class CreateNetworks(CodedTool):
             name: str = group.get("name")
             name_to_group[name] = group
 
+        # Create the leaf networks and make Reservations for them
         name_to_network: Dict[str, Dict[str, Any]] = await self.make_leaf_networks(name_to_group)
-        name_to_reservation = await self.reserve_leaf_networks(reservationist, name_to_network)
+        deployments: Dict[Reservation, Dict[str, Any]] = await self.reserve_leaf_networks(reservationist,
+                                                                                          name_to_network)
 
-        group_network: Dict[str, Any] = self.make_group_network(name_to_reservation.keys())
+        # Use the reservations as tools in the top-level group network
+        group_network: Dict[str, Any] = self.make_group_network(deployments.keys())
+        reservation: Reservation = await reservationist.reserve(lifetime_in_seconds=self.LIFETIME,
+                                                                prefix=self.grouping_json.get("name"))
+        deployments[reservation] = group_network
 
-        return group_network
+        return deployments
 
     async def make_leaf_networks(self, name_to_group: Dict[str, Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
         """
@@ -133,7 +171,7 @@ class CreateNetworks(CodedTool):
 
         # Make a dictionary of name -> network name as we create the leaf networks
         group_name_to_network: Dict[str, Dict[str, Any]] = {}
-        for group_name, group in name_to_group:
+        for group_name, group in name_to_group.items():
 
             # If the group has files, then it's a leaf network
             if group.get("files"):
@@ -156,7 +194,7 @@ class CreateNetworks(CodedTool):
 
         # Create each content-focused node
         content_tools: List[str] = []
-        for file_name, tool_name in files:
+        for file_name, tool_name in files.items():
 
             content_agent: Dict[str, Any] = await self.create_one_content_agent(file_name, tool_name, content_template)
 
@@ -215,14 +253,19 @@ class CreateNetworks(CodedTool):
 
     async def reserve_leaf_networks(self, reservationist: Reservationist,
                                     name_to_network: Dict[str, Dict[str, Any]]) \
-            -> Dict[str, Reservation]:
+            -> Dict[Reservation, Dict[str, Any]]:
         """
         Creates reservations for each named network
         """
-        name_to_reservation: Dict[str, Reservation] = {}
-        return name_to_reservation
+        deployments: Dict[Reservation, Dict[str, Any]] = {}
 
-    def make_group_network(self, external_tools: List[str]) -> Dict[str, Any]:
+        for name, network in name_to_network.items():
+            reservation: Reservation = await reservationist.reserve(lifetime_in_seconds=self.LIFETIME, prefix=name)
+            deployments[reservation] = network
+
+        return deployments
+
+    def make_group_network(self, reservations: List[Reservation]) -> Dict[str, Any]:
 
         agent_spec: Dict[str, Any] = deepcopy(self.network_template)
         tools: List[Dict[str, Any]] = agent_spec.get("tools")
@@ -230,8 +273,28 @@ class CreateNetworks(CodedTool):
         # We don't need the content node, we are using external networks for those.
         _ = tools.pop()
 
+        # Make a list of the external networks for the reservations to reference as tools
+        external_tools: List[str] = []
+        for reservation in reservations:
+            res_id: str = reservation.get_reservation_id()
+            external_tools.append(res_id)
+
         # Start out with the front man from the template, but replace him with what's made.
         front_man: Dict[str, Any] = tools[self.TEMPLATE_FRONT_MAN_INDEX]
         tools[self.TEMPLATE_FRONT_MAN_INDEX] = self.create_front_man(front_man, self.grouping_json, external_tools)
 
         return agent_spec
+
+    def assemble_reservation_info(self, reservations: List[Reservation]) -> List[Dict[str, Any]]:
+        """
+        Assemble the list of networks available to the user.
+        """
+        reservation_info: List[Dict[str, Any]] = []
+        for reservation in reservations:
+            one_info: Dict[str, Any] = {
+                "reservation_id": reservation.get_reservation_id(),
+                "lifetime_in_seconds": reservation.get_lifetime_in_seconds(),
+                "expieration_time_in_seconds": reservation.get_expiration_time_in_seconds(),
+            }
+            reservation_info.append(one_info)
+        return reservation_info
