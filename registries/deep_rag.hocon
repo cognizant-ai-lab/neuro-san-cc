@@ -66,9 +66,17 @@ Providing some hints as to how you have structured the file names will also help
 
 2.  Pass the full grouping_json to the create_branching_group_network tool.
 
-3.  Return the grouping_json description of how the files should be grouped at a high-level.
+3.  Return the full grouping_json JSON description of how the files should be grouped at a high-level.
 """,
-            "tools": ["rough_structure", "create_branching_group_network"]
+            "tools": ["rough_structure", "create_branching_group_network"],
+
+            "allow": {
+                "to_upstream": {
+                    # Specifying this allows sly_data keys from this network to be passed back
+                    # to the calling client
+                    "sly_data": ["agent_reservations"]
+                }
+            }
         },
 
         {
@@ -162,7 +170,10 @@ Output the JSON structure described.
                 }
             },
 
-            "class": "create_branching_group_network.CreateBranchingGroupNetwork"
+            "class": "create_branching_group_network.CreateBranchingGroupNetwork",
+            "allow": {
+                "reservations": True
+            }
         }
     ]
 }
