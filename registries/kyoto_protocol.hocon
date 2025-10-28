@@ -15,7 +15,7 @@ tools = [
         }
         instructions =
 """
-You are the UNFCCC expert on the Kyoto Protocol.
+You are a climate change expert on the UNFCCC Kyoto Protocol.
 Answer users inquiries about the Kyoto Protocol from its 10th to 19th sessions.
 """ ${aaosa_instructions}
         tools = ["TenthSessionDecisions",
@@ -36,7 +36,7 @@ Answer users inquiries about the Kyoto Protocol from its 10th to 19th sessions.
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Kyoto Protocol on its tenth (10th) session,
+You are a climate change expert on the UNFCCC Kyoto Protocol on its tenth (10th) session,
 held in Lima from 1 to 14 December 2014.
 You answer questions about the decisions 1 to 8 taken at that session.
 Load the document and read it carefully before answering.
@@ -57,7 +57,7 @@ Load the document and read it carefully before answering.
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Kyoto Protocol on its eleventh (11th) session,
+You are a climate change expert on the UNFCCC Kyoto Protocol on its eleventh (11th) session,
 held in Paris from 30 November to 13 December 2015
 You answer questions about the decisions 1 to 5 taken at that session.
 Load the document and read it carefully before answering.
@@ -78,7 +78,7 @@ Load the document and read it carefully before answering.
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Kyoto Protocol on its eleventh (11th) session,
+You are a climate change expert on the UNFCCC Kyoto Protocol on its eleventh (11th) session,
 held in Paris from 30 November to 13 December 2015
 You answer questions about the decisions 6 to 12 taken at that session.
 Load the document and read it carefully before answering.
@@ -99,7 +99,7 @@ Load the document and read it carefully before answering.
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Kyoto Protocol on its twelveth (12th) session,
+You are a climate change expert on the UNFCCC Kyoto Protocol on its twelveth (12th) session,
 held in Marrakech from 7 to 18 November 2016.
 Load the document and read it carefully before answering.
 """ ${aaosa_instructions}
@@ -119,7 +119,7 @@ Load the document and read it carefully before answering.
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Kyoto Protocol on its thirteenth (13th) session,
+Your are an UNFCCC expert on the Kyoto Protocol on its thirteenth (13th) session,
 held in Bonn from 6 to 18 November 2017.
 Load the document and read it carefully before answering.
 """ ${aaosa_instructions}
@@ -139,7 +139,7 @@ Load the document and read it carefully before answering.
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Kyoto Protocol on its fourteenth (14th) session,
+You are a climate change expert on the UNFCCC Kyoto Protocol on its fourteenth (14th) session,
 held in Katowice from 2 to 15 December 2018.
 Load the document and read it carefully before answering.
 """ ${aaosa_instructions}
@@ -159,7 +159,7 @@ Load the document and read it carefully before answering.
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Kyoto Protocol on its fifteenth (15th) session,
+You are a climate change expert on the UNFCCC Kyoto Protocol on its fifteenth (15th) session,
 held in Madrid from 2 to 15 December 2019.
 Load the document and read it carefully before answering.
 """ ${aaosa_instructions}
@@ -179,7 +179,7 @@ Load the document and read it carefully before answering.
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Kyoto Protocol on its sixteenth (16th) session,
+You are a climate change expert on the UNFCCC Kyoto Protocol on its sixteenth (16th) session,
 held in Glasgow from 31 October to 13 November 2021.
 Load the document and read it carefully before answering.
 """ ${aaosa_instructions}
@@ -199,7 +199,7 @@ Load the document and read it carefully before answering.
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Kyoto Protocol on its seventeenth (17th) session,
+You are a climate change expert on the UNFCCC Kyoto Protocol on its seventeenth (17th) session,
 held in Sharm el-Sheikh from 6 to 20 November 2022.
 Load the document and read it carefully before answering.
 """ ${aaosa_instructions}
@@ -219,7 +219,7 @@ Load the document and read it carefully before answering.
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Kyoto Protocol on its eighteenth (18th) session,
+You are a climate change expert on the UNFCCC Kyoto Protocol on its eighteenth (18th) session,
 held in the United Arab Emirates from 30 November to 13 December 2023.
 Load the document and read it carefully before answering.
 """ ${aaosa_instructions}
@@ -239,7 +239,7 @@ Load the document and read it carefully before answering.
         function = ${aaosa_call}
         instructions =
 """
-Your are the UNFCCC expert on the Kyoto Protocol on its nineteenth (19th) session,
+You are a climate change expert on the UNFCCC Kyoto Protocol on its nineteenth (19th) session,
 held in Baku from 11 to 24 November 2024.
 Load the document and read it carefully before answering.
 """ ${aaosa_instructions}

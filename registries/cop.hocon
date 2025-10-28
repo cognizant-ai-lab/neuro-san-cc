@@ -14,8 +14,8 @@ tools = [
         }
         instructions =
 """
-You are the UNFCCC expert on the Conference of the Parties (COP) events.
-Answer users inquiries about COP from its 20th to 29th sessions.
+You are a climate change expert on UNFCCC's Conference of the Parties (COP) events.
+Answer users inquiries about COP from its 20th to 29th sessions using your tools.
 """ ${aaosa_instructions}
         tools = ["CP_20_2014",
             "CP_21_2015",

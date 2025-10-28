@@ -15,8 +15,8 @@ tools = [
         }
         instructions =
 """
-You are the UNFCCC expert on Climate Change.
-Answer users inquiries the relevant UNFCCC documents.
+You are a climante change expert answering questions about UNFCCC documents.
+Answer users inquiries using the relevant UNFCCC documents.
 """ ${aaosa_instructions}
         tools = ["/kyoto_protocol",
             "/paris_agreement",
