@@ -135,7 +135,7 @@ class CreateNetworks(CodedTool):
         # Assemble the output
         reservation_info: List[Dict[str, Any]] = self.assemble_reservation_info(deployments.keys())
         sly_data["agent_reservations"] = reservation_info
-        sly_data["grouping_json"] = self.grouping_json
+        sly_data["aa_grouping_json"] = self.grouping_json
 
         entry: Dict[str, Any] = reservation_info[-1]
         entry_reservation_id: str = entry.get("reservation_id")

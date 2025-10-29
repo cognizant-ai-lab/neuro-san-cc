@@ -74,7 +74,7 @@ Return what the create_network tool returns as output
                 "to_upstream": {
                     # Specifying this allows sly_data keys from this network to be passed back
                     # to the calling client
-                    "sly_data": ["agent_reservations", "grouping_json"]
+                    "sly_data": ["agent_reservations", "aa_grouping_json"]
                 }
             }
         },
