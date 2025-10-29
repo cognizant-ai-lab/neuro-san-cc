@@ -13,13 +13,23 @@
 # The schema specifications for this file are documented here:
 # https://github.com/cognizant-ai-lab/neuro-san/blob/main/docs/agent_hocon_reference.md
 
+# Template for agent networks used by create_networks.
+# {string} indicates that a string substitution will take place
+# when building networks with these nodes as components.
+
 {
     "llm_config": {
         "model_name": "gpt-4o",
     },
     "tools": [
+        # First guy is the template for a front man of any network
         {
             "name": "{one_group}",
+
+            # Note this user_prompt key is not a real neuro-san thing.
+            # Just needed a place to put some prompt templating that took advantage
+            # of the string search/replace mentioned aboved.
+            # This gets removed upon network deployment.
             "user_prompt": """
 I can help you answer deep questions about the content of a larger body of work called
 {title}.
@@ -45,6 +55,9 @@ as the basis for your answer - do not assume you have all the details.
             "command": "{aaosa_command}",
             "tools": ["to_be_filled_in_automatically"]
         },
+
+        # Second guy is the template for a content-specialist node of any network.
+        # This gets copy/pasted repeatedly when constructing networks automatically.
         {
             "name": "{one_content_file}",
             "function": "aaosa_call",
