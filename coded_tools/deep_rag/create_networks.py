@@ -163,6 +163,8 @@ class CreateNetworks(CodedTool):
 
         # Use the reservations as tools in the top-level group network
         group_network: Dict[str, Any] = self.make_group_network(deployments.keys())
+        # Filter names to change spaces to underscores because tool names don't like spaces.
+        # Reduces errors.
         filtered_name: str = self.grouping_json.get("name")
         filtered_name = filtered_name.replace(" ", "_")
         reservation: Reservation = await reservationist.reserve(lifetime_in_seconds=self.LIFETIME,
@@ -311,6 +313,8 @@ class CreateNetworks(CodedTool):
         deployments: Dict[Reservation, Dict[str, Any]] = {}
 
         for name, network in name_to_network.items():
+            # Filter names to change spaces to underscores because tool names don't like spaces.
+            # Reduces errors.
             filtered_name: str = name.replace(" ", "_")
             reservation: Reservation = await reservationist.reserve(lifetime_in_seconds=self.LIFETIME,
                                                                     prefix=filtered_name)
