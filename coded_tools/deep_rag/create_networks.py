@@ -135,6 +135,7 @@ class CreateNetworks(CodedTool):
         # Assemble the output
         reservation_info: List[Dict[str, Any]] = self.assemble_reservation_info(deployments.keys())
         sly_data["agent_reservations"] = reservation_info
+        sly_data["grouping_json"] = self.grouping_json
 
         entry: Dict[str, Any] = reservation_info[-1]
         entry_reservation_id: str = entry.get("reservation_id")
@@ -164,8 +165,10 @@ class CreateNetworks(CodedTool):
 
         # Use the reservations as tools in the top-level group network
         group_network: Dict[str, Any] = self.make_group_network(deployments.keys())
+        filtered_name: str = self.grouping_json.get("name")
+        filtered_name = filtered_name.replace(" ", "_")
         reservation: Reservation = await reservationist.reserve(lifetime_in_seconds=self.LIFETIME,
-                                                                prefix=self.grouping_json.get("name"))
+                                                                prefix=filtered_name)
         deployments[reservation] = group_network
 
         return deployments
@@ -303,7 +306,9 @@ class CreateNetworks(CodedTool):
         deployments: Dict[Reservation, Dict[str, Any]] = {}
 
         for name, network in name_to_network.items():
-            reservation: Reservation = await reservationist.reserve(lifetime_in_seconds=self.LIFETIME, prefix=name)
+            filtered_name: str = name.replace(" ", "_")
+            reservation: Reservation = await reservationist.reserve(lifetime_in_seconds=self.LIFETIME,
+                                                                    prefix=filtered_name)
             deployments[reservation] = network
 
         return deployments
