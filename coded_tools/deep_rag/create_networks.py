@@ -109,9 +109,7 @@ class CreateNetworks(CodedTool):
         self.grouping_json: Dict[str, Any] = args.get("grouping_json", empty)
         self.files_directory: str = args.get("files_directory")
 
-        logstr: str = dumps(self.grouping_json, indent=4, sort_keys=True)
-        self.logger.info("grouping_json is %s", logstr)
-
+        # Main assembly of all networks we will deploy
         reservationist: Reservationist = args.get("reservationist")
         deployments: Dict[Reservation, Dict[str, Any]] = await self.assemble_deployments(reservationist)
 
@@ -251,6 +249,13 @@ class CreateNetworks(CodedTool):
     def filter_agent(self, agent_spec: Dict[str, Any], replacements: Dict[str, Any]) -> Dict[str, Any]:
         """
         Common filters
+
+        We need to use the CommonDefs filters from neuro_san in order to insert the common AAOSA
+        instructions/call/command in the right places.
+
+        This is because we are not actually creating a hocon file that can benefit from all the
+        "include" business that hocons afford. We are simply creating a dictionary and all that
+        search/replace that hocon does for us we have to do ourselves.
         """
         # Create a network spec so the ConfigFilters from neuro_san can work on it
         network_spec: Dict[str, Any] = {
