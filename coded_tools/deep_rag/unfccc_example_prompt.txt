@@ -1,0 +1,120 @@
+I will give you files pertaining to the proceedings over the course
+of several conferences and several years that the UN has held on climate change.
+
+The files are in the directory: /<your_abs_path>/neuro-san-cc/documents
+
+File path structure:
+* Any one file path will have 2 directories as part of its prefix:
+    1) The 1st directory is the name of the conference, usually an abbreviation.
+    2) The 2nd directory is superfluous, except when accessing the file directly.
+
+* The filename portion of the path might have several components:
+    1) Some reiteration of the conference, perhaps further abbreviated. This can be considered superfluous.
+    2) A 4 digit year that the converence was held
+    3) A sequence number distinguishin documents from the same year
+    4) The last portion for the filename can consist of:
+        a) A specific report number for the conference OR
+        b) A label for specific groups of decisions made at the conference
+
+* The ".txt" suffix that each file ends with has no bearing as to the content
+  within the file other than its format and should not be considered for organizational purposes.
+
+Grouping Constraints:
+* Never mix files from different conferences in the same group.
+* It's OK if a single conference needs more than one group
+* If splitting a conference into multiple groups is necessary, try to make the split
+  such that each group has the same number of files.
+
+The list of files to use in order are:
+
+CMA/CMA_txt/CMA2016_1.1_Decisions_1_to_2.txt
+CMA/CMA_txt/CMA2018_1.3_Decisions_13_to_20.txt
+CMA/CMA_txt/CMA2018_1.3_Decisions_3_to_12.txt
+CMA/CMA_txt/CMA2019_2_Decisions_1_to_9.txt
+CMA/CMA_txt/CMA2021_3_2021_Decisions_5.txt
+CMA/CMA_txt/CMA2021_3_Decisions_1_to_4.txt
+CMA/CMA_txt/CMA2021_3_Decisions_6_to_24.txt
+CMA/CMA_txt/CMA2022_4_Decisions_12_to_24.txt
+CMA/CMA_txt/CMA2022_4_Decisions_1_to_5.txt
+CMA/CMA_txt/CMA2022_4_Decisions_6_to_11.txt
+CMA/CMA_txt/CMA2023_5_Decisions_17_to_21.txt
+CMA/CMA_txt/CMA2023_5_Decisions_1_to_5.txt
+CMA/CMA_txt/CMA2023_5_Decisions_6_to_16.txt
+CMA/CMA_txt/CMA2024_6_Decisions_16_to_23.txt
+CMA/CMA_txt/CMA2024_6_Decisions_1_to_7.txt
+CMA/CMA_txt/CMA2024_6_Decisions_8_to_15.txt
+'CMP/CMP_txt/CMP2014_10 Decisions_1_to_8.txt'
+CMP/CMP_txt/CMP2015_11_Decisions_1_to_5.txt
+CMP/CMP_txt/CMP2015_11_decisions_6_to_12.txt
+CMP/CMP_txt/CMP2016_12_Decisions_1_to_8.txt
+CMP/CMP_txt/CMP2017_13_Decisions_1_to_7.txt
+CMP/CMP_txt/CMP2018_14_Decisions_1_to_5.txt
+CMP/CMP_txt/CMP2019_15_Decisions_1_to_7.txt
+CMP/CMP_txt/CMP2021_16_Decisions_1_to_10.txt
+CMP/CMP_txt/CMP2022_17_Decisions_1_to_9.txt
+CMP/CMP_txt/CMP2023_18_Decisions_1_to_7.txt
+CMP/CMP_txt/CMP2024_19_Decisions_1_to_5.txt
+'COP/COP_txt/cp2014_20 - 2014 - decision 13 to 24.txt'
+'COP/COP_txt/cp2014_20 - 2014 - decision 1.txt'
+'COP/COP_txt/cp2014_20 - 2014 - decision 2 to 12.txt'
+'COP/COP_txt/cp2015_21 - 2015 - decision 1.txt'
+'COP/COP_txt/cp2015_21 - 2015 - decisions 14 to 23.txt'
+'COP/COP_txt/cp2015_21 - 2015 - decisions 2 to 13.txt'
+'COP/COP_txt/cp2016_22 - 2016 - decisions 14 to 22.txt'
+'COP/COP_txt/cp2016_22 - 2016 - decisions 1 to 13.txt'
+'COP/COP_txt/cp2017_23 - 2017 - decisions 13 to 22.txt'
+'COP/COP_txt/cp2017_23 - 2017 - decisions 1 to 12.txt'
+'COP/COP_txt/cp2018_24 - 2018 - decisions 13 to 20.txt'
+'COP/COP_txt/cp2018_24 - 2018 - decisions 1 to 12.txt'
+'COP/COP_txt/cp2019_25 - 2019 - Decisions 1 to 6.txt'
+'COP/COP_txt/cp2019_25 - 2019 - Decisions 7 to 18.txt'
+'COP/COP_txt/cp2021_26 - 2021 - Decisions 12 to 23.txt'
+'COP/COP_txt/cp2021_26 - 2021 - Decisions 1 to 11.txt'
+'COP/COP_txt/cp2022_27 - 2022 - Decisions 13 to 23.txt'
+'COP/COP_txt/cp2022_27 - 2022 - Decisions 1 to 12.txt'
+'COP/COP_txt/cp2022_27 - 2022 - Decisions 24 to 27.txt'
+'COP/COP_txt/cp2023_28 - 2023 - Decisions 10 to 19.txt'
+'COP/COP_txt/cp2023_28 - 2023 - Decisions 1 to 9.txt'
+'COP/COP_txt/cp2024_29 - 2024 - Decisions 11 to 21.txt'
+'COP/COP_txt/cp2024_29 - 2024 - Decisions 1 to 10.txt'
+'SBI/SBI_txt/sbi2014_21 (report SB 41).txt'
+'SBI/SBI_txt/sbi2014_8 (report SB 40).txt'
+'SBI/SBI_txt/sbi2015_10 (report SB 42).txt'
+'SBI/SBI_txt/sbi2015_22 (report SB 43).txt'
+'SBI/SBI_txt/sbi2016_20 (report SB 45).txt'
+'SBI/SBI_txt/sbi2016_8 (report SB 44).txt'
+'SBI/SBI_txt/sbi2017_19 (report SB 47).txt'
+'SBI/SBI_txt/sbi2017_7 (report SB 46).txt'
+SBI/SBI_txt/sbi2018_11.txt
+SBI/SBI_txt/sbi2018_22.txt
+'SBI/SBI_txt/sbi2018_9 (report SB 48.1).txt'
+SBI/SBI_txt/sbi2019_20.txt
+SBI/SBI_txt/sbi2019_9.txt
+SBI/SBI_txt/sbi2021_16a01.txt
+SBI/SBI_txt/sbi2021_16.txt
+SBI/SBI_txt/sbi2022_10.txt
+SBI/SBI_txt/sbi2022_20.txt
+SBI/SBI_txt/sbi2023_10.txt
+SBI/SBI_txt/sbi2023_21.txt
+SBI/SBI_txt/sbi2024_13.txt
+SBI/SBI_txt/sbsta2022_6.txt
+'SBSTA/SBSTA_txt/sbsta2014_2 (report SB 40).txt'
+'SBSTA/SBSTA_txt/sbsta2014_5 (report SB 41).txt'
+'SBSTA/SBSTA_txt/sbsta2015_2 (report SB 42).txt'
+'SBSTA/SBSTA_txt/sbsta2015_5 (report SB 43).txt'
+'SBSTA/SBSTA_txt/sbsta2016_2 (report SB 44).txt'
+'SBSTA/SBSTA_txt/sbsta2016_4 (report SB 45).txt'
+'SBSTA/SBSTA_txt/sbsta2017_4 (report SB 46).txt'
+'SBSTA/SBSTA_txt/sbsta2017_7 (report SB 47).txt'
+'SBSTA/SBSTA_txt/sbsta2018_4 (report SB 48.1).txt'
+SBSTA/SBSTA_txt/sbsta2018_6.txt
+'SBSTA/SBSTA_txt/SBSTA2018_8 (report).txt'
+SBSTA/SBSTA_txt/sbsta2019_5.txt
+SBSTA/SBSTA_txt/sbsta2021_03.txt
+SBSTA/SBSTA_txt/sbsta2022_10.txt
+SBSTA/SBSTA_txt/sbsta2022_6.txt
+SBSTA/SBSTA_txt/sbsta2023_04.txt
+SBSTA/SBSTA_txt/sbsta2023_8.txt
+SBSTA/SBSTA_txt/sbsta2024_7.txt
+SBSTA/SBSTA_txt/SBSTA50_report.txt
+
