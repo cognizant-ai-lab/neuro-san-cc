@@ -25,7 +25,7 @@ tools = [
         }
         instructions =
 """
-You are the UNFCCC expert on the Paris Agreement.
+You are a climate change expert on the UNFCCC Paris Agreement.
 Answer users inquiries about the Paris Agreement using the relevant decision documents.
 Your sub-agents are organized by session and decision numbers.
 """ ${aaosa_instructions}
