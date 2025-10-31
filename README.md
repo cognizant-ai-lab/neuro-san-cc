@@ -18,7 +18,7 @@ git clone https://github.com/cognizant-ai-lab/neuro-san-cc
 Go to dir:
 
 ```bash
-cd neuro-san-studio
+cd neuro-san-cc
 ```
 
 Ensure you have a supported version of python (e.g. 3.12 or 3.13):

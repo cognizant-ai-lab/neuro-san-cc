@@ -4,7 +4,7 @@ include "registries/aaosa_basic.hocon"
 metadata {
     description = "Agent network than can answer any question about the Paris agreement by reading the official documents."
     tags = ["UNFCCC", "COP", "CMA"]
-    sample_queries: [
+    sample_queries = [
         "How many types of authorization for ITMOs are there?",
         "What are the main differences between the Sharm el-Sheikh decision (CMA 4, 2022) and the Baku decision (CMA 6, 2024) on Article 6.2?"
     ]
