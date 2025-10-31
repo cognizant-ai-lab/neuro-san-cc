@@ -1,0 +1,78 @@
+
+# Copyright (C) 2023-2025 Cognizant Digital Business, Evolutionary AI.
+# All Rights Reserved.
+# Issued under the Academic Public License.
+#
+# You can be released from the terms, and requirements of the Academic Public
+# License by purchasing a commercial license.
+# Purchase of a commercial license is mandatory for any use of the
+# neuro-san SDK Software in commercial settings.
+#
+# END COPYRIGHT
+
+# The schema specifications for this file are documented here:
+# https://github.com/cognizant-ai-lab/neuro-san/blob/main/docs/agent_hocon_reference.md
+
+# Template for agent networks used by create_networks.
+# {string} indicates that a string substitution will take place
+# when building networks with these nodes as components.
+
+{
+    "llm_config": {
+        "model_name": "gpt-4o",
+    },
+    "tools": [
+        # First guy is the template for a front man of any network
+        {
+            "name": "{one_group}",
+
+            # Note this user_prompt key is not a real neuro-san thing.
+            # Just needed a place to put some prompt templating that took advantage
+            # of the string search/replace mentioned aboved.
+            # This gets removed upon network deployment.
+            "user_prompt": """
+I can help you answer deep questions about the content of a larger body of work called
+{title}.
+""",
+            "function": "aaosa_call",
+            "instructions": """
+You are coordinating questions and answers to/from experts who are the authority on
+certain sub-sections of content within a larger work called {title}.
+Each expert is represented by a tool you can call.
+
+The sub-group content organization which is your domain can be described as the following:
+{group_description}
+
+The larger work content organization can be described as the following:
+{structure_description}
+
+{aaosa_instructions}
+
+You may be called upon to synthesize a single answer from the answers from your down-chain agents
+which spans your content group's experise.  When doing so, use the information the experts give you
+as the basis for your answer - do not assume you have all the details.
+""",
+            "command": "{aaosa_command}",
+            "tools": ["to_be_filled_in_automatically"]
+        },
+
+        # Second guy is the template for a content-specialist node of any network.
+        # This gets copy/pasted repeatedly when constructing networks automatically.
+        {
+            "name": "{one_content_file}",
+            "function": "aaosa_call",
+            "instructions": """
+You are the expert on a specific section of content within a larger work.
+Answer questions only as they pertain your section of the content.
+Do not try to guess about other sections of the content you do not have.
+
+{aaosa_instructions}
+
+Here is the section of content which is your expertise in its entirety:
+
+{content}
+""",
+            "command": "{aaosa_command}"
+        }
+    ]
+}

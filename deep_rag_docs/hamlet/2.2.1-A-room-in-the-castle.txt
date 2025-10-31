@@ -1,0 +1,331 @@
+SCENE II. A room in the castle.
+
+Enter KING CLAUDIUS, QUEEN GERTRUDE, ROSENCRANTZ, GUILDENSTERN, and Attendants
+KING CLAUDIUS
+Welcome, dear Rosencrantz and Guildenstern!
+Moreover that we much did long to see you,
+The need we have to use you did provoke
+Our hasty sending. Something have you heard
+Of Hamlet's transformation; so call it,
+Sith nor the exterior nor the inward man
+Resembles that it was. What it should be,
+More than his father's death, that thus hath put him
+So much from the understanding of himself,
+I cannot dream of: I entreat you both,
+That, being of so young days brought up with him,
+And sith so neighbour'd to his youth and havior,
+That you vouchsafe your rest here in our court
+Some little time: so by your companies
+To draw him on to pleasures, and to gather,
+So much as from occasion you may glean,
+Whether aught, to us unknown, afflicts him thus,
+That, open'd, lies within our remedy.
+QUEEN GERTRUDE
+Good gentlemen, he hath much talk'd of you;
+And sure I am two men there are not living
+To whom he more adheres. If it will please you
+To show us so much gentry and good will
+As to expend your time with us awhile,
+For the supply and profit of our hope,
+Your visitation shall receive such thanks
+As fits a king's remembrance.
+ROSENCRANTZ
+Both your majesties
+Might, by the sovereign power you have of us,
+Put your dread pleasures more into command
+Than to entreaty.
+GUILDENSTERN
+But we both obey,
+And here give up ourselves, in the full bent
+To lay our service freely at your feet,
+To be commanded.
+KING CLAUDIUS
+Thanks, Rosencrantz and gentle Guildenstern.
+QUEEN GERTRUDE
+Thanks, Guildenstern and gentle Rosencrantz:
+And I beseech you instantly to visit
+My too much changed son. Go, some of you,
+And bring these gentlemen where Hamlet is.
+GUILDENSTERN
+Heavens make our presence and our practises
+Pleasant and helpful to him!
+QUEEN GERTRUDE
+Ay, amen!
+Exeunt ROSENCRANTZ, GUILDENSTERN, and some Attendants
+
+Enter POLONIUS
+
+LORD POLONIUS
+The ambassadors from Norway, my good lord,
+Are joyfully return'd.
+KING CLAUDIUS
+Thou still hast been the father of good news.
+LORD POLONIUS
+Have I, my lord? I assure my good liege,
+I hold my duty, as I hold my soul,
+Both to my God and to my gracious king:
+And I do think, or else this brain of mine
+Hunts not the trail of policy so sure
+As it hath used to do, that I have found
+The very cause of Hamlet's lunacy.
+KING CLAUDIUS
+O, speak of that; that do I long to hear.
+LORD POLONIUS
+Give first admittance to the ambassadors;
+My news shall be the fruit to that great feast.
+KING CLAUDIUS
+Thyself do grace to them, and bring them in.
+Exit POLONIUS
+
+He tells me, my dear Gertrude, he hath found
+The head and source of all your son's distemper.
+QUEEN GERTRUDE
+I doubt it is no other but the main;
+His father's death, and our o'erhasty marriage.
+KING CLAUDIUS
+Well, we shall sift him.
+Re-enter POLONIUS, with VOLTIMAND and CORNELIUS
+
+Welcome, my good friends!
+Say, Voltimand, what from our brother Norway?
+VOLTIMAND
+Most fair return of greetings and desires.
+Upon our first, he sent out to suppress
+His nephew's levies; which to him appear'd
+To be a preparation 'gainst the Polack;
+But, better look'd into, he truly found
+It was against your highness: whereat grieved,
+That so his sickness, age and impotence
+Was falsely borne in hand, sends out arrests
+On Fortinbras; which he, in brief, obeys;
+Receives rebuke from Norway, and in fine
+Makes vow before his uncle never more
+To give the assay of arms against your majesty.
+Whereon old Norway, overcome with joy,
+Gives him three thousand crowns in annual fee,
+And his commission to employ those soldiers,
+So levied as before, against the Polack:
+With an entreaty, herein further shown,
+Giving a paper
+
+That it might please you to give quiet pass
+Through your dominions for this enterprise,
+On such regards of safety and allowance
+As therein are set down.
+KING CLAUDIUS
+It likes us well;
+And at our more consider'd time well read,
+Answer, and think upon this business.
+Meantime we thank you for your well-took labour:
+Go to your rest; at night we'll feast together:
+Most welcome home!
+Exeunt VOLTIMAND and CORNELIUS
+
+LORD POLONIUS
+This business is well ended.
+My liege, and madam, to expostulate
+What majesty should be, what duty is,
+Why day is day, night night, and time is time,
+Were nothing but to waste night, day and time.
+Therefore, since brevity is the soul of wit,
+And tediousness the limbs and outward flourishes,
+I will be brief: your noble son is mad:
+Mad call I it; for, to define true madness,
+What is't but to be nothing else but mad?
+But let that go.
+QUEEN GERTRUDE
+More matter, with less art.
+LORD POLONIUS
+Madam, I swear I use no art at all.
+That he is mad, 'tis true: 'tis true 'tis pity;
+And pity 'tis 'tis true: a foolish figure;
+But farewell it, for I will use no art.
+Mad let us grant him, then: and now remains
+That we find out the cause of this effect,
+Or rather say, the cause of this defect,
+For this effect defective comes by cause:
+Thus it remains, and the remainder thus. Perpend.
+I have a daughter--have while she is mine--
+Who, in her duty and obedience, mark,
+Hath given me this: now gather, and surmise.
+Reads
+
+'To the celestial and my soul's idol, the most
+beautified Ophelia,'--
+That's an ill phrase, a vile phrase; 'beautified' is
+a vile phrase: but you shall hear. Thus:
+Reads
+
+'In her excellent white bosom, these, & c.'
+QUEEN GERTRUDE
+Came this from Hamlet to her?
+LORD POLONIUS
+Good madam, stay awhile; I will be faithful.
+Reads
+
+'Doubt thou the stars are fire;
+Doubt that the sun doth move;
+Doubt truth to be a liar;
+But never doubt I love.
+'O dear Ophelia, I am ill at these numbers;
+I have not art to reckon my groans: but that
+I love thee best, O most best, believe it. Adieu.
+'Thine evermore most dear lady, whilst
+this machine is to him, HAMLET.'
+This, in obedience, hath my daughter shown me,
+And more above, hath his solicitings,
+As they fell out by time, by means and place,
+All given to mine ear.
+KING CLAUDIUS
+But how hath she
+Received his love?
+LORD POLONIUS
+What do you think of me?
+KING CLAUDIUS
+As of a man faithful and honourable.
+LORD POLONIUS
+I would fain prove so. But what might you think,
+When I had seen this hot love on the wing--
+As I perceived it, I must tell you that,
+Before my daughter told me--what might you,
+Or my dear majesty your queen here, think,
+If I had play'd the desk or table-book,
+Or given my heart a winking, mute and dumb,
+Or look'd upon this love with idle sight;
+What might you think? No, I went round to work,
+And my young mistress thus I did bespeak:
+'Lord Hamlet is a prince, out of thy star;
+This must not be:' and then I precepts gave her,
+That she should lock herself from his resort,
+Admit no messengers, receive no tokens.
+Which done, she took the fruits of my advice;
+And he, repulsed--a short tale to make--
+Fell into a sadness, then into a fast,
+Thence to a watch, thence into a weakness,
+Thence to a lightness, and, by this declension,
+Into the madness wherein now he raves,
+And all we mourn for.
+KING CLAUDIUS
+Do you think 'tis this?
+QUEEN GERTRUDE
+It may be, very likely.
+LORD POLONIUS
+Hath there been such a time--I'd fain know that--
+That I have positively said 'Tis so,'
+When it proved otherwise?
+KING CLAUDIUS
+Not that I know.
+LORD POLONIUS
+[Pointing to his head and shoulder]
+Take this from this, if this be otherwise:
+If circumstances lead me, I will find
+Where truth is hid, though it were hid indeed
+Within the centre.
+KING CLAUDIUS
+How may we try it further?
+LORD POLONIUS
+You know, sometimes he walks four hours together
+Here in the lobby.
+QUEEN GERTRUDE
+So he does indeed.
+LORD POLONIUS
+At such a time I'll loose my daughter to him:
+Be you and I behind an arras then;
+Mark the encounter: if he love her not
+And be not from his reason fall'n thereon,
+Let me be no assistant for a state,
+But keep a farm and carters.
+KING CLAUDIUS
+We will try it.
+QUEEN GERTRUDE
+But, look, where sadly the poor wretch comes reading.
+LORD POLONIUS
+Away, I do beseech you, both away:
+I'll board him presently.
+Exeunt KING CLAUDIUS, QUEEN GERTRUDE, and Attendants
+
+Enter HAMLET, reading
+
+O, give me leave:
+How does my good Lord Hamlet?
+HAMLET
+Well, God-a-mercy.
+LORD POLONIUS
+Do you know me, my lord?
+HAMLET
+Excellent well; you are a fishmonger.
+LORD POLONIUS
+Not I, my lord.
+HAMLET
+Then I would you were so honest a man.
+LORD POLONIUS
+Honest, my lord!
+HAMLET
+Ay, sir; to be honest, as this world goes, is to be
+one man picked out of ten thousand.
+LORD POLONIUS
+That's very true, my lord.
+HAMLET
+For if the sun breed maggots in a dead dog, being a
+god kissing carrion,--Have you a daughter?
+LORD POLONIUS
+I have, my lord.
+HAMLET
+Let her not walk i' the sun: conception is a
+blessing: but not as your daughter may conceive.
+Friend, look to 't.
+LORD POLONIUS
+[Aside] How say you by that? Still harping on my
+daughter: yet he knew me not at first; he said I
+was a fishmonger: he is far gone, far gone: and
+truly in my youth I suffered much extremity for
+love; very near this. I'll speak to him again.
+What do you read, my lord?
+HAMLET
+Words, words, words.
+LORD POLONIUS
+What is the matter, my lord?
+HAMLET
+Between who?
+LORD POLONIUS
+I mean, the matter that you read, my lord.
+HAMLET
+Slanders, sir: for the satirical rogue says here
+that old men have grey beards, that their faces are
+wrinkled, their eyes purging thick amber and
+plum-tree gum and that they have a plentiful lack of
+wit, together with most weak hams: all which, sir,
+though I most powerfully and potently believe, yet
+I hold it not honesty to have it thus set down, for
+yourself, sir, should be old as I am, if like a crab
+you could go backward.
+LORD POLONIUS
+[Aside] Though this be madness, yet there is method
+in 't. Will you walk out of the air, my lord?
+HAMLET
+Into my grave.
+LORD POLONIUS
+Indeed, that is out o' the air.
+Aside
+
+How pregnant sometimes his replies are! a happiness
+that often madness hits on, which reason and sanity
+could not so prosperously be delivered of. I will
+leave him, and suddenly contrive the means of
+meeting between him and my daughter.--My honourable
+lord, I will most humbly take my leave of you.
+HAMLET
+You cannot, sir, take from me any thing that I will
+more willingly part withal: except my life, except
+my life, except my life.
+LORD POLONIUS
+Fare you well, my lord.
+HAMLET
+These tedious old fools!
+Enter ROSENCRANTZ and GUILDENSTERN
+
+LORD POLONIUS
+You go to seek the Lord Hamlet; there he is.
+ROSENCRANTZ
+[To POLONIUS] God save you, sir!
+Exit POLONIUS
