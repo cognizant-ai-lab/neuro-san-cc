@@ -1,6 +1,6 @@
 # Neuro SAN
-neuro-san==0.5.68
-nsflow==0.6.1
+neuro-san==0.6.13
+nsflow==0.6.4
 
 # To use a .env file for environment variables
 python-dotenv==1.0.1
