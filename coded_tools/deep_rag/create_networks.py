@@ -143,6 +143,16 @@ class CreateNetworks(CodedTool):
             "grouping_json": self.grouping_json
         }
 
+        output: str = self.create_output(reservation_info)
+        return output
+
+    @staticmethod
+    def create_output(reservation_info: List[Dict[str, Any]]) -> str:
+        """
+        Assemble the text output
+        :param reservation_info: The list of networks available
+        :return: The text output
+        """
         # By convention, the last entry in the reservation_info is the main entry point.
         entry: Dict[str, Any] = reservation_info[-1]
         entry_reservation_id: str = entry.get("reservation_id")

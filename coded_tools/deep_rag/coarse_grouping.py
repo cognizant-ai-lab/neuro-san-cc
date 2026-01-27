@@ -22,6 +22,8 @@ from neuro_san.interfaces.coded_tool import CodedTool
 from neuro_san.internals.graph.activations.branch_activation import BranchActivation
 from neuro_san.internals.parsers.structure.json_structure_parser import JsonStructureParser
 
+from coded_tools.deep_rag.create_networks import CreateNetworks
+
 
 class CoarseGrouping(BranchActivation, CodedTool):
     """
@@ -241,11 +243,5 @@ class CoarseGrouping(BranchActivation, CodedTool):
         # Put the list of agent_reservations from each group into a single list
         reservation_info: List[Dict[str, Any]] = sly_data.get("agent_reservations")
 
-        # By convention, the last entry in the reservation_info is the main entry point.
-        entry: Dict[str, Any] = reservation_info[-1]
-        entry_reservation_id: str = entry.get("reservation_id")
-        entry_lifetime: str = entry.get("lifetime_in_seconds")
-
-        output: str = f"The main agent to access your deep rag network is {entry_reservation_id}" + \
-                      f"Hurry, it's only available for {entry_lifetime} seconds."
+        output: str = CreateNetworks.create_output(reservation_info)
         return output
