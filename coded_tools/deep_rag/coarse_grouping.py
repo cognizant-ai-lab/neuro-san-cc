@@ -35,6 +35,9 @@ class CoarseGrouping(BranchActivation, CodedTool):
     rough_substructure agent.
     """
 
+    MAX_GROUP_SIZE: int = 6
+    MAX_FILES_PER_GROUP: int = 7
+
     async def async_invoke(self, args: Dict[str, Any], sly_data: Dict[str, Any]) -> Any:
         """
         Called when the coded tool is invoked asynchronously by the agent hierarchy.
@@ -167,6 +170,7 @@ class CoarseGrouping(BranchActivation, CodedTool):
 
         return results
 
+    # pylint: disable=too-many-locals
     async def do_one_subgroup_in_parallel(self, group_number: int,
                                           tool_args: Dict[str, Any],
                                           sly_data: Dict[str, Any],
@@ -178,16 +182,35 @@ class CoarseGrouping(BranchActivation, CodedTool):
         :param sly_data: The sly_data dictionary for the instantiation of the coded tool
         :param tools_to_use: The dictionary of tools to be called
         """
+        logger: Logger = getLogger(self.__class__.__name__)
 
         # Get tools we will call from role-keys
         rough_substructure: str = tools_to_use.get("rough_substructure", "rough_substructure")
         create_network: str = tools_to_use.get("create_network", "create_network")
 
         # Call rough_substructure
-        one_grouping_json_str: str = await self.use_tool(tool_name=rough_substructure,
-                                                         tool_args=tool_args,
-                                                         sly_data=sly_data)
-        one_grouping: Dict[str, Any] = JsonStructureParser().parse_structure(one_grouping_json_str)
+        done: bool = False
+        while not done:
+            one_grouping_json_str: str = await self.use_tool(tool_name=rough_substructure,
+                                                             tool_args=tool_args,
+                                                             sly_data=sly_data)
+            one_grouping: Dict[str, Any] = JsonStructureParser().parse_structure(one_grouping_json_str)
+
+            # Verify the grouping constraints.
+            groups: List[Dict[str, Any]] = one_grouping.get("groups")
+            if len(groups) <= self.MAX_GROUP_SIZE:
+                done = True
+                for group in groups:
+                    files: Dict[str, Any] = group.get("files")
+                    if len(files) > self.MAX_FILES_PER_GROUP:
+                        # Do it again.
+                        logger.info("Too many files in group (%d). Constraints not met.", len(files))
+                        done = False
+                        break
+            else:
+                # Do it again.
+                logger.info("Too many groups (%d). Constraints not met.", len(groups))
+                done = False
 
         # Call create_network
         create_network_args: Dict[str, Any] = {
