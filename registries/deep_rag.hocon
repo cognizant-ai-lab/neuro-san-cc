@@ -233,15 +233,12 @@ Providing some hints as to how you have structured the file names will also help
             },
 
             "instructions": """
-1.  Take the list of file names given in the text and send them to the rough_structure
-    tool to determine the high-level structure for the resulting network.
-    Call the JSON output of this step the grouping_json.
+Take the list of file names given in the text and send them to the coarse_grouping tool
+to determine the high-level structure for the resulting network.
 
-2.  Pass the full grouping_json to the create_network tool.
-
-Return what the create_network tool returns as output
+Return what the coarse_grouping tool returns as output
 """,
-            "tools": ["rough_structure", "create_network"],
+            "tools": ["coarse_grouping"],
 
             "allow": {
                 "to_upstream": {
@@ -253,7 +250,78 @@ Return what the create_network tool returns as output
         },
 
         {
-            "name": "rough_structure",
+            "name": "coarse_grouping",
+            "function": {
+                "description": """
+Creates a coarse grouping(s) of subgroups of files.
+""",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "file_list": {
+                            "type": "array",
+                            "description": """
+A list of file names that together contains the content to explore.
+The order of these file names can matter.
+""",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "files_directory": {
+                            "type": "string",
+                            "description": "The location where the files can be found"
+                        },
+                        "user_description": {
+                            "type": "string",
+                            "description": """
+This is a description of how the individual files in the file_list might be organized.
+"""
+                        },
+                        "grouping_constraints": {
+                            "type": "string",
+                            "description": """
+This is an optional description of any grouping constraints from the user.
+"""
+                        },
+                        "max_group_size": {
+                            "type": "integer",
+                            "description": """
+The maximium size of any single coarse grouping.
+""",
+                            "default": 42
+                        },
+                    },
+                    "required": ["file_list", "files_directory", "user_description"]
+                }
+            },
+            "class": "coarse_grouping.CoarseGrouping",
+
+            # Use the "args" key to define key/value pairs that are passed into
+            # the CodedTool above as arguments.  These are merged with other
+            # parameter key/value pairs that the calling agent supplies.
+            #
+            # If there were any collisions on keys, these args below would win.
+            #
+            # If you would want the calling agent's preferences to take precedence
+            # over something defined in a hocon file, use a default value in the
+            # function definition (above).
+            "args": {
+                
+                # Tools which are used to manage the mechanics of the loop
+                # Having this "tools" dictionary also aids in Connectivity() reporting
+                # for visualizing clients.
+                "tools": {
+                    # Tool which is used to decompose a single medium-sized group of files
+                    # into smaller subnetworks
+                    "rough_substructure": "rough_substructure",
+                    "create_network": "create_network"
+                }
+            }
+        },
+
+        {
+            "name": "rough_substructure",
             "function": {
                 "description": """
 Creates the grouping_json
@@ -283,7 +351,8 @@ This is a description of how the individual files in the file_list might be orga
 This is an optional description of any grouping constraints from the user.
 """
                         },
-                    }
+                    },
+                    "required": ["file_list", "user_description"]
                 },
             },
             "instructions": """
@@ -318,7 +387,8 @@ Output the JSON structure described.
                     "type": "object",
                     "properties": {
                         "files_directory": {
-                            "type": "string"
+                            "type": "string",
+                            "description": "The location where the files can be found"
                         },
                         "grouping_json": {
                             "type": "object",
