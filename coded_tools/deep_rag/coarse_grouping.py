@@ -17,6 +17,8 @@ from typing import List
 from asyncio import Future
 from asyncio import gather
 from copy import deepcopy
+from logging import getLogger
+from logging import Logger
 
 from neuro_san.interfaces.coded_tool import CodedTool
 from neuro_san.internals.graph.activations.branch_activation import BranchActivation
@@ -205,9 +207,18 @@ class CoarseGrouping(BranchActivation, CodedTool):
         # Put the list of agent_reservations from each group into a single list
         sly_data["agent_reservations"] = []
         mid_level_networks: List[Dict[str, Any]] = []
-        for group_result in group_results:
+        for group_number, group_result in enumerate(group_results):
 
             reservation_info: List[Dict[str, Any]] = group_result.get("agent_reservations")
+
+            logger: Logger = getLogger(self.__class__.__name__)
+            if not reservation_info:
+                logger.warning("No agent_reservations found for group %d", group_number)
+                continue
+
+            if not isinstance(reservation_info, list):
+                logger.warning("agent_reservations found for group %d is not a list", group_number)
+                continue
 
             # All the sub-agent networks will be the first items in the list, except for the last guy
             sly_data["agent_reservations"].extend(reservation_info[:-1])
@@ -239,6 +250,14 @@ class CoarseGrouping(BranchActivation, CodedTool):
             # the agent_reservations info will be the last thing spit out on command-line clients,
             # which will make the user's life easier.
             sly_data["aa_grouping_json"] = group_results[0].get("grouping_json")
+        else:
+            # Use the aa_ prefix so that when keys come out in alphabetical order
+            # the agent_reservations info will be the last thing spit out on command-line clients,
+            # which will make the user's life easier.
+            grouping_json_list: List[Dict[str, Any]] = []
+            for group_result in group_results:
+                grouping_json_list.append(group_result.get("grouping_json"))
+            sly_data["aa_grouping_json"] = grouping_json_list
 
         # Put the list of agent_reservations from each group into a single list
         reservation_info: List[Dict[str, Any]] = sly_data.get("agent_reservations")

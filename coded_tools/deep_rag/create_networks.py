@@ -153,6 +153,9 @@ class CreateNetworks(CodedTool):
         :param reservation_info: The list of networks available
         :return: The text output
         """
+        if reservation_info is None or len(reservation_info) == 0:
+            return "No networks available."
+
         # By convention, the last entry in the reservation_info is the main entry point.
         entry: Dict[str, Any] = reservation_info[-1]
         entry_reservation_id: str = entry.get("reservation_id")
