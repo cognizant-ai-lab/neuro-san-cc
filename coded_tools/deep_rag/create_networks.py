@@ -14,14 +14,14 @@ from typing import Any
 from typing import Dict
 from typing import List
 
-import aiofiles
-
 from asyncio import Event
 from copy import deepcopy
 from json import dumps
 from logging import getLogger
 from logging import Logger
 from pathlib import Path
+
+from aiofiles import open as aio_open
 
 from leaf_common.config.file_of_class import FileOfClass
 from leaf_common.persistence.easy.easy_hocon_persistence import EasyHoconPersistence
@@ -132,17 +132,16 @@ class CreateNetworks(CodedTool):
 
         # Assemble the output
         reservation_info: List[Dict[str, Any]] = self.assemble_reservation_info(deployments.keys())
-        group_results: Dict[str, Any] = {
-            "agent_reservations": reservation_info,
-            "grouping_json": self.grouping_json
-        }
 
         # The group_results array is set up for us in the coarse_grouping tool.
         # Only ever fill in the sly_data slot for our group number.
         # This allows parallel tasks to report back on the same sly_data instance
         # without stomping on each other.
         group_number: int = int(args.get("group_number"))
-        sly_data["group_results"][group_number] = group_results
+        sly_data["group_results"][group_number] = {
+            "agent_reservations": reservation_info,
+            "grouping_json": self.grouping_json
+        }
 
         # By convention, the last entry in the reservation_info is the main entry point.
         entry: Dict[str, Any] = reservation_info[-1]
@@ -245,7 +244,7 @@ class CreateNetworks(CodedTool):
         # Asynchronously read the content of the file
         filepath = Path(self.files_directory) / file_name
         self.logger.info("Reading %s", filepath)
-        async with aiofiles.open(filepath, "r") as my_file:
+        async with aio_open(filepath, "r") as my_file:
             file_content: str = await my_file.read()
 
         # Create the content agent spec by replacing strings in strategic places

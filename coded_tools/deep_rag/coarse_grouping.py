@@ -17,12 +17,10 @@ from typing import List
 from asyncio import Future
 from asyncio import gather
 from copy import deepcopy
-from logging import getLogger
-from logging import Logger
 
 from neuro_san.interfaces.coded_tool import CodedTool
 from neuro_san.internals.graph.activations.branch_activation import BranchActivation
-from neuro_san.internals.parsers.structure.json_structure_parseri import JsonStructureParser
+from neuro_san.internals.parsers.structure.json_structure_parser import JsonStructureParser
 
 
 class CoarseGrouping(BranchActivation, CodedTool):
@@ -63,20 +61,37 @@ class CoarseGrouping(BranchActivation, CodedTool):
                 adding the data is not invoke()-ed more than once.
         :return: A return value that goes into the chat stream.
         """
-        logger: Logger = getLogger(self.__class__.__name__)
-        _ = logger
-
         empty: Dict[str, Any] = {}
-        empty_list: List[str] = []
 
         # Load stuff from args into local variables
+        tools_to_use: Dict[str, str] = args.get("tools", empty)
+
+        file_groups: List[List[str]] = self.create_file_groups(args)
+
+        # Fill in the common args to be used across all file groups
+        basis_args: Dict[str, Any] = {
+            "files_directory": args.get("files_directory", ""),
+            "user_description": args.get("user_description", ""),
+            "grouping_constraints": args.get("grouping_constraints", "")
+        }
+
+        _ = await self.do_subgroups_in_parallel(file_groups, basis_args, sly_data, tools_to_use)
+
+        results: str = await self.process_group_results(sly_data)
+        return results
+
+    def create_file_groups(self, args: Dict[str, Any]) -> List[List[str]]:
+        """
+        Break the file list into manageable groups
+        :param args: A dictionary of arguments from the invocation of this CodedTool
+        :return: A list of lists of file names
+        """
+
+        empty_list: List[str] = []
+
         file_list: List[str] = args.get("file_list", empty_list)
         num_files: int = len(file_list)
-        files_directory: str = args.get("files_directory", "")
-        user_description: str = args.get("user_description", "")
-        grouping_constraints: str = args.get("grouping_constraints")
         max_group_size: int = int(args.get("max_group_size", 42))
-        tools_to_use: Dict[str, str] = args.get("tools", empty)
 
         # Assume at first that this will all fit in a single group
         num_groups: int = 1
@@ -93,24 +108,30 @@ class CoarseGrouping(BranchActivation, CodedTool):
         for group_index in range(num_groups):
             start_index: int = group_index * files_per_group
             end_index: int = start_index + files_per_group
-            if end_index > num_files:
-                end_index = num_files
+            end_index = min(end_index, num_files)
             file_groups.append(file_list[start_index:end_index])
 
-        # Fill in the common args to be used across all file groups
-        basis_args: Dict[str, Any] = {
-            "files_directory": files_directory,
-            "user_description": user_description,
-            "grouping_constraints": grouping_constraints
-        }
-
-        _ = await self.do_subgroups_in_parallel(file_groups, basis_args, sly_data, tools_to_use)
-
-        results: str = await self.process_group_results(sly_data)
-        return results
+        return file_groups
 
     async def do_subgroups_in_parallel(self, file_groups: List[List[str]], basis_args: Dict[str, Any],
                                        sly_data: Dict[str, Any], tools_to_use: Dict[str, str]) -> str:
+
+        """
+        Call rough_substructure and create_networks on each group in parallel
+        The results of the individually created group networks will be in sly_data's "group_results" key.
+        :param file_groups: A list of lists of file names
+        :param basis_args: A dictionary of arguments common to all file groups
+        :param sly_data: A dictionary whose keys are defined by the agent hierarchy,
+                but whose values are meant to be kept out of the chat stream.
+                This dictionary is largely to be treated as read-only.
+                It is possible to add key/value pairs to this dict that do not
+                yet exist as a bulletin board, as long as the responsibility
+                for which coded_tool publishes new entries is well understood
+                by the agent chain implementation and the coded_tool implementation
+                adding the data is not invoke()-ed more than once.
+        :param tools_to_use: A dictionary of tools to use
+        :return: A list of string results from all the parallel tasks.
+        """
 
         # Create a single sly_data group_results entry so that parallel tasks have a place
         # to put their sly_data output without stomping on each other
@@ -140,6 +161,13 @@ class CoarseGrouping(BranchActivation, CodedTool):
                                           tool_args: Dict[str, Any],
                                           sly_data: Dict[str, Any],
                                           tools_to_use: Dict[str, str]) -> str:
+        """
+        Call rough_substructure and create_networks in parallel on a single file grouping.
+        :param group_number: The index of the file group being processed
+        :param tool_args: The basis arguments to be passed to rough_substructure and create_networks
+        :param sly_data: The sly_data dictionary for the instantiation of the coded tool
+        :param tools_to_use: The dictionary of tools to be called
+        """
 
         # Get tools we will call from role-keys
         rough_substructure: str = tools_to_use.get("rough_substructure", "rough_substructure")
@@ -149,7 +177,7 @@ class CoarseGrouping(BranchActivation, CodedTool):
         one_grouping_json_str: str = await self.use_tool(tool_name=rough_substructure,
                                                          tool_args=tool_args,
                                                          sly_data=sly_data)
-        one_grouping: Dict[str, Any] = JsonStructureParser().parse(one_grouping_json_str)
+        one_grouping: Dict[str, Any] = JsonStructureParser().parse_structure(one_grouping_json_str)
 
         # Call create_network
         create_network_args: Dict[str, Any] = {
@@ -161,7 +189,14 @@ class CoarseGrouping(BranchActivation, CodedTool):
 
         return result
 
-    def prepare_agent_reservations(self, sly_data: Dict[str, Any]):
+    def prepare_agent_reservations(self, sly_data: Dict[str, Any]) -> None:
+        """
+        Put the list of agent_reservations from the parallel calls to create_network
+        into a single list.
+        :param sly_data: The sly_data dictionary for the instantiation of the coded tool
+                        where we will put our results.  We expect "group_results" to have
+                        already been filled in.
+        """
 
         group_results: List[Dict[str, Any]] = sly_data.get("group_results")
 
@@ -182,6 +217,15 @@ class CoarseGrouping(BranchActivation, CodedTool):
         sly_data["agent_reservations"].extend(mid_level_networks)
 
     async def process_group_results(self, sly_data: Dict[str, Any]) -> str:
+        """
+        Integrate the results from all the calls to the rough_substructure and create_network tools
+        into a single whole.
+
+        :param sly_data: The sly_data dictionary for the instantiation of the coded tool
+                        where we will put our results.  We expect "group_results" to have
+                        already been filled in.
+        :return: String output to return as tool output
+        """
 
         self.prepare_agent_reservations(sly_data)
 
