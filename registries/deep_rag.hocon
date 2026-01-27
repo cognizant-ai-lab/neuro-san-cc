@@ -285,7 +285,7 @@ This is an optional description of any grouping constraints from the user.
 """
                         },
                         "max_group_size": {
-                            "type": "integer",
+                            "type": "int",
                             "description": """
 The maximium size of any single coarse grouping.
 """,
@@ -408,9 +408,13 @@ Output the JSON structure described.
                                 }
                             },
                             "required": ["name", "description", "groups"]
+                        },
+                        "group_number": {
+                            "type": "int",
+                            "description": "The index of the group being created"
                         }
                     },
-                    "required": ["files_directory", "grouping_json"]
+                    "required": ["files_directory", "grouping_json", "group_number"]
                 }
             },
 
