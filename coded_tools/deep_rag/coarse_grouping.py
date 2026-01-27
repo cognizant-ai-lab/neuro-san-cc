@@ -17,6 +17,7 @@ from typing import List
 from asyncio import Future
 from asyncio import gather
 from copy import deepcopy
+from json import dumps
 from logging import getLogger
 from logging import Logger
 
@@ -136,6 +137,7 @@ class CoarseGrouping(BranchActivation, CodedTool):
         :param tools_to_use: A dictionary of tools to use
         :return: A list of string results from all the parallel tasks.
         """
+        logger: Logger = getLogger(self.__class__.__name__)
 
         # Create a single sly_data group_results entry so that parallel tasks have a place
         # to put their sly_data output without stomping on each other
@@ -143,11 +145,15 @@ class CoarseGrouping(BranchActivation, CodedTool):
 
         # Now create coroutines that will call rough_substructure on each group with data appropriate for the group
         coroutines: List[Future] = []
+        logger.info("Processing %d file groups", len(file_groups))
         for group_number, file_group in enumerate(file_groups):
 
             # Create a tool args dict specific to the iteration
             tool_args: Dict[str, Any] = deepcopy(basis_args)
             tool_args["file_list"] = file_group
+
+            logger.info("Processing group %d with list: %s", group_number,
+                        dumps(file_group, indent=4, sort_keys=True))
 
             # Add an empty entry for each group to the group_results
             sly_data["group_results"].append({})

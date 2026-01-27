@@ -233,8 +233,8 @@ Providing some hints as to how you have structured the file names will also help
             },
 
             "instructions": """
-Take the list of file names given in the text and send them to the coarse_grouping tool
-to determine the high-level structure for the resulting network.
+Take the *entire* list of file names given in the text and send them to a single call of the
+coarse_grouping tool.
 
 Return what the coarse_grouping tool returns as output
 """,
@@ -244,7 +244,11 @@ Return what the coarse_grouping tool returns as output
                 "to_upstream": {
                     # Specifying this allows sly_data keys from this network to be passed back
                     # to the calling client
-                    "sly_data": ["agent_reservations", "aa_grouping_json"]
+                    "sly_data": [
+                        "agent_reservations",
+                        "aa_grouping_json",
+                        "grouping_results"
+                    ]
                 }
             }
         },
@@ -307,7 +311,7 @@ The maximium size of any single coarse grouping.
             # over something defined in a hocon file, use a default value in the
             # function definition (above).
             "args": {
-                
+
                 # Tools which are used to manage the mechanics of the loop
                 # Having this "tools" dictionary also aids in Connectivity() reporting
                 # for visualizing clients.
