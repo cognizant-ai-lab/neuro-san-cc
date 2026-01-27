@@ -132,9 +132,19 @@ class CreateNetworks(CodedTool):
 
         # Assemble the output
         reservation_info: List[Dict[str, Any]] = self.assemble_reservation_info(deployments.keys())
-        sly_data["agent_reservations"] = reservation_info
-        sly_data["aa_grouping_json"] = self.grouping_json
+        group_results: Dict[str, Any] = {
+            "agent_reservations": reservation_info,
+            "grouping_json": self.grouping_json
+        }
 
+        # The group_results array is set up for us in the coarse_grouping tool.
+        # Only ever fill in the sly_data slot for our group number.
+        # This allows parallel tasks to report back on the same sly_data instance
+        # without stomping on each other.
+        group_number: int = int(args.get("group_number"))
+        sly_data["group_results"][group_number] = group_results
+
+        # By convention, the last entry in the reservation_info is the main entry point.
         entry: Dict[str, Any] = reservation_info[-1]
         entry_reservation_id: str = entry.get("reservation_id")
         entry_lifetime: str = entry.get("lifetime_in_seconds")
