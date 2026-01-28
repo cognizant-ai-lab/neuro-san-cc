@@ -31,8 +31,7 @@ from neuro_san.interfaces.reservation import Reservation
 from neuro_san.interfaces.reservationist import Reservationist
 from neuro_san.internals.graph.filters.string_common_defs_config_filter import StringCommonDefsConfigFilter
 from neuro_san.internals.graph.filters.dictionary_common_defs_config_filter import DictionaryCommonDefsConfigFilter
-from neuro_san.service.watcher.temp_networks.reservation_dictionary_converter \
-    import ReservationDictionaryConverter
+from neuro_san.internals.reservations.reservation_dictionary_converter import ReservationDictionaryConverter
 
 
 class CreateNetworks(CodedTool):
