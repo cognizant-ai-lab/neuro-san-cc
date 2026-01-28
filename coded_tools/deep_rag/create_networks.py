@@ -186,12 +186,13 @@ class CreateNetworks(CodedTool):
         group_reservations: List[Reservation] = list(deployments.keys())
 
         group_network_reservation: Dict[Reservation, Dict[str, Any]] = None
-        group_network_reservation = await self.assemble_group_network(group_reservations)
+        group_network_reservation = await self.assemble_group_network(group_reservations, reservationist)
         deployments.update(group_network_reservation)
 
         return deployments
 
-    async def assemble_group_network(self, group_reservations: List[Reservation]) -> Dict[Reservation, Dict[str, Any]]:
+    async def assemble_group_network(self, group_reservations: List[Reservation],
+                                     reservationist: Reservationist) -> Dict[Reservation, Dict[str, Any]]:
         """
         Assemble the group network
         :param group_reservations: The list of group reservations for the group network
