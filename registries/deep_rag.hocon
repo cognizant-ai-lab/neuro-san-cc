@@ -245,11 +245,7 @@ Return what the coarse_grouping tool returns as output
                 "to_upstream": {
                     # Specifying this allows sly_data keys from this network to be passed back
                     # to the calling client
-                    "sly_data": [
-                        "agent_reservations",
-                        "aa_grouping_json",
-                        "grouping_results"
-                    ]
+                    "sly_data": ["agent_reservations", "aa_grouping_json"]
                 }
             }
         },
