@@ -183,17 +183,34 @@ class CreateNetworks(CodedTool):
         deployments: Dict[Reservation, Dict[str, Any]] = await self.reserve_leaf_networks(reservationist,
                                                                                           name_to_network)
 
+        group_reservations: List[Reservation] = list(deployments.keys())
+
+        group_network_reservation: Dict[Reservation, Dict[str, Any]] = None
+        group_network_reservation = await self.assemble_group_network(group_reservations)
+        deployments.update(group_network_reservation)
+
+        return deployments
+
+    async def assemble_group_network(self, group_reservations: List[Reservation]) -> Dict[Reservation, Dict[str, Any]]:
+        """
+        Assemble the group network
+        :param group_reservations: The list of group reservations for the group network
+        :return: A dictionary of reservation -> network for the group network.
+        """
+
         # Use the reservations as tools in the top-level group network
-        group_network: Dict[str, Any] = self.make_group_network(deployments.keys())
+        group_network: Dict[str, Any] = self.make_group_network(group_reservations)
         # Filter names to change spaces to underscores because tool names don't like spaces.
         # Reduces errors.
         filtered_name: str = self.grouping_json.get("name")
         filtered_name = filtered_name.replace(" ", "_")
         reservation: Reservation = await reservationist.reserve(lifetime_in_seconds=self.LIFETIME,
                                                                 prefix=filtered_name)
-        deployments[reservation] = group_network
+        deployment: Dict[str, Any] = {
+            reservation: group_network
+        }
 
-        return deployments
+        return deployment
 
     async def make_leaf_networks(self, name_to_group: Dict[str, Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
         """
