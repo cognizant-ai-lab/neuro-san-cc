@@ -313,14 +313,12 @@ class CoarseGrouping(BranchActivation, CodedTool):
                         where we will put our results.  We expect "group_results" to have
                         already been filled in.
         :param new_group_numbers: A list of new group numbers to process.  If None then will process all.
-        :return: The mid-level networks that will need to be grouped together
+        :return: A list of the new mid-level networks that will need to be grouped together
         """
 
         group_results: List[Dict[str, Any]] = sly_data.get("group_results")
 
         use_group_numbers: List[int] = new_group_numbers
-        if use_group_numbers is None:
-            use_group_numbers = list(range(len(group_results)))
 
         # Put the list of agent_reservations from each group into a single list
         mid_level_networks: List[Dict[str, Any]] = []
@@ -362,9 +360,14 @@ class CoarseGrouping(BranchActivation, CodedTool):
         :param new_group_numbers: A list of new group numbers to process.  If None then will process all.
         :return: String output to return as tool output
         """
-
-        mid_level_networks: List[Dict[str, Any]] = self.prepare_agent_reservations(sly_data, new_group_numbers)
         group_results: List[Dict[str, Any]] = sly_data.get("group_results")
+
+        use_group_numbers: List[int] = new_group_numbers
+        if use_group_numbers is None:
+            use_group_numbers = list(range(len(group_results)))
+
+        # Contains only new mid-level networks
+        mid_level_networks: List[Dict[str, Any]] = self.prepare_agent_reservations(sly_data, use_group_numbers)
 
         # Use the aa_ prefix so that when keys come out in alphabetical order
         # the agent_reservations info will be the last thing spit out on command-line clients,
@@ -378,10 +381,14 @@ class CoarseGrouping(BranchActivation, CodedTool):
 
             # Create a master list of mid-level group information
             mid_level_groups: List[Dict[str, Any]] = []
-            for index, group_result in enumerate(group_results):
+            mid_level_network: Dict[str, Any] = None
+            for index, mid_level_network in enumerate(mid_level_networks):
+
+                group_number: int = use_group_numbers[index]
+                group_result: Dict[str, Any] = group_results[group_number]
 
                 mid_level_group: Dict[str, Any] = {
-                    "reservation_dict": mid_level_networks[index],
+                    "reservation_dict": mid_level_network,
                     "grouping_json": group_result.get("grouping_json")
                 }
                 mid_level_groups.append(mid_level_group)
