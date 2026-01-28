@@ -239,7 +239,7 @@ class CoarseGrouping(BranchActivation, CodedTool):
                     found = True
                     break
             if not found:
-                logger.info("File %s not found in any group", file)
+                logger.info("Constraints not met. File %s not found in any group", file)
                 return False
 
         return True
