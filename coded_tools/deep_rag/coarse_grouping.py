@@ -374,7 +374,7 @@ class CoarseGrouping(BranchActivation, CodedTool):
             mid_level_groups: List[Dict[str, Any]] = []
             for index, group_result in enumerate(group_results):
                 mid_level_group: Dict[str, Any] = {
-                    "reservation_id": mid_level_networks[index].get("reservation_id"),
+                    "reservation_dict": mid_level_networks[index],
                     "grouping_json": group_result.get("grouping_json")
                 }
                 mid_level_groups.append(mid_level_group)
@@ -400,7 +400,7 @@ class CoarseGrouping(BranchActivation, CodedTool):
 
             mid_level_group: Dict[str, Any] = None
             for mid_level_group in mid_level_grouping:
-                reservation_id: str = mid_level_group.get("reservation_id")
+                reservation_dict: Dict[str, Any] = mid_level_group.get("reservation_dict")
                 grouping_json: Dict[str, Any] = mid_level_group.get("grouping_json")
 
-                _ = reservation_id, grouping_json, sly_data   # For now
+                _ = reservation_dict, grouping_json, sly_data   # For now
