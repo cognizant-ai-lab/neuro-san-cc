@@ -16,6 +16,7 @@ from typing import List
 
 from asyncio import Future
 from asyncio import gather
+from asyncio import Lock
 from copy import deepcopy
 from json import dumps
 from logging import getLogger
@@ -37,7 +38,7 @@ class CoarseGrouping(BranchActivation, CodedTool):
 
     MAX_GROUP_SIZE: int = 6
     MAX_FILES_PER_GROUP: int = 7
-    MAX_RETRIES: int = 7
+    MAX_RETRIES: int = 5
 
     async def async_invoke(self, args: Dict[str, Any], sly_data: Dict[str, Any]) -> Any:
         """
@@ -71,11 +72,15 @@ class CoarseGrouping(BranchActivation, CodedTool):
         :return: A return value that goes into the chat stream.
         """
         empty: Dict[str, Any] = {}
+        empty_list: List[str] = []
 
         # Load stuff from args into local variables
         tools_to_use: Dict[str, str] = args.get("tools", empty)
 
-        file_groups: List[List[str]] = self.create_file_groups(args)
+        file_list: List[str] = args.get("file_list", empty_list)
+        max_group_size: int = int(args.get("max_group_size", 42))
+        max_group_size = min(max_group_size, self.MAX_GROUP_SIZE * self.MAX_FILES_PER_GROUP)
+        file_groups: List[List[str]] = self.create_groups(file_list, max_group_size)
 
         # Fill in the common args to be used across all file groups
         basis_args: Dict[str, Any] = {
@@ -88,50 +93,45 @@ class CoarseGrouping(BranchActivation, CodedTool):
         # to put their sly_data output without stomping on each other
         sly_data["group_results"] = []
         sly_data["num_groups"] = 0
+        sly_data["lock"] = Lock()
 
         _ = await self.do_subgroups_in_parallel(file_groups, basis_args, sly_data, tools_to_use)
 
         results: str = await self.process_group_results(sly_data)
         return results
 
-    def create_file_groups(self, args: Dict[str, Any]) -> List[List[str]]:
+    def create_groups(self, item_list: List[Any], max_group_size: int) -> List[List[Any]]:
         """
-        Break the file list into manageable groups
+        Break a large list into manageable groups
         :param args: A dictionary of arguments from the invocation of this CodedTool
-        :return: A list of lists of file names
+        :param max_group_size: The maximum number of items allowed in a single group
+        :return: A list of lists of items names
         """
 
-        empty_list: List[str] = []
-
-        file_list: List[str] = args.get("file_list", empty_list)
-        num_files: int = len(file_list)
-
-        max_group_size: int = int(args.get("max_group_size", 42))
-        max_group_size = min(max_group_size, self.MAX_GROUP_SIZE * self.MAX_FILES_PER_GROUP)
+        num_items: int = len(item_list)
 
         # Assume at first that this will all fit in a single group
         num_groups: int = 1
-        files_per_group: int = num_files
-        if num_files > max_group_size:
+        items_per_group: int = num_items
+        if num_items > max_group_size:
             # This won't fit into a single group. Break it up as evenly as possible
-            num_groups = int(num_files / max_group_size)
-            if num_files % max_group_size != 0:
+            num_groups = int(num_items / max_group_size)
+            if num_items % max_group_size != 0:
                 num_groups += 1
-            files_per_group = int(num_files / num_groups)
+            items_per_group = int(num_items / num_groups)
 
-        # Break the file list into manageable groups
-        file_groups: List[List[str]] = []
+        # Break the item list into manageable groups
+        item_groups: List[List[Any]] = []
         for group_index in range(num_groups):
-            start_index: int = group_index * files_per_group
-            end_index: int = start_index + files_per_group
-            end_index = min(end_index, num_files)
-            file_groups.append(file_list[start_index:end_index])
+            start_index: int = group_index * items_per_group
+            end_index: int = start_index + items_per_group
+            end_index = min(end_index, num_items)
+            item_groups.append(item_list[start_index:end_index])
 
-        return file_groups
+        return item_groups
 
     async def do_subgroups_in_parallel(self, file_groups: List[List[str]], basis_args: Dict[str, Any],
                                        sly_data: Dict[str, Any], tools_to_use: Dict[str, str]) -> str:
-
         """
         Call rough_substructure and create_networks on each group in parallel
         The results of the individually created group networks will be in sly_data's "group_results" key.
@@ -215,7 +215,7 @@ class CoarseGrouping(BranchActivation, CodedTool):
                     done = True
 
         if retries_left <= 0:
-            return await self.break_up_list(group_number, tool_args, sly_data, tools_to_use)
+            return await self.split_up_list(group_number, tool_args, sly_data, tools_to_use)
 
         # Call create_network
         create_network_args: Dict[str, Any] = {
@@ -227,10 +227,10 @@ class CoarseGrouping(BranchActivation, CodedTool):
 
         return result
 
-    async def break_up_list(self, group_number: int, tool_args: Dict[str, Any],
+    async def split_up_list(self, group_number: int, tool_args: Dict[str, Any],
                             sly_data: Dict[str, Any], tools_to_use: Dict[str, str]) -> str:
         """
-        Break a file list in two
+        Split a file list in two
         :param group_number: The index of the file group being processed
         :param tool_args: The basis arguments to be passed to rough_substructure and create_networks
         :param sly_data: The sly_data dictionary for the instantiation of the coded tool
@@ -247,19 +247,25 @@ class CoarseGrouping(BranchActivation, CodedTool):
         logger.info("Splitting list into two groups of %d and %d", len(group_one), len(group_two))
 
         # Potential, but unlikely race condition
-        new_group_number: int = len(sly_data["group_results"])
-        sly_data["group_results"].append({})
-        sly_data["num_groups"] = len(sly_data["group_results"])
+        lock: Lock = sly_data.get("lock")
+        async with lock:
+            new_group_number: int = len(sly_data["group_results"])
+            sly_data["group_results"].append({})
+            sly_data["num_groups"] = len(sly_data["group_results"])
+
+        # Do the two groups in parallel
+        coroutines: List[Future] = []
 
         tool_args_one: Dict[str, Any] = deepcopy(tool_args)
         tool_args_one["file_list"] = group_one
-        await self.do_one_subgroup_in_parallel(group_number, tool_args_one, sly_data, tools_to_use)
+        coroutines.append(self.do_one_subgroup_in_parallel(group_number, tool_args_one, sly_data, tools_to_use))
 
         tool_args_two: Dict[str, Any] = deepcopy(tool_args)
         tool_args_two["file_list"] = group_two
-        result: str = await self.do_one_subgroup_in_parallel(new_group_number, tool_args_two,
-                                                             sly_data, tools_to_use)
-        return result
+        coroutines.append(self.do_one_subgroup_in_parallel(new_group_number, tool_args_two, sly_data, tools_to_use))
+
+        result: List[str] = await gather(*coroutines)
+        return str(result)
 
     def verify_grouping_constraints(self, groups: List[Dict[str, Any]], file_list: List[str]) -> bool:
         """
@@ -301,13 +307,14 @@ class CoarseGrouping(BranchActivation, CodedTool):
 
         return True
 
-    def prepare_agent_reservations(self, sly_data: Dict[str, Any]) -> None:
+    def prepare_agent_reservations(self, sly_data: Dict[str, Any]) -> List[Dict[str, Any]]:
         """
         Put the list of agent_reservations from the parallel calls to create_network
         into a single list.
         :param sly_data: The sly_data dictionary for the instantiation of the coded tool
                         where we will put our results.  We expect "group_results" to have
                         already been filled in.
+        :return: The mid-level networks that will need to be grouped together
         """
 
         group_results: List[Dict[str, Any]] = sly_data.get("group_results")
@@ -337,6 +344,8 @@ class CoarseGrouping(BranchActivation, CodedTool):
         # Add the mid-level networks to the end of the list
         sly_data["agent_reservations"].extend(mid_level_networks)
 
+        return mid_level_networks
+
     async def process_group_results(self, sly_data: Dict[str, Any]) -> str:
         """
         Integrate the results from all the calls to the rough_substructure and create_network tools
@@ -348,24 +357,31 @@ class CoarseGrouping(BranchActivation, CodedTool):
         :return: String output to return as tool output
         """
 
-        self.prepare_agent_reservations(sly_data)
-
+        mid_level_networks: List[Dict[str, Any]] = self.prepare_agent_reservations(sly_data)
         group_results: List[Dict[str, Any]] = sly_data.get("group_results")
 
-        # Early return situation if there is only one group.
-        if len(group_results) == 1:
-            # Use the aa_ prefix so that when keys come out in alphabetical order
-            # the agent_reservations info will be the last thing spit out on command-line clients,
-            # which will make the user's life easier.
-            sly_data["aa_grouping_json"] = group_results[0].get("grouping_json")
-        else:
-            # Use the aa_ prefix so that when keys come out in alphabetical order
-            # the agent_reservations info will be the last thing spit out on command-line clients,
-            # which will make the user's life easier.
-            grouping_json_list: List[Dict[str, Any]] = []
-            for group_result in group_results:
-                grouping_json_list.append(group_result.get("grouping_json"))
-            sly_data["aa_grouping_json"] = grouping_json_list
+        # Use the aa_ prefix so that when keys come out in alphabetical order
+        # the agent_reservations info will be the last thing spit out on command-line clients,
+        # which will make the user's life easier in terms of finding the main network to call.
+        grouping_json_list: List[Dict[str, Any]] = []
+        for group_result in group_results:
+            grouping_json_list.append(group_result.get("grouping_json"))
+        sly_data["aa_grouping_json"] = grouping_json_list
+
+        if len(mid_level_networks) > 1:
+
+            # Create a master list of mid-level group information
+            mid_level_groups: List[Dict[str, Any]] = []
+            for index, group_result in enumerate(group_results):
+                mid_level_group: Dict[str, Any] = {
+                    "mid_level_network": mid_level_networks[index],
+                    "grouping_json": group_result.get("grouping_json")
+                }
+                mid_level_groups.append(mid_level_group)
+
+            # Create groupings of groups
+            mid_level_groupings: List[List[Dict[str, Any]]] = self.create_groups(mid_level_groups, self.MAX_GROUP_SIZE)
+            _ = mid_level_groupings     # For now
 
         # Put the list of agent_reservations from each group into a single list
         reservation_info: List[Dict[str, Any]] = sly_data.get("agent_reservations")
