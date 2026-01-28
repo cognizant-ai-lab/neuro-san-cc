@@ -410,4 +410,5 @@ class CoarseGrouping(BranchActivation, CodedTool):
                 reservation: Reservation = mid_level_group.get("reservation")
                 grouping_json: Dict[str, Any] = mid_level_group.get("grouping_json")
 
+                # Connect to CreateNetworks.make_group_network()
                 _ = reservation, grouping_json, sly_data   # For now
