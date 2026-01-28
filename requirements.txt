@@ -1,5 +1,5 @@
 # Neuro SAN
-neuro-san==0.6.13
+neuro-san==0.6.26
 nsflow==0.6.4
 
 # To use a .env file for environment variables
