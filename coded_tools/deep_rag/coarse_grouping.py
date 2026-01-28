@@ -36,6 +36,7 @@ class CoarseGrouping(BranchActivation, CodedTool):
     rough_substructure agent.
     """
 
+    # These constants could conceivably be made into args specified by the agent network.
     MAX_GROUP_SIZE: int = 6
     MAX_FILES_PER_GROUP: int = 7
     MAX_RETRIES: int = 3
