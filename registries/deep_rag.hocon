@@ -195,6 +195,7 @@ The files are in the directory: /home/danfink/Downloads/plays/hamlet
     "llm_config": {
         "model_name": "gpt-4o",
     },
+    "max_execution_seconds": 600,
     "tools": [
         # This first agent definition is regarded as the "Front Man", which
         # does all the talking to the outside world/client.
@@ -319,7 +320,6 @@ The maximium size of any single coarse grouping.
                     # Tool which is used to decompose a single medium-sized group of files
                     # into smaller subnetworks
                     "rough_substructure": "rough_substructure",
-                    "combine_groups": "combine_groups",
                     "create_network": "create_network"
                 }
             }
@@ -382,53 +382,6 @@ D. Whenever possible follow the advice in the grouping_constraints, if that is p
 
 Output the JSON structure described.
 """,
-        },
-        {
-            "name": "combine_groups",
-            "function": {
-                "description", """
-Given a list of group names and group descriptions, suggests new name and description for a combination.
-"""
-                "parameters": {
-                    "type": "object",
-                    "properties": {
-                        "group_names": {
-                            "type": "array",
-                            "description": "A list of group names",
-                            "items": {
-                                "type": "string"
-                            }
-                        },
-                        "group_descriptions": {
-                            "type": "array",
-                            "description": "A list of group descriptions",
-                            "items": {
-                                "type": "string"
-                            }
-                        },
-                    }
-                }
-            },
-            "instructions": """
-You will be given a list of group_names and group_descriptions.
-
-1. Look at every single one of the group_names to come up with a single new group_name that is less than 40 characters
-   which will succinctly describe a combined superset of all the group_names.
-2. Look at every single one of the group_descriptions to come up with a single new group_description
-   which will describe a combined superset of all the group_descriptions.
-
-Return your answers in JSON format with the keys "group_name" and "group_description".
-"""
-        },
-        {
-            "name": "create_network",
-            "function": {
-                "description": "Processes the grouping_json structure to create a network.",
-                "parameters": {
-                    "type": "object",
-                    "properties": {
-                        "files_directory": {
-"""
         },
         {
             "name": "create_network",

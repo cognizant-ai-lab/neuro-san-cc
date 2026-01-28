@@ -170,7 +170,6 @@ class CoarseGrouping(BranchActivation, CodedTool):
 
         return results
 
-    # pylint: disable=too-many-locals
     async def do_one_subgroup_in_parallel(self, group_number: int,
                                           tool_args: Dict[str, Any],
                                           sly_data: Dict[str, Any],
@@ -182,11 +181,11 @@ class CoarseGrouping(BranchActivation, CodedTool):
         :param sly_data: The sly_data dictionary for the instantiation of the coded tool
         :param tools_to_use: The dictionary of tools to be called
         """
-        logger: Logger = getLogger(self.__class__.__name__)
-
         # Get tools we will call from role-keys
         rough_substructure: str = tools_to_use.get("rough_substructure", "rough_substructure")
         create_network: str = tools_to_use.get("create_network", "create_network")
+
+        file_list: List[str] = tool_args.get("file_list")
 
         # Call rough_substructure
         done: bool = False
@@ -196,21 +195,8 @@ class CoarseGrouping(BranchActivation, CodedTool):
                                                              sly_data=sly_data)
             one_grouping: Dict[str, Any] = JsonStructureParser().parse_structure(one_grouping_json_str)
 
-            # Verify the grouping constraints.
             groups: List[Dict[str, Any]] = one_grouping.get("groups")
-            if len(groups) <= self.MAX_GROUP_SIZE:
-                done = True
-                for group in groups:
-                    files: Dict[str, Any] = group.get("files")
-                    if len(files) > self.MAX_FILES_PER_GROUP:
-                        # Do it again.
-                        logger.info("Too many files in group (%d). Constraints not met.", len(files))
-                        done = False
-                        break
-            else:
-                # Do it again.
-                logger.info("Too many groups (%d). Constraints not met.", len(groups))
-                done = False
+            done = self.verify_grouping_constraints(groups, file_list)
 
         # Call create_network
         create_network_args: Dict[str, Any] = {
@@ -221,6 +207,42 @@ class CoarseGrouping(BranchActivation, CodedTool):
         result: str = await self.use_tool(tool_name=create_network, tool_args=create_network_args, sly_data=sly_data)
 
         return result
+
+    def verify_grouping_constraints(self, groups: List[Dict[str, Any]], file_list: List[str]) -> bool:
+        """
+        Verify that the grouping constraints are met.
+        :param groups: A list of groups
+        :param file_list: A list of files
+        :return: True if the constraints are met, False otherwise
+        """
+
+        logger: Logger = getLogger(self.__class__.__name__)
+
+        # Verify the grouping constraints.
+        if len(groups) > self.MAX_GROUP_SIZE:
+            logger.info("Constraints not met. Too many groups (%d).", len(groups))
+            return False
+
+        # Verify the file-per-group constraints.
+        for group in groups:
+            files: Dict[str, Any] = group.get("files")
+            if len(files) > self.MAX_FILES_PER_GROUP:
+                logger.info("Too many files in group (%d). Constraints not met.", len(files))
+                return False
+
+        # Verify that every file is in one group
+        for file in file_list:
+            found: bool = False
+            for group in groups:
+                files: Dict[str, Any] = group.get("files")
+                if file in files:
+                    found = True
+                    break
+            if not found:
+                logger.info("File %s not found in any group", file)
+                return False
+
+        return True
 
     def prepare_agent_reservations(self, sly_data: Dict[str, Any]) -> None:
         """
