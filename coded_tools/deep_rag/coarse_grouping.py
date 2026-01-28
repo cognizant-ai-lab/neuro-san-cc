@@ -94,6 +94,7 @@ class CoarseGrouping(BranchActivation, CodedTool):
         sly_data["group_results"] = []
         sly_data["num_groups"] = 0
         sly_data["lock"] = Lock()
+        sly_data["agent_reservations"] = []
 
         _ = await self.do_subgroups_in_parallel(file_groups, basis_args, sly_data, tools_to_use)
 
@@ -321,7 +322,6 @@ class CoarseGrouping(BranchActivation, CodedTool):
             use_group_numbers = list(range(len(group_results)))
 
         # Put the list of agent_reservations from each group into a single list
-        sly_data["agent_reservations"] = []
         mid_level_networks: List[Dict[str, Any]] = []
         for group_number in use_group_numbers:
 
