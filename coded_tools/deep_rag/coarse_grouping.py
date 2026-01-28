@@ -202,8 +202,10 @@ class CoarseGrouping(BranchActivation, CodedTool):
                                                              tool_args=tool_args,
                                                              sly_data=sly_data)
             one_grouping: Dict[str, Any] = JsonStructureParser().parse_structure(one_grouping_json_str)
+            groups: List[Dict[str, Any]] = None
+            if one_grouping is not None:
+                groups = one_grouping.get("groups")
 
-            groups: List[Dict[str, Any]] = one_grouping.get("groups")
             done = self.verify_grouping_constraints(groups, file_list)
 
             if not done:
@@ -268,6 +270,10 @@ class CoarseGrouping(BranchActivation, CodedTool):
         """
 
         logger: Logger = getLogger(self.__class__.__name__)
+
+        if groups is None:
+            logger.info("Constraints not met. groups is None.")
+            return False
 
         # Verify the grouping constraints.
         if len(groups) > self.MAX_GROUP_SIZE:
