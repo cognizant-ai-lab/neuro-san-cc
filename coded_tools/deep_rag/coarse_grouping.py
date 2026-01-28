@@ -38,7 +38,7 @@ class CoarseGrouping(BranchActivation, CodedTool):
 
     MAX_GROUP_SIZE: int = 6
     MAX_FILES_PER_GROUP: int = 7
-    MAX_RETRIES: int = 5
+    MAX_RETRIES: int = 3
 
     async def async_invoke(self, args: Dict[str, Any], sly_data: Dict[str, Any]) -> Any:
         """
