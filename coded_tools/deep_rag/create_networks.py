@@ -114,6 +114,11 @@ class CreateNetworks(CodedTool):
         reservationist: Reservationist = args.get("reservationist")
         deployments: Dict[Reservation, Dict[str, Any]] = None
 
+        # We have 2 ways of calling CreateNetworks.
+        # The first takes a grouping_json whose leaf nodes are existing reservations that should
+        # be grouped together.  This case doesn't really care about files at all, only reservations.
+        # The second takes a grouping_json whose leaf nodes are leaf document references that should
+        # be grouped together.
         if self.files_directory is None or len(self.files_directory) == 0:
             # Shortcut for creating group of groups that have not files but already have reservations.
             deployments = await self.assemble_group_of_groups(reservationist)
