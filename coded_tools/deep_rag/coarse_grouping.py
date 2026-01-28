@@ -99,7 +99,9 @@ class CoarseGrouping(BranchActivation, CodedTool):
 
         file_list: List[str] = args.get("file_list", empty_list)
         num_files: int = len(file_list)
+
         max_group_size: int = int(args.get("max_group_size", 42))
+        max_group_size = min(max_group_size, self.MAX_GROUP_SIZE * self.MAX_FILES_PER_GROUP)
 
         # Assume at first that this will all fit in a single group
         num_groups: int = 1
