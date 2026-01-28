@@ -37,6 +37,7 @@ class CoarseGrouping(BranchActivation, CodedTool):
 
     MAX_GROUP_SIZE: int = 6
     MAX_FILES_PER_GROUP: int = 7
+    MAX_RETRIES: int = 7
 
     async def async_invoke(self, args: Dict[str, Any], sly_data: Dict[str, Any]) -> Any:
         """
@@ -82,6 +83,11 @@ class CoarseGrouping(BranchActivation, CodedTool):
             "user_description": args.get("user_description", ""),
             "grouping_constraints": args.get("grouping_constraints", "")
         }
+
+        # Create a single sly_data group_results entry so that parallel tasks have a place
+        # to put their sly_data output without stomping on each other
+        sly_data["group_results"] = []
+        sly_data["num_groups"] = 0
 
         _ = await self.do_subgroups_in_parallel(file_groups, basis_args, sly_data, tools_to_use)
 
@@ -144,10 +150,6 @@ class CoarseGrouping(BranchActivation, CodedTool):
         """
         logger: Logger = getLogger(self.__class__.__name__)
 
-        # Create a single sly_data group_results entry so that parallel tasks have a place
-        # to put their sly_data output without stomping on each other
-        sly_data["group_results"] = []
-
         # Now create coroutines that will call rough_substructure on each group with data appropriate for the group
         coroutines: List[Future] = []
         logger.info("Processing %d file groups", len(file_groups))
@@ -157,11 +159,9 @@ class CoarseGrouping(BranchActivation, CodedTool):
             tool_args: Dict[str, Any] = deepcopy(basis_args)
             tool_args["file_list"] = file_group
 
-            logger.info("Processing group %d with list: %s", group_number,
-                        dumps(file_group, indent=4, sort_keys=True))
-
             # Add an empty entry for each group to the group_results
             sly_data["group_results"].append({})
+            sly_data["num_groups"] = len(sly_data["group_results"])
 
             # Add a coroutine for the file group to the list
             coroutines.append(self.do_one_subgroup_in_parallel(group_number, tool_args, sly_data, tools_to_use))
@@ -172,6 +172,7 @@ class CoarseGrouping(BranchActivation, CodedTool):
 
         return results
 
+    # pylint: disable=too-many-locals
     async def do_one_subgroup_in_parallel(self, group_number: int,
                                           tool_args: Dict[str, Any],
                                           sly_data: Dict[str, Any],
@@ -183,14 +184,19 @@ class CoarseGrouping(BranchActivation, CodedTool):
         :param sly_data: The sly_data dictionary for the instantiation of the coded tool
         :param tools_to_use: The dictionary of tools to be called
         """
+        logger: Logger = getLogger(self.__class__.__name__)
+
         # Get tools we will call from role-keys
         rough_substructure: str = tools_to_use.get("rough_substructure", "rough_substructure")
         create_network: str = tools_to_use.get("create_network", "create_network")
 
         file_list: List[str] = tool_args.get("file_list")
 
+        logger.info("Processing group %d with list: %s", group_number, dumps(file_list, indent=4, sort_keys=True))
+
         # Call rough_substructure
         done: bool = False
+        retries_left: int = self.MAX_RETRIES
         while not done:
             one_grouping_json_str: str = await self.use_tool(tool_name=rough_substructure,
                                                              tool_args=tool_args,
@@ -200,6 +206,15 @@ class CoarseGrouping(BranchActivation, CodedTool):
             groups: List[Dict[str, Any]] = one_grouping.get("groups")
             done = self.verify_grouping_constraints(groups, file_list)
 
+            if not done:
+                retries_left -= 1
+                if retries_left <= 0:
+                    logger.info("Constraints not met after %d retries.", self.MAX_RETRIES)
+                    done = True
+
+        if retries_left <= 0:
+            return await self.break_up_list(group_number, tool_args, sly_data, tools_to_use)
+
         # Call create_network
         create_network_args: Dict[str, Any] = {
             "files_directory": tool_args.get("files_directory"),
@@ -208,6 +223,40 @@ class CoarseGrouping(BranchActivation, CodedTool):
         }
         result: str = await self.use_tool(tool_name=create_network, tool_args=create_network_args, sly_data=sly_data)
 
+        return result
+
+    async def break_up_list(self, group_number: int, tool_args: Dict[str, Any],
+                            sly_data: Dict[str, Any], tools_to_use: Dict[str, str]) -> str:
+        """
+        Break a file list in two
+        :param group_number: The index of the file group being processed
+        :param tool_args: The basis arguments to be passed to rough_substructure and create_networks
+        :param sly_data: The sly_data dictionary for the instantiation of the coded tool
+        :param tools_to_use: The dictionary of tools to be called
+        """
+        logger: Logger = getLogger(self.__class__.__name__)
+
+        file_list: List[str] = tool_args.get("file_list")
+
+        # Break up the list
+        num_files: int = int(len(file_list) / 2)
+        group_one: List[str] = file_list[0:num_files]   # end index is not included
+        group_two: List[str] = file_list[num_files:-1]
+        logger.info("Splitting list into two groups of %d and %d", len(group_one), len(group_two))
+
+        # Potential, but unlikely race condition
+        new_group_number: int = len(sly_data["group_results"])
+        sly_data["group_results"].append({})
+        sly_data["num_groups"] = len(sly_data["group_results"])
+
+        tool_args_one: Dict[str, Any] = deepcopy(tool_args)
+        tool_args_one["file_list"] = group_one
+        await self.do_one_subgroup_in_parallel(group_number, tool_args_one, sly_data, tools_to_use)
+
+        tool_args_two: Dict[str, Any] = deepcopy(tool_args)
+        tool_args_two["file_list"] = group_two
+        result: str = await self.do_one_subgroup_in_parallel(new_group_number, tool_args_two,
+                                                             sly_data, tools_to_use)
         return result
 
     def verify_grouping_constraints(self, groups: List[Dict[str, Any]], file_list: List[str]) -> bool:

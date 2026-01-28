@@ -315,9 +315,11 @@ class CreateNetworks(CodedTool):
         Creates a front man
         """
 
+        use_name: str = group.get("name").replace(" ", "_")
+
         # Replace strings in the front man first
         string_replacements: Dict[str, Any] = {
-            "one_group": group.get("name"),
+            "one_group": use_name,
             "group_description": group.get("description"),
             "structure_description": self.grouping_json.get("description"),
             "title": self.grouping_json.get("name"),
