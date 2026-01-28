@@ -232,13 +232,15 @@ class CreateNetworks(CodedTool):
         content_tools: List[str] = []
         for file_name, tool_name in files.items():
 
-            content_agent: Dict[str, Any] = await self.create_one_content_agent(file_name, tool_name, content_template)
+            use_tool_name: str = tool_name.replace(" ", "_")
+            content_agent: Dict[str, Any] = await self.create_one_content_agent(file_name, use_tool_name,
+                                                                                content_template)
 
             # Add to list of tool specs for network
             tools.append(content_agent)
 
             # Add to list of tools for front man
-            content_tools.append(tool_name)
+            content_tools.append(use_tool_name)
 
         # Start out with the front man from the template, but replace him with what's made.
         front_man: Dict[str, Any] = tools[self.TEMPLATE_FRONT_MAN_INDEX]
