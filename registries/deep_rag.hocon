@@ -258,7 +258,7 @@ Return what the coarse_grouping tool returns as output
             "name": "coarse_grouping",
             "function": {
                 "description": """
-Creates a coarse grouping(s) of subgroups of files.
+Creates coarse grouping of subgroups of files.
 """,
                 "parameters": {
                     "type": "object",

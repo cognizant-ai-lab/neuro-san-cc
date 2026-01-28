@@ -374,17 +374,33 @@ class CoarseGrouping(BranchActivation, CodedTool):
             mid_level_groups: List[Dict[str, Any]] = []
             for index, group_result in enumerate(group_results):
                 mid_level_group: Dict[str, Any] = {
-                    "mid_level_network": mid_level_networks[index],
+                    "reservation_id": mid_level_networks[index].get("reservation_id"),
                     "grouping_json": group_result.get("grouping_json")
                 }
                 mid_level_groups.append(mid_level_group)
 
             # Create groupings of groups
             mid_level_groupings: List[List[Dict[str, Any]]] = self.create_groups(mid_level_groups, self.MAX_GROUP_SIZE)
-            _ = mid_level_groupings     # For now
+            await self.create_groups_of_groups(mid_level_groupings, sly_data)
 
         # Put the list of agent_reservations from each group into a single list
         reservation_info: List[Dict[str, Any]] = sly_data.get("agent_reservations")
 
         output: str = CreateNetworks.create_output(reservation_info)
         return output
+
+    async def create_groups_of_groups(self, mid_level_groupings: List[List[Dict[str, Any]]], sly_data: Dict[str, Any]):
+        """
+        Create groupings of groups
+        :param mid_level_groupings: The list of groupings of groups
+        :param sly_data: The sly_data dictionary for the instantiation of the coded tool
+        """
+        mid_level_grouping: List[Dict[str, Any]] = None
+        for mid_level_grouping in mid_level_groupings:
+
+            mid_level_group: Dict[str, Any] = None
+            for mid_level_group in mid_level_grouping:
+                reservation_id: str = mid_level_group.get("reservation_id")
+                grouping_json: Dict[str, Any] = mid_level_group.get("grouping_json")
+
+                _ = reservation_id, grouping_json, sly_data   # For now
