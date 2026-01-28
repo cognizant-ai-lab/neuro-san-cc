@@ -32,8 +32,14 @@ from coded_tools.deep_rag.create_networks import CreateNetworks
 class CoarseGrouping(BranchActivation, CodedTool):
     """
     CodedTool implementation that potentially breaks a large list of file references
-    into smaller groups where each subgroup can be digested by a single pass to the
-    rough_substructure agent.
+    into smaller groups where each subgroup of files can be digested by a single pass to the
+    rough_substructure agent to create one specialist leaf network.
+
+    These specialist leaf networks are then assembled into groups of 6 for a higher-level network.
+    This agglomeration recurses upwards until a single entry-point network is created.
+
+    Note: We also derive from BranchActivation so that we can employ other tools within
+    the agent hierarchy.
     """
 
     # These constants could conceivably be made into args specified by the agent network.
