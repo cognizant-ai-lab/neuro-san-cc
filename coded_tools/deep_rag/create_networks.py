@@ -14,8 +14,6 @@ from typing import Any
 from typing import Dict
 from typing import List
 
-import aiofiles
-
 from asyncio import Event
 from copy import deepcopy
 from json import dumps
@@ -23,14 +21,17 @@ from logging import getLogger
 from logging import Logger
 from pathlib import Path
 
+from aiofiles import open as aio_open
+
 from leaf_common.config.file_of_class import FileOfClass
 from leaf_common.persistence.easy.easy_hocon_persistence import EasyHoconPersistence
 
 from neuro_san.interfaces.coded_tool import CodedTool
-from neuro_san.internals.graph.filters.string_common_defs_config_filter import StringCommonDefsConfigFilter
-from neuro_san.internals.graph.filters.dictionary_common_defs_config_filter import DictionaryCommonDefsConfigFilter
 from neuro_san.interfaces.reservation import Reservation
 from neuro_san.interfaces.reservationist import Reservationist
+from neuro_san.internals.graph.filters.string_common_defs_config_filter import StringCommonDefsConfigFilter
+from neuro_san.internals.graph.filters.dictionary_common_defs_config_filter import DictionaryCommonDefsConfigFilter
+from neuro_san.internals.reservations.reservation_dictionary_converter import ReservationDictionaryConverter
 
 
 class CreateNetworks(CodedTool):
@@ -111,7 +112,19 @@ class CreateNetworks(CodedTool):
 
         # Main assembly of all networks we will deploy
         reservationist: Reservationist = args.get("reservationist")
-        deployments: Dict[Reservation, Dict[str, Any]] = await self.assemble_deployments(reservationist)
+        deployments: Dict[Reservation, Dict[str, Any]] = None
+
+        # We have 2 ways of calling CreateNetworks.
+        # The first takes a grouping_json whose leaf nodes are existing reservations that should
+        # be grouped together.  This case doesn't really care about files at all, only reservations.
+        # The second takes a grouping_json whose leaf nodes are leaf document references that should
+        # be grouped together.
+        if self.files_directory is None or len(self.files_directory) == 0:
+            # Shortcut for creating group of groups that have not files but already have reservations.
+            deployments = await self.assemble_group_of_groups(reservationist)
+        else:
+            # Assemble the deployments
+            deployments = await self.assemble_deployments(reservationist)
 
         # Deploy the reservations with confirmation event
         # If you don't really need to wait until the new agent(s) has been deployed
@@ -132,9 +145,31 @@ class CreateNetworks(CodedTool):
 
         # Assemble the output
         reservation_info: List[Dict[str, Any]] = self.assemble_reservation_info(deployments.keys())
-        sly_data["agent_reservations"] = reservation_info
-        sly_data["aa_grouping_json"] = self.grouping_json
 
+        # The group_results array is set up for us in the coarse_grouping tool.
+        # Only ever fill in the sly_data slot for our group number.
+        # This allows parallel tasks to report back on the same sly_data instance
+        # without stomping on each other.
+        group_number: int = int(args.get("group_number"))
+        sly_data["group_results"][group_number] = {
+            "agent_reservations": reservation_info,
+            "grouping_json": self.grouping_json
+        }
+
+        output: str = self.create_output(reservation_info)
+        return output
+
+    @staticmethod
+    def create_output(reservation_info: List[Dict[str, Any]]) -> str:
+        """
+        Assemble the text output
+        :param reservation_info: The list of networks available
+        :return: The text output
+        """
+        if reservation_info is None or len(reservation_info) == 0:
+            return "No networks available."
+
+        # By convention, the last entry in the reservation_info is the main entry point.
         entry: Dict[str, Any] = reservation_info[-1]
         entry_reservation_id: str = entry.get("reservation_id")
         entry_lifetime: str = entry.get("lifetime_in_seconds")
@@ -161,17 +196,35 @@ class CreateNetworks(CodedTool):
         deployments: Dict[Reservation, Dict[str, Any]] = await self.reserve_leaf_networks(reservationist,
                                                                                           name_to_network)
 
+        group_reservations: List[Reservation] = list(deployments.keys())
+
+        group_network_reservation: Dict[Reservation, Dict[str, Any]] = None
+        group_network_reservation = await self.assemble_group_network(group_reservations, reservationist)
+        deployments.update(group_network_reservation)
+
+        return deployments
+
+    async def assemble_group_network(self, group_reservations: List[Reservation],
+                                     reservationist: Reservationist) -> Dict[Reservation, Dict[str, Any]]:
+        """
+        Assemble the group network
+        :param group_reservations: The list of group reservations for the group network
+        :return: A dictionary of reservation -> network for the group network.
+        """
+
         # Use the reservations as tools in the top-level group network
-        group_network: Dict[str, Any] = self.make_group_network(deployments.keys())
+        group_network: Dict[str, Any] = self.make_group_network(group_reservations)
         # Filter names to change spaces to underscores because tool names don't like spaces.
         # Reduces errors.
         filtered_name: str = self.grouping_json.get("name")
-        filtered_name = filtered_name.replace(" ", "_")
+        filtered_name = self.filter_name(filtered_name)
         reservation: Reservation = await reservationist.reserve(lifetime_in_seconds=self.LIFETIME,
                                                                 prefix=filtered_name)
-        deployments[reservation] = group_network
+        deployment: Dict[str, Any] = {
+            reservation: group_network
+        }
 
-        return deployments
+        return deployment
 
     async def make_leaf_networks(self, name_to_group: Dict[str, Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
         """
@@ -210,13 +263,15 @@ class CreateNetworks(CodedTool):
         content_tools: List[str] = []
         for file_name, tool_name in files.items():
 
-            content_agent: Dict[str, Any] = await self.create_one_content_agent(file_name, tool_name, content_template)
+            use_tool_name = self.filter_name(tool_name)
+            content_agent: Dict[str, Any] = await self.create_one_content_agent(file_name, use_tool_name,
+                                                                                content_template)
 
             # Add to list of tool specs for network
             tools.append(content_agent)
 
             # Add to list of tools for front man
-            content_tools.append(tool_name)
+            content_tools.append(use_tool_name)
 
         # Start out with the front man from the template, but replace him with what's made.
         front_man: Dict[str, Any] = tools[self.TEMPLATE_FRONT_MAN_INDEX]
@@ -235,7 +290,7 @@ class CreateNetworks(CodedTool):
         # Asynchronously read the content of the file
         filepath = Path(self.files_directory) / file_name
         self.logger.info("Reading %s", filepath)
-        async with aiofiles.open(filepath, "r") as my_file:
+        async with aio_open(filepath, "r") as my_file:
             file_content: str = await my_file.read()
 
         # Create the content agent spec by replacing strings in strategic places
@@ -291,9 +346,11 @@ class CreateNetworks(CodedTool):
         Creates a front man
         """
 
+        use_name: str = self.filter_name(group.get("name"))
+
         # Replace strings in the front man first
         string_replacements: Dict[str, Any] = {
-            "one_group": group.get("name"),
+            "one_group": use_name,
             "group_description": group.get("description"),
             "structure_description": self.grouping_json.get("description"),
             "title": self.grouping_json.get("name"),
@@ -315,7 +372,7 @@ class CreateNetworks(CodedTool):
         for name, network in name_to_network.items():
             # Filter names to change spaces to underscores because tool names don't like spaces.
             # Reduces errors.
-            filtered_name: str = name.replace(" ", "_")
+            filtered_name: str = self.filter_name(name)
             reservation: Reservation = await reservationist.reserve(lifetime_in_seconds=self.LIFETIME,
                                                                     prefix=filtered_name)
             deployments[reservation] = network
@@ -362,3 +419,34 @@ class CreateNetworks(CodedTool):
             }
             reservation_info.append(one_info)
         return reservation_info
+
+    async def assemble_group_of_groups(self, reservationist: Reservationist) -> Dict[Reservation, Dict[str, Any]]:
+        """
+        Assemble network that is a group of groups that already have reservations.
+        :param reservationist:  The reservationist for this coded tool
+        :return: A dictionary of reservation -> network
+        """
+
+        converter = ReservationDictionaryConverter()
+
+        groups: List[Dict[str, Any]] = self.grouping_json.get("groups")
+        group_reservations: List[Reservation] = []
+        for group in groups:
+
+            reservation_dict: Dict[str, Any] = group.get("reservation")
+            reservation: Reservation = converter.from_dict(reservation_dict)
+            group_reservations.append(reservation)
+
+        deployments: Dict[Reservation, Dict[str, Any]] = await self.assemble_group_network(group_reservations,
+                                                                                           reservationist)
+
+        return deployments
+
+    @staticmethod
+    def filter_name(instring: str) -> str:
+        """
+        Filter names to change spaces to underscores because tool names don't like spaces.
+        """
+        filtered_name: str = instring.replace(" ", "_")
+        filtered_name = filtered_name.replace(".", "_")
+        return filtered_name

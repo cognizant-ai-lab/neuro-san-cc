@@ -195,6 +195,7 @@ The files are in the directory: /home/danfink/Downloads/plays/hamlet
     "llm_config": {
         "model_name": "gpt-4o",
     },
+    "max_execution_seconds": 600,
     "tools": [
         # This first agent definition is regarded as the "Front Man", which
         # does all the talking to the outside world/client.
@@ -233,15 +234,12 @@ Providing some hints as to how you have structured the file names will also help
             },
 
             "instructions": """
-1.  Take the list of file names given in the text and send them to the rough_structure
-    tool to determine the high-level structure for the resulting network.
-    Call the JSON output of this step the grouping_json.
+Take the *entire* list of file names given in the text and send them to a single call of the
+coarse_grouping tool.
 
-2.  Pass the full grouping_json to the create_network tool.
-
-Return what the create_network tool returns as output
+Return what the coarse_grouping tool returns as output
 """,
-            "tools": ["rough_structure", "create_network"],
+            "tools": ["coarse_grouping"],
 
             "allow": {
                 "to_upstream": {
@@ -253,7 +251,78 @@ Return what the create_network tool returns as output
         },
 
         {
-            "name": "rough_structure",
+            "name": "coarse_grouping",
+            "function": {
+                "description": """
+Creates coarse grouping of subgroups of files.
+""",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "file_list": {
+                            "type": "array",
+                            "description": """
+A list of file names that together contains the content to explore.
+The order of these file names can matter.
+""",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "files_directory": {
+                            "type": "string",
+                            "description": "The location where the files can be found"
+                        },
+                        "user_description": {
+                            "type": "string",
+                            "description": """
+This is a description of how the individual files in the file_list might be organized.
+"""
+                        },
+                        "grouping_constraints": {
+                            "type": "string",
+                            "description": """
+This is an optional description of any grouping constraints from the user.
+"""
+                        },
+                        "max_group_size": {
+                            "type": "int",
+                            "description": """
+The maximium size of any single coarse grouping.
+""",
+                            "default": 42
+                        },
+                    },
+                    "required": ["file_list", "files_directory", "user_description"]
+                }
+            },
+            "class": "coarse_grouping.CoarseGrouping",
+
+            # Use the "args" key to define key/value pairs that are passed into
+            # the CodedTool above as arguments.  These are merged with other
+            # parameter key/value pairs that the calling agent supplies.
+            #
+            # If there were any collisions on keys, these args below would win.
+            #
+            # If you would want the calling agent's preferences to take precedence
+            # over something defined in a hocon file, use a default value in the
+            # function definition (above).
+            "args": {
+
+                # Tools which are used to manage the mechanics of the loop
+                # Having this "tools" dictionary also aids in Connectivity() reporting
+                # for visualizing clients.
+                "tools": {
+                    # Tool which is used to decompose a single medium-sized group of files
+                    # into smaller subnetworks
+                    "rough_substructure": "rough_substructure",
+                    "create_network": "create_network"
+                }
+            }
+        },
+
+        {
+            "name": "rough_substructure",
             "function": {
                 "description": """
 Creates the grouping_json
@@ -283,14 +352,15 @@ This is a description of how the individual files in the file_list might be orga
 This is an optional description of any grouping constraints from the user.
 """
                         },
-                    }
+                    },
+                    "required": ["file_list", "user_description"]
                 },
             },
             "instructions": """
 Examine the names of the files in the file_list and take into account any user_description
 of the file naming structure to come up with a JSON structure
 which describes the following:
-* A short "name" for the body of work that is being pieced up which must be less that 40 characters.
+* A short "name" for the body of work that is being pieced up which must be less than 40 characters.
 * A "description" of the overall strategy for how the files are to be grouped.
     If you must mention the word 'files' in your description, use the word 'content' instead.
 * A "groups" list which contains one JSON entry for each of the groups, each entry of which has:
@@ -300,12 +370,11 @@ which describes the following:
     3. A "files" dictionary whose keys are each of the files that belong in the group and
        whose values are a snake case translation of the file name.
 
-Constraints:
-* Each and every file in the file_list must be represented in
-  at least one group.
-* Any single group may have at least one, but never more than 7 files in it.
-* There can be at most 7 groups.
-* Whenever possible follow the advice in the grouping_constraints, if that is present.
+Here are the constraints that *must all* be met when creating the groups:
+A. Each and every file in the file_list must be represented in at least one group.
+B. There can *never* be more than 6 groups total.
+C. Any single group can *never* have more than 7 files in it.
+D. Whenever possible follow the advice in the grouping_constraints, if that is present.
 
 Output the JSON structure described.
 """,
@@ -318,7 +387,8 @@ Output the JSON structure described.
                     "type": "object",
                     "properties": {
                         "files_directory": {
-                            "type": "string"
+                            "type": "string",
+                            "description": "The location where the files can be found"
                         },
                         "grouping_json": {
                             "type": "object",
@@ -338,9 +408,13 @@ Output the JSON structure described.
                                 }
                             },
                             "required": ["name", "description", "groups"]
+                        },
+                        "group_number": {
+                            "type": "int",
+                            "description": "The index of the group being created"
                         }
                     },
-                    "required": ["files_directory", "grouping_json"]
+                    "required": ["files_directory", "grouping_json", "group_number"]
                 }
             },
 
