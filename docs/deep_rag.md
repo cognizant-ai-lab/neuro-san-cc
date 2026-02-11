@@ -257,16 +257,11 @@ it's not going to have the actual corpus memorized, and these kinds of things is
 
 # Limitations / Future work
 
-* AAOSA anecdotally works best when there < 7 agents in any branching situation. Thus the hamlet example's grouping
-  fits within the bounds of what deep_rag will create.  The UNFCCC documents number bigger than the implied max of 49,
-  so sometimes the grouping works with stretching those limits and sometimes it doesn't.
-
-  In the future we'd like to have the entrypoint network have more middle tiers that aggregrate groups of groups
-  at that level.
-
 * The deep_rag network seems to be overly cautious about answering questions that compare or relate
   one section of the corpus to another, preferring to wuss out due to its prompting about not making things
   up outside of what the experts tell it.
 
   In the future we'd like to experiment with creating a top-level analysis agent which is free from
   those constraints.
+
+* See issues filed in this repo with the Deep RAG heading for more future improvements.
