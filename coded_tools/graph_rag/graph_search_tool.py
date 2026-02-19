@@ -44,7 +44,20 @@ Search Types:
        Returns original document text with metadata (conference, year, decision IDs).
        Best for getting exact wording from source documents.
 """
+
+# pylint: disable=too-many-lines
+# pylint: disable=wrong-import-position
+# pylint: disable=line-too-long
+# pylint: disable=too-many-locals
+# pylint: disable=too-many-return-statements
+# pylint: disable=too-many-branches
+# pylint: disable=too-many-statements
+# pylint: disable=too-many-boolean-expressions
+# pylint: disable=protected-access
+# pylint: disable=broad-exception-caught
+
 import os
+import re
 import traceback
 from pathlib import Path
 from typing import Any
@@ -62,6 +75,9 @@ load_dotenv(dotenv_path=_current_dir / ".env")
 from graphiti_core import Graphiti
 from graphiti_core.driver.falkordb_driver import FalkorDriver
 from graphiti_core.driver.neo4j_driver import Neo4jDriver
+from graphiti_core.search.search_config_recipes import COMBINED_HYBRID_SEARCH_RRF
+from graphiti_core.search.search_config_recipes import EDGE_HYBRID_SEARCH_RRF
+from graphiti_core.search.search_config_recipes import NODE_HYBRID_SEARCH_RRF
 
 
 class GraphSearchTool(CodedTool):
@@ -197,7 +213,7 @@ class GraphSearchTool(CodedTool):
         # pylint: disable=broad-exception-caught
         except Exception as exception:
             error_msg: str = (
-                f"Unexpected error during graph search:\n"
+                "Unexpected error during graph search:\n"
                 f"  Error type: {type(exception).__name__}\n"
                 f"  Error message: {str(exception)}\n"
                 f"  Query: {args.get('query', 'N/A')}\n"
@@ -257,7 +273,6 @@ class GraphSearchTool(CodedTool):
                 analysis["key_concepts"].append(concept)
 
         # Extract temporal markers
-        import re
         years = re.findall(r'\b(19\d{2}|20\d{2})\b', query)
         analysis["temporal_markers"].extend(years)
 
@@ -594,7 +609,7 @@ class GraphSearchTool(CodedTool):
         if decision_results:
             output_parts.append("=" * 80)
             output_parts.append("SPECIFIC DECISION (EXACT MATCH)")
-            output_parts.append(f"Direct result for the decision referenced in your query")
+            output_parts.append("Direct result for the decision referenced in your query")
             output_parts.append("=" * 80)
             output_parts.append("")
             output_parts.append(decision_results)
@@ -742,7 +757,7 @@ class GraphSearchTool(CodedTool):
             if neo4j_uri and neo4j_user and neo4j_password:
                 # Use Neo4j
                 GraphSearchTool._db_type = "neo4j"
-                print(f"Detected Neo4j configuration")
+                print("Detected Neo4j configuration")
                 print(f"Initializing Neo4j connection to {neo4j_uri}")
 
                 GraphSearchTool._driver_instance = Neo4jDriver(
@@ -766,14 +781,16 @@ class GraphSearchTool(CodedTool):
                 # Validate port is a valid integer
                 try:
                     port = int(port_str)
-                except (ValueError, TypeError):
-                    raise ValueError(f"FALKORDB_PORT must be a valid integer, got: {port_str}")
+                except (ValueError, TypeError) as exc:
+                    raise ValueError(
+                        f"FALKORDB_PORT must be a valid integer, got: {port_str}"
+                    ) from exc
 
                 username = os.getenv("FALKORDB_USERNAME")
                 password = os.getenv("FALKORDB_PASSWORD")
                 database = os.getenv("GRAPH_NAME", "unfccc_knowledge_graph")
 
-                print(f"Detected FalkorDB configuration (or using defaults)")
+                print("Detected FalkorDB configuration (or using defaults)")
                 print(f"Initializing FalkorDB connection to {host}:{port}, database: {database}")
 
                 GraphSearchTool._driver_instance = FalkorDriver(
@@ -795,7 +812,7 @@ class GraphSearchTool(CodedTool):
             if GraphSearchTool._db_type == "neo4j":
                 error_msg = (
                     f"Failed to initialize Neo4j connection: {str(e)}\n"
-                    f"Connection details:\n"
+                    "Connection details:\n"
                     f"  URI: {os.getenv('NEO4J_URI', 'NOT SET')}\n"
                     f"  User: {os.getenv('NEO4J_USER', 'NOT SET')}\n"
                     "Please verify:\n"
@@ -806,7 +823,7 @@ class GraphSearchTool(CodedTool):
             else:
                 error_msg = (
                     f"Failed to initialize FalkorDB connection: {str(e)}\n"
-                    f"Connection details:\n"
+                    "Connection details:\n"
                     f"  Host: {os.getenv('FALKORDB_HOST', 'localhost')}\n"
                     f"  Port: {os.getenv('FALKORDB_PORT', '6379')}\n"
                     f"  Database: {os.getenv('GRAPH_NAME', 'unfccc_knowledge_graph')}\n"
@@ -850,9 +867,6 @@ class GraphSearchTool(CodedTool):
         :raises: Exception if search fails
         """
         try:
-            from graphiti_core.search.search_config_recipes import \
-                NODE_HYBRID_SEARCH_RRF
-
             print(f"Searching entities: query='{query[:50]}...', limit={limit}")
             config = NODE_HYBRID_SEARCH_RRF.model_copy(deep=True)
             config.limit = limit
@@ -878,9 +892,6 @@ class GraphSearchTool(CodedTool):
         :raises: Exception if search fails
         """
         try:
-            from graphiti_core.search.search_config_recipes import \
-                EDGE_HYBRID_SEARCH_RRF
-
             print(f"Searching relationships: query='{query[:50]}...', limit={limit}")
             config = EDGE_HYBRID_SEARCH_RRF.model_copy(deep=True)
             config.limit = limit
@@ -911,10 +922,6 @@ class GraphSearchTool(CodedTool):
         :raises: Exception if search fails
         """
         try:
-            from graphiti_core.search.search_config_recipes import (
-                COMBINED_HYBRID_SEARCH_RRF
-            )
-
             # **ENHANCED SEARCH QUALITY**: Expand query with UNFCCC-specific terminology
             expanded_query = self._expand_query_terms(query)
             print(f"Searching episodes: original='{query[:50]}...', expanded='{expanded_query[:70]}...'")
@@ -946,11 +953,9 @@ class GraphSearchTool(CodedTool):
         :param query: Original query for context
         :return: Formatted decision text or empty string if not found
         """
-        try:
-            from graphiti_core.search.search_config_recipes import (
-                COMBINED_HYBRID_SEARCH_RRF
-            )
+        _ = query
 
+        try:
             # Strategy 1: Semantic search + metadata matching
             search_query = f"decision {decision_id}"
             print(f"Searching for decision: {decision_id}")
@@ -986,7 +991,6 @@ class GraphSearchTool(CodedTool):
 
         except Exception as e:
             print(f"Error during decision search: {e}")
-            import traceback
             traceback.print_exc()
             return ""
 
@@ -1005,7 +1009,7 @@ class GraphSearchTool(CodedTool):
         formatted_result = f">>> DECISION {decision_id} ({year}){action_label} <<<\n"
         formatted_result += f"Conference: {conference}\n"
         formatted_result += f"Year: {year}, Location: {location}\n"
-        formatted_result += f"\nEXACT TEXT FROM SOURCE:\n"
+        formatted_result += "\nEXACT TEXT FROM SOURCE:\n"
         formatted_result += "-" * 80 + "\n"
         formatted_result += f"{episode_content}\n"
 
@@ -1054,7 +1058,7 @@ class GraphSearchTool(CodedTool):
 
                 formatted_result = f">>> DECISION {decision_id} <<<\n"
                 formatted_result += f"Source: {source_desc or name}\n"
-                formatted_result += f"\nEXACT TEXT FROM SOURCE:\n"
+                formatted_result += "\nEXACT TEXT FROM SOURCE:\n"
                 formatted_result += "-" * 80 + "\n"
                 formatted_result += f"{content}\n"
 
@@ -1065,7 +1069,6 @@ class GraphSearchTool(CodedTool):
 
         except Exception as e:
             print(f"Error during direct Cypher search: {e}")
-            import traceback
             traceback.print_exc()
             return ""
 
@@ -1083,8 +1086,6 @@ class GraphSearchTool(CodedTool):
         :param query_analysis: Analysis results containing paragraph_refs
         :return: List of formatted paragraph results
         """
-        import re
-
         paragraph_refs = query_analysis.get("paragraph_refs", [])
         if not paragraph_refs:
             return []
@@ -1107,10 +1108,6 @@ class GraphSearchTool(CodedTool):
         print(f"Searching for episodes containing decision: {decision_id or 'unknown (using query)'}")
 
         try:
-            from graphiti_core.search.search_config_recipes import (
-                COMBINED_HYBRID_SEARCH_RRF
-            )
-
             # Use combined search to find episodes
             config = COMBINED_HYBRID_SEARCH_RRF.model_copy(deep=True)
             config.limit = 10  # Get more candidates to find the right decision
@@ -1171,7 +1168,6 @@ class GraphSearchTool(CodedTool):
 
         except Exception as e:
             print(f"Error during paragraph metadata search: {e}")
-            import traceback
             traceback.print_exc()
 
         return results
@@ -1232,8 +1228,6 @@ class GraphSearchTool(CodedTool):
         :param conference_type: Conference type to filter by (e.g., "CMA", "COP", "CMP")
         :return: Filtered list of results matching the conference type
         """
-        import re as re_mod
-
         # Normalize conference type aliases
         conf_aliases = {
             "COP": ["COP", "CP"],
@@ -1280,8 +1274,6 @@ class GraphSearchTool(CodedTool):
         :param direction: 'earliest' to sort ascending, 'latest' to sort descending
         :return: Re-ranked list of results
         """
-        import re as re_mod
-
         def get_year(episode) -> int:
             metadata = getattr(episode, 'metadata', None) or {}
             year_str = metadata.get('year', '')
@@ -1291,7 +1283,7 @@ class GraphSearchTool(CodedTool):
                 except (ValueError, TypeError):
                     pass
             name = getattr(episode, 'name', '') or ''
-            year_match = re_mod.search(r'(\d{4})', name)
+            year_match = re.search(r'(\d{4})', name)
             if year_match:
                 y = int(year_match.group(1))
                 if 2000 <= y <= 2030:
@@ -1311,13 +1303,11 @@ class GraphSearchTool(CodedTool):
         :param episode_results: List of episode results to classify
         :return: Dict with 'founding_episodes', 'followup_episodes', and 'summary'
         """
-        import re as re_mod
-
-        creation_re = re_mod.compile(
+        creation_re = re.compile(
             r'(?i)\b(establishes?\b|creates?\b|decides\s+to\s+establish\b|'
             r'launches?\b|sets?\s+up\b|inaugurates?\b)'
         )
-        followup_re = re_mod.compile(
+        followup_re = re.compile(
             r'(?i)\b(further\s+develops?\b|also\s+recalling\b|'
             r'builds?\s+on\b|welcomes?\s+the\s+continued\b|reaffirms?\b|'
             r'operationaliz\w+\b|decides\s+that\s+.{5,40}shall\s+have\b)'
@@ -1369,8 +1359,6 @@ class GraphSearchTool(CodedTool):
         :param episode_results: List of episode results to scan for backward references
         :return: List of formatted decision result strings
         """
-        import re as re_mod
-
         referenced_decision_ids = set()
         for episode in episode_results:
             content = getattr(episode, 'content', '') or ''
@@ -1381,7 +1369,7 @@ class GraphSearchTool(CodedTool):
                 r'(?:decision|resolution)\s+(\d+/[A-Z]+\.\d+)',
             ]
             for pattern in recall_patterns:
-                for match in re_mod.finditer(pattern, content, re_mod.IGNORECASE):
+                for match in re.finditer(pattern, content, re.IGNORECASE):
                     ref_id = match.group(1).upper()
                     referenced_decision_ids.add(ref_id)
 
@@ -1408,8 +1396,6 @@ class GraphSearchTool(CodedTool):
         :param limit: Maximum number of episodes to search
         :return: List of formatted timeline entry strings, sorted chronologically
         """
-        import re as re_mod
-
         # Search broadly for episodes on this topic
         episode_results = await self._search_episodes(query, limit)
         if not episode_results:
@@ -1429,9 +1415,9 @@ class GraphSearchTool(CodedTool):
             if not decision_id or decision_id in seen_ids:
                 # Fall back to extracting from episode name
                 name = getattr(episode, 'name', '') or ''
-                name_match = re_mod.search(
+                name_match = re.search(
                     r'(?:Decision|Resolution)\s+(?:No\.?\s*)?([\dIVXLC]+(?:\s*/\s*[A-Za-z]+\.\d+))',
-                    name, re_mod.IGNORECASE
+                    name, re.IGNORECASE
                 )
                 if name_match:
                     decision_id = name_match.group(1).strip()
@@ -1446,11 +1432,11 @@ class GraphSearchTool(CodedTool):
             content = getattr(episode, 'content', '') or ''
 
             # Classify as founding or follow-up
-            creation_re = re_mod.compile(
+            creation_re = re.compile(
                 r'(?i)\b(establishes?|creates?|decides\s+to\s+establish|'
                 r'launches?|sets?\s+up)\b'
             )
-            followup_re = re_mod.compile(
+            followup_re = re.compile(
                 r'(?i)\b(further\s+develops?|also\s+recalling|'
                 r'welcomes?\s+the\s+continued|reaffirms?)\b'
             )
@@ -1489,9 +1475,9 @@ class GraphSearchTool(CodedTool):
         backward_ids = set()
         for episode in episode_results:
             content = getattr(episode, 'content', '') or ''
-            for match in re_mod.finditer(
+            for match in re.finditer(
                 r'(?:recalling|also recalling)\s+(?:decision|resolution)\s+(\d+/[A-Z]+\.\d+)',
-                content, re_mod.IGNORECASE
+                content, re.IGNORECASE
             ):
                 ref_id = match.group(1).upper()
                 if ref_id not in seen_ids:
@@ -1523,7 +1509,6 @@ class GraphSearchTool(CodedTool):
         source_lower = source_text.lower()
 
         # Extract key terms from claim (nouns, verbs, adjectives)
-        import re
         # Remove common words
         common_words = {
             "the", "a", "an", "and", "or", "but", "in", "on", "at", "to", "for",
@@ -1578,7 +1563,6 @@ class GraphSearchTool(CodedTool):
         :param fact: The fact statement to break down
         :return: List of individual claims
         """
-        import re
         # Split on common conjunctions and semicolons
         claims = re.split(r'[;]|\band\b|\bor\b|\balso\b|\bfurthermore\b|\badditionally\b', fact, flags=re.IGNORECASE)
 
@@ -1684,46 +1668,6 @@ class GraphSearchTool(CodedTool):
         output_parts.append("- Temporal context (dates) indicates when the information was valid")
 
         return "\n".join(output_parts)
-
-    async def _get_episode_metadata(self, episode_uuid: str) -> Dict[str, Any]:
-        """
-        Fetch episode metadata for citation purposes.
-
-        :param episode_uuid: Episode UUID to look up
-        :return: Dictionary with episode metadata or empty dict if not found
-        """
-        if not GraphSearchTool._driver_instance:
-            return {}
-
-        try:
-            query: str = """
-            MATCH (e:Episodic {uuid: $uuid})
-            RETURN e.name as name, e.source_description as source_description,
-                   e.content as content, e.source as source
-            LIMIT 1
-            """
-            records, _, _ = await GraphSearchTool._driver_instance.execute_query(
-                query, uuid=episode_uuid
-            )
-            if records:
-                record_dict = dict(records[0])
-                # Try to extract metadata from source or name
-                metadata = {}
-                source = record_dict.get("source", "")
-                if source:
-                    # Parse source for decision_id, conference info, etc.
-                    # This is a simplified parser - adjust based on actual data format
-                    import re
-                    decision_match = re.search(r'decision[s]?\s*(\d+/[A-Z]+\.\d+)', source, re.IGNORECASE)
-                    if decision_match:
-                        metadata["decision_id"] = decision_match.group(1)
-
-                record_dict["metadata"] = metadata
-                return record_dict
-            return {}
-        except Exception as e:
-            print(f"Warning: Failed to fetch episode {episode_uuid}: {e}")
-            return {}
 
     async def _get_node_by_uuid(self, uuid: str) -> Dict[str, Any]:
         """
@@ -1991,7 +1935,6 @@ class GraphSearchTool(CodedTool):
             title_part = episode_name.split("::", 1)[1] if "::" in episode_name else ""
             if "Decision" in title_part or "Resolution" in title_part:
                 # Extract decision number from title
-                import re
                 match = re.search(
                     r"(?:Decision|Resolution)\s+(?:No\.?\s*)?([\dIVXLC]+(?:/[A-Za-z]+\.\d+)?)",
                     title_part
@@ -2019,9 +1962,8 @@ class GraphSearchTool(CodedTool):
 
         if citation_parts:
             return ", ".join(citation_parts)
-        else:
-            # Fallback to episode name
-            return f"Source: {episode_name}"
+        # Fallback to episode name
+        return f"Source: {episode_name}"
 
     async def _get_episode_metadata(self, uuid: str) -> Dict[str, Any]:
         """

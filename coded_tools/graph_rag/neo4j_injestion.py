@@ -660,7 +660,7 @@ class Neo4jIngestionEnhanced(CodedTool):  # pylint: disable=too-many-instance-at
         followup_matches = len(self.FOLLOWUP_VERBS_RE.findall(check_text))
         if creation_matches > 0 and creation_matches >= followup_matches:
             return "founding"
-        elif followup_matches > creation_matches:
+        if followup_matches > creation_matches:
             return "follow_up"
         return "neutral"
 
