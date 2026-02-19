@@ -43,18 +43,7 @@ Search Types:
     4. "episode": Searches for primary source document content (episodes).
        Returns original document text with metadata (conference, year, decision IDs).
        Best for getting exact wording from source documents.
-"""
-
-# pylint: disable=too-many-lines
-# pylint: disable=wrong-import-position
-# pylint: disable=line-too-long
-# pylint: disable=too-many-locals
-# pylint: disable=too-many-return-statements
-# pylint: disable=too-many-branches
-# pylint: disable=too-many-statements
-# pylint: disable=too-many-boolean-expressions
-# pylint: disable=protected-access
-# pylint: disable=broad-exception-caught
+"""  # pylint: disable=too-many-lines
 
 import os
 import re
@@ -72,12 +61,14 @@ from neuro_san.interfaces.coded_tool import CodedTool
 _current_dir = Path(__file__).parent
 load_dotenv(dotenv_path=_current_dir / ".env")
 
+# pylint: disable=wrong-import-position
 from graphiti_core import Graphiti
 from graphiti_core.driver.falkordb_driver import FalkorDriver
 from graphiti_core.driver.neo4j_driver import Neo4jDriver
 from graphiti_core.search.search_config_recipes import COMBINED_HYBRID_SEARCH_RRF
 from graphiti_core.search.search_config_recipes import EDGE_HYBRID_SEARCH_RRF
 from graphiti_core.search.search_config_recipes import NODE_HYBRID_SEARCH_RRF
+# pylint: enable=wrong-import-position
 
 
 class GraphSearchTool(CodedTool):
@@ -96,7 +87,9 @@ class GraphSearchTool(CodedTool):
     # Max output size in characters (~10K tokens) to stay within GPT-4o context
     MAX_OUTPUT_CHARS = 40000
 
-    async def async_invoke(self, args: Dict[str, Any], sly_data: Dict[str, Any]) -> str:
+    async def async_invoke(  # pylint: disable=too-many-locals,too-many-return-statements,too-many-branches,too-many-statements
+        self, args: Dict[str, Any], sly_data: Dict[str, Any],
+    ) -> str:
         """
         Execute graph relationship search and return relevant facts.
 
@@ -166,7 +159,16 @@ class GraphSearchTool(CodedTool):
 
             # **ENHANCED SEARCH QUALITY**: Analyze query and determine optimal search strategy
             query_analysis = self._analyze_query(query)
-            print(f"Query analysis: intent={query_analysis['intent']}, key_concepts={query_analysis['key_concepts']}, decision_id={query_analysis.get('decision_id')}, paragraph_refs={query_analysis.get('paragraph_refs', [])}, temporal_direction={query_analysis.get('temporal_direction')}, is_timeline={query_analysis.get('is_timeline_query')}, is_identification={query_analysis.get('is_identification_query')}, conference_filter={query_analysis.get('conference_filter')}")
+            print(
+                f"Query analysis: intent={query_analysis['intent']}, "
+                f"key_concepts={query_analysis['key_concepts']}, "
+                f"decision_id={query_analysis.get('decision_id')}, "
+                f"paragraph_refs={query_analysis.get('paragraph_refs', [])}, "
+                f"temporal_direction={query_analysis.get('temporal_direction')}, "
+                f"is_timeline={query_analysis.get('is_timeline_query')}, "
+                f"is_identification={query_analysis.get('is_identification_query')}, "
+                f"conference_filter={query_analysis.get('conference_filter')}"
+            )
 
             # If user didn't specify search_type, auto-select based on query intent
             if args.get("search_type") is None:
@@ -223,7 +225,9 @@ class GraphSearchTool(CodedTool):
             traceback.print_exc()
             return error_msg
 
-    def _analyze_query(self, query: str) -> Dict[str, Any]:
+    def _analyze_query(  # pylint: disable=too-many-locals,too-many-branches,too-many-statements
+        self, query: str,
+    ) -> Dict[str, Any]:
         """
         Analyze the query to extract key information and determine optimal search strategy.
 
@@ -449,7 +453,9 @@ class GraphSearchTool(CodedTool):
             analysis["complexity"] = "low"
 
         # Force high complexity for temporal/timeline/identification queries
-        if analysis.get("temporal_direction") or analysis.get("is_timeline_query") or analysis.get("is_identification_query"):
+        if (analysis.get("temporal_direction")
+                or analysis.get("is_timeline_query")
+                or analysis.get("is_identification_query")):
             analysis["complexity"] = "high"
 
         # Recommend search type based on analysis
@@ -465,8 +471,8 @@ class GraphSearchTool(CodedTool):
 
         return analysis
 
-    async def _multi_stage_search(
-        self, query: str, query_analysis: Dict[str, Any], limit: int
+    async def _multi_stage_search(  # pylint: disable=too-many-locals,too-many-branches,too-many-statements
+        self, query: str, query_analysis: Dict[str, Any], limit: int,
     ) -> tuple:
         """
         Perform multi-stage search for complex queries requiring comprehensive answers.
@@ -493,7 +499,10 @@ class GraphSearchTool(CodedTool):
         # PRIORITY 1: If specific paragraphs are referenced, try paragraph-based search
         paragraph_results = []
         if query_analysis.get("paragraph_refs"):
-            print(f"Detected {len(query_analysis['paragraph_refs'])} paragraph reference(s), attempting metadata search...")
+            print(
+                f"Detected {len(query_analysis['paragraph_refs'])} paragraph reference(s), "
+                "attempting metadata search..."
+            )
             paragraph_results = await self._search_by_paragraph(query, query_analysis)
 
             # If we found specific paragraphs, prioritize those and do lighter follow-up searches
@@ -553,7 +562,8 @@ class GraphSearchTool(CodedTool):
         referenced_decisions = []
         should_follow_refs = (
             query_analysis.get("follow_references")
-            or (query_analysis.get("is_identification_query") and query_analysis.get("temporal_direction") == "earliest")
+            or (query_analysis.get("is_identification_query")
+                and query_analysis.get("temporal_direction") == "earliest")
         )
         if should_follow_refs and episode_results:
             print("Stage 2B: Following backward references for chronological/creation query...")
@@ -578,7 +588,10 @@ class GraphSearchTool(CodedTool):
         founding_analysis = None
         is_creation_query = query_analysis.get("temporal_direction") == "earliest" or (
             query_analysis.get("is_identification_query") and any(
-                w in query.lower() for w in ["creates", "created", "establishes", "established", "set up", "sets up", "launches", "launched", "founded"]
+                w in query.lower() for w in [
+                    "creates", "created", "establishes", "established",
+                    "set up", "sets up", "launches", "launched", "founded",
+                ]
             )
         )
         if is_creation_query and episode_results:
@@ -598,7 +611,8 @@ class GraphSearchTool(CodedTool):
             f"MULTI-STAGE SEARCH RESULTS FOR: '{query}'",
             f"Query Complexity: {query_analysis['complexity'].upper()}",
             f"Query Intent: {query_analysis['intent'].upper()}",
-            f"Key Concepts: {', '.join(query_analysis['key_concepts'][:5]) if query_analysis['key_concepts'] else 'None detected'}",
+            f"Key Concepts: "
+            f"{', '.join(query_analysis['key_concepts'][:5]) if query_analysis['key_concepts'] else 'None detected'}",
             f"Conference Filter: {conf_filter if conf_filter else 'None (all conferences)'}",
             "",
             "=" * 80,
@@ -655,7 +669,10 @@ class GraphSearchTool(CodedTool):
             if is_creation_query:
                 output_parts.append(">>> EARLIER REFERENCED DECISIONS (POTENTIAL FOUNDING DECISIONS) <<<")
                 output_parts.append("These were recalled/referenced by later decisions.")
-                output_parts.append("CHECK THESE FIRST — the founding decision is often referenced by later follow-ups.")
+                output_parts.append(
+                    "CHECK THESE FIRST — the founding decision is often "
+                    "referenced by later follow-ups."
+                )
             else:
                 output_parts.append("EARLIER REFERENCED DECISIONS (TRACED VIA BACKWARD REFERENCES)")
                 output_parts.append("These were recalled/referenced by the results above")
@@ -708,7 +725,13 @@ class GraphSearchTool(CodedTool):
             output_parts.append(rel_text)
             output_parts.append("")
 
-        if not decision_results and not paragraph_results and not referenced_decisions and not timeline_results and not episode_results and not entity_results and not relationship_results:
+        no_results = (
+            not decision_results and not paragraph_results
+            and not referenced_decisions and not timeline_results
+            and not episode_results and not entity_results
+            and not relationship_results
+        )
+        if no_results:
             output_parts.append("No results found across all search stages.")
             output_parts.append("")
             output_parts.append("Suggestions:")
@@ -871,11 +894,11 @@ class GraphSearchTool(CodedTool):
             config = NODE_HYBRID_SEARCH_RRF.model_copy(deep=True)
             config.limit = limit
 
-            results = await GraphSearchTool._graphiti_instance._search(
+            results = await GraphSearchTool._graphiti_instance._search(  # pylint: disable=protected-access
                 query=query, config=config
             )
 
-            node_count = len(results.nodes) if results and results.nodes else 0
+            node_count = len(results.nodes)if results and results.nodes else 0
             print(f"Entity search returned {node_count} nodes")
             return results.nodes if results and results.nodes else []
         except Exception as e:
@@ -896,11 +919,11 @@ class GraphSearchTool(CodedTool):
             config = EDGE_HYBRID_SEARCH_RRF.model_copy(deep=True)
             config.limit = limit
 
-            results = await GraphSearchTool._graphiti_instance._search(
+            results = await GraphSearchTool._graphiti_instance._search(  # pylint: disable=protected-access
                 query=query, config=config
             )
 
-            edge_count = len(results.edges) if results and results.edges else 0
+            edge_count = len(results.edges)if results and results.edges else 0
             print(f"Relationship search returned {edge_count} edges")
             return results.edges if results and results.edges else []
         except Exception as e:
@@ -930,7 +953,7 @@ class GraphSearchTool(CodedTool):
             config = COMBINED_HYBRID_SEARCH_RRF.model_copy(deep=True)
             config.limit = limit
 
-            results = await GraphSearchTool._graphiti_instance._search(
+            results = await GraphSearchTool._graphiti_instance._search(  # pylint: disable=protected-access
                 query=expanded_query, config=config
             )
 
@@ -963,7 +986,7 @@ class GraphSearchTool(CodedTool):
             config = COMBINED_HYBRID_SEARCH_RRF.model_copy(deep=True)
             config.limit = 10
 
-            search_results = await GraphSearchTool._graphiti_instance._search(
+            search_results = await GraphSearchTool._graphiti_instance._search(  # pylint: disable=protected-access
                 query=search_query, config=config
             )
 
@@ -977,7 +1000,8 @@ class GraphSearchTool(CodedTool):
 
                 episode_decision_id = episode.metadata.get("decision_id", "")
                 if episode_decision_id and episode_decision_id.strip().upper() == decision_id.strip().upper():
-                    print(f"Found exact match via semantic search: {episode.name if hasattr(episode, 'name') else 'Unknown'}")
+                    ep_name = episode.name if hasattr(episode, 'name') else 'Unknown'
+                    print(f"Found exact match via semantic search: {ep_name}")
                     return self._format_decision_result(decision_id, episode)
 
             # Strategy 2: Direct Cypher query as fallback
@@ -989,7 +1013,7 @@ class GraphSearchTool(CodedTool):
             print(f"WARNING: Decision {decision_id} not found by any method")
             return ""
 
-        except Exception as e:
+        except Exception as e:  # pylint: disable=broad-exception-caught
             print(f"Error during decision search: {e}")
             traceback.print_exc()
             return ""
@@ -1067,13 +1091,13 @@ class GraphSearchTool(CodedTool):
             print(f"Direct Cypher query found no results for Decision {decision_id}")
             return ""
 
-        except Exception as e:
+        except Exception as e:  # pylint: disable=broad-exception-caught
             print(f"Error during direct Cypher search: {e}")
             traceback.print_exc()
             return ""
 
-    async def _search_by_paragraph(
-        self, query: str, query_analysis: Dict[str, Any]
+    async def _search_by_paragraph(  # pylint: disable=too-many-locals,too-many-branches,too-many-statements
+        self, query: str, query_analysis: Dict[str, Any],
     ) -> List[str]:
         """
         Search for specific paragraphs using metadata paragraph_index.
@@ -1112,7 +1136,7 @@ class GraphSearchTool(CodedTool):
             config = COMBINED_HYBRID_SEARCH_RRF.model_copy(deep=True)
             config.limit = 10  # Get more candidates to find the right decision
 
-            search_results = await GraphSearchTool._graphiti_instance._search(
+            search_results = await GraphSearchTool._graphiti_instance._search(  # pylint: disable=protected-access
                 query=search_query, config=config
             )
 
@@ -1166,7 +1190,7 @@ class GraphSearchTool(CodedTool):
                 if not found:
                     print(f"WARNING: Could not find paragraph {para_id} in any episode metadata")
 
-        except Exception as e:
+        except Exception as e:  # pylint: disable=broad-exception-caught
             print(f"Error during paragraph metadata search: {e}")
             traceback.print_exc()
 
@@ -1195,7 +1219,10 @@ class GraphSearchTool(CodedTool):
         term_mappings = {
             "mitigation co-benefits": ["co-benefits from mitigation", "mitigation benefits", "ancillary benefits"],
             "adaptation action": ["adaptation activities", "adaptation measures", "adaptation efforts"],
-            "economic diversification": ["diversification plans", "economic transformation", "structural transformation"],
+            "economic diversification": [
+                "diversification plans", "economic transformation",
+                "structural transformation",
+            ],
             "additional information": ["further information", "supplementary information", "more detailed information"],
             "Party": ["country", "nation", "State Party", "Parties"],
             "must provide": ["shall provide", "required to provide", "obligation to provide", "provide"],
@@ -1293,7 +1320,9 @@ class GraphSearchTool(CodedTool):
         reverse = direction != "earliest"
         return sorted(results, key=get_year, reverse=reverse)
 
-    def _classify_episodes_founding(self, episode_results: List[Any]) -> Dict[str, Any]:
+    def _classify_episodes_founding(  # pylint: disable=too-many-locals
+        self, episode_results: List[Any],
+    ) -> Dict[str, Any]:
         """Classify episodes as founding or follow-up based on creation vs operational language.
 
         Scans episode content for creation verbs (establishes, creates, sets up) and
@@ -1330,10 +1359,18 @@ class GraphSearchTool(CodedTool):
 
             if creation_count > 0 and creation_count >= followup_count:
                 founding.append(episode)
-                print(f"  FOUNDING: Decision {decision_id} ({year}) - {name[:60]} [creation={creation_count}, followup={followup_count}]")
+                print(
+                    f"  FOUNDING: Decision {decision_id} ({year}) - "
+                    f"{name[:60]} [creation={creation_count}, "
+                    f"followup={followup_count}]"
+                )
             else:
                 followup.append(episode)
-                print(f"  FOLLOW-UP: Decision {decision_id} ({year}) - {name[:60]} [creation={creation_count}, followup={followup_count}]")
+                print(
+                    f"  FOLLOW-UP: Decision {decision_id} ({year}) - "
+                    f"{name[:60]} [creation={creation_count}, "
+                    f"followup={followup_count}]"
+                )
 
         # Sort founding by year ascending (earliest first)
         founding = self._temporal_rerank(founding, "earliest") if founding else []
@@ -1342,7 +1379,10 @@ class GraphSearchTool(CodedTool):
         founding_ids = [getattr(e, 'metadata', {}).get('decision_id', '?') for e in founding if hasattr(e, 'metadata')]
         followup_ids = [getattr(e, 'metadata', {}).get('decision_id', '?') for e in followup if hasattr(e, 'metadata')]
 
-        summary = f"Found {len(founding)} founding decision(s): {founding_ids} and {len(followup)} follow-up decision(s): {followup_ids}"
+        summary = (
+            f"Found {len(founding)} founding decision(s): {founding_ids} "
+            f"and {len(followup)} follow-up decision(s): {followup_ids}"
+        )
 
         return {
             "founding_episodes": founding,
@@ -1382,8 +1422,8 @@ class GraphSearchTool(CodedTool):
 
         return results
 
-    async def _search_topic_timeline(
-        self, query: str, query_analysis: Dict[str, Any], limit: int = 20
+    async def _search_topic_timeline(  # pylint: disable=too-many-locals,too-many-branches,too-many-statements
+        self, query: str, query_analysis: Dict[str, Any], limit: int = 20,
     ) -> List[str]:
         """Search for ALL decisions on a topic and present them chronologically.
 
@@ -1487,12 +1527,17 @@ class GraphSearchTool(CodedTool):
         for ref_id in list(backward_ids)[:5]:
             result = await self._search_by_decision(ref_id, f"decision {ref_id}")
             if result:
-                decisions.insert(0, (0, f"[EARLIER] Decision {ref_id} — Referenced by later decisions (search for full text)\n{result[:300]}"))
+                earlier_text = (
+                    f"[EARLIER] Decision {ref_id} — Referenced by "
+                    f"later decisions (search for full text)\n"
+                    f"{result[:300]}"
+                )
+                decisions.insert(0, (0, earlier_text))
 
         return [d[1] for d in decisions]
 
-    def _validate_citation(
-        self, claim: str, source_text: str, metadata: Dict[str, Any]
+    def _validate_citation(  # pylint: disable=too-many-locals
+        self, claim: str, source_text: str, metadata: Dict[str, Any],
     ) -> Dict[str, Any]:
         """
         Validate that a claim can be supported by the source text.
@@ -1575,7 +1620,9 @@ class GraphSearchTool(CodedTool):
 
         return claims
 
-    async def _format_facts(self, query: str, results: List[Any]) -> str:
+    async def _format_facts(  # pylint: disable=too-many-locals,too-many-branches
+        self, query: str, results: List[Any],
+    ) -> str:
         """
         Format general graph facts with SOURCE CITATIONS and connected node details.
 
@@ -1828,7 +1875,9 @@ class GraphSearchTool(CodedTool):
 
         return "\n".join(output_parts)
 
-    async def _format_episodes(self, query: str, results: List[Any]) -> str:
+    async def _format_episodes(  # pylint: disable=too-many-locals,too-many-branches
+        self, query: str, results: List[Any],
+    ) -> str:
         """
         Format episode nodes with primary source content and metadata.
 
@@ -1849,7 +1898,11 @@ class GraphSearchTool(CodedTool):
         # If truncating, divide budget evenly across episodes
         if needs_truncation and len(results) > 0:
             per_episode_limit = self.MAX_OUTPUT_CHARS // len(results)
-            print(f"Total content: {total_content_chars} chars > {self.MAX_OUTPUT_CHARS} limit. Truncating each episode to ~{per_episode_limit} chars.")
+            print(
+                f"Total content: {total_content_chars} chars > "
+                f"{self.MAX_OUTPUT_CHARS} limit. Truncating each "
+                f"episode to ~{per_episode_limit} chars."
+            )
         else:
             per_episode_limit = 0  # No limit
 
