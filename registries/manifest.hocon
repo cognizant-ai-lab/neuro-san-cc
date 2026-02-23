@@ -3,7 +3,7 @@
     "paris_agreement.hocon": true,
     "cop.hocon": true,
     "unfccc.hocon": true,
-    
+
     "deep_rag.hocon": true,
-    "graph_rag.hocon": true,
+    "graph_rag.hocon": false,
 }
