@@ -59,7 +59,7 @@ Who reviews the information used to track NDC progress?
 What are they explicitly prohibited from assessing?
 Where is NDC adequacy shielded?
 How does flexibility remain self-determined?
-Why does this structure prevent transformation into a compliance regime?”**
+Why does this structure prevent transformation into a compliance regime?
 ```
 
 ### AI (UNFCCC_Research)
