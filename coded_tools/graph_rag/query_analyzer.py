@@ -9,17 +9,13 @@
 #
 # END COPYRIGHT
 
-"""
-Query analysis mixin for GraphSearchTool.
-
-Provides methods to analyze user queries and extract intent, temporal markers,
-conference filters, structural references, decision/paragraph refs, timeline
-detection, and complexity scoring. All keyword lists and thresholds are defined
-as class-level constants on the mixin.
-"""
-
+import logging
 import re
-from typing import Any, Dict, Optional
+from typing import Any
+from typing import Dict
+from typing import Optional
+
+logger = logging.getLogger(__name__)
 
 
 class QueryAnalyzer:
@@ -400,8 +396,9 @@ class QueryAnalyzer:
             and not analysis["is_timeline_query"]
         ):
             analysis["is_timeline_query"] = True
-            print(
-                f"Multi-stage governance query detected ({phase_count} phases mentioned)"
+            logger.debug(
+                "Multi-stage governance query detected (%d phases mentioned)",
+                phase_count,
             )
 
         has_multiple_actions = (
@@ -414,7 +411,7 @@ class QueryAnalyzer:
             and not analysis["is_timeline_query"]
         ):
             analysis["is_timeline_query"] = True
-            print(
+            logger.debug(
                 "Multi-action identification query detected, enabling timeline search"
             )
 

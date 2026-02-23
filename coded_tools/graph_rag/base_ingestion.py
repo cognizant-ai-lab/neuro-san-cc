@@ -8,19 +8,6 @@
 # neuro-san SDK Software in commercial settings.
 #
 # END COPYRIGHT
-"""
-Base class for UNFCCC Climate Document Ingestion.
-
-Provides the ingestion pipeline: database connectivity, episode loading,
-checkpoint-based resume, progress logging, and demonstration query logic.
-Document parsing is inherited from DocumentParser.
-
-Subclasses must implement:
-    - DB_NAME: Class attribute with the database display name
-    - _connection_config(): Returns database-specific config keys
-    - _log_connection_info(): Logs database-specific connection details
-    - _create_graphiti_client(): Creates and returns a configured Graphiti instance
-"""
 
 from __future__ import annotations
 
@@ -30,7 +17,11 @@ import re
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any
+from typing import Dict
+from typing import List
+from typing import Optional
+from typing import Tuple
 
 import graphiti_core.prompts.extract_edges as _extract_edges_module
 import graphiti_core.prompts.extract_nodes as _extract_nodes_module
@@ -469,7 +460,7 @@ class BaseIngestionTool(DocumentParser, CodedTool):
                         len(episodes),
                         episode_name[:100],
                     )
-            except Exception as exc:  # pylint: disable=broad-exception-caught
+            except Exception as exc:
                 failure = (episode_name, str(exc))
                 failures.append(failure)
                 self.logger.error("Failed to add episode %s: %s", episode_name, exc)
@@ -597,7 +588,7 @@ class BaseIngestionTool(DocumentParser, CodedTool):
                             self.logger.info("Valid until: %s", result.invalid_at)
                 else:
                     self.logger.info("\nNo results found for this query.")
-            except Exception as exc:  # pylint: disable=broad-exception-caught
+            except Exception as exc:
                 self.logger.error('Search failed for query "%s": %s', query, exc)
 
     async def _run_node_queries(self, graphiti: Graphiti) -> None:
@@ -632,7 +623,7 @@ class BaseIngestionTool(DocumentParser, CodedTool):
                         self.logger.info("  Labels: %s", ", ".join(node.labels))
                 else:
                     self.logger.info("  No nodes found.")
-            except Exception as exc:  # pylint: disable=broad-exception-caught
+            except Exception as exc:
                 self.logger.error('Node search failed for "%s": %s', query, exc)
 
     async def _demo_reference_traversal(self, graphiti: Graphiti) -> None:
@@ -763,7 +754,7 @@ class BaseIngestionTool(DocumentParser, CodedTool):
                         self.logger.info("  %d. %s", idx, fact_preview)
                 else:
                     self.logger.info("No results found.")
-            except Exception as exc:  # pylint: disable=broad-exception-caught
+            except Exception as exc:
                 self.logger.error("Temporal query failed: %s", exc)
 
     async def _demo_paragraph_access(self, graphiti: Graphiti) -> None:
@@ -838,7 +829,7 @@ class BaseIngestionTool(DocumentParser, CodedTool):
                         self.logger.info(
                             "\nNo results found (decision may not be in current batch)"
                         )
-                except Exception as exc:  # pylint: disable=broad-exception-caught
+                except Exception as exc:
                     self.logger.error("Paragraph query failed: %s", exc)
 
     def _log_demo_skipped_reason(self, success_count: int) -> None:

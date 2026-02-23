@@ -8,21 +8,18 @@
 # neuro-san SDK Software in commercial settings.
 #
 # END COPYRIGHT
-"""
-UNFCCC Climate Document Parser.
-
-Pure text processing for UNFCCC climate documents: splitting, metadata
-extraction, reference detection, paragraph indexing, and episode construction.
-No database or framework dependencies.
-"""
 
 from __future__ import annotations
 
 import logging
 import re
-from datetime import datetime, timezone
+from datetime import datetime
+from datetime import timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any
+from typing import Dict
+from typing import List
+from typing import Optional
 
 
 class DocumentParser:

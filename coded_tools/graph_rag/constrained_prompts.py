@@ -8,9 +8,6 @@
 # neuro-san SDK Software in commercial settings.
 #
 # END COPYRIGHT
-"""
-Modified versions of Graphiti's entity and fact extraction prompts.
-"""
 
 from typing import Any
 

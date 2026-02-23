@@ -8,28 +8,6 @@
 # neuro-san SDK Software in commercial settings.
 #
 # END COPYRIGHT
-# pylint: disable=wrong-import-position
-"""
-UNFCCC Climate Document Ingestion for Neo4j Knowledge Graph.
-
-This module ingests United Nations Framework Convention on Climate Change (UNFCCC)
-documents into a Neo4j-backed knowledge graph using the Graphiti framework.
-
-Extends BaseIngestionTool with Neo4j-specific driver configuration and
-decision action classification (founding vs follow-up).
-
-Key Features:
-    - Parses UNFCCC COP, CMA, CMP, SBI, and SBSTA decision documents
-    - Extracts structured information: decisions, resolutions, annexes, and paragraphs
-    - Identifies and extracts cross-document references between decisions
-    - Classifies decisions as founding, follow-up, or neutral
-    - Supports incremental processing with checkpoint-based resume functionality
-
-Note:
-    Reference linking, annex linking, and conference linking features have been
-    disabled to reduce episode count and improve processing performance. References
-    are still extracted and stored in episode metadata for potential future use.
-"""
 
 from __future__ import annotations
 
@@ -37,7 +15,9 @@ import asyncio
 import os
 import re
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any
+from typing import Dict
+from typing import List
 
 from dotenv import load_dotenv
 
@@ -202,7 +182,7 @@ class Neo4jIngestionEnhanced(BaseIngestionTool):
                 name=episode_name,
                 props=props,
             )
-        except Exception as exc:  # pylint: disable=broad-exception-caught
+        except Exception as exc:
             self.logger.warning(
                 "Failed to set metadata for episode '%s': %s",
                 episode_name[:80],

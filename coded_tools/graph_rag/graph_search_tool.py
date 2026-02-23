@@ -9,47 +9,15 @@
 #
 # END COPYRIGHT
 
-"""
-Graph search tool for UNFCCC climate documents using Neo4j or FalkorDB knowledge graph.
-
-This module implements a Graph-based Retrieval-Augmented Generation (RAG) tool that provides
-semantic search capabilities over a knowledge graph of climate conference documents stored in
-Neo4j or FalkorDB. It leverages the Graphiti library to perform hybrid search (combining vector
-similarity and keyword matching) over entities and relationships extracted from UNFCCC documents
-including COP, CMA, CMP, SBI, and SBSTA proceedings.
-
-Architecture:
-    - Uses Graphiti Core for graph operations and hybrid search
-    - Automatically detects and connects to Neo4j or FalkorDB based on environment variables
-    - Implements singleton pattern for graph connections (shared across invocations)
-    - Supports four search modes: general facts, entities, relationships, and episodes
-    - Automatically enriches results with connected nodes and relationships
-
-Database Detection:
-    - If NEO4J_URI is set, uses Neo4j
-    - If FALKORDB_HOST is set (and NEO4J_URI is not), uses FalkorDB
-    - Priority: Neo4j > FalkorDB
-
-Search Types:
-    1. "general" (default): Searches for general facts and relationships in the graph.
-       Returns facts with connected entity details.
-
-    2. "entity": Searches for entity nodes (e.g., countries, organizations, concepts).
-       Returns entities with their summaries and connected relationships.
-
-    3. "relationship": Searches for relationship edges between entities.
-       Returns relationships with source and target entity details.
-
-    4. "episode": Searches for primary source document content (episodes).
-       Returns original document text with metadata (conference, year, decision IDs).
-       Best for getting exact wording from source documents.
-"""
-
+import logging
 import os
 import re
-import traceback
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any
+from typing import Dict
+from typing import List
+from typing import Optional
+from typing import Tuple
 
 from dotenv import load_dotenv
 
@@ -61,16 +29,16 @@ load_dotenv(dotenv_path=_current_dir / ".env")
 from graphiti_core import Graphiti  # noqa: E402
 from graphiti_core.driver.falkordb_driver import FalkorDriver  # noqa: E402
 from graphiti_core.driver.neo4j_driver import Neo4jDriver  # noqa: E402
-from graphiti_core.search.search_config_recipes import (
-    COMBINED_HYBRID_SEARCH_RRF,  # noqa: E402
-    EDGE_HYBRID_SEARCH_RRF,  # noqa: E402
-    NODE_HYBRID_SEARCH_RRF,  # noqa: E402
-)
+from graphiti_core.search.search_config_recipes import COMBINED_HYBRID_SEARCH_RRF  # noqa: E402
+from graphiti_core.search.search_config_recipes import EDGE_HYBRID_SEARCH_RRF  # noqa: E402
+from graphiti_core.search.search_config_recipes import NODE_HYBRID_SEARCH_RRF  # noqa: E402
 from neuro_san.interfaces.coded_tool import CodedTool  # noqa: E402
 
 from .formatters import ResultFormatter  # noqa: E402
 from .query_analyzer import QueryAnalyzer  # noqa: E402
 from .search_stages import SearchPipeline  # noqa: E402
+
+logger = logging.getLogger(__name__)
 
 
 class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool):
@@ -135,23 +103,25 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
             except ValueError as parse_error:
                 return str(parse_error)
 
-            # **ENHANCED SEARCH QUALITY**: Analyze query and determine optimal search strategy
             query_analysis = self._analyze_query(query)
-            print(
-                f"Query analysis: intent={query_analysis['intent']}, "
-                f"key_concepts={query_analysis['key_concepts']}, "
-                f"decision_id={query_analysis.get('decision_id')}, "
-                f"paragraph_refs={query_analysis.get('paragraph_refs', [])}, "
-                f"temporal_direction={query_analysis.get('temporal_direction')}, "
-                f"is_timeline={query_analysis.get('is_timeline_query')}, "
-                f"is_identification={query_analysis.get('is_identification_query')}, "
-                f"conference_filter={query_analysis.get('conference_filter')}"
+            logger.debug(
+                "Query analysis: intent=%s, key_concepts=%s, decision_id=%s, "
+                "paragraph_refs=%s, temporal_direction=%s, is_timeline=%s, "
+                "is_identification=%s, conference_filter=%s",
+                query_analysis["intent"],
+                query_analysis["key_concepts"],
+                query_analysis.get("decision_id"),
+                query_analysis.get("paragraph_refs", []),
+                query_analysis.get("temporal_direction"),
+                query_analysis.get("is_timeline_query"),
+                query_analysis.get("is_identification_query"),
+                query_analysis.get("conference_filter"),
             )
 
             # If user didn't specify search_type, auto-select based on query intent
             if args.get("search_type") is None:
                 search_type = query_analysis["recommended_search_type"]
-                print(f"Auto-selected search_type: {search_type}")
+                logger.debug("Auto-selected search_type: %s", search_type)
 
             _, formatted_output = await self._dispatch_search(
                 search_type, query, query_analysis, limit
@@ -164,16 +134,15 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 f"Connection error: {str(conn_error)}\n"
                 f"Please verify {db_name} is running and connection settings are correct."
             )
-            traceback.print_exc()
+            logger.exception("%s", error_msg)
             return error_msg
         except TimeoutError as timeout_error:
             error_msg = (
                 f"Timeout error: {str(timeout_error)}\n"
                 "The search query took too long. Try a more specific query or reduce the limit."
             )
-            traceback.print_exc()
+            logger.exception("%s", error_msg)
             return error_msg
-        # pylint: disable=broad-exception-caught
         except Exception as exception:
             error_msg = (
                 f"Unexpected error during graph search:\n"
@@ -183,7 +152,7 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 f"  Search type: {args.get('search_type', 'general')}\n"
                 "\nPlease check the traceback above for more details."
             )
-            traceback.print_exc()
+            logger.exception("%s", error_msg)
             return error_msg
 
     def _parse_args(self, args: Dict[str, Any]) -> Tuple[str, int, str]:
@@ -217,7 +186,7 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 f"Error: search_type must be one of {valid_types}, got: {search_type}"
             )
 
-        print(f"Query complexity: {query_complexity}, Limit: {limit}")
+        logger.debug("Query complexity: %s, Limit: %d", query_complexity, limit)
         return query, limit, search_type
 
     async def _dispatch_search(
@@ -247,9 +216,7 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
             "relationship": (self._search_relationships, self._format_relationships),
             "episode": (self._search_episodes, self._format_episodes),
         }
-        search_fn, format_fn = dispatch.get(
-            search_type, (self._search_graph, self._format_facts)
-        )
+        search_fn, format_fn = dispatch[search_type]
         results = await search_fn(query, limit)
         formatted_output = await format_fn(query, results)
 
@@ -257,9 +224,9 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
         # decision content is always present regardless of semantic search ranking.
         decision_id = query_analysis.get("decision_id")
         if decision_id:
-            decision_text = await self._search_by_decision(decision_id, query)
+            decision_text = await self._search_by_decision(decision_id)
             if decision_text and decision_text not in formatted_output:
-                print(f"Prepending direct decision lookup for {decision_id}")
+                logger.debug("Prepending direct decision lookup for %s", decision_id)
                 formatted_output = decision_text + "\n\n" + formatted_output
 
         return results, formatted_output
@@ -285,8 +252,8 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
             if neo4j_uri and neo4j_user and neo4j_password:
                 # Use Neo4j
                 GraphSearchTool._db_type = "neo4j"
-                print("Detected Neo4j configuration")
-                print(f"Initializing Neo4j connection to {neo4j_uri}")
+                logger.info("Detected Neo4j configuration")
+                logger.info("Initializing Neo4j connection to %s", neo4j_uri)
 
                 GraphSearchTool._driver_instance = Neo4jDriver(
                     uri=neo4j_uri,
@@ -298,7 +265,7 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                     graph_driver=GraphSearchTool._driver_instance
                 )
 
-                print("Successfully initialized Neo4j graph connection")
+                logger.info("Successfully initialized Neo4j graph connection")
 
             else:
                 # Use FalkorDB
@@ -318,9 +285,12 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 password = os.getenv("FALKORDB_PASSWORD")
                 database = os.getenv("GRAPH_NAME", "unfccc_knowledge_graph")
 
-                print("Detected FalkorDB configuration (or using defaults)")
-                print(
-                    f"Initializing FalkorDB connection to {host}:{port}, database: {database}"
+                logger.info("Detected FalkorDB configuration (or using defaults)")
+                logger.info(
+                    "Initializing FalkorDB connection to %s:%s, database: %s",
+                    host,
+                    port,
+                    database,
                 )
 
                 GraphSearchTool._driver_instance = FalkorDriver(
@@ -335,9 +305,9 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                     graph_driver=GraphSearchTool._driver_instance
                 )
 
-                print("Successfully initialized FalkorDB graph connection")
+                logger.info("Successfully initialized FalkorDB graph connection")
 
-        except Exception as e:  # pylint: disable=broad-exception-caught
+        except Exception as e:
             # Provide detailed error message based on which DB we tried to connect to
             if GraphSearchTool._db_type == "neo4j":
                 error_msg = (
@@ -363,120 +333,51 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                     "  3. Network connectivity to FalkorDB server"
                 )
 
-            print(error_msg)
+            logger.exception("%s", error_msg)
             raise ConnectionError(error_msg) from e
 
-    async def _search_graph(self, query: str, limit: int) -> List[Any]:
+    async def _run_search(
+        self, query: str, limit: int, config, result_attr: str
+    ) -> List[Any]:
         """
-        Search graph for general facts and relationships.
+        Shared implementation for entity, relationship, and episode searches.
 
-        :param query: Search query text
+        :param query: Search query text (pre-expanded if needed)
         :param limit: Maximum number of results
-        :return: List of search results
+        :param config: Search config recipe (NODE_, EDGE_, or COMBINED_HYBRID_SEARCH_RRF)
+        :param result_attr: Attribute on SearchResults to return ("nodes", "edges", "episodes")
+        :return: List of results
         :raises: Exception if search fails
         """
         try:
-            print(f"Searching graph: query='{query[:50]}...', limit={limit}")
-            results = await GraphSearchTool._graphiti_instance.search(
-                query=query, num_results=limit
+            cfg = config.model_copy(deep=True)
+            cfg.limit = limit
+            results = await GraphSearchTool._graphiti_instance._search(  # pylint: disable=protected-access
+                query=query, config=cfg
             )
-            print(f"Graph search returned {len(results) if results else 0} results")
-            return results or []
-        except Exception as e:  # pylint: disable=broad-exception-caught
-            print(f"Error during graph search: {e}")
+            items = (results and getattr(results, result_attr)) or []
+            logger.debug("%s search returned %d results", result_attr, len(items))
+            return items
+        except Exception as e:
+            logger.error("Error during %s search: %s", result_attr, e)
             raise
 
     async def _search_entities(self, query: str, limit: int) -> List[Any]:
-        """
-        Search for entity nodes in the graph.
-
-        :param query: Search query text
-        :param limit: Maximum number of results
-        :return: List of entity nodes
-        :raises: Exception if search fails
-        """
-        try:
-            print(f"Searching entities: query='{query[:50]}...', limit={limit}")
-            config = NODE_HYBRID_SEARCH_RRF.model_copy(deep=True)
-            config.limit = limit
-
-            results = await GraphSearchTool._graphiti_instance._search(  # pylint: disable=protected-access
-                query=query, config=config
-            )
-
-            print(
-                f"Entity search returned {len(results.nodes) if results and results.nodes else 0} nodes"
-            )
-            return results.nodes if results and results.nodes else []
-        except Exception as e:  # pylint: disable=broad-exception-caught
-            print(f"Error during entity search: {e}")
-            raise
+        return await self._run_search(query, limit, NODE_HYBRID_SEARCH_RRF, "nodes")
 
     async def _search_relationships(self, query: str, limit: int) -> List[Any]:
-        """
-        Search for relationship edges in the graph.
-
-        :param query: Search query text
-        :param limit: Maximum number of results
-        :return: List of relationship edges
-        :raises: Exception if search fails
-        """
-        try:
-            print(f"Searching relationships: query='{query[:50]}...', limit={limit}")
-            config = EDGE_HYBRID_SEARCH_RRF.model_copy(deep=True)
-            config.limit = limit
-
-            results = await GraphSearchTool._graphiti_instance._search(  # pylint: disable=protected-access
-                query=query, config=config
-            )
-
-            print(
-                f"Relationship search returned {len(results.edges) if results and results.edges else 0} edges"
-            )
-            return results.edges if results and results.edges else []
-        except Exception as e:  # pylint: disable=broad-exception-caught
-            print(f"Error during relationship search: {e}")
-            raise
+        return await self._run_search(query, limit, EDGE_HYBRID_SEARCH_RRF, "edges")
 
     async def _search_episodes(self, query: str, limit: int) -> List[Any]:
-        """
-        Search for episode nodes (primary source documents) in the graph.
+        expanded = self._expand_query_terms(query)
+        logger.debug(
+            "Episode query expansion: '%s...' -> '%s...'", query[:50], expanded[:70]
+        )
+        return await self._run_search(
+            expanded, limit, COMBINED_HYBRID_SEARCH_RRF, "episodes"
+        )
 
-        Episodes contain the original document text and metadata, providing
-        direct access to primary information from UNFCCC documents.
-
-        **ENHANCED**: Expands query with UNFCCC terminology and synonyms for better retrieval.
-
-        :param query: Search query text
-        :param limit: Maximum number of results
-        :return: List of episode nodes
-        :raises: Exception if search fails
-        """
-        try:
-            # **ENHANCED SEARCH QUALITY**: Expand query with UNFCCC-specific terminology
-            expanded_query = self._expand_query_terms(query)
-            print(
-                f"Searching episodes: original='{query[:50]}...', "
-                f"expanded='{expanded_query[:70]}...'"
-            )
-
-            # Use combined search config (searches all types, including episodes)
-            config = COMBINED_HYBRID_SEARCH_RRF.model_copy(deep=True)
-            config.limit = limit
-
-            results = await GraphSearchTool._graphiti_instance._search(  # pylint: disable=protected-access
-                query=expanded_query, config=config
-            )
-
-            print(
-                f"Episode search returned {len(results.episodes) if results and results.episodes else 0} episodes"
-            )
-            return results.episodes if results and results.episodes else []
-        except Exception as e:  # pylint: disable=broad-exception-caught
-            print(f"Error during episode search: {e}")
-            raise
-
-    async def _search_by_decision(self, decision_id: str, query: str) -> str:
+    async def _search_by_decision(self, decision_id: str) -> str:
         """
         Search for a specific decision by its ID in episode metadata.
 
@@ -485,14 +386,12 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
         2. Direct Cypher query on episode names/content (fallback, more reliable)
 
         :param decision_id: Decision ID (e.g., "3/CMA.1", "17/CP.22")
-        :param query: Original query for context
         :return: Formatted decision text or empty string if not found
         """
-        del query
         try:
             # Strategy 1: Semantic search + metadata matching
             search_query = f"decision {decision_id}"
-            print(f"Searching for decision: {decision_id}")
+            logger.debug("Searching for decision: %s", decision_id)
 
             config = COMBINED_HYBRID_SEARCH_RRF.model_copy(deep=True)
             config.limit = 10
@@ -501,12 +400,10 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 query=search_query, config=config
             )
 
-            episodes = (
-                search_results.episodes
-                if search_results and search_results.episodes
-                else []
+            episodes = (search_results and search_results.episodes) or []
+            logger.debug(
+                "Found %d candidate episodes via semantic search", len(episodes)
             )
-            print(f"Found {len(episodes)} candidate episodes via semantic search")
 
             # Check metadata for exact decision_id match
             for episode in episodes:
@@ -519,28 +416,28 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                     and episode_decision_id.strip().upper()
                     == decision_id.strip().upper()
                 ):
-                    print(
-                        "Found exact match via semantic search: "
-                        f"{episode.name if hasattr(episode, 'name') else 'Unknown'}"
+                    episode_name = (
+                        episode.name if hasattr(episode, "name") else "Unknown"
+                    )
+                    logger.debug(
+                        "Found exact match via semantic search: %s", episode_name
                     )
                     return self._format_decision_result(decision_id, episode)
 
             # Strategy 2: Direct Cypher query as fallback
-            print(
-                f"Semantic search didn't find Decision {decision_id}, "
-                "trying direct database query..."
+            logger.debug(
+                "Semantic search didn't find Decision %s, trying direct database query...",
+                decision_id,
             )
             direct_result = await self._search_decision_by_cypher(decision_id)
             if direct_result:
                 return direct_result
 
-            print(f"WARNING: Decision {decision_id} not found by any method")
+            logger.warning("Decision %s not found by any method", decision_id)
             return ""
 
-        except Exception as e:  # pylint: disable=broad-exception-caught
-            print(f"Error during decision search: {e}")
-
-            traceback.print_exc()
+        except Exception as e:
+            logger.exception("Error during decision search: %s", e)
             return ""
 
     async def _search_decision_by_cypher(self, decision_id: str) -> str:
@@ -574,7 +471,9 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
             ORDER BY coalesce(e.chunk_index, 0), e.name
             LIMIT 20
             """
-            print(f"Cypher strategy A: exact decision_id = '{decision_id_clean}'")
+            logger.debug(
+                "Cypher strategy A: exact decision_id = '%s'", decision_id_clean
+            )
             records, _, _ = await GraphSearchTool._driver_instance.execute_query(
                 cypher_a,
                 decision_id=decision_id_clean,
@@ -596,15 +495,15 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 ORDER BY coalesce(e.chunk_index, 0), e.name
                 LIMIT 20
                 """
-                print(f"Cypher strategy B: name contains '{search_name}'")
+                logger.debug("Cypher strategy B: name contains '%s'", search_name)
                 records, _, _ = await GraphSearchTool._driver_instance.execute_query(
                     cypher_b,
                     search_name=search_name,
                 )
 
             if not records:
-                print(
-                    f"Direct Cypher query found no results for Decision {decision_id}"
+                logger.debug(
+                    "Direct Cypher query found no results for Decision %s", decision_id
                 )
                 return ""
 
@@ -624,14 +523,15 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 parts.append(content)
                 parts.append("")
 
-            print(
-                f"Found Decision {decision_id} via Cypher ({len(records)} section(s))"
+            logger.debug(
+                "Found Decision %s via Cypher (%d section(s))",
+                decision_id,
+                len(records),
             )
             return "\n".join(parts)
 
-        except Exception as e:  # pylint: disable=broad-exception-caught
-            print(f"Error during direct Cypher search: {e}")
-            traceback.print_exc()
+        except Exception as e:
+            logger.exception("Error during direct Cypher search: %s", e)
             return ""
 
     async def _search_by_paragraph(
@@ -668,9 +568,9 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
             # Extract key terms from query for broader search
             search_query = query[:100]
 
-        print(
-            "Searching for episodes containing decision: "
-            f"{decision_id or 'unknown (using query)'}"
+        logger.debug(
+            "Searching for episodes containing decision: %s",
+            decision_id or "unknown (using query)",
         )
 
         try:
@@ -682,12 +582,10 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 query=search_query, config=config
             )
 
-            episodes = (
-                search_results.episodes
-                if search_results and search_results.episodes
-                else []
+            episodes = (search_results and search_results.episodes) or []
+            logger.debug(
+                "Found %d candidate episodes to search for paragraphs", len(episodes)
             )
-            print(f"Found {len(episodes)} candidate episodes to search for paragraphs")
 
             # Extract paragraphs from episode metadata
             for para_ref in paragraph_refs:
@@ -736,18 +634,18 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
 
                         results.append(formatted_result)
                         found = True
-                        print(f"Found paragraph {para_id} in episode: {episode_name}")
+                        logger.debug(
+                            "Found paragraph %s in episode: %s", para_id, episode_name
+                        )
                         break
 
                 if not found:
-                    print(
-                        f"WARNING: Could not find paragraph {para_id} in any episode metadata"
+                    logger.warning(
+                        "Could not find paragraph %s in any episode metadata", para_id
                     )
 
-        except Exception as e:  # pylint: disable=broad-exception-caught
-            print(f"Error during paragraph metadata search: {e}")
-
-            traceback.print_exc()
+        except Exception as e:
+            logger.exception("Error during paragraph metadata search: %s", e)
 
         return results
 
@@ -777,9 +675,8 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
             if records:
                 return dict(records[0])
             return {}
-        # pylint: disable=broad-exception-caught
         except Exception as e:
-            print(f"Warning: Failed to fetch episode metadata {uuid}: {e}")
+            logger.warning("Failed to fetch episode metadata %s: %s", uuid, e)
             return {}
 
     async def _get_episode_citation_data(self, episode_uuid: str) -> Dict[str, Any]:
@@ -819,8 +716,8 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 record_dict["metadata"] = metadata
                 return record_dict
             return {}
-        except Exception as e:  # pylint: disable=broad-exception-caught
-            print(f"Warning: Failed to fetch episode {episode_uuid}: {e}")
+        except Exception as e:
+            logger.warning("Failed to fetch episode %s: %s", episode_uuid, e)
             return {}
 
     async def _get_node_by_uuid(self, uuid: str) -> Dict[str, Any]:
@@ -845,9 +742,8 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
             if records:
                 return dict(records[0])
             return {}
-        # pylint: disable=broad-exception-caught
         except Exception as e:
-            print(f"Warning: Failed to fetch node {uuid}: {e}")
+            logger.warning("Failed to fetch node %s: %s", uuid, e)
             return {}
 
     async def _get_entity_connections(self, uuid: str) -> List[Dict[str, Any]]:
@@ -870,7 +766,6 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 query, uuid=uuid
             )
             return [dict(record) for record in records]
-        # pylint: disable=broad-exception-caught
         except Exception as e:
-            print(f"Warning: Failed to fetch connections for entity {uuid}: {e}")
+            logger.warning("Failed to fetch connections for entity %s: %s", uuid, e)
             return []

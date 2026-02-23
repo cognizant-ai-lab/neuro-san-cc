@@ -9,30 +9,14 @@
 #
 # END COPYRIGHT
 # pylint: disable=wrong-import-position
-"""
-UNFCCC Climate Document Ingestion for FalkorDB Knowledge Graph.
-
-Extends BaseIngestionTool with FalkorDB-specific driver configuration,
-monkey patches for query performance, and annex sub-section splitting.
-
-Key Features:
-    - All base ingestion capabilities (document parsing, reference extraction, etc.)
-    - FalkorDB driver connection via host/port/username/password
-    - Performance monkey patches for edge search and query execution
-    - Annex sub-section splitting for granular ingestion
-
-Note:
-    Reference linking, annex linking, and conference linking features have been
-    disabled to reduce episode count and improve processing performance. References
-    are still extracted and stored in episode metadata for potential future use.
-"""
 
 from __future__ import annotations
 
 import asyncio
 import os
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any
+from typing import Dict
 
 from dotenv import load_dotenv
 
@@ -45,7 +29,8 @@ load_dotenv(dotenv_path=_current_dir / ".env")
 import graphiti_core.search.search_filters as search_filters_module
 import graphiti_core.search.search_utils as search_utils_module
 from graphiti_core import Graphiti
-from graphiti_core.driver.driver import GraphDriver, GraphProvider
+from graphiti_core.driver.driver import GraphDriver
+from graphiti_core.driver.driver import GraphProvider
 from graphiti_core.driver.falkordb_driver import FalkorDriver
 from graphiti_core.edges import EntityEdge
 
@@ -158,16 +143,14 @@ async def patched_edge_fulltext_search(
                 routing_="r",
             )
 
-            from graphiti_core.search.search_utils import (
-                get_entity_edge_from_record,
-            )  # pylint: disable=import-outside-toplevel
+            from graphiti_core.search.search_utils import get_entity_edge_from_record  # pylint: disable=import-outside-toplevel
 
             edges = [
                 get_entity_edge_from_record(record, driver.provider)
                 for record in records
             ]
             return edges
-        except Exception:  # pylint: disable=broad-exception-caught
+        except Exception:
             # Fallback to original full-text search if direct lookup fails
             pass
 

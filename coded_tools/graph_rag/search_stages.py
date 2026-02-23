@@ -9,17 +9,14 @@
 #
 # END COPYRIGHT
 
-"""
-Multi-stage search mixin for GraphSearchTool.
-
-Provides the orchestration logic for multi-stage search pipelines including
-decision lookup, paragraph extraction, entity/episode/relationship search,
-backward reference traversal, timeline search, founding classification,
-conference filtering, temporal reranking, and query term expansion.
-"""
-
+import logging
 import re
-from typing import Any, Callable, Dict, List, Optional
+from typing import Any
+from typing import Dict
+from typing import List
+from typing import Optional
+
+logger = logging.getLogger(__name__)
 
 
 class SearchPipeline:
@@ -30,25 +27,18 @@ class SearchPipeline:
     filtering, temporal reranking, founding classification), and query
     term expansion. All search limit constants are defined here.
 
-    Note:
-        The following attributes are provided by GraphSearchTool and
-        ResultFormatter at runtime via multiple inheritance.
     """
 
-    # Attributes from GraphSearchTool
-    _search_entities: Callable
-    _search_by_decision: Callable
-    _search_by_paragraph: Callable
-    _search_episodes: Callable
-    _search_relationships: Callable
-
-    # Attributes from ResultFormatter
-    MAX_KEY_CONCEPTS_DISPLAY: int
-    MAX_OUTPUT_CHARS: int
-    _format_episodes: Callable
-    _format_entities: Callable
-    _format_relationships: Callable
-    _truncate_content: Callable
+    # --- Classification regexes ---
+    CREATION_RE = re.compile(
+        r"(?i)\b(establishes?\b|creates?\b|decides\s+to\s+establish\b|"
+        r"launches?\b|sets?\s+up\b|inaugurates?\b)"
+    )
+    FOLLOWUP_RE = re.compile(
+        r"(?i)\b(further\s+develops?\b|also\s+recalling\b|"
+        r"builds?\s+on\b|welcomes?\s+the\s+continued\b|reaffirms?\b|"
+        r"operationaliz\w+\b|decides\s+that\s+.{5,40}shall\s+have\b)"
+    )
 
     # --- Search result limits ---
     CANDIDATE_SEARCH_LIMIT = 10
@@ -167,9 +157,9 @@ class SearchPipeline:
         :param limit: Maximum results per stage
         :return: Tuple of (combined_results, formatted_output)
         """
-        print(
-            f"Executing multi-stage search for complex query:"
-            f" {query[: self.LOG_QUERY_PREVIEW_CHARS]}..."
+        logger.debug(
+            "Executing multi-stage search for complex query: %s...",
+            query[: self.LOG_QUERY_PREVIEW_CHARS],
         )
 
         decision_results = await self._run_decision_search(query_analysis, query)
@@ -179,7 +169,7 @@ class SearchPipeline:
             query_analysis, limit, paragraph_results
         )
 
-        print(f"Stage 1: Searching entities (limit={entity_limit})")
+        logger.debug("Stage 1: Searching entities (limit=%d)", entity_limit)
         entity_results = await self._search_entities(query, entity_limit)
 
         episode_results = await self._run_episode_search(
@@ -196,7 +186,9 @@ class SearchPipeline:
             episode_results = self._temporal_rerank(
                 episode_results, query_analysis["temporal_direction"]
             )
-            print(f"Re-ranked episodes by {query_analysis['temporal_direction']} year")
+            logger.debug(
+                "Re-ranked episodes by %s year", query_analysis["temporal_direction"]
+            )
 
         founding_analysis, is_creation_query = self._run_founding_classification(
             query, query_analysis, episode_results
@@ -243,12 +235,11 @@ class SearchPipeline:
         :return: Formatted decision text, or empty string if none found
         """
         if query_analysis.get("decision_id"):
-            print(
-                f"Detected specific decision reference:"
-                f" {query_analysis['decision_id']},"
-                f" searching directly..."
+            logger.debug(
+                "Detected specific decision reference: %s, searching directly...",
+                query_analysis["decision_id"],
             )
-            return await self._search_by_decision(query_analysis["decision_id"], query)
+            return await self._search_by_decision(query_analysis["decision_id"])
         return ""
 
     async def _run_paragraph_search(
@@ -263,14 +254,15 @@ class SearchPipeline:
         """
         if query_analysis.get("paragraph_refs"):
             para_count = len(query_analysis["paragraph_refs"])
-            print(
-                f"Detected {para_count} paragraph reference(s), attempting metadata search..."
+            logger.debug(
+                "Detected %d paragraph reference(s), attempting metadata search...",
+                para_count,
             )
             results = await self._search_by_paragraph(query, query_analysis)
             if results:
-                print(f"Found {len(results)} paragraphs via metadata search")
+                logger.debug("Found %d paragraphs via metadata search", len(results))
             else:
-                print(
+                logger.debug(
                     "Paragraph metadata search found nothing, falling back to standard search"
                 )
             return results
@@ -311,8 +303,9 @@ class SearchPipeline:
             and query_analysis.get("temporal_direction")
         ):
             episode_limit = max(episode_limit, self.TIMELINE_EPISODE_BOOST)
-            print(
-                f"Boosted episode limit to {episode_limit} for timeline/evolution query"
+            logger.debug(
+                "Boosted episode limit to %d for timeline/evolution query",
+                episode_limit,
             )
 
         return entity_limit, episode_limit
@@ -335,7 +328,9 @@ class SearchPipeline:
         """
         episode_results: List[Any] = []
         if episode_limit > 0:
-            print(f"Stage 2: Searching episodes/documents (limit={episode_limit})")
+            logger.debug(
+                "Stage 2: Searching episodes/documents (limit=%d)", episode_limit
+            )
             episode_query = query
             if query_analysis["structural_markers"]:
                 structural_terms = " ".join(query_analysis["structural_markers"])
@@ -347,14 +342,15 @@ class SearchPipeline:
             pre_filter_count = len(episode_results)
             episode_results = self._filter_by_conference(episode_results, conf_filter)
             if len(episode_results) < pre_filter_count:
-                print(
-                    f"Conference filter '{conf_filter}':"
-                    f" {pre_filter_count} →"
-                    f" {len(episode_results)} episodes"
+                logger.debug(
+                    "Conference filter '%s': %d → %d episodes",
+                    conf_filter,
+                    pre_filter_count,
+                    len(episode_results),
                 )
 
         if not episode_results and paragraph_results:
-            print(
+            logger.debug(
                 "Stage 2: Skipping general episode search (using paragraph results instead)"
             )
 
@@ -375,15 +371,15 @@ class SearchPipeline:
             and query_analysis.get("temporal_direction") == "earliest"
         )
         if should_follow_refs and episode_results:
-            print(
+            logger.debug(
                 "Stage 2B: Following backward references for chronological/creation query..."
             )
             referenced_decisions = await self._follow_backward_references(
                 episode_results
             )
             if referenced_decisions:
-                print(
-                    f"Found {len(referenced_decisions)} referenced earlier decision(s)"
+                logger.debug(
+                    "Found %d referenced earlier decision(s)", len(referenced_decisions)
                 )
             return referenced_decisions
         return []
@@ -399,12 +395,12 @@ class SearchPipeline:
         :return: Timeline results sorted chronologically (may be empty list)
         """
         if query_analysis.get("is_timeline_query"):
-            print("Stage 2C: Searching for complete decision timeline...")
+            logger.debug("Stage 2C: Searching for complete decision timeline...")
             timeline_results = await self._search_topic_timeline(
                 query, query_analysis, limit=self.TIMELINE_SEARCH_LIMIT
             )
             if timeline_results:
-                print(f"Found {len(timeline_results)} decisions for timeline")
+                logger.debug("Found %d decisions for timeline", len(timeline_results))
             return timeline_results
         return []
 
@@ -440,7 +436,7 @@ class SearchPipeline:
         founding_analysis = None
         if is_creation_query and episode_results:
             founding_analysis = self._classify_episodes_founding(episode_results)
-            print(f"Founding analysis: {founding_analysis['summary']}")
+            logger.debug("Founding analysis: %s", founding_analysis["summary"])
         return founding_analysis, is_creation_query
 
     async def _run_relationship_search(
@@ -464,7 +460,7 @@ class SearchPipeline:
                 self.RELATIONSHIP_LIMIT_MIN,
                 limit // self.RELATIONSHIP_LIMIT_DIVISOR,
             )
-            print(f"Stage 3: Searching relationships (limit={rel_limit})")
+            logger.debug("Stage 3: Searching relationships (limit=%d)", rel_limit)
             return await self._search_relationships(query, rel_limit)
         return []
 
@@ -498,7 +494,7 @@ class SearchPipeline:
         :param relationship_results: Relationship search results
         :return: Formatted output string
         """
-        print("Synthesizing multi-stage results...")
+        logger.debug("Synthesizing multi-stage results...")
         conf_filter = query_analysis.get("conference_filter")
         key_concepts_preview = (
             ", ".join(query_analysis["key_concepts"][: self.MAX_KEY_CONCEPTS_DISPLAY])
@@ -659,8 +655,9 @@ class SearchPipeline:
         formatted_output = "\n".join(output_parts)
 
         if len(formatted_output) > self.MAX_OUTPUT_CHARS:
-            print(
-                f"Multi-stage output too large ({len(formatted_output)} chars). Truncating."
+            logger.debug(
+                "Multi-stage output too large (%d chars). Truncating.",
+                len(formatted_output),
             )
             formatted_output = self._truncate_content(
                 formatted_output, self.MAX_OUTPUT_CHARS
@@ -723,9 +720,9 @@ class SearchPipeline:
                 continue
 
         if not filtered and results:
-            print(
-                f"WARNING: Conference filter '{conference_type}'"
-                f" removed all results. Keeping originals."
+            logger.warning(
+                "Conference filter '%s' removed all results. Keeping originals.",
+                conference_type,
             )
             return results
 
@@ -772,15 +769,8 @@ class SearchPipeline:
         :param episode_results: List of episode results to classify
         :return: Dict with 'founding_episodes', 'followup_episodes', and 'summary'
         """
-        creation_re = re.compile(
-            r"(?i)\b(establishes?\b|creates?\b|decides\s+to\s+establish\b|"
-            r"launches?\b|sets?\s+up\b|inaugurates?\b)"
-        )
-        followup_re = re.compile(
-            r"(?i)\b(further\s+develops?\b|also\s+recalling\b|"
-            r"builds?\s+on\b|welcomes?\s+the\s+continued\b|reaffirms?\b|"
-            r"operationaliz\w+\b|decides\s+that\s+.{5,40}shall\s+have\b)"
-        )
+        creation_re = self.CREATION_RE
+        followup_re = self.FOLLOWUP_RE
 
         founding = []
         followup = []
@@ -800,16 +790,24 @@ class SearchPipeline:
             if creation_count > 0 and creation_count >= followup_count:
                 founding.append(episode)
                 name_preview = name[: self.LOG_DECISION_NAME_CHARS]
-                print(
-                    f"  FOUNDING: Decision {decision_id} ({year}) - "
-                    f"{name_preview} [creation={creation_count}, followup={followup_count}]"
+                logger.debug(
+                    "  FOUNDING: Decision %s (%s) - %s [creation=%d, followup=%d]",
+                    decision_id,
+                    year,
+                    name_preview,
+                    creation_count,
+                    followup_count,
                 )
             else:
                 followup.append(episode)
                 name_preview = name[: self.LOG_DECISION_NAME_CHARS]
-                print(
-                    f"  FOLLOW-UP: Decision {decision_id} ({year}) - "
-                    f"{name_preview} [creation={creation_count}, followup={followup_count}]"
+                logger.debug(
+                    "  FOLLOW-UP: Decision %s (%s) - %s [creation=%d, followup=%d]",
+                    decision_id,
+                    year,
+                    name_preview,
+                    creation_count,
+                    followup_count,
                 )
 
         founding = self._temporal_rerank(founding, "earliest") if founding else []
@@ -866,10 +864,10 @@ class SearchPipeline:
         for decision_id in list(referenced_decision_ids)[
             : self.MAX_BACKWARD_REFERENCES
         ]:
-            print(f"  Following backward reference to Decision {decision_id}...")
-            result = await self._search_by_decision(
-                decision_id, f"decision {decision_id}"
+            logger.debug(
+                "  Following backward reference to Decision %s...", decision_id
             )
+            result = await self._search_by_decision(decision_id)
             if result:
                 results.append(result)
 
@@ -921,19 +919,11 @@ class SearchPipeline:
             year = int(year_str) if year_str else self.TEMPORAL_SORT_EARLIEST_DEFAULT
             content = getattr(episode, "content", "") or ""
 
-            creation_re = re.compile(
-                r"(?i)\b(establishes?|creates?|decides\s+to\s+establish|"
-                r"launches?|sets?\s+up)\b"
-            )
-            followup_re = re.compile(
-                r"(?i)\b(further\s+develops?|also\s+recalling|"
-                r"welcomes?\s+the\s+continued|reaffirms?)\b"
-            )
             creation_count = len(
-                creation_re.findall(content[: self.TIMELINE_CONTENT_CHECK_CHARS])
+                self.CREATION_RE.findall(content[: self.TIMELINE_CONTENT_CHECK_CHARS])
             )
             followup_count = len(
-                followup_re.findall(content[: self.TIMELINE_CONTENT_CHECK_CHARS])
+                self.FOLLOWUP_RE.findall(content[: self.TIMELINE_CONTENT_CHECK_CHARS])
             )
             if creation_count > 0 and creation_count >= followup_count:
                 action_type = "FOUNDING"
@@ -977,7 +967,7 @@ class SearchPipeline:
                     backward_ids.add(ref_id)
 
         for ref_id in list(backward_ids)[: self.MAX_BACKWARD_REFERENCES]:
-            result = await self._search_by_decision(ref_id, f"decision {ref_id}")
+            result = await self._search_by_decision(ref_id)
             if result:
                 earlier_text = (
                     f"[EARLIER] Decision {ref_id} — Referenced by later "

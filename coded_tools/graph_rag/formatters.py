@@ -9,15 +9,14 @@
 #
 # END COPYRIGHT
 
-"""
-Result formatting and citation component for GraphSearchTool.
-
-Provides methods for formatting search results (facts, entities, relationships,
-episodes), building citations, and validating claims against source text.
-"""
-
+import logging
 import re
-from typing import Any, Callable, Dict, List, Optional
+from typing import Any
+from typing import Dict
+from typing import List
+from typing import Optional
+
+logger = logging.getLogger(__name__)
 
 
 class ResultFormatter:
@@ -28,19 +27,7 @@ class ResultFormatter:
     episodes), citation builders, and claim validation. All formatting
     constants are defined here.
 
-    Note:
-        The following attributes are provided by GraphSearchTool at runtime
-        via multiple inheritance:
-        ``MAX_OUTPUT_CHARS``, ``_get_episode_citation_data``,
-        ``_get_node_by_uuid``, ``_get_entity_connections``,
-        ``_get_episode_metadata``.
     """
-
-    MAX_OUTPUT_CHARS: int
-    _get_episode_citation_data: Callable
-    _get_node_by_uuid: Callable
-    _get_entity_connections: Callable
-    _get_episode_metadata: Callable
 
     # --- Content truncation ---
     DEFAULT_TRUNCATE_CHARS = 8000
@@ -135,105 +122,6 @@ class ResultFormatter:
         ]
 
         return "\n".join(parts)
-
-    async def _format_facts(self, query: str, results: List[Any]) -> str:
-        """
-        Format general graph facts with SOURCE CITATIONS and connected node details.
-
-        **ENHANCED**: Includes episode sources, metadata, and citation guidance.
-
-        :param query: Original search query
-        :param results: List of graph fact results
-        :return: Formatted string representation
-        """
-        if not results:
-            return f"No graph facts found matching query: {query}"
-
-        output_parts: List[str] = [
-            f"SEARCH RESULTS FOR: '{query}'",
-            f"Found {len(results)} knowledge graph fact(s)\n",
-            "=" * 80,
-            "",
-            "NOTE: These facts are extracted from UNFCCC documents.",
-            "For exact text and formal citations, search type='episode' is recommended.",
-            "",
-            "=" * 80,
-            "",
-        ]
-
-        for i, result in enumerate(results, 1):
-            fact: str = result.fact
-            name: str = getattr(result, "name", "")
-            source_uuid: Optional[str] = getattr(result, "source_node_uuid", None)
-            target_uuid: Optional[str] = getattr(result, "target_node_uuid", None)
-            episode_uuids: List[str] = getattr(result, "episode_uuids", [])
-            created_at = getattr(result, "created_at", None)
-            valid_at = getattr(result, "valid_at", None)
-
-            output_parts.append(f"[FACT {i}]")
-            if name:
-                output_parts.append(f"Relationship Type: {name}")
-            output_parts.append(f"Statement: {fact}")
-
-            if episode_uuids:
-                output_parts.append(
-                    f"\nSource Documents: {len(episode_uuids)} episode(s)"
-                )
-                for ep_uuid in episode_uuids[: self.MAX_CITATION_EPISODES]:
-                    ep_citation_data = await self._get_episode_citation_data(ep_uuid)
-                    if ep_citation_data:
-                        citation = self._build_citation(
-                            ep_citation_data.get("name", ""),
-                            ep_citation_data.get("metadata", {}),
-                            ep_citation_data.get("source_description", ""),
-                        )
-                        if citation:
-                            output_parts.append(f"  • {citation}")
-
-            if valid_at:
-                output_parts.append(f"Valid as of: {valid_at}")
-            elif created_at:
-                output_parts.append(f"Recorded: {created_at}")
-
-            if source_uuid and target_uuid:
-                source_node: Dict[str, Any] = await self._get_node_by_uuid(source_uuid)
-                target_node: Dict[str, Any] = await self._get_node_by_uuid(target_uuid)
-
-                if source_node or target_node:
-                    output_parts.append("\nConnected Entities:")
-                    if source_node:
-                        output_parts.append(
-                            f"  From: {source_node.get('name', 'Unknown')}"
-                        )
-                        if source_node.get("summary"):
-                            output_parts.append(f"       {source_node['summary']}")
-                    if target_node:
-                        output_parts.append(
-                            f"  To: {target_node.get('name', 'Unknown')}"
-                        )
-                        if target_node.get("summary"):
-                            output_parts.append(f"      {target_node['summary']}")
-
-            output_parts.append("")
-            output_parts.append("-" * 80)
-            output_parts.append("")
-
-        output_parts.append("")
-        output_parts.append("HOW TO USE THESE RESULTS:")
-        output_parts.append(
-            "- These facts summarize relationships extracted from documents"
-        )
-        output_parts.append(
-            "- For exact wording and formal citations, use search_type='episode'"
-        )
-        output_parts.append(
-            "- Verify critical claims by checking the source documents listed above"
-        )
-        output_parts.append(
-            "- Temporal context (dates) indicates when the information was valid"
-        )
-
-        return "\n".join(output_parts)
 
     async def _format_entities(self, query: str, results: List[Any]) -> str:
         """
@@ -396,10 +284,11 @@ class ResultFormatter:
 
         if needs_truncation and len(grouped) > 0:
             per_group_limit = self.MAX_OUTPUT_CHARS // len(grouped)
-            print(
-                f"Total content: {total_content_chars} chars > "
-                f"{self.MAX_OUTPUT_CHARS} limit. Truncating each group "
-                f"to ~{per_group_limit} chars."
+            logger.debug(
+                "Total content: %d chars > %d limit. Truncating each group to ~%d chars.",
+                total_content_chars,
+                self.MAX_OUTPUT_CHARS,
+                per_group_limit,
             )
         else:
             per_group_limit = 0
