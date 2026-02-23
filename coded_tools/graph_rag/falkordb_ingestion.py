@@ -32,8 +32,7 @@ from __future__ import annotations
 import asyncio
 import os
 from pathlib import Path
-from typing import Any
-from typing import Dict
+from typing import Any, Dict
 
 from dotenv import load_dotenv
 
@@ -46,8 +45,7 @@ load_dotenv(dotenv_path=_current_dir / ".env")
 import graphiti_core.search.search_filters as search_filters_module
 import graphiti_core.search.search_utils as search_utils_module
 from graphiti_core import Graphiti
-from graphiti_core.driver.driver import GraphDriver
-from graphiti_core.driver.driver import GraphProvider
+from graphiti_core.driver.driver import GraphDriver, GraphProvider
 from graphiti_core.driver.falkordb_driver import FalkorDriver
 from graphiti_core.edges import EntityEdge
 

@@ -49,11 +49,7 @@ import os
 import re
 import traceback
 from pathlib import Path
-from typing import Any
-from typing import Dict
-from typing import List
-from typing import Optional
-from typing import Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 from dotenv import load_dotenv
 
@@ -65,9 +61,11 @@ load_dotenv(dotenv_path=_current_dir / ".env")
 from graphiti_core import Graphiti  # noqa: E402
 from graphiti_core.driver.falkordb_driver import FalkorDriver  # noqa: E402
 from graphiti_core.driver.neo4j_driver import Neo4jDriver  # noqa: E402
-from graphiti_core.search.search_config_recipes import COMBINED_HYBRID_SEARCH_RRF  # noqa: E402
-from graphiti_core.search.search_config_recipes import EDGE_HYBRID_SEARCH_RRF  # noqa: E402
-from graphiti_core.search.search_config_recipes import NODE_HYBRID_SEARCH_RRF  # noqa: E402
+from graphiti_core.search.search_config_recipes import (
+    COMBINED_HYBRID_SEARCH_RRF,  # noqa: E402
+    EDGE_HYBRID_SEARCH_RRF,  # noqa: E402
+    NODE_HYBRID_SEARCH_RRF,  # noqa: E402
+)
 from neuro_san.interfaces.coded_tool import CodedTool  # noqa: E402
 
 from .formatters import ResultFormatter  # noqa: E402
@@ -406,7 +404,9 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 query=query, config=config
             )
 
-            print(f"Entity search returned {len(results.nodes) if results and results.nodes else 0} nodes")
+            print(
+                f"Entity search returned {len(results.nodes) if results and results.nodes else 0} nodes"
+            )
             return results.nodes if results and results.nodes else []
         except Exception as e:  # pylint: disable=broad-exception-caught
             print(f"Error during entity search: {e}")
@@ -430,7 +430,9 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 query=query, config=config
             )
 
-            print(f"Relationship search returned {len(results.edges) if results and results.edges else 0} edges")
+            print(
+                f"Relationship search returned {len(results.edges) if results and results.edges else 0} edges"
+            )
             return results.edges if results and results.edges else []
         except Exception as e:  # pylint: disable=broad-exception-caught
             print(f"Error during relationship search: {e}")
@@ -466,7 +468,9 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 query=expanded_query, config=config
             )
 
-            print(f"Episode search returned {len(results.episodes) if results and results.episodes else 0} episodes")
+            print(
+                f"Episode search returned {len(results.episodes) if results and results.episodes else 0} episodes"
+            )
             return results.episodes if results and results.episodes else []
         except Exception as e:  # pylint: disable=broad-exception-caught
             print(f"Error during episode search: {e}")
@@ -599,7 +603,9 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 )
 
             if not records:
-                print(f"Direct Cypher query found no results for Decision {decision_id}")
+                print(
+                    f"Direct Cypher query found no results for Decision {decision_id}"
+                )
                 return ""
 
             # Build output from all returned sections
@@ -619,8 +625,7 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                 parts.append("")
 
             print(
-                f"Found Decision {decision_id} via Cypher "
-                f"({len(records)} section(s))"
+                f"Found Decision {decision_id} via Cypher ({len(records)} section(s))"
             )
             return "\n".join(parts)
 
@@ -766,7 +771,9 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
                    e.annex_id as annex_id
             LIMIT 1
             """
-            records, _, _ = await GraphSearchTool._driver_instance.execute_query(query, uuid=uuid)
+            records, _, _ = await GraphSearchTool._driver_instance.execute_query(
+                query, uuid=uuid
+            )
             if records:
                 return dict(records[0])
             return {}
@@ -832,7 +839,9 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
             RETURN n.name as name, n.summary as summary, n.entity_type as entity_type, labels(n) as labels
             LIMIT 1
             """
-            records, _, _ = await GraphSearchTool._driver_instance.execute_query(query, uuid=uuid)
+            records, _, _ = await GraphSearchTool._driver_instance.execute_query(
+                query, uuid=uuid
+            )
             if records:
                 return dict(records[0])
             return {}
@@ -857,7 +866,9 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
             RETURN r.name as relationship, target.name as target_name, r.fact as fact
             LIMIT 5
             """
-            records, _, _ = await GraphSearchTool._driver_instance.execute_query(query, uuid=uuid)
+            records, _, _ = await GraphSearchTool._driver_instance.execute_query(
+                query, uuid=uuid
+            )
             return [dict(record) for record in records]
         # pylint: disable=broad-exception-caught
         except Exception as e:

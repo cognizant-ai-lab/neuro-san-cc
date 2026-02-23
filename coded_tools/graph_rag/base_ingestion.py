@@ -30,11 +30,7 @@ import re
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
-from typing import Any
-from typing import Dict
-from typing import List
-from typing import Optional
-from typing import Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 import graphiti_core.prompts.extract_edges as _extract_edges_module
 import graphiti_core.prompts.extract_nodes as _extract_nodes_module
@@ -621,11 +617,9 @@ class BaseIngestionTool(DocumentParser, CodedTool):
             try:
                 node_search_config = NODE_HYBRID_SEARCH_RRF.model_copy(deep=True)
                 node_search_config.limit = 3
-                node_search_results = (
-                    await graphiti._search(  # pylint: disable=protected-access
-                        query=query,
-                        config=node_search_config,
-                    )
+                node_search_results = await graphiti._search(  # pylint: disable=protected-access
+                    query=query,
+                    config=node_search_config,
                 )
                 if node_search_results.nodes:
                     for node in node_search_results.nodes:

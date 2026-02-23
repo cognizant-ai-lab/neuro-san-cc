@@ -20,13 +20,9 @@ from __future__ import annotations
 
 import logging
 import re
-from datetime import datetime
-from datetime import timezone
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
-from typing import Dict
-from typing import List
-from typing import Optional
+from typing import Any, Dict, List, Optional
 
 
 class DocumentParser:
@@ -211,8 +207,7 @@ class DocumentParser:
 
                     if total_chunks > 1:
                         episode_name = (
-                            f"{base_episode_name} "
-                            f"[{chunk_idx + 1}/{total_chunks}]"
+                            f"{base_episode_name} [{chunk_idx + 1}/{total_chunks}]"
                         )
                     else:
                         episode_name = base_episode_name
@@ -265,9 +260,7 @@ class DocumentParser:
                         if annex_id:
                             self.logger.info("  Annex ID: %s", annex_id)
                         if is_first_chunk and references:
-                            self.logger.info(
-                                "  Found %d references", len(references)
-                            )
+                            self.logger.info("  Found %d references", len(references))
 
         return episodes
 
@@ -621,7 +614,11 @@ class DocumentParser:
         result = []
         for line in lines:
             stripped = line.strip()
-            if stripped.startswith("|") and stripped.endswith("|") and len(stripped) > 2:
+            if (
+                stripped.startswith("|")
+                and stripped.endswith("|")
+                and len(stripped) > 2
+            ):
                 result.append(stripped[1:-1].strip())
             else:
                 result.append(line)

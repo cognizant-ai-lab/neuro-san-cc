@@ -19,11 +19,7 @@ conference filtering, temporal reranking, and query term expansion.
 """
 
 import re
-from typing import Any
-from typing import Callable
-from typing import Dict
-from typing import List
-from typing import Optional
+from typing import Any, Callable, Dict, List, Optional
 
 
 class SearchPipeline:

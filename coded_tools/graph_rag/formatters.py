@@ -17,11 +17,7 @@ episodes), building citations, and validating claims against source text.
 """
 
 import re
-from typing import Any
-from typing import Callable
-from typing import Dict
-from typing import List
-from typing import Optional
+from typing import Any, Callable, Dict, List, Optional
 
 
 class ResultFormatter:
@@ -369,9 +365,9 @@ class ResultFormatter:
 
         for base_name in groups:
             groups[base_name].sort(
-                key=lambda ep: (
-                    getattr(ep, "metadata", None) or {}
-                ).get("chunk_index", 0)
+                key=lambda ep: (getattr(ep, "metadata", None) or {}).get(
+                    "chunk_index", 0
+                )
             )
 
         return [groups[base_name] for base_name in order]
@@ -429,9 +425,7 @@ class ResultFormatter:
             )
             metadata = {**db_metadata, **{k: v for k, v in ep_metadata.items() if v}}
 
-            citation = self._build_citation(
-                display_name, metadata, source_description
-            )
+            citation = self._build_citation(display_name, metadata, source_description)
 
             decision_id = metadata.get("decision_id", "")
             annex_id = metadata.get("annex_id", "")
