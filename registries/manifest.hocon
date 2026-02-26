@@ -5,4 +5,5 @@
     "unfccc.hocon": true,
 
     "deep_rag.hocon": true,
+    "graph_rag.hocon": false,
 }
