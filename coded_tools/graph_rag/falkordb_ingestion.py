@@ -217,8 +217,6 @@ class FalkorDBIngestionEnhanced(BaseIngestionTool):
 
     DB_NAME = "FalkorDB"
 
-    ANNEX_SPLIT_THRESHOLD = 1000
-
     def _connection_config(self) -> Dict[str, Any]:
         """Returns FalkorDB-specific connection configuration.
 

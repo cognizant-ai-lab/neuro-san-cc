@@ -36,8 +36,7 @@ Fill in `coded_tools/graph_rag/.env` with your Neo4j credentials and OpenAI API 
 
 ### System Requirements
 
-- A running **Neo4j Aura** instance with the UNFCCC knowledge graph already ingested
-- The ingestion step must be completed once before the agent network can answer queries
+- Credentials to a running **Neo4j Aura** instance with the UNFCCC knowledge graph ingested.
 
 > **FalkorDB support**: The system also supports FalkorDB as an alternative graph database backend. However, you will need to ingest the documents into FalkorDB yourself. See `coded_tools/graph_rag/falkordb_ingestion.py` for the ingestion tool.
 
@@ -46,6 +45,119 @@ For more information on database setup, see:
 - [Graphiti Documentation](https://help.getzep.com/graphiti)
 
 - [Neo4j Getting Started](https://neo4j.com/docs/getting-started/)
+
+---
+
+## Document Ingestion
+
+> **Developer-only operation.** End users of Neo4j Aura Graph RAG agent do not need to run ingestion commands. The knowledge graph is managed by the development team. If you are an end user and the agent returns no results, contact the team responsible for maintaining the Neo4j instance.
+
+### Run ingestion (ingest all new documents)
+
+```bash
+cd neuro-san-cc
+python -m coded_tools.graph_rag.neo4j_ingestion
+```
+
+What happens step by step:
+1. Parses all `.txt` files in `DATA_DIR` and splits them into episodes (decisions, annexes, parts)
+2. Loads the checkpoint file — any episode already processed is skipped instantly
+3. For each new episode: sends the text to Neo4j via Graphiti, which runs LLM entity extraction and builds graph relationships
+4. After each successful episode, its name is appended to the checkpoint so the run can be safely interrupted and resumed
+
+---
+
+### Add a document
+
+Copy the new `.txt` file into the correct subdirectory inside `DATA_DIR` (inside the already given folders), then run the normal ingestion command. The checkpoint ensures only the new file is processed and all existing documents are skipped.
+
+```bash
+cp /path/to/new_document.txt /path/to/documents/CMA/
+cd neuro-san-cc
+python -m coded_tools.graph_rag.neo4j_ingestion
+```
+
+> **Note:** Adding documents from a **new conference type** (e.g. a body not yet in the system) also requires small edits to the `.hocon` registry configuration. Do not add new conference types without coordinating those changes first.
+
+---
+
+### Delete a document
+
+Removes all `Episodic` nodes and `Relationships` for that document from Neo4j **and** purges its checkpoint entries, so it can be re-ingested cleanly later and we don't provide any wrong information.
+
+```bash
+cd neuro-san-cc
+python -m coded_tools.graph_rag.neo4j_ingestion --delete <DOC_NAME>
+```
+
+Example:
+```bash
+cd neuro-san-cc
+python -m coded_tools.graph_rag.neo4j_ingestion --delete CMP2022_17_Decisions_1_to_9
+```
+
+What gets removed vs kept:
+
+| Item | Removed? |
+|---|---|
+| `Episodic` nodes for the document | Yes — `DETACH DELETE` |
+| Edges attached to those `Episodic` nodes | Yes — removed by `DETACH DELETE` |
+| `Entity` nodes (countries, bodies, concepts) | No — may be shared with other documents |
+| Checkpoint entries for the document | Yes |
+
+---
+
+### Edit a document (update + re-ingest)
+
+Use this when you have changed the content of an existing `.txt` file and want the graph to reflect the new version.
+
+1. Update the `.txt` file in `DATA_DIR`
+2. Run:
+
+```bash
+cd neuro-san-cc
+python -m coded_tools.graph_rag.neo4j_ingestion --edit <DOC_NAME>
+```
+
+Example:
+```bash
+cd neuro-san-cc
+python -m coded_tools.graph_rag.neo4j_ingestion --edit CMP2022_17_Decisions_1_to_9
+```
+
+What happens:
+1. Deletes all existing `Episodic` nodes for the document from Neo4j and edges attached to these nodes.
+2. Removes its checkpoint entries.
+3. Re-parses **only that file** from `DATA_DIR` (all other documents untouched).
+4. Re-ingests its episodes with fresh LLM entity extraction
+
+> **Note:** `--edit` only removes `Episodic` nodes. `Entity` nodes and `RELATES_TO` edges are shared across documents and are left in place, so a document's information may still persist in the graph via shared entities and facts. To fully eradicate a document's contribution, a complete graph rebuild (wipe + re-ingest all docs) is the only reliable approach.
+
+---
+
+### Document naming convention
+
+`DOC_NAME` is always the **filename stem** — the filename without the `.txt` extension, without any directory path.
+
+| File path | DOC_NAME |
+|---|---|
+| `documents/CMP/CMP2022_17_Decisions_1_to_9.txt` | `CMP2022_17_Decisions_1_to_9` |
+| `documents/CMP/CMP2018_14_Decisions_1_to_5.txt` | `CMP2018_14_Decisions_1_to_5` |
+| `documents/COP/cp2023_28 - 2023 - Decisions 10 to 19.txt` | `cp2023_28 - 2023 - Decisions 10 to 19` |
+| `documents/SBI/sbi2017_7 (report SB 46).txt` | `sbi2017_7 (report SB 46)` |
+
+---
+
+### Checkpoint file
+
+`coded_tools/graph_rag/.ingestion_checkpoint.txt`
+
+- One episode name per line, in the format `{doc_stem}::{section_title}`
+- A line is written **after** each episode is successfully added to Neo4j
+- On every run, all lines are loaded into memory at startup — any episode whose name appears in the file is skipped
+- Safe to interrupt and resume — just re-run the ingestion command
+
+**Do not manually edit** this file. Use `--delete` or `--edit` to manage its entries.
 
 ---
 
@@ -205,7 +317,7 @@ When developing or debugging the Graph RAG agent network, keep the following in 
 
 - **Database Connection**: Verify that the Neo4j instance is running and reachable with the configured credentials.
 
-- **Ingestion Required**: The knowledge graph must be populated before querying. Run the ingestion tool once using the `neo4j_ingestion` coded tool.
+- **Ingestion Required**: The knowledge graph must be populated before querying. See the [Document Ingestion](#document-ingestion) section above for instructions.
 
 - **First Query Latency**: The first invocation initializes a singleton database connection, which may take several seconds. Subsequent queries reuse the same connection.
 

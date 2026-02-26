@@ -832,6 +832,27 @@ class BaseIngestionTool(DocumentParser, CodedTool):
                 except Exception as exc:
                     self.logger.error("Paragraph query failed: %s", exc)
 
+    def _remove_from_checkpoint(self, doc_name: str) -> int:
+        """Remove all checkpoint entries that belong to the given document.
+
+        Args:
+            doc_name: Document stem (filename without .txt extension).
+
+        Returns:
+            Number of checkpoint entries removed.
+        """
+        checkpoint_file = Path(__file__).parent / ".ingestion_checkpoint.txt"
+        if not checkpoint_file.exists():
+            return 0
+        prefix = doc_name + "::"
+        lines = checkpoint_file.read_text(encoding="utf-8").splitlines()
+        kept = [line for line in lines if not line.startswith(prefix)]
+        removed = len(lines) - len(kept)
+        checkpoint_file.write_text(
+            "\n".join(kept) + ("\n" if kept else ""), encoding="utf-8"
+        )
+        return removed
+
     def _log_demo_skipped_reason(self, success_count: int) -> None:
         """Logs the reason why demo searches were skipped.
 

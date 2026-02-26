@@ -110,7 +110,9 @@ class DocumentParser:
         r"(?:\s*/\s*[A-Za-z]+\.\d+)))?"
     )
 
-    def build_episodes(self, dir_path: Path) -> List[Dict[str, Any]]:
+    def build_episodes(
+        self, dir_path: Path, file_filter: Optional[str] = None
+    ) -> List[Dict[str, Any]]:
         """Converts source documents into structured episodes with metadata and references.
 
         Processes all text files in the specified directory, splitting them into
@@ -119,6 +121,7 @@ class DocumentParser:
 
         Args:
             dir_path: Path to directory containing UNFCCC document text files.
+            file_filter: If provided, only process the file whose stem matches this name.
 
         Returns:
             List of episode dictionaries, each containing:
@@ -133,7 +136,7 @@ class DocumentParser:
                 - document_name: Source filename stem
 
         Raises:
-            FileNotFoundError: If dir_path does not exist.
+            FileNotFoundError: If dir_path does not exist or file_filter matches no file.
             NotADirectoryError: If dir_path is not a directory.
         """
         if not dir_path.exists():
@@ -142,6 +145,12 @@ class DocumentParser:
             raise NotADirectoryError(f"DATA_DIR is not a directory: {dir_path}")
 
         documents = self._collect_documents(dir_path)
+        if file_filter:
+            documents = [d for d in documents if d.stem == file_filter]
+            if not documents:
+                raise FileNotFoundError(
+                    f"No file found for document '{file_filter}' in {dir_path}"
+                )
         episodes: List[Dict[str, Any]] = []
 
         if not documents:
@@ -176,9 +185,9 @@ class DocumentParser:
                 decision_id = self._extract_decision_id(section.get("title", ""))
                 annex_id = self._extract_annex_id(section.get("title", ""))
 
-                base_episode_name = (
-                    f"{path.stem}::{section.get('title') or f'Part {idx}'}"
-                )
+                raw_title = section.get("title") or f"Part {idx}"
+                clean_title = " ".join(raw_title.split())
+                base_episode_name = f"{path.stem}::{clean_title}"
                 body = self._build_episode_body(section["body"], combined_metadata)
 
                 references = self._extract_references(section["body"], decision_id)

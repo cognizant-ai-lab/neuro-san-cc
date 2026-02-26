@@ -55,11 +55,6 @@ class SearchPipeline:
     RELATIONSHIP_LIMIT_MIN = 2
     RELATIONSHIP_LIMIT_DIVISOR = 4
 
-    # --- Complexity-based search limits ---
-    COMPLEXITY_LIMIT_DIRECT = 1
-    COMPLEXITY_LIMIT_MEDIUM = 5
-    COMPLEXITY_LIMIT_EXTENSIVE = 15
-
     # --- Content analysis character limits ---
     FOUNDING_CONTENT_CHECK_CHARS = 3000
     TIMELINE_CONTENT_CHECK_CHARS = 2000

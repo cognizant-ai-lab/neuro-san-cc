@@ -189,6 +189,92 @@ class Neo4jIngestionEnhanced(BaseIngestionTool):
                 exc,
             )
 
+    async def _delete_from_neo4j(self, graphiti: Graphiti, doc_name: str) -> int:
+        """Delete all Episodic nodes for a document from Neo4j.
+
+        Uses DETACH DELETE so all edges attached to each Episodic node are also
+        removed. Entity nodes are intentionally left in place — they may be shared
+        across multiple documents.
+
+        Args:
+            graphiti: Graphiti client (provides .driver for direct Cypher access).
+            doc_name: Document stem (filename without .txt extension).
+
+        Returns:
+            Number of Episodic nodes deleted.
+        """
+        prefix = doc_name + "::"
+        try:
+            result = await graphiti.driver.execute_query(
+                """
+                MATCH (e:Episodic)
+                WHERE e.name STARTS WITH $prefix
+                WITH count(e) AS total, collect(e) AS nodes
+                FOREACH (e IN nodes | DETACH DELETE e)
+                RETURN total
+                """,
+                prefix=prefix,
+            )
+            count = result.records[0]["total"] if result.records else 0
+            return count
+        except Exception as exc:
+            self.logger.error(
+                "Failed to delete Neo4j nodes for '%s': %s", doc_name, exc
+            )
+            raise
+
+    async def delete_document(self, doc_name: str) -> None:
+        """Delete a document's data from Neo4j and the ingestion checkpoint.
+
+        Removes all Episodic nodes whose name starts with ``doc_name::`` and
+        purges the corresponding checkpoint entries so the document can be
+        re-ingested if needed.
+
+        Args:
+            doc_name: Document stem (filename without .txt extension).
+        """
+        graphiti = self._create_graphiti_client()
+        try:
+            deleted = await self._delete_from_neo4j(graphiti, doc_name)
+            removed = self._remove_from_checkpoint(doc_name)
+            self.logger.info(
+                "Deleted %d Episodic node(s) and %d checkpoint entry/entries for '%s'",
+                deleted,
+                removed,
+                doc_name,
+            )
+        finally:
+            await graphiti.close()
+
+    async def edit_document(self, doc_name: str) -> None:
+        """Delete a document's existing data and re-ingest the updated file from DATA_DIR.
+
+        Equivalent to running delete_document() followed by a targeted ingestion
+        of the single file whose stem matches doc_name.
+
+        Args:
+            doc_name: Document stem (filename without .txt extension). The corresponding
+                .txt file must exist in the configured DATA_DIR.
+        """
+        self.logger.info("Deleting existing data for '%s'...", doc_name)
+        graphiti = self._create_graphiti_client()
+        try:
+            deleted = await self._delete_from_neo4j(graphiti, doc_name)
+            removed = self._remove_from_checkpoint(doc_name)
+            self.logger.info(
+                "Removed %d Episodic node(s) and %d checkpoint entry/entries",
+                deleted,
+                removed,
+            )
+            self.logger.info("Re-ingesting '%s'...", doc_name)
+            episodes = self.build_episodes(self.config["data_dir"], file_filter=doc_name)
+            episodes = self._limit_episodes(episodes)
+            self._log_episode_stats(episodes)
+            await self._add_episodes(graphiti, episodes)
+            self.logger.info("Edit complete for '%s'", doc_name)
+        finally:
+            await graphiti.close()
+
     async def migrate_metadata(self) -> None:
         """Backfills metadata properties onto existing Neo4j Episodic nodes.
 
@@ -216,15 +302,43 @@ class Neo4jIngestionEnhanced(BaseIngestionTool):
         self.logger.info("migrate_metadata: done (%d episodes processed)", updated)
 
 
-async def main() -> None:
-    """Standalone entry point for manual execution.
-
-    Creates a Neo4jIngestionEnhanced instance with default configuration
-    from environment variables and runs the complete ingestion pipeline.
-    """
-    runner = Neo4jIngestionEnhanced()
-    await runner.run()
-
-
 if __name__ == "__main__":
-    asyncio.run(main())
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Neo4j GraphRAG document manager",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python neo4j_ingestion.py
+      Ingest all new documents from DATA_DIR (default behaviour).
+
+  python neo4j_ingestion.py --delete CMA2016_1.1_Decisions_1_to_2
+      Remove all Episodic nodes for that document from Neo4j and purge
+      the corresponding checkpoint entries.
+
+  python neo4j_ingestion.py --edit CMA2016_1.1_Decisions_1_to_2
+      Delete existing data for the document, then re-ingest the updated
+      .txt file from DATA_DIR.
+        """,
+    )
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument(
+        "--delete",
+        metavar="DOC_NAME",
+        help="Delete document nodes from Neo4j and remove from checkpoint",
+    )
+    group.add_argument(
+        "--edit",
+        metavar="DOC_NAME",
+        help="Delete existing data and re-ingest updated document from DATA_DIR",
+    )
+    cli_args = parser.parse_args()
+
+    tool = Neo4jIngestionEnhanced()
+    if cli_args.delete:
+        asyncio.run(tool.delete_document(cli_args.delete))
+    elif cli_args.edit:
+        asyncio.run(tool.edit_document(cli_args.edit))
+    else:
+        asyncio.run(tool.run())

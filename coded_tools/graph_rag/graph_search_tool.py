@@ -679,47 +679,6 @@ class GraphSearchTool(QueryAnalyzer, SearchPipeline, ResultFormatter, CodedTool)
             logger.warning("Failed to fetch episode metadata %s: %s", uuid, e)
             return {}
 
-    async def _get_episode_citation_data(self, episode_uuid: str) -> Dict[str, Any]:
-        """
-        Fetch episode data for building citations.
-
-        Queries Episodic nodes for name, source_description, content, and source
-        fields used by _build_citation.
-
-        :param episode_uuid: Episode UUID to look up
-        :return: Dictionary with episode citation data or empty dict if not found
-        """
-        if not GraphSearchTool._driver_instance:
-            return {}
-
-        try:
-            query: str = """
-            MATCH (e:Episodic {uuid: $uuid})
-            RETURN e.name as name, e.source_description as source_description,
-                   e.content as content, e.source as source
-            LIMIT 1
-            """
-            records, _, _ = await GraphSearchTool._driver_instance.execute_query(
-                query, uuid=episode_uuid
-            )
-            if records:
-                record_dict = dict(records[0])
-                metadata = {}
-                source = record_dict.get("source", "")
-                if source:
-                    decision_match = re.search(
-                        r"decision[s]?\s*(\d+/[A-Z]+\.\d+)", source, re.IGNORECASE
-                    )
-                    if decision_match:
-                        metadata["decision_id"] = decision_match.group(1)
-
-                record_dict["metadata"] = metadata
-                return record_dict
-            return {}
-        except Exception as e:
-            logger.warning("Failed to fetch episode %s: %s", episode_uuid, e)
-            return {}
-
     async def _get_node_by_uuid(self, uuid: str) -> Dict[str, Any]:
         """
         Fetch node details by UUID.
