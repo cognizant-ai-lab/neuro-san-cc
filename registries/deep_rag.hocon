@@ -188,7 +188,8 @@ The list of files to use in order are:
 5.1-A-churchyard.txt
 5.2-A-hall-in-the-castle.txt
 
-The files are in the directory: /home/danfink/Downloads/plays/hamlet
+The files are in the directory: /Users/2453646/CognizantWork/neuro-san-cc/deep_rag_docs/hamlet
+Pass max_group_size=42 when calling coarse_grouping
 """
         ]
     },
