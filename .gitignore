@@ -1,8 +1,11 @@
+# Ignore debug directory
+deployments/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-
+cruse_threads.db
 # C extensions
 *.so
 
