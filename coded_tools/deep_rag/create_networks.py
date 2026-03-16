@@ -160,15 +160,15 @@ class CreateNetworks(CodedTool):
         output: str = self.create_output(reservation_info)
 
         if os.environ.get("DEEP_RAG_DEBUG") == "true":
-            validation_command = self.save_to_disk(reservation_info, deployments)
+            validation_command = await self.save_to_disk(reservation_info, deployments)
             self.logger.info(f"Validation command: {validation_command}")
             output += f"\n\nValidation command: `{validation_command}`"
-        
+
         return output
 
-    def save_to_disk(self, reservation_info: List[Dict[str, Any]], 
-                     deployments: Dict[Reservation, Dict[str, Any]]):
-        
+    async def save_to_disk(self, reservation_info: List[Dict[str, Any]],
+                           deployments: Dict[Reservation, Dict[str, Any]]):
+
         deployments_dict = {reservation.get_reservation_id(): network for reservation, network in deployments.items()}
 
         frontman_id = reservation_info[-1]['reservation_id']
@@ -182,22 +182,20 @@ class CreateNetworks(CodedTool):
         frontman_info['tools'][0]['tools'] = tools_new
         del deployments_dict[frontman_id]
 
-        deployments_dict = {  frontman_id: frontman_info, **deployments_dict,}
-        # save each deployment dict as a seperate json file for debugging:
+        deployments_dict = {frontman_id: frontman_info, **deployments_dict}
+        # save each deployment dict as a separate json file for debugging:
 
         # make a directory for the deployments if it doesn't exist
         deployments_dir = Path("deployments")
         deployments_dir.mkdir(exist_ok=True)
         for reservation_id, network in deployments_dict.items():
-            with open(deployments_dir / f"{reservation_id}.json", "w") as my_file:
-                json_str = dumps(network, indent=2)
-                my_file.write(json_str)
-        
-        with open(deployments_dir / "reservation_info.json", "w") as my_file:
-            json_str = dumps(reservation_info, indent=4, sort_keys=True)
-            my_file.write(json_str)
-        
-        validation_command = f'python -m neuro_san.client.hocon_validator_cli {deployments_dir}/{frontman_id}.json'
+            async with aio_open(deployments_dir / f"{reservation_id}.hocon", "w") as my_file:
+                await my_file.write(dumps(network, indent=2))
+
+        async with aio_open(deployments_dir / "reservation_info.json", "w") as my_file:
+            await my_file.write(dumps(reservation_info, indent=4, sort_keys=True))
+
+        validation_command = f'python -m neuro_san.client.hocon_validator_cli {deployments_dir}/{frontman_id}.hocon'
         external_agents = ','.join(tools_new)
         validation_command += f" --external-agents '{external_agents}'"
         return validation_command
@@ -217,7 +215,7 @@ class CreateNetworks(CodedTool):
         entry: Dict[str, Any] = reservation_info[-1]
         entry_reservation_id: str = entry.get("reservation_id")
         entry_lifetime: str = entry.get("lifetime_in_seconds")
-        output: str = f"The main agent to access your deep rag network is {entry_reservation_id}" + \
+        output: str = f"The main agent to access your deep rag network is {entry_reservation_id} " + \
                       f"Hurry, it's only available for {entry_lifetime} seconds."
         return output
 
